@@ -1,0 +1,78 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/pyparsing-feedstock/recipe, last modified Sun Sep 17 15:45:17 2017
+# ------------------------------------------------
+
+package:
+    name: pyparsing
+    version: 2.2.0
+source:
+    fn: pyparsing-2.2.0.tar.gz
+    sha256: 0832bcf47acd283788593e7a0f542407bd9550a55a8a8435214a1960e04bcb04
+    url: https://pypi.io/packages/source/p/pyparsing/pyparsing-2.2.0.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36hee85983_1
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - pyparsing
+about:
+    description: 'The pyparsing module is an alternative approach to creating and
+        executing
+
+        simple grammars, vs. the traditional lex/yacc approach, or the use of
+
+        regular expressions. The pyparsing module provides a library of classes
+
+        that client code uses to construct the grammar directly in Python code.
+
+        '
+    dev_url: https://svn.code.sf.net/p/pyparsing/code/
+    doc_url: http://pyparsing.wikispaces.com/Documentation
+    home: http://pyparsing.wikispaces.com/
+    license: MIT
+    license_file: LICENSE
+    summary: Create and execute simple grammars
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - msarahan
+        - ocefpaf

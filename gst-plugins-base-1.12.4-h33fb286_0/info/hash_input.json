@@ -1,0 +1,6 @@
+{
+  "xz": "5",
+  "gstreamer": "1.12",
+  "c_compiler": "gcc",
+  "VERBOSE_AT": "V=1"
+}

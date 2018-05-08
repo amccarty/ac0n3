@@ -1,0 +1,47 @@
+{% set version = "3.1.0" %}
+{% set sha256 = "67fc28c3b9fede955d69bccbd92784e3f0c6d0dee3a71532cd3367c257feb178" %}
+
+package:
+    name: widgetsnbextension
+    version: {{ version }}
+
+source:
+    fn: widgetsnbextension-{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/w/widgetsnbextension/widgetsnbextension-{{ version }}.tar.gz
+    sha256: {{ sha256 }}
+
+build:
+    number: 0
+    script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+    host:
+        - python
+        - setuptools
+        - notebook >=4.4.1
+    run:
+        - python
+        - notebook >=4.4.1
+
+test:
+    imports:
+        - widgetsnbextension
+
+about:
+    home: http://ipython.org
+    license: BSD 3-clause
+    license_family: BSD
+    summary: IPython HTML widgets for Jupyter
+    description: |
+      Interactive HTML widgets for Jupyter notebooks.
+    doc_url: https://pypi.python.org/pypi/widgetsnbextension
+    dev_url: https://github.com/jupyter-widgets/ipywidgets/tree/master/widgetsnbextension
+
+extra:
+  recipe-maintainers:
+    - jasongrout
+    - jakirkham
+    - minrk
+    - pelson
+    - SylvainCorlay
+    - willingc

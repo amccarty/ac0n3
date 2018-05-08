@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "h5d9569c_2",
+  "build_number": 2,
+  "depends": [
+    "libffi >=3.0.0",
+    "libgcc-ng 7.2.0.*",
+    "libstdcxx-ng 7.2.0.*",
+    "pcre",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "license": "LGPL-2.1",
+  "name": "glib",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1509994845830,
+  "version": "2.53.6"
+}

@@ -1,0 +1,58 @@
+From b829174b49b9ec2e4d68afd14e16ce721a1af889 Mon Sep 17 00:00:00 2001
+From: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date: Thu, 7 Sep 2017 02:50:53 -0500
+Subject: [PATCH] Use external msinttypes
+
+---
+ src/precompiled.hpp | 2 +-
+ src/stdint.hpp      | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/precompiled.hpp b/src/precompiled.hpp
+index 975bee1..feb1e5d 100644
+--- a/src/precompiled.hpp
++++ b/src/precompiled.hpp
+@@ -26,6 +26,7 @@
+     You should have received a copy of the GNU Lesser General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
++#include "stdint.hpp"
+ 
+ #ifndef __ZMQ_PRECOMPILED_HPP_INCLUDED__
+ #define __ZMQ_PRECOMPILED_HPP_INCLUDED__
+@@ -61,7 +62,6 @@
+ #include <signal.h>
+ #include <stdarg.h>
+ #include <stddef.h>
+-#include <stdint.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
+diff --git a/src/stdint.hpp b/src/stdint.hpp
+index 2f9a47a..973677c 100644
+--- a/src/stdint.hpp
++++ b/src/stdint.hpp
+@@ -33,7 +33,7 @@
+ #if defined ZMQ_HAVE_SOLARIS || defined ZMQ_HAVE_OPENVMS
+ 
+ #include <inttypes.h>
+-
++/*
+ #elif defined _MSC_VER && _MSC_VER < 1600
+ 
+ #ifndef int8_t
+@@ -60,9 +60,9 @@ typedef unsigned __int32 uint32_t;
+ #ifndef uint64_t
+ typedef unsigned __int64 uint64_t;
+ #endif
+-
++*/
+ #else
+-
++#define __STDC_LIMIT_MACROS
+ #include <stdint.h>
+ 
+ #endif
+-- 
+2.5.1.windows.1
+

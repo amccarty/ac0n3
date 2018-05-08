@@ -1,0 +1,72 @@
+# This file created by conda-build 3.0.15+56.gd43c51d
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/wcwidth-feedstock/recipe, last modified Sun Sep 17 15:48:22 2017
+# ------------------------------------------------
+
+package:
+    name: wcwidth
+    version: 0.1.7
+source:
+    fn: wcwidth-0.1.7.tar.gz
+    sha256: 3df37372226d6e63e1b1e1eda15c594bca98a22d33a23832a90998faa96bc65e
+    url: https://pypi.io/packages/source/w/wcwidth/wcwidth-0.1.7.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36hdf4376a_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - wcwidth
+        - wcwidth.tests
+about:
+    description: 'wcwidth is mainly for those implementing a Terminal Emulator, or
+        programs
+
+        that carefully produce output to be interpreted by one.
+
+        '
+    doc_source_url: https://github.com/jquast/wcwidth/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/wcwidth
+    home: https://github.com/jquast/wcwidth
+    license: MIT
+    summary: Measures number of Terminal column cells of wide-character codes.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

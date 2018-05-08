@@ -1,0 +1,61 @@
+{
+  "requirements": {
+    "build": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libdrm-cos6-x86_64 2.4.65 hd39d64f_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "libx11-common-cos6-x86_64 1.6.4 h023ea50_0",
+      "libx11-cos6-x86_64 1.6.4 h64a1553_0",
+      "mesa-libgl-cos6-x86_64 11.0.7 h045e36e_0",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "matplotlib",
+      "numpy",
+      "pandas",
+      "patsy",
+      "python >=3.6,<3.7.0a0",
+      "scipy",
+      "statsmodels"
+    ]
+  },
+  "build": {
+    "script": "python setup.py install --single-version-externally-managed --record record.txt"
+  },
+  "source": {
+    "fn": "seaborn-0.8.1.tar.gz",
+    "url": "https://pypi.io/packages/source/s/seaborn/seaborn-0.8.1.tar.gz",
+    "sha256": "6702978b903d0284446e935916b980dfebae4063c18ad8eb6e8f9e76d0257eae"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

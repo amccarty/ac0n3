@@ -1,0 +1,78 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/psutil-5.4.3-python3.6-on-linux_64, last modified Thu Jan 11 21:32:39 2018
+# ------------------------------------------------
+
+package:
+    name: psutil
+    version: 5.4.3
+source:
+    fn: psutil-5.4.3.tar.gz
+    sha256: e2467e9312c2fa191687b89ff4bc2ad8843be4af6fb4dc95a7cc5f7d7a327b18
+    url: https://pypi.io/packages/source/p/psutil/psutil-5.4.3.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36h14c3975_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng >=7.2.0
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - psutil
+        - psutil._psutil_linux
+        - psutil._psutil_posix
+        - psutil.tests
+about:
+    description: 'psutil (process and system utilities) is a cross-platform library
+        for
+
+        retrieving information on running processes and system utilization (CPU,
+
+        memory, disks, network) in Python. It is useful mainly for system
+
+        monitoring, profiling and limiting process resources and management of
+
+        running processes.
+
+        '
+    dev_url: https://github.com/giampaolo/psutil
+    doc_source_url: https://github.com/giampaolo/psutil/blob/master/docs/index.rst
+    doc_url: http://pythonhosted.org/psutil/
+    home: https://github.com/giampaolo/psutil
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A cross-platform process and system utilities module for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gqmelo
+        - jakirkham
+        - jjhelmus
+        - nehaljwani
+        - pelson

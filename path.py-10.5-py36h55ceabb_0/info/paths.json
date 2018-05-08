@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/path.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f43f3bd2f476eab9e173b3daf014da6d9cf9faa3aef198886d5da1afcaa23931",
+      "size_in_bytes": 59771
+    },
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f77b3c5b585d3a3f2b42861e864403adfd5d24aea4564546093b867703942a89",
+      "size_in_bytes": 35763
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py",
+      "path_type": "hardlink",
+      "sha256": "d4bd5a03bd9e2f9c65bda8cb03121fa6debf4b2192de6cbaa34e639b480b34f3",
+      "size_in_bytes": 61462
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py-10.5-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "fdbfbbd26e1d0eb4623023cff5780668ea29e39fd4fb5172f1e3c26123d1fd89",
+      "size_in_bytes": 5339
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py-10.5-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "73ff8185f0ca6d7110aa7547cff7d0f13867580d3bd9050b7f017c53e15a5af7",
+      "size_in_bytes": 380
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py-10.5-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py-10.5-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "71804f9dcc781731d51b3be0011b5ba046df4d8d340295c681d2517e9fe90c7f",
+      "size_in_bytes": 127
+    },
+    {
+      "_path": "lib/python3.6/site-packages/path.py-10.5-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "12402f2f7ad48ba6328be87cdcaf31966445143af1151f4c66ff87083fca84b0",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "lib/python3.6/site-packages/test_path.py",
+      "path_type": "hardlink",
+      "sha256": "35ad8dd78ffdbbc50449e387e69f368dd5a5daf8d1174de37f58f4dbcd59cd92",
+      "size_in_bytes": 37927
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/fastcache-1.0.2-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "cb546a7e110e0903ff93579cc4b1d2d70e64b88c816a776b9be6165444486c81",
+      "size_in_bytes": 4275
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache-1.0.2-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "18e40c6c05cddd7736320687321fc318a71e1bed92248b6ab4c3e336ef11f48e",
+      "size_in_bytes": 338
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache-1.0.2-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache-1.0.2-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f800d3bed6b7d8496d449687ba1a837e5e84dbe79dfcbe863a140bfbff6f2e72",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e495c1964432f9f3b66b060143539c4e4a10be63f32a1a10ed3f85d82a257d1",
+      "size_in_bytes": 2670
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "20b33fb0b7eb85e54aa2a3ba01d89b598b72914f4673d150a8b69dc977646003",
+      "size_in_bytes": 3039
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/__pycache__/benchmark.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3826a78205db233482147776e4d93aa0e46b9bdb7a5dd1ef5dc7aabdbec34796",
+      "size_in_bytes": 3666
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/_lrucache.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "71f1f7fa2ff59685c0357c22a5d67fa75b4cc27c170a02ea9861af9925590f68",
+      "size_in_bytes": 32016
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/benchmark.py",
+      "path_type": "hardlink",
+      "sha256": "2db11963c81b5738c45135b8fc8ef64dde716cda6e84ec551a3e5658102fe858",
+      "size_in_bytes": 3746
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d48903e6a72cfdf1248e20f1a589838c5b01088f8ce45d700d0ab4143d36fec8",
+      "size_in_bytes": 138
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/__pycache__/test_clrucache.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ace3fa17df8a8af1cc6fcf1e82a98b7389468a5c2a29f7241dd67e9e4e74968d",
+      "size_in_bytes": 5969
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/__pycache__/test_functools.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fab78ea146b2fb25f4140461897aa7ae6e720488fd73bc995e056e5d73c9ab46",
+      "size_in_bytes": 7632
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/__pycache__/test_thread.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f23aa4d11f4457cd3df6f1bb15644e9cb4a5c7a4ca4d840e390abeccc2b1e55",
+      "size_in_bytes": 4563
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/test_clrucache.py",
+      "path_type": "hardlink",
+      "sha256": "cdda50abe06a1e89798cba59a14e31afbcd4520ce4c9961d8a04dee4fc741d7a",
+      "size_in_bytes": 4436
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/test_functools.py",
+      "path_type": "hardlink",
+      "sha256": "7b3994f470e945258eb40a0019926a4ef4a9959a5f99793307f4db472ecca61c",
+      "size_in_bytes": 8022
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcache/tests/test_thread.py",
+      "path_type": "hardlink",
+      "sha256": "9627dc9e626c9513818ee41da160e2ecfad814947d5f4af9b6aad6594716fd0c",
+      "size_in_bytes": 3465
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,89 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/docutils-feedstock/recipe, last modified Sun Sep 17 15:37:57 2017
+# ------------------------------------------------
+
+package:
+    name: docutils
+    version: '0.14'
+source:
+    fn: docutils-0.14.tar.gz
+    sha256: 51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274
+    url: https://pypi.io/packages/source/d/docutils/docutils-0.14.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36hb0f60f5_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - docutils
+        - docutils.languages
+        - docutils.parsers
+        - docutils.parsers.rst
+        - docutils.parsers.rst.directives
+        - docutils.parsers.rst.languages
+        - docutils.readers
+        - docutils.transforms
+        - docutils.utils
+        - docutils.utils.math
+        - docutils.writers
+        - docutils.writers.html4css1
+        - docutils.writers.html5_polyglot
+        - docutils.writers.latex2e
+        - docutils.writers.odf_odt
+        - docutils.writers.pep_html
+        - docutils.writers.s5_html
+        - docutils.writers.xetex
+about:
+    description: 'Docutils is an open-source text processing system for processing
+        plaintext
+
+        documentation into useful formats, such as HTML, LaTeX, man-pages, open-
+
+        document, or XML.
+
+        '
+    dev_url: http://svn.code.sf.net/p/docutils/code
+    doc_source_url: https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/docs/index.txt
+    doc_url: http://docutils.sourceforge.net/docs/index.html
+    home: http://docutils.sourceforge.net/
+    license: Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0
+    license_file: COPYING.txt
+    summary: Docutils -- Python Documentation Utilities
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani
+        - pmlandwehr

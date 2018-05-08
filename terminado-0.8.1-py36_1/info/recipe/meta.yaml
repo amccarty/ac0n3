@@ -1,0 +1,57 @@
+# This file created by conda-build 3.4.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/terminado-0.8.1-python3.6-on-linux_64, last modified Fri Feb  2 17:26:48 2018
+# ------------------------------------------------
+
+package:
+    name: terminado
+    version: 0.8.1
+source:
+    sha256: 55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a
+    url: https://pypi.io/packages/source/t/terminado/terminado-0.8.1.tar.gz
+build:
+    number: '1'
+    script: python setup.py install
+    string: py36_1
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - ptyprocess
+        - python >=3.6,<3.7.0a0
+        - tornado >=4
+test:
+    imports:
+        - terminado
+    requires:
+        - nose
+about:
+    description: 'Terminado is a Tornado websocket backend for the term.js Javascript
+
+        terminal emulator library.
+
+        '
+    dev_url: https://github.com/takluyver/terminado
+    doc_source_url: https://github.com/takluyver/terminado/blob/master/doc/index.rst
+    doc_url: http://terminado.readthedocs.org/en/latest/
+    home: http://github.com/mitsuhiko/markupsafe
+    license: BSD 3-clause
+    summary: Terminals served by tornado websockets
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pelson
+        - takluyver

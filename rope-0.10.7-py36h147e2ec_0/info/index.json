@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h147e2ec_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "GPL 2.0",
+  "license_family": "GPL2",
+  "name": "rope",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511320469165,
+  "version": "0.10.7"
+}

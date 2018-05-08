@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h55aa19d_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng 7.2.0.*"
+  ],
+  "license": "LGPL-2.1 and GPL-2.0",
+  "name": "xz",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1510092273095,
+  "version": "5.2.3"
+}

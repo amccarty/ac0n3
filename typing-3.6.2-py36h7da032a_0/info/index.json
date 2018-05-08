@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36h7da032a_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "PSF",
+  "name": "typing",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505864032217,
+  "version": "3.6.2"
+}

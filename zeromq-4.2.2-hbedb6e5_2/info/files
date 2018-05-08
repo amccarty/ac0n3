@@ -1,0 +1,14 @@
+include/zmq.h
+include/zmq_utils.h
+lib/libzmq.a
+lib/libzmq.so
+lib/libzmq.so.4.2.2
+lib/libzmq.so.5
+lib/libzmq.so.5.1.2
+lib/pkgconfig/libzmq.pc
+share/cmake/ZeroMQ/ZeroMQConfig.cmake
+share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake
+share/zmq/AUTHORS.txt
+share/zmq/COPYING.LESSER.txt
+share/zmq/COPYING.txt
+share/zmq/NEWS.txt

@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/mkl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4864cec6fe9ac8dc0e79ca89b8a0347cb877b60b97038f5429ddd7e732778c1f",
+      "size_in_bytes": 358
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mkl/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c994f4cd64845d6d11ee62fcad019040c7d4e82f5d75958b791bea94b0cd819c",
+      "size_in_bytes": 526
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mkl/__pycache__/test.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b4a78483ebbbd5293d240e2c604c84c6ffa61e5dd5d459f1cccc123770dbdad2",
+      "size_in_bytes": 1984
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mkl/service.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "84e864665ed83c660d10c3893f345654c79e964a1620ec9951f2816de2a567e4",
+      "size_in_bytes": 14384
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mkl/test.py",
+      "path_type": "hardlink",
+      "sha256": "84c2aa343e30feaf4b85e151e36489c74334c8e64165825eb154e0fba421ee71",
+      "size_in_bytes": 1342
+    }
+  ],
+  "paths_version": 1
+}

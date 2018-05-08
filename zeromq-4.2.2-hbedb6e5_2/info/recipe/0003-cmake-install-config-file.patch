@@ -1,0 +1,117 @@
+From 4b02d043e920fc2577fec7bdf098823716519312 Mon Sep 17 00:00:00 2001
+From: Johan Mabille <johan.mabille@gmail.com>
+Date: Fri, 6 Jan 2017 22:41:29 +0100
+Subject: [PATCH 3/8] cmake install config file
+
+---
+ CMakeLists.txt        | 47 +++++++++++++++++++++++++++++++++++------------
+ ZeroMQConfig.cmake.in | 15 +++++++++++++++
+ 2 files changed, 50 insertions(+), 12 deletions(-)
+ create mode 100644 ZeroMQConfig.cmake.in
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3f345e5..b68abc9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -844,17 +844,19 @@ endif ()
+ #-----------------------------------------------------------------------------
+ # installer
+ 
++include(GNUInstallDirs)
++
+ if (MSVC)
+   install (TARGETS libzmq libzmq-static
+-          ARCHIVE DESTINATION lib
+-          LIBRARY DESTINATION lib
+-          PUBLIC_HEADER DESTINATION include
++          ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
++          LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
++          PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+           COMPONENT SDK)
+   if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+     install (TARGETS libzmq libzmq-static
+-            RUNTIME DESTINATION bin
+-            ARCHIVE DESTINATION lib
+-            PUBLIC_HEADER DESTINATION include
++            RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
++            ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
++            PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+             COMPONENT SDK)
+     if (NOT CMAKE_PDB_OUTPUT_DIRECTORY)
+       install (FILES ${CMAKE_CURRENT_BINARY_DIR}/bin/libzmq${MSVC_TOOLSET}-mt-gd-${ZMQ_VERSION_MAJOR}_${ZMQ_VERSION_MINOR}_${ZMQ_VERSION_PATCH}.pdb DESTINATION lib
+@@ -862,17 +864,17 @@ if (MSVC)
+     endif ()
+   else ()
+     install (TARGETS libzmq
+-            RUNTIME DESTINATION bin
+-            PUBLIC_HEADER DESTINATION include
++            RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
++            PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+             COMPONENT Runtime)
+   endif ()
+ else ()
+   install (TARGETS libzmq libzmq-static
+-          RUNTIME DESTINATION bin
+-          ARCHIVE DESTINATION lib
+-          LIBRARY DESTINATION lib
++          RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
++          ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
++          LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+           FRAMEWORK DESTINATION "Library/Frameworks"
+-          PUBLIC_HEADER DESTINATION include)
++          PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+ endif ()
+ 
+ # install (FILES ${public_headers}
+@@ -899,6 +901,27 @@ if (WITH_DOC)
+   endif ()
+ endif ()
+ 
++include(CMakePackageConfigHelpers)
++
++string(TOUPPER "${CMAKE_BUILD_TYPE}" U_CMAKE_BUILD_TYPE)
++get_property(libzmq_pf TARGET libzmq PROPERTY ${U_CMAKE_BUILD_TYPE}_POSTFIX)
++set(libzmq_file libzmq${libzmq_pf}${CMAKE_LINK_LIBRARY_SUFFIX})
++get_property(libzmq_static_pf TARGET libzmq-static PROPERTY ${U_CMAKE_BUILD_TYPE}_POSTFIX)
++set(libzmq_static_file libzmq-static${libzmq_static_pf}${CMAKE_LINK_LIBRARY_SUFFIX})
++
++# GNUInstallDirs "DATADIR" wrong here; CMake search path wants "share".
++set(ZEROMQ_CMAKECONFIG_INSTALL_DIR "share/cmake/${PROJECT_NAME}" CACHE STRING "install path for ZeroMQConfig.cmake")
++
++configure_package_config_file(${PROJECT_NAME}Config.cmake.in
++                              "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
++                              INSTALL_DESTINATION ${ZEROMQ_CMAKECONFIG_INSTALL_DIR})
++write_basic_package_version_file(${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake
++                                 VERSION ${ZMQ_VERSION_MAJOR}.${ZMQ_VERSION_MINOR}.${ZMQ_VERSION_PATCH}
++                                 COMPATIBILITY AnyNewerVersion)
++install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake
++              ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake
++              DESTINATION ${ZEROMQ_CMAKECONFIG_INSTALL_DIR})
++
+ option(ENABLE_CPACK "Enables cpack rules" ON)
+ if (MSVC AND ENABLE_CPACK)
+   include (InstallRequiredSystemLibraries)
+diff --git a/ZeroMQConfig.cmake.in b/ZeroMQConfig.cmake.in
+new file mode 100644
+index 0000000..bfdb981
+--- /dev/null
++++ b/ZeroMQConfig.cmake.in
+@@ -0,0 +1,15 @@
++# ZeroMQ cmake module
++# This module sets the following variables in your project::
++#
++#   ZeroMQ_FOUND - true if ZeroMQ found on the system
++#   ZeroMQ_INCLUDE_DIR - the directory containing ZeroMQ headers
++#   ZeroMQ_LIBRARY - 
++#   ZeroMQ_STATIC_LIBRARY
++
++@PACKAGE_INIT@
++
++set(PN ZeroMQ)
++set_and_check(${PN}_INCLUDE_DIR "${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_INCLUDEDIR@")
++set_and_check(${PN}_LIBRARY "${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_LIBDIR@/@libzmq_file@")
++set_and_check(${PN}_STATIC_LIBRARY "${PACKAGE_PREFIX_DIR}/@CMAKE_INSTALL_LIBDIR@/@libzmq_static_file@")
++check_required_components(${PN})
+-- 
+2.7.4
+

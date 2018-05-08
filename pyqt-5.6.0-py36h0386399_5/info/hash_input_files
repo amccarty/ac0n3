@@ -1,0 +1,8 @@
+0001-Make-warnings-non-fatal.patch
+bld.bat
+build.sh
+configure.patch
+pyqt_test.py
+xcodebuild
+xcrun
+yum_requirements.txt

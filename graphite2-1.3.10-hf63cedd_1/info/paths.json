@@ -1,0 +1,67 @@
+{
+  "paths": [
+    {
+      "_path": "include/graphite2/Font.h",
+      "path_type": "hardlink",
+      "sha256": "30f5555e092e318da04f37929ee183af85c106e80faa913f70f4b5a655f9720e",
+      "size_in_bytes": 18529
+    },
+    {
+      "_path": "include/graphite2/Log.h",
+      "path_type": "hardlink",
+      "sha256": "a5f69c13e64d60bc5d1da18106d21ea36c3048d0af5188d544965274d9efcda9",
+      "size_in_bytes": 2967
+    },
+    {
+      "_path": "include/graphite2/Segment.h",
+      "path_type": "hardlink",
+      "sha256": "1d655de74f9bf3dcbeca717faeee3b43d2f1edbd98d2bcc47a4848a1d72f028c",
+      "size_in_bytes": 20608
+    },
+    {
+      "_path": "include/graphite2/Types.h",
+      "path_type": "hardlink",
+      "sha256": "841da136fe62012eb1656d8935ca7db90d9eef3071fc2018954fb2ec8fe7599a",
+      "size_in_bytes": 2455
+    },
+    {
+      "_path": "lib/libgraphite2.so",
+      "path_type": "softlink",
+      "sha256": "634d81bf884ca825b919c0695003d6e9d83459c1afc804b18868942763045813",
+      "size_in_bytes": 250544
+    },
+    {
+      "_path": "lib/libgraphite2.so.3",
+      "path_type": "softlink",
+      "sha256": "634d81bf884ca825b919c0695003d6e9d83459c1afc804b18868942763045813",
+      "size_in_bytes": 250544
+    },
+    {
+      "_path": "lib/libgraphite2.so.3.0.1",
+      "path_type": "hardlink",
+      "sha256": "634d81bf884ca825b919c0695003d6e9d83459c1afc804b18868942763045813",
+      "size_in_bytes": 250544
+    },
+    {
+      "_path": "lib/pkgconfig/graphite2.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "0ba6aed073bf05fa29cec5d9fd5e25c5cf4bd037871501d92a8257e0be903f8f",
+      "size_in_bytes": 196
+    },
+    {
+      "_path": "share/graphite2/graphite2-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "030fb522466366ff5b8a1446fd5047045555d8698bb353cddf51f5d09888a638",
+      "size_in_bytes": 894
+    },
+    {
+      "_path": "share/graphite2/graphite2.cmake",
+      "path_type": "hardlink",
+      "sha256": "2403eebeba931fb5387544fd1fbedd8a66728b71bc4b12576665194717877729",
+      "size_in_bytes": 3069
+    }
+  ],
+  "paths_version": 1
+}

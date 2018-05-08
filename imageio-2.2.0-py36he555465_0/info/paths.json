@@ -1,0 +1,443 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/imageio-2.2.0-py3.6.egg-info",
+      "path_type": "hardlink",
+      "sha256": "c3227a6003f94d728ba987767952d2b399b095b6a8b3c3f18040b9d43b5ebff1",
+      "size_in_bytes": 2452
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "bf19702e3dae0095bbe590b9320b81b2ff5cb94fdef5368ee8d37a17ac326a69",
+      "size_in_bytes": 1275
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3660aff522b5d5fc22f60d71809c08b096552091c274e73f988e5cb288111dd4",
+      "size_in_bytes": 1007
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/__pycache__/freeze.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4a806874c105dcf158e1ddc911f51e252410f9e1bb5a19ce3d01dc45c23ee1ae",
+      "size_in_bytes": 536
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/__pycache__/testing.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e2c624e6d1833e17c3953f5b79a9c86d31717d69c19f709c9726e6e80eaac956",
+      "size_in_bytes": 6620
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "bdc535600693237d97d1488587921a907b28cf42f991c013eb0294fcdb5c2587",
+      "size_in_bytes": 752
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f594ff9f623228d857ad7f22a5381619c96efdb2b4b4ff7e1c668e8f1f3f5805",
+      "size_in_bytes": 953
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/fetching.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b0bd7e01662037836233bcf6e17e6be0a313cc7ad3f85018fdce797aa7dc601d",
+      "size_in_bytes": 6785
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/findlib.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "af9df6b7df7e5f59546a07972b6227c56d9bd4d0635721eaec86cb303e1af87d",
+      "size_in_bytes": 4246
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/format.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "760c765ed09d08410be7e00ff4ff6d7906a17f2c41e7f1d538555ccdc6c733dd",
+      "size_in_bytes": 24482
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/functions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "229d52fc1d3ae1f9da7a3f4940556e40594ffbc416e295268259ae65db0c3ba1",
+      "size_in_bytes": 15202
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/request.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4c97331cb1361787d25a467a27651602b864faf6a454af7da96af89016b63172",
+      "size_in_bytes": 12428
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/__pycache__/util.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c53ec0d0125003ac76aac63dbd8be81cfe67ec23346c75fc46081ea4c67c4b7a",
+      "size_in_bytes": 16365
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/fetching.py",
+      "path_type": "hardlink",
+      "sha256": "4ae72fcef9da4e06f76d38fc1721473dab141af81d2f00b141f524dc175a4b21",
+      "size_in_bytes": 8842
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/findlib.py",
+      "path_type": "hardlink",
+      "sha256": "49868b195ecda0fb9d8e27737a098f031f1a1c58c6f6515aab7d8ae9f512b76d",
+      "size_in_bytes": 5805
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/format.py",
+      "path_type": "hardlink",
+      "sha256": "26c11ae82ebdd89e9f7e28c9cf9b3147e3d8e9cd0244e5e9b0089e26bf594659",
+      "size_in_bytes": 26182
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/functions.py",
+      "path_type": "hardlink",
+      "sha256": "d1ae8de77edd53f0bbd2ee30d6e261a7af0972311aa6b6abafa7063030f0588b",
+      "size_in_bytes": 17434
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/request.py",
+      "path_type": "hardlink",
+      "sha256": "e8df1a29194c6ed009f7c50b3744270909b4ec6bdf9f6a1e66d65ab6299e0a2f",
+      "size_in_bytes": 19032
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/core/util.py",
+      "path_type": "hardlink",
+      "sha256": "ecf99de4999ec935b3cc0d81a2bdaf54c6fb215aa095f4cf34b004af10e01cb9",
+      "size_in_bytes": 18591
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/freeze.py",
+      "path_type": "hardlink",
+      "sha256": "4853f4070231cde3f291df54cd945fba244ba3b731e226934cc2f0a754d59171",
+      "size_in_bytes": 284
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "fa30f3621c12de4e255d946517a98d37bbb9d19cea0001db3c38e07f51af5fee",
+      "size_in_bytes": 3684
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4ba233b8022546d311e7c47d2a23b1e5a92dae368670b5ec562a478f0d744607",
+      "size_in_bytes": 3641
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/_dicom.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f8c6c6ff7f45bc3c8207666931e71fbbcd87026a0df866451773f768aa9661a0",
+      "size_in_bytes": 23684
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/_freeimage.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "303af41bd66e5b71b5aa0ae020cdebc3ad66201476e8334ab3c30d3550e3ede2",
+      "size_in_bytes": 27416
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/_swf.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fa43ba6a0bab2c6d919c30a583773dcb24ed311177151adf925510abb206da3f",
+      "size_in_bytes": 21420
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/_tifffile.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "45ec2c64881426bb9feda791278f324d7bde55a04c35cd6e4b2ce14b99deba1b",
+      "size_in_bytes": 179824
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/avbin.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9027cff4b835b1c47307dee4d1dce6add58a0ebaa503158868d4c2249b1c7ae4",
+      "size_in_bytes": 11414
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/dicom.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a08a36b1472231310c22d5755935a089c7e499cb3c4fe5066d413cd7aa198bc0",
+      "size_in_bytes": 6999
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/example.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ace19b39ac6881c549c366c1e4c30327a082da51542162c7c429fbcc3c8b9b3f",
+      "size_in_bytes": 3612
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/feisem.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a626c83fe21acc9078f05419d144b09046d0f844f268a57d4d3b7187e3f42a12",
+      "size_in_bytes": 3099
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/ffmpeg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c8c20feec9d1c42c66e99c0062628cb2e65457b83dc490b00caafd265cca5c8e",
+      "size_in_bytes": 25353
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/fits.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9c60eaf3ce12020bf888542baaa9794b0d90ec4c077ea76803fd2fd1d55ad045",
+      "size_in_bytes": 4975
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/freeimage.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "66cd49fd5edd9734a5386d3f80a76da1f96dc00a4d3ac7e5b9d8ec36a8533f8f",
+      "size_in_bytes": 15609
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/freeimagemulti.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2d259d002c2c995fc5866b9cb48cca488342f26e6509d94e884c0ca0fb880675",
+      "size_in_bytes": 10301
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/gdal.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3aaae621ce0c5e1f8df7368f0e42b5557c28fa7ad8e6ea85563f5adf73f4d901",
+      "size_in_bytes": 2482
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/grab.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0225756b3006c5b0374987cd65bf0fe945d380ee33caefc89c552a8471b5dc48",
+      "size_in_bytes": 4056
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/npz.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b5407b7c48ddbcdcabb2b4ef522d1d1c01abbb15207fc7f8fea6d5297e181b53",
+      "size_in_bytes": 3904
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/pillow.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "03af954a4c95cb070e4d78a37215fdfe04db7d879ba7b1a0395e27a8be97bd4e",
+      "size_in_bytes": 15596
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/pillow_info.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ad3eff07a53188c2bcd6bee1a9ba05d32895ce8dc768674b941d7bdea59337cb",
+      "size_in_bytes": 36268
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/pillowmulti.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e153094ff948c8b98f729983dfb2adbc87965d003691d36a9da7a68aafdf8ad3",
+      "size_in_bytes": 10405
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/simpleitk.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6608fcb9270007ab52ef861d4fb19bdc3363a385dab566c94f97804b1fa0f955",
+      "size_in_bytes": 3968
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/swf.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c167a5cf44562d13340d82fe64a86a3adf017a3b8458d3e9eaff7635a170cd4e",
+      "size_in_bytes": 8963
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/__pycache__/tifffile.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "edc3a5bb5acc5cb6670136cedc570e4bfda7dc3242009f6d4154262b7cd12c76",
+      "size_in_bytes": 9114
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/_dicom.py",
+      "path_type": "hardlink",
+      "sha256": "15977b5d60eb769664a1145a3000abfbd6540efb73c4931f2fce12648e226d67",
+      "size_in_bytes": 35016
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/_freeimage.py",
+      "path_type": "hardlink",
+      "sha256": "f0dae8f41747cfb3f6ae95c1bcf586a90ac833c8853ca1b0853a44b67bdeacd2",
+      "size_in_bytes": 52329
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/_swf.py",
+      "path_type": "hardlink",
+      "sha256": "b9fb3c3eead2eb9fdab7d7e89406a9d605b621e59106320fca13e6aefc4d56ab",
+      "size_in_bytes": 26603
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/_tifffile.py",
+      "path_type": "hardlink",
+      "sha256": "d5c177df8448def3c59513a1653020133c63aee34d3d20f5dbe4783588ab12a6",
+      "size_in_bytes": 232541
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/avbin.py",
+      "path_type": "hardlink",
+      "sha256": "26f57fce76448cc76f711da5500bee66fd9d14b6e9d801909127466161f7c03f",
+      "size_in_bytes": 16557
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/dicom.py",
+      "path_type": "hardlink",
+      "sha256": "0d80a14e806c95b1626caafd66414178d171a0053c2a55ade28f7808f48083c9",
+      "size_in_bytes": 10446
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/example.py",
+      "path_type": "hardlink",
+      "sha256": "a6e7d613691eef47301f9dc1d3a5fbca65ea670a5fc2dac3dbaf88b1052888cb",
+      "size_in_bytes": 6040
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/feisem.py",
+      "path_type": "hardlink",
+      "sha256": "1b43cbbd0688903beac827232422f92be8ceaa2d89660f0c0726d5dbed714e30",
+      "size_in_bytes": 3541
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/ffmpeg.py",
+      "path_type": "hardlink",
+      "sha256": "5c96cb8385d98b4f9fd4b4fb1885dbd3e1cef1c70dcee4d6b406c804e7abf867",
+      "size_in_bytes": 37739
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/fits.py",
+      "path_type": "hardlink",
+      "sha256": "c6ef1a9379c2c7c0e691946b1999bf901e2eb6d95bc21b5651db022ee3b1b85a",
+      "size_in_bytes": 4926
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/freeimage.py",
+      "path_type": "hardlink",
+      "sha256": "4d40eb8f6b8c7e06d4e7dc454e3d588719dc3ef625b0c055e04292419957a164",
+      "size_in_bytes": 17031
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/freeimagemulti.py",
+      "path_type": "hardlink",
+      "sha256": "64a5217e6f4a0e9491bdf8b1a2c076781753f3af729b0c6a61bbdc94b5fffd03",
+      "size_in_bytes": 11433
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/gdal.py",
+      "path_type": "hardlink",
+      "sha256": "9f8ed59d8cf28686d3ccee8e01d1fe7bf7532eb3f845b364033a73ca67e466cb",
+      "size_in_bytes": 1840
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/grab.py",
+      "path_type": "hardlink",
+      "sha256": "77407c9cf7e5bcd3b560a0c35b3d09ded136e23ab727b42b0488215d7f5f238e",
+      "size_in_bytes": 3494
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/npz.py",
+      "path_type": "hardlink",
+      "sha256": "daa7992378a26436b81cf80ec370d2404a246299a57e2ef9c8ac2e8285fcf79b",
+      "size_in_bytes": 3293
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/pillow.py",
+      "path_type": "hardlink",
+      "sha256": "164140ba929c5fb828d195c258201b5ef79fbdbdfa4de55842027528a546615f",
+      "size_in_bytes": 19435
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/pillow_info.py",
+      "path_type": "hardlink",
+      "sha256": "8516ec3dfb97b8c425f011914dcc292f201401d82cc15798d08f1b0af670dbe1",
+      "size_in_bytes": 36738
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/pillowmulti.py",
+      "path_type": "hardlink",
+      "sha256": "35325b76cf39e117ea3662776a7dbb2e9d97fc407e47d764601c9613cf6b3aa9",
+      "size_in_bytes": 12887
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/simpleitk.py",
+      "path_type": "hardlink",
+      "sha256": "803f47dc3e3d770aa5f43f5821f837ca121e464d086f15287e1a339229dc4067",
+      "size_in_bytes": 3646
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/swf.py",
+      "path_type": "hardlink",
+      "sha256": "6c543a317d42f93e69741b3289559df251b2367f153809b5fb03c607ee527922",
+      "size_in_bytes": 12761
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/plugins/tifffile.py",
+      "path_type": "hardlink",
+      "sha256": "8eee02fe0063e9b6ad87f88eb0b264b6651f832861a1e48fb9ae5dab65fa4d2c",
+      "size_in_bytes": 9172
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/astronaut.png",
+      "path_type": "hardlink",
+      "sha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+      "size_in_bytes": 791555
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/chelsea.png",
+      "path_type": "hardlink",
+      "sha256": "97403c9c171d1aedd2026c7515e20208ef865eaab56d462c3c2eefade9b7d779",
+      "size_in_bytes": 221294
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/chelsea.zip",
+      "path_type": "hardlink",
+      "sha256": "89e21b348b6cbe21dad21460856fcc04e8025dd9ebd52a7b32f0bfbd7103189a",
+      "size_in_bytes": 221318
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/cockatoo.mp4",
+      "path_type": "hardlink",
+      "sha256": "5fde35f5a288ca86e216d2dc28188ab64b4560d3021f273faefdf0de80f38aa5",
+      "size_in_bytes": 728751
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/newtonscradle.gif",
+      "path_type": "hardlink",
+      "sha256": "a663c4e076b5c48e0aac58c7777d2bb3193cb3053c098d08da278a62d02ff314",
+      "size_in_bytes": 583374
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/realshort.mp4",
+      "path_type": "hardlink",
+      "sha256": "a8b35c2c2130453b9ea1172ad4af68ac027bc2483ef0545769684722127bfe18",
+      "size_in_bytes": 96822
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/images/stent.npz",
+      "path_type": "hardlink",
+      "sha256": "60a83d2296b51ee6a53153e9ba96ba9020391b0c8952895d9d60a0a629ac6bb6",
+      "size_in_bytes": 824612
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/resources/shipped_resources_go_here",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/imageio/testing.py",
+      "path_type": "hardlink",
+      "sha256": "5dc2a21b2ea14297fe3ec58d35590d55b1f32b3c20b76a9099765b1662a4ce9e",
+      "size_in_bytes": 7305
+    }
+  ],
+  "paths_version": 1
+}

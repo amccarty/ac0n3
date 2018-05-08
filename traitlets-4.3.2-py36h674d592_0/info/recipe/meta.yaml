@@ -1,0 +1,86 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/traitlets-feedstock/recipe, last modified Sun Sep 17 15:48:04 2017
+# ------------------------------------------------
+
+package:
+    name: traitlets
+    version: 4.3.2
+source:
+    fn: traitlets-4.3.2.tar.gz
+    sha256: 9c4bd2d267b7153df9152698efb1050a5d84982d3384a37b2c1f7723ba3e7835
+    url: https://pypi.io/packages/source/t/traitlets/traitlets-4.3.2.tar.gz
+build:
+    number: '0'
+    script: pip install --no-deps .
+    string: py36h674d592_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - pip 9.0.1 py36h30f8307_2
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - wheel 0.29.0 py36he7f4e38_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - pip 9.0.1 py36h30f8307_2
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - wheel 0.29.0 py36he7f4e38_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - decorator
+        - ipython_genutils
+        - python >=3.6,<3.7.0a0
+        - six
+test:
+    imports:
+        - traitlets
+        - traitlets.config
+about:
+    description: 'Traitlets is a framework that lets Python classes have attributes
+        with
+
+        type checking, dynamically calculated default values, and "on change"
+
+        callbacks.
+
+        '
+    dev_url: https://github.com/ipython/traitlets
+    doc_source_url: https://github.com/ipython/traitlets/blob/master/docs/source/index.rst
+    doc_url: http://traitlets.readthedocs.org/en/stable/
+    home: http://ipython.org/
+    license: BSD 3-clause
+    license_file: COPYING.md
+    summary: Configuration system for Python applications
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - minrk
+        - pelson

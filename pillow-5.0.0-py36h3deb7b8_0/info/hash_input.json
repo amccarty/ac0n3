@@ -1,0 +1,8 @@
+{
+  "libtiff": "4.0",
+  "c_compiler": "gcc",
+  "zlib": "1.2",
+  "freetype": "2.8",
+  "tk": "8.6",
+  "jpeg": "9"
+}

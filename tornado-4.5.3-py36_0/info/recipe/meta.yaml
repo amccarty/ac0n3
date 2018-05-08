@@ -1,0 +1,69 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/tornado-4.5.3-python3.6-on-linux_64, last modified Thu Jan 11 22:15:15 2018
+# ------------------------------------------------
+
+package:
+    name: tornado
+    version: 4.5.3
+source:
+    fn: tornado-4.5.3.tar.gz
+    sha256: 6d14e47eab0e15799cf3cdcc86b0b98279da68522caace2bd7ce644287685f0a
+    url: https://pypi.io/packages/source/t/tornado/tornado-4.5.3.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - tornado
+        - tornado.gen
+        - tornado.netutil
+        - tornado.platform
+        - tornado.test
+about:
+    description: 'Tornado is a Python web framework and asynchronous networking library.
+
+        By using non-blocking network I/O, Tornado can scale to tens of thousands
+
+        of open connections, making it ideal for long polling, WebSockets, and
+
+        other applications that require a long-lived connection to each user.
+
+        '
+    dev_url: https://github.com/tornadoweb/tornado
+    doc_source_url: https://github.com/tornadoweb/tornado/blob/stable/docs/index.rst
+    doc_url: http://www.tornadoweb.org/en/stable/
+    home: http://www.tornadoweb.org/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE
+    license_url: http://www.apache.org/licenses/LICENSE-2.0
+    summary: A Python web framework and asynchronous networking library, originally
+        developed at FriendFeed.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - ocefpaf
+        - pelson

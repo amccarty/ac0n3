@@ -1,0 +1,46 @@
+package:
+  name: anaconda-navigator
+  version: 1.7.0
+
+source:
+  git_url: git@github.com:ContinuumIO/navigator.git
+  git_tag: v1.7.0
+
+build:
+  number: 0
+  entry_points:
+    - anaconda-navigator = anaconda_navigator.app.main:main
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    # - _license
+    - anaconda-client >=1.6
+    - anaconda-project >=0.4
+    - chardet
+    - pillow
+    - psutil
+    - pyqt >=5.6
+    - python
+    - pyyaml
+    - qtpy >=1.2
+    - requests
+    - setuptools
+
+test:
+  imports:
+    - anaconda_navigator
+
+about:
+  home: https://github.com/ContinuumIO/navigator
+  license: proprietary - Continuum Analytics, Inc.
+  license_family: Proprietary
+  summary: Anaconda Navigator
+  description: |
+    Anaconda Navigator is a desktop graphical user interface included in
+    Anaconda that allows you to launch applications and easily manage conda
+    packages, environments and channels without the need to use command line
+    commands.
+  doc_url: https://docs.continuum.io/anaconda/navigator

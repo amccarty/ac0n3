@@ -1,0 +1,100 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/nltk-3.2.5-python3.6-on-linux_64, last modified Tue Nov 21 20:43:02 2017
+# ------------------------------------------------
+
+package:
+    name: nltk
+    version: 3.2.5
+source:
+    fn: nltk-3.2.5.tar.gz
+    sha256: 2661f9971d983db314bbebd51ba770811a362c6597fd0f303bb1d3beadcb4834
+    url: https://pypi.io/packages/source/n/nltk/nltk-3.2.5.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h7532b22_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+        - six
+test:
+    imports:
+        - nltk
+        - nltk.app
+        - nltk.ccg
+        - nltk.chat
+        - nltk.chunk
+        - nltk.classify
+        - nltk.cluster
+        - nltk.corpus
+        - nltk.corpus.reader
+        - nltk.draw
+        - nltk.inference
+        - nltk.metrics
+        - nltk.misc
+        - nltk.parse
+        - nltk.sem
+        - nltk.sentiment
+        - nltk.stem
+        - nltk.tag
+        - nltk.tbl
+        - nltk.test
+        - nltk.test.unit
+        - nltk.test.unit.translate
+        - nltk.tokenize
+        - nltk.translate
+        - nltk.twitter
+about:
+    description: 'NLTK has been called a wonderful tool for teaching and working in
+
+        computational linguistics using Python and an amazing library to play with
+
+        natural language.
+
+        '
+    dev_url: https://github.com/nltk/nltk
+    doc_source_url: https://github.com/nltk/nltk/blob/develop/web/index.rst
+    doc_url: https://nltk.readthedocs.io/en/latest/
+    home: http://nltk.org/
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE.txt
+    summary: Build Python programs to work with human language data
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

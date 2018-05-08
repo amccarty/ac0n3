@@ -1,0 +1,53 @@
+{% set name = "pycodestyle" %}
+{% set version = "2.3.1" %}
+{%set compress_type = "tar.gz" %}
+{%set hash_type = "sha256" %}
+{%set hash_val = "682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766" %}
+{%set build_num = "0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash_val }}
+
+build:
+  number: 1
+  entry_points:
+    - pycodestyle = pycodestyle:_main
+
+  number: {{ build_num }}
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  commands:
+    - pycodestyle --help
+    - pycodestyle --version
+
+about:
+  home: https://pycodestyle.readthedocs.io/
+  license: MIT
+  license_family: MIT
+  summary: 'Python style guide checker'
+  doc_url: https://pycodestyle.readthedocs.io/
+  dev_url: https://github.com/PyCQA/pycodestyle
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pmlandwehr
+    - jjhelmus
+    - sigmavirus24
+    - dopplershift
+    - ocefpaf

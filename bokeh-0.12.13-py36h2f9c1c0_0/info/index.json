@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py36h2f9c1c0_0",
+  "build_number": 0,
+  "depends": [
+    "jinja2 >=2.7",
+    "numpy >=1.7.1",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil >=2.1",
+    "pyyaml >=3.10",
+    "six >=1.5.2",
+    "tornado >=4.3"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "bokeh",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1513097592734,
+  "version": "0.12.13"
+}

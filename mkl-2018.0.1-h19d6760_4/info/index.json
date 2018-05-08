@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h19d6760_4",
+  "build_number": 4,
+  "depends": [
+    "intel-openmp"
+  ],
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "name": "mkl",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511376420864,
+  "version": "2018.0.1"
+}

@@ -1,0 +1,116 @@
+# This file created by conda-build 3.1.6
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/astropy-2.0.3-python3.6-on-linux_64, last modified Wed Dec 20 20:40:57 2017
+# ------------------------------------------------
+
+package:
+    name: astropy
+    version: 2.0.3
+source:
+    fn: astropy-2.0.3.tar.gz
+    sha256: fdfc0248f6250798ed6d1327be609cb901db89ae01fc768cfbc9e263bdf56f4f
+    url: https://pypi.io/packages/source/a/astropy/astropy-2.0.3.tar.gz
+build:
+    detect_binary_files_with_prefix: 'False'
+    entry_points:
+        - fits2bitmap = astropy.visualization.scripts.fits2bitmap:main
+        - fitscheck = astropy.io.fits.scripts.fitscheck:main
+        - fitsdiff = astropy.io.fits.scripts.fitsdiff:main
+        - fitsheader = astropy.io.fits.scripts.fitsheader:main
+        - fitsinfo = astropy.io.fits.scripts.fitsinfo:main
+        - samp_hub = astropy.samp.hub_script:hub_script
+        - volint = astropy.io.votable.volint:main
+        - wcslint = astropy.wcs.wcslint:main
+    number: '0'
+    string: py36h14c3975_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_15
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - cython 0.27.3 py36h1860423_0
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 haf1f6fa_15
+        - intel-openmp 2018.0.0 hc7b2577_8
+        - jinja2 2.10 py36ha16c418_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - markupsafe 1.0 py36hd9260cd_1
+        - mkl 2018.0.1 h19d6760_4
+        - ncurses 6.0 h9df7e31_2
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - cython 0.27.3 py36h1860423_0
+        - intel-openmp 2018.0.0 hc7b2577_8
+        - jinja2 2.10 py36ha16c418_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - markupsafe 1.0 py36hd9260cd_1
+        - mkl 2018.0.1 h19d6760_4
+        - ncurses 6.0 h9df7e31_2
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng 7.2.0.*
+        - numpy  >=1.9.3,<2.0a0
+        - pytest
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - fits2bitmap --help
+        - fitscheck --help
+        - fitsdiff --help
+        - fitsheader --help
+        - fitsinfo --help
+        - samp_hub --help
+        - volint --help
+        - wcslint --help
+    imports:
+        - astropy
+about:
+    description: 'The Astropy Project is a community effort to develop a single package
+        for
+
+        Astronomy in Python. It contains core functionality and common tools
+
+        needed for performing astronomy and astrophysics research with Python.
+
+        '
+    dev_url: https://github.com/astropy/astropy
+    doc_source_url: https://github.com/astropy/astropy/blob/master/docs/index.rst
+    doc_url: http://docs.astropy.org/en/stable/
+    home: http://www.astropy.org/
+    license: BSD
+    license_file: LICENSE.rst
+    summary: Community-developed Python Library for Astronomy
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - astrofrog
+        - bsipocz
+        - mwcraig

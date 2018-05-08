@@ -1,0 +1,89 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f4d9580d2851824cccb4d797cdde745e0c9a6ecafa6f35de0d6427494d3d1fcf",
+      "size_in_bytes": 1385
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "73c54801d448d8fa6a91184aaa90ee0d03cbd7f487c0e47f159dd8b4c649ca7c",
+      "size_in_bytes": 1704
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/__pycache__/_version.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ab5af8d3983706a008a66b37eb7f6c71e0b8f08f4f01421b5155df6fdeb22926",
+      "size_in_bytes": 172
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/__pycache__/exceptions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "50d2d21b01e77a269218d05267ac6637ab3b93d9b572e4bcaf5f40eeab72b2a2",
+      "size_in_bytes": 2113
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/__pycache__/fallback.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "bf2691456a66f711689782882b2316c84f81563fdfd6db4d851f9fe3f774d6f8",
+      "size_in_bytes": 23658
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/_packer.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "6258d5d66718edc81f010205a71ea3a64f22b43faf36235bd177d1617c4278c3",
+      "size_in_bytes": 101816
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/_unpacker.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "2f926e5dcff012eb7e50c9d475cba1f87959097c2feaface89c268dffff6b162",
+      "size_in_bytes": 132272
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/_version.py",
+      "path_type": "hardlink",
+      "sha256": "c1a48829aa6611ec0ee3a73fae8a94c5dcbfd7df9d81b524bcbd899f5d62f46e",
+      "size_in_bytes": 20
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "94f9008bfbb5d8d9456a30f3e0510b48711d7d4f21ad1df3793bca5fc690bb3e",
+      "size_in_bytes": 1056
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack/fallback.py",
+      "path_type": "hardlink",
+      "sha256": "b7a65911552e9a79f0c7c06c3af2001c833007f096741245e0aec16b1c74f3a2",
+      "size_in_bytes": 34531
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack_python-0.5.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "3de02e238629daf8bcbab0c711d0cf51778234fb94743ab477fec821c8efdec6",
+      "size_in_bytes": 866
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack_python-0.5.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "f13e4551e61f9740bd79320cae8cd24798b99f2f83e9d9ce970fb6aea9cac9c4",
+      "size_in_bytes": 648
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack_python-0.5.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msgpack_python-0.5.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "dadca4498d695dd880db16130d1ea33f0d2a239646c518a1ca17f84b9859c979",
+      "size_in_bytes": 8
+    }
+  ],
+  "paths_version": 1
+}

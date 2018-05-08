@@ -1,0 +1,65 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/olefile-0.45.1-python3.6-on-linux_64, last modified Tue Jan 30 16:42:38 2018
+# ------------------------------------------------
+
+package:
+    name: olefile
+    version: 0.45.1
+source:
+    fn: olefile-0.45.1.zip
+    sha256: 2b6575f5290de8ab1086f8c5490591f7e0885af682c7c1793bdaf6e64078d385
+    url: https://pypi.io/packages/source/o/olefile/olefile-0.45.1.zip
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - olefile
+about:
+    description: 'Python package to parse, read and write Microsoft OLE2 files
+
+        (Structured Storage or Compound Document, Microsoft Office) -
+
+        Improved version of the OleFileIO module from PIL, the Python
+
+        Image Library.
+
+        '
+    dev_url: https://github.com/decalage2/olefile
+    doc_source_url: https://github.com/decalage2/olefile/blob/master/doc/index.rst
+    doc_url: http://olefile.readthedocs.io/en/latest/index.html
+    home: http://www.decalage.info/python/olefileio
+    license: BSD License 2-Clause
+    license_family: BSD
+    license_file: doc/License.rst
+    summary: parse, read and write Microsoft OLE2 files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - decarlof
+        - dgursoy
+        - ericdill
+        - licode
+        - ocefpaf
+        - ravescovi
+        - tacaswell

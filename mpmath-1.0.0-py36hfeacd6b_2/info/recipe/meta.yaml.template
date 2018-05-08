@@ -1,0 +1,49 @@
+{% set version = "1.0.0" %}
+
+package:
+  name: mpmath
+  version: {{ version }}
+
+source:
+  fn: mpmath-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/m/mpmath/mpmath-{{ version }}.tar.gz
+  sha256: 04d14803b6875fe6d69e6dccea87d5ae5599802e4b1df7997bddd2024001050c
+
+build:
+  number: 2
+  script: python setup.py install
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+    #- gmpy2       # [(not win) or py35]
+
+test:
+  imports:
+    - mpmath
+    - mpmath.calculus
+    - mpmath.functions
+    - mpmath.libmp
+    - mpmath.matrices
+    - mpmath.tests
+
+about:
+  home: http://mpmath.org
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Python library for arbitrary-precision floating-point arithmetic
+  description: |
+    mpmath is a free Python library for real and complex floating-point
+    arithmetic with arbitrary precision.
+  doc_url: http://mpmath.org/doc/current/
+  dev_url: https://github.com/fredrik-johansson/mpmath
+  doc_source_url: https://github.com/fredrik-johansson/mpmath/blob/master/doc/source/index.txt
+
+extra:
+  recipe-maintainers:
+    - asmeurer
+    - msarahan
+    - ocefpaf

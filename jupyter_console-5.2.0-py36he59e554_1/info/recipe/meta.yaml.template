@@ -1,0 +1,58 @@
+{% set name = "jupyter_console" %}
+{% set version = "5.2.0" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "545dedd3aaaa355148093c5609f0229aeb121b4852995c2accfa64fe3e0e55cd" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  fn: '{{ name }}-{{ version }}.tar.gz'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  '{{ hash_type }}': '{{ hash_value }}'
+
+build:
+  number: 1
+  script: python -m pip install --no-deps .
+  entry_points:
+    - jupyter-console = jupyter_console.app:main
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - jupyter_client
+    - ipython
+    - ipykernel
+    - prompt_toolkit
+    - pygments
+    - pexpect  # [not win]
+
+test:
+  commands:
+    - jupyter-console -h
+  imports:
+    - jupyter_console
+    - jupyter_console.tests
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-Clause
+  license_file: COPYING.md
+  summary: Jupyter terminal console
+  description: |
+    Jupyter console is a terminal frontend for kernels using the Jupyter protocol.
+  doc_url: http://jupyter-console.readthedocs.org/
+  doc_source_url: https://github.com/jupyter/jupyter_console/blob/master/docs/index.rst
+  dev_url: https://github.com/jupyter/jupyter_console
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - pelson
+    - takluyver
+    - ocefpaf

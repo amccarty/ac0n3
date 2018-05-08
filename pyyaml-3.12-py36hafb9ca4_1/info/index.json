@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py36hafb9ca4_1",
+  "build_number": 1,
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "python >=3.6,<3.7.0a0",
+    "yaml"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pyyaml",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505739726977,
+  "version": "3.12"
+}

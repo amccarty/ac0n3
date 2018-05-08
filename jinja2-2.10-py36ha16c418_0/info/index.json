@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py36ha16c418_0",
+  "build_number": 0,
+  "depends": [
+    "markupsafe >=0.23",
+    "python >=3.6,<3.7.0a0",
+    "setuptools"
+  ],
+  "license": "3-Clause BSD",
+  "name": "jinja2",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1512041876307,
+  "version": "2.10"
+}

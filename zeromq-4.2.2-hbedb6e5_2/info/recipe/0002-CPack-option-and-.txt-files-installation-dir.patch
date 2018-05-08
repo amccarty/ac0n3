@@ -1,0 +1,40 @@
+From da79bd620842064452df658e1ddaac08edc02a4d Mon Sep 17 00:00:00 2001
+From: Johan Mabille <johan.mabille@gmail.com>
+Date: Fri, 6 Jan 2017 14:29:56 +0100
+Subject: [PATCH 2/8] CPack option and .txt files installation dir
+
+---
+ CMakeLists.txt | 10 +++-------
+ 1 file changed, 3 insertions(+), 7 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a01a7d3..3f345e5 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -889,11 +889,7 @@ foreach (readme ${readme-docs})
+   configure_file (${CMAKE_CURRENT_SOURCE_DIR}/${readme} ${CMAKE_CURRENT_BINARY_DIR}/${readme}.txt)
+ 
+   if (NOT ZMQ_BUILD_FRAMEWORK)
+-    if (MSVC)
+-      install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${readme}.txt DESTINATION .)
+-    else ()
+-      install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${readme}.txt DESTINATION share/zmq)
+-    endif ()
++    install (FILES ${CMAKE_CURRENT_BINARY_DIR}/${readme}.txt DESTINATION share/zmq)
+   endif ()
+ endforeach ()
+ 
+@@ -903,8 +899,8 @@ if (WITH_DOC)
+   endif ()
+ endif ()
+ 
+-
+-if (MSVC)
++option(ENABLE_CPACK "Enables cpack rules" ON)
++if (MSVC AND ENABLE_CPACK)
+   include (InstallRequiredSystemLibraries)
+ 
+   if (CMAKE_CL_64)
+-- 
+2.7.4
+

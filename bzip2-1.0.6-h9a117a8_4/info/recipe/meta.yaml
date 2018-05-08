@@ -1,0 +1,71 @@
+# This file created by conda-build 3.4.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/bzip2-1.0.6-on-linux_64, last modified Wed Feb  7 18:45:30 2018
+# ------------------------------------------------
+
+package:
+    name: bzip2
+    version: 1.0.6
+source:
+    fn: bzip2-1.0.6.tar.gz
+    md5: 00b516f4704d4a7cb50a1d97e6e8e15b
+    patches:
+        - 0001-cross.patch
+    url: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+build:
+    number: '4'
+    run_exports:
+        - bzip2 >=1.0.6,<2.0a0
+    string: h9a117a8_4
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    run:
+        - libgcc-ng >=7.2.0
+test:
+    commands:
+        - bzip2 --help
+        - test -f ${PREFIX}/bin/bunzip2
+        - test -f ${PREFIX}/bin/bzcat
+        - test -f ${PREFIX}/bin/bzcmp
+        - test -f ${PREFIX}/bin/bzdiff
+        - test -f ${PREFIX}/bin/bzegrep
+        - test -f ${PREFIX}/bin/bzfgrep
+        - test -f ${PREFIX}/bin/bzgrep
+        - test -f ${PREFIX}/bin/bzip2recover
+        - test -f ${PREFIX}/bin/bzip2
+        - test -f ${PREFIX}/bin/bzless
+        - test -f ${PREFIX}/bin/bzmore
+        - test -f ${PREFIX}/include/bzlib.h
+        - test -f ${PREFIX}/lib/libbz2.a
+        - test -f ${PREFIX}/lib/libbz2.so
+about:
+    description: 'Bzip2 is a freely available high-quality data compressor. It typically
+
+        compresses files to within 10% to 15% of the best available techniques,
+
+        whilst being around twice as fast at compression and six times faster
+
+        at decompression.
+
+        '
+    doc_url: http://www.bzip.org/docs.html
+    home: http://www.bzip.org/
+    license: bzip2
+    license_family: BSD
+    license_file: LICENSE
+    summary: high-quality data compressor
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jjhelmus
+        - jlanga
+        - mingwandroid
+        - msarahan
+        - pelson

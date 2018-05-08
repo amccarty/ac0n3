@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py36_4",
+  "build_number": 4,
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python >=3.6,<3.7.0a0",
+    "qtconsole"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "jupyter",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1518035258479,
+  "version": "1.0.0"
+}

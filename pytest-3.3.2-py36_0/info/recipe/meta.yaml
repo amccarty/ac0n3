@@ -1,0 +1,70 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pytest-3.3.2-python3.6-on-linux_64, last modified Fri Jan 12 02:30:44 2018
+# ------------------------------------------------
+
+package:
+    name: pytest
+    version: 3.3.2
+source:
+    sha256: 53548280ede7818f4dc2ad96608b9f08ae2cc2ca3874f2ceb6f97e3583f25bc4
+    url: https://pypi.io/packages/source/p/pytest/pytest-3.3.2.tar.gz
+build:
+    entry_points:
+        - py.test = py.test:main
+        - pytest = py.test:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - setuptools_scm 1.15.6 py36h9817af8_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - attrs
+        - pluggy
+        - py >=1.4.33
+        - python >=3.6,<3.7.0a0
+        - setuptools
+        - six
+test:
+    commands:
+        - pytest -h
+    imports:
+        - pytest
+about:
+    description: 'The pytest framework makes it easy to write small tests, yet scales
+        to
+
+        support complex functional testing for applications and libraries.
+
+        '
+    dev_url: https://github.com/pytest-dev/pytest/
+    doc_url: https://docs.pytest.org/en/latest/
+    home: https://docs.pytest.org/en/latest/
+    license: MIT
+    license_file: LICENSE
+    summary: Simple and powerful testing with Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - flub
+        - goanpeca
+        - mingwandroid
+        - nicoddemus
+        - ocefpaf

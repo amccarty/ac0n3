@@ -1,0 +1,104 @@
+# This file created by conda-build 3.0.28
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/scipy-1.0.0-python3.6-on-linux_64, last modified Tue Nov  7 17:21:12 2017
+# ------------------------------------------------
+
+package:
+    name: scipy
+    version: 1.0.0
+source:
+    sha256: c423a4511684554958dab55f2877df78e765b44f8eef46d5425891d6ac3b49bc
+    url: https://github.com/scipy/scipy/archive/v1.0.0.tar.gz
+build:
+    number: '0'
+    requires_features:
+        blas: mkl
+    string: py36hbf646e7_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_9
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - cython 0.26.1 py36h21c49d0_0
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 h60973fd_9
+        - gfortran_impl_linux-64 7.2.0 hb3c8cce_2
+        - gfortran_linux-64 7.2.0 h6fbc3aa_9
+        - gxx_impl_linux-64 7.2.0 hd3faf3d_2
+        - gxx_linux-64 7.2.0 h57110d4_9
+        - intel-openmp 2018.0.0 h15fc484_7
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mkl 2018.0.0 hb491cac_4
+        - mkl-devel 2018.0.0 hed7f433_4
+        - mkl-include 2018.0.0 h15fc484_2
+        - ncurses 6.0 h06874d7_1
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2m h8cfc7e7_0
+        - python 3.6.3 h0ef2715_3
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - cython 0.26.1 py36h21c49d0_0
+        - intel-openmp 2018.0.0 h15fc484_7
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mkl 2018.0.0 hb491cac_4
+        - mkl-devel 2018.0.0 hed7f433_4
+        - mkl-include 2018.0.0 h15fc484_2
+        - ncurses 6.0 h06874d7_1
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2m h8cfc7e7_0
+        - python 3.6.3 h0ef2715_3
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - libgcc-ng 7.2.0.*
+        - libgfortran-ng 7.2.0.*
+        - libstdcxx-ng 7.2.0.*
+        - mkl >=2018.0.0
+        - numpy  >=1.9.3,<2.0a0
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX scipy
+    requires:
+        - mpmath
+        - pytest
+about:
+    description: 'SciPy is a Python-based ecosystem of open-source software for mathematics,
+
+        science, and engineering.
+
+        '
+    dev_url: https://github.com/scipy/scipy
+    doc_url: http://www.scipy.org/docs.html
+    home: http://www.scipy.org/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Scientific Library for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - ocefpaf
+        - rgommers

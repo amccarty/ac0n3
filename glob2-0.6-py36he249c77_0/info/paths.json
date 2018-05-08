@@ -1,0 +1,77 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/glob2-0.6-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "bb6e38204398a8f4f193879c3bbddb8a225afae975a7c5a7c3105172960c31f2",
+      "size_in_bytes": 677
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2-0.6-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "79357fe6b1aae997d306256accbbcb727740b07e0a9654d4405ec4d0ab612363",
+      "size_in_bytes": 246
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2-0.6-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2-0.6-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "2e654d4fc8d96fce1ca514e95a7f420683ee9e1ab89dac085a5c178c98b6b3af",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "aa6a0087fc5a36b9834111df0b15bf2995b89346529ac7ef22f815ab7dc26abf",
+      "size_in_bytes": 82
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "77babad2bbd01550fe245c1b7c2d6b647aa10e39f71fa6b096fc78ea9029a73e",
+      "size_in_bytes": 240
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/__pycache__/compat.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "bd3bd0cbc4c7ca1b11f65fc726d7b3dde031f3bc0550127460de94b6099f7f21",
+      "size_in_bytes": 4714
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/__pycache__/fnmatch.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "41c8e9a9ffba55c3c7bbd43541240e282f7b3daad53979431e15d4a6d89b2491",
+      "size_in_bytes": 4398
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/__pycache__/impl.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9dc03a047f268c02dcd93ea30769890301878f1395977b6c2f06c3ccf9963e0a",
+      "size_in_bytes": 6109
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/compat.py",
+      "path_type": "hardlink",
+      "sha256": "8d12d6d803013383804d251d7c4dc3eada6f7fc39ec708b0d9cd2be3f9e953a7",
+      "size_in_bytes": 6859
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/fnmatch.py",
+      "path_type": "hardlink",
+      "sha256": "c57e7c061d957ce37df7bd4cb4321914d899ec11f4cfe995fa03d22b3d21c4cf",
+      "size_in_bytes": 4458
+    },
+    {
+      "_path": "lib/python3.6/site-packages/glob2/impl.py",
+      "path_type": "hardlink",
+      "sha256": "e296982e3ddf55d278c11fbe891516d1f5330d76259134935d1577b8911873d4",
+      "size_in_bytes": 8304
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,8 @@
+{
+  "VERBOSE_AT": "V=1",
+  "c_compiler": "gcc",
+  "fontconfig": "2.12",
+  "harfbuzz": "1.7",
+  "libpng": "1.6",
+  "freetype": "2.8"
+}

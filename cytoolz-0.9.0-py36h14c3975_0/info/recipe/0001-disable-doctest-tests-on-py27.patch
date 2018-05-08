@@ -1,0 +1,36 @@
+From 11ae5f83652852fcd35640a2d0d087e73bccecd2 Mon Sep 17 00:00:00 2001
+From: Michael Sarahan <msarahan@gmail.com>
+Date: Fri, 12 Jan 2018 11:42:14 -0600
+Subject: [PATCH] disable doctest tests on py27
+
+---
+ cytoolz/tests/test_curried_doctests.py | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+diff --git a/cytoolz/tests/test_curried_doctests.py b/cytoolz/tests/test_curried_doctests.py
+index e22efa5..c123850 100644
+--- a/cytoolz/tests/test_curried_doctests.py
++++ b/cytoolz/tests/test_curried_doctests.py
+@@ -1,11 +1,13 @@
+ import doctest
+ import cytoolz
++import sys
+ 
+ 
+ def test_doctests():
+-    cytoolz.__test__ = {}
+-    for name, func in vars(cytoolz).items():
+-        if isinstance(func, cytoolz.curry):
+-            cytoolz.__test__[name] = func.func
+-    assert doctest.testmod(cytoolz).failed == 0
+-    del cytoolz.__test__
++    if sys.version_info.major >= 3:
++        cytoolz.__test__ = {}
++        for name, func in vars(cytoolz).items():
++            if isinstance(func, cytoolz.curry):
++                cytoolz.__test__[name] = func.func
++            assert doctest.testmod(cytoolz).failed == 0
++            del cytoolz.__test__
+-- 
+2.11.1
+

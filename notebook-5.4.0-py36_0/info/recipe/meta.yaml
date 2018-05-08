@@ -1,0 +1,97 @@
+# This file created by conda-build 3.4.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/notebook-5.4.0-python3.6-on-linux_64, last modified Fri Feb  2 18:50:58 2018
+# ------------------------------------------------
+
+package:
+    name: notebook
+    version: 5.4.0
+source:
+    fn: notebook-5.4.0.tar.gz
+    sha256: dd431fad9bdd25aa9ff8265da096ef770475e21bf1d327982611a7de5cd904ca
+    url: https://pypi.io/packages/source/n/notebook/notebook-5.4.0.tar.gz
+build:
+    entry_points:
+        - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+        - jupyter-nbextension = notebook.nbextensions:main
+        - jupyter-notebook = notebook.notebookapp:main
+        - jupyter-serverextension = notebook.serverextensions:main
+    number: '0'
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - ipykernel
+        - ipython_genutils
+        - jinja2
+        - jupyter_client >=5.2.0
+        - jupyter_core >=4.4.0
+        - nbconvert
+        - nbformat
+        - python >=3.6,<3.7.0a0
+        - send2trash
+        - terminado >=0.8.1
+        - tornado >=4
+        - traitlets >=4.2.1
+test:
+    commands:
+        - jupyter notebook -h
+        - jupyter nbextension -h
+        - jupyter serverextension -h
+        - jupyter bundlerextension -h
+    imports:
+        - notebook
+app:
+    cli_opts:
+        -   args: --port %s
+            default: '8080'
+            name: port
+            summary: Server port ...
+    entry: jupyter-notebook
+    icon: jupyter.png
+    summary: Jupyter Notebook
+    type: web
+about:
+    description: 'Jupyter Notebook is a web application, a browser-based tool for
+        interactive
+
+        authoring of documents which combine explanatory text, mathematics, computations
+
+        and their rich media output.
+
+        '
+    dev_url: https://github.com/jupyter/notebook
+    doc_source_url: https://github.com/jupyter/notebook/blob/master/docs/source/index.rst
+    doc_url: https://jupyter-notebook.readthedocs.org/en/latest/
+    home: http://jupyter.org
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: A web-based notebook environment for interactive computing
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - gnestor
+        - jakirkham
+        - minrk
+        - pelson
+        - takluyver

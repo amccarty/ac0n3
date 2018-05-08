@@ -1,0 +1,4 @@
+/opt/anaconda1anaconda2anaconda3 text etc/fonts/fonts.conf
+/opt/anaconda1anaconda2anaconda3 text lib/libfontconfig.la
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/fontconfig.pc
+/opt/conda/conda-bld/fontconfig_1505734159655/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl binary lib/libfontconfig.so.1.9.4

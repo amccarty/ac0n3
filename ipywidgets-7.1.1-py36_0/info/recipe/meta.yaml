@@ -1,0 +1,68 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/ipywidgets-7.1.1-python3.6-on-linux_64, last modified Tue Jan 30 16:00:29 2018
+# ------------------------------------------------
+
+package:
+    name: ipywidgets
+    version: 7.1.1
+source:
+    fn: ipywidgets-7.1.1.tar.gz
+    sha256: 69e8c444e99601e6f9b9e9e596c87c19665fc73c2dd05cd507c94f35fba2959d
+    url: https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.1.1.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --no-deps .
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - ipykernel >=4.5.1
+        - ipython >=4.0.0
+        - nbformat >=4.2.0
+        - python >=3.6,<3.7.0a0
+        - traitlets >=4.3.1,<5.0.0
+        - widgetsnbextension >=3.1.0,<4.0
+test:
+    imports:
+        - ipywidgets
+about:
+    description: 'ipywidgets are interactive HTML widgets for Jupyter notebooks and
+        the IPython kernel.
+
+        '
+    doc_source_url: https://github.com/jupyter-widgets/ipywidgets/blob/master/docs/source/index.rst
+    doc_url: https://ipywidgets.readthedocs.io/en/latest/
+    home: https://github.com/ipython/ipywidgets
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: Jupyter Interactive Widgets
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - jasongrout
+        - maartenbreddels
+        - minrk
+        - pelson
+        - willingc

@@ -1,0 +1,60 @@
+# This file created by conda-build 3.3.0
+# ------------------------------------------------
+
+package:
+    name: curl
+    version: 7.58.0
+source:
+    fn: curl-7.58.0.tar.bz2
+    sha256: 1cb081f97807c01e3ed747b6e1c9fee7a01cb10048f1cd0b5f56cfe0209de731
+    url: http://curl.haxx.se/download/curl-7.58.0.tar.bz2
+build:
+    noarch: false
+    number: '0'
+    string: h84994c4_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    host:
+        - libcurl 7.58.0 h1ad7b7a_0
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libcurl 7.58.0 h1ad7b7a_0
+        - libgcc-ng >=7.2.0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - curl --help
+        - curl https://raw.githubusercontent.com/conda-forge/curl-feedstock/master/LICENSE
+about:
+    description: 'Curl is an open source command line tool and library for transferring
+        data
+
+        with URL syntax. It is used in command lines or scripts to transfer data.
+
+        '
+    dev_url: https://github.com/curl/curl
+    doc_source_url: https://github.com/curl/curl/tree/master/docs
+    doc_url: https://curl.haxx.se/docs/
+    home: http://curl.haxx.se/
+    license: MIT/X derivate (http://curl.haxx.se/docs/copyright.html)
+    license_family: MIT
+    license_file: COPYING
+    summary: tool and library for transferring data with URL syntax
+extra:
+    copy_test_source_files: true
+    final: true
+    parent_recipe:
+        name: curl_split_recipe
+        path: /tmp/build/80754af9/rsync-recipes/curl_split_recipe-7.58.0-on-linux_64
+        version: 7.58.0
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf

@@ -1,0 +1,53 @@
+{% set name = "mistune" %}
+{% set version = "0.8.3" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bc10c33bfdcaa4e749b779f62f60d6e12f8215c46a292d05e486b869ae306619
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  source_files:
+    - tests
+  requires:
+    - nose
+    - python
+  imports:
+    - mistune
+  commands:
+    - nosetests
+
+about:
+  home: https://github.com/lepture/mistune
+  license_file: LICENSE
+  license: BSD 3-Clause
+  license_family: BSD
+  summary: 'The fastest markdown parser in pure Python.'
+  description: |
+    Inspired by https://github.com/chjj/marked, Mistune is the fastest markdown
+    parser in pure Python with renderer features. More features include table,
+    footnotes, autolink, fenced code etc.
+  dev_url: https://github.com/lepture/mistune
+  doc_url: https://mistune.readthedocs.io/
+  doc_source_url: https://github.com/lepture/mistune/blob/master/README.rst
+
+extra:
+  recipe-maintainers:
+    - pelson
+    - bollwyvl
+    - ocefpaf

@@ -1,0 +1,6 @@
+{
+  "c_compiler": "gcc",
+  "mkl": "2018",
+  "blas_impl": "mkl",
+  "fortran_compiler": "gfortran"
+}

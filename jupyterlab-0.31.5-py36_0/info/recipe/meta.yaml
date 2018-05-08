@@ -1,0 +1,78 @@
+# This file created by conda-build 3.4.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jupyterlab-0.31.5-python3.6-on-linux_64, last modified Fri Feb  9 17:15:26 2018
+# ------------------------------------------------
+
+package:
+    name: jupyterlab
+    version: 0.31.5
+source:
+    fn: jupyterlab-0.31.5.tar.gz
+    sha256: 93dc1ae69a846be06397ecefaec0c9eaf03c98efca37819698499c9f05210feb
+    url: https://pypi.io/packages/source/j/jupyterlab/jupyterlab-0.31.5.tar.gz
+build:
+    entry_points:
+        - jupyter-lab = jupyterlab.labapp:main
+        - jupyter-labextension = jupyterlab.labextensions:main
+        - jupyter-labhub = jupyterlab.labhubapp:main
+    number: '0'
+    osx_is_app: 'True'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - jupyterlab_launcher >=0.10.0,<0.11.0
+        - notebook >=4.3
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - jupyterlab
+app:
+    entry: jupyter lab
+    icon: icon.png
+    summary: JupyterLab PRE-ALPHA
+    type: desk
+about:
+    description: 'JupyterLab is the next generation user interface for Project Jupyter.
+
+        It offers all the familiar building blocks of the classic Jupyter Notebook
+
+        (notebook, terminal, text editor, file browser, rich outputs, etc.) in a
+
+        flexible and powerful user inteface that can be extended through third party
+
+        extensions that access our public APIs. Eventually, JupyterLab will replace
+        the
+
+        classic Jupyter Notebook.
+
+        '
+    dev_url: https://github.com/jupyterlab/jupyterlab
+    doc_source_url: https://github.com/jupyterlab/jupyterlab/tree/master/docs
+    doc_url: http://jupyterlab-tutorial.readthedocs.io/en/latest/
+    home: https://github.com/jupyterlab/jupyterlab
+    license: BSD 3-Clause
+    license_family: BSD
+    summary: A pre-alpha version of a computational environment for Jupyter.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - jasongrout

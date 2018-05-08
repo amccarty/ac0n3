@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle-0.5.2-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "35a914eb86ac7160cd5e90f6e1e563fb6e89e9e265811a077161669696c21f07",
+      "size_in_bytes": 4610
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle-0.5.2-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "f4a2a5c40bdd36b3352f92b529a48b3d0e7e6f26a136fed8c6fb807adf38a925",
+      "size_in_bytes": 333
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle-0.5.2-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle-0.5.2-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cccbf080a89ad137a534a24fe8f6875a5c569849bad0aae250ef1b6f92d16655",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "90b5b7e6a0f1a463f1a1db075a723c1f8506c237b518f26dde655aa8841ef624",
+      "size_in_bytes": 101
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "185a04d0c369a16e1998340ebbf76dee06936fe07c7f9556f7e42b2313917c15",
+      "size_in_bytes": 250
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle/__pycache__/cloudpickle.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e28c9d8a10fabdee8fd7b823b68c2952a52e149d5bea4285ec17250389849691",
+      "size_in_bytes": 27303
+    },
+    {
+      "_path": "lib/python3.6/site-packages/cloudpickle/cloudpickle.py",
+      "path_type": "hardlink",
+      "sha256": "724a57fd9d852549bbb0f0cbaa7db8d8acbc3c46c5e0041d13d1c29d31577689",
+      "size_in_bytes": 36621
+    }
+  ],
+  "paths_version": 1
+}

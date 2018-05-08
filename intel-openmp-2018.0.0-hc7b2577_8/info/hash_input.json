@@ -1,0 +1,23 @@
+{
+  "build": {
+    "binary_relocation": "false",
+    "detect_binary_files_with_prefix": "false"
+  },
+  "source": [
+    {
+      "url": "https://anaconda.org/intel/mkl/2018.0.1/download/linux-64/mkl-2018.0.1-intel_4.tar.bz2",
+      "folder": "mkl"
+    },
+    {
+      "url": "https://anaconda.org/intel/mkl-include/2018.0.1/download/linux-64/mkl-include-2018.0.1-intel_4.tar.bz2",
+      "folder": "mkl-include"
+    },
+    {
+      "url": "https://anaconda.org/intel/openmp/2018.0.0/download/linux-64/openmp-2018.0.0-intel_8.tar.bz2",
+      "folder": "intel-openmp"
+    }
+  ],
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

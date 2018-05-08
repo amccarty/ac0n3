@@ -1,0 +1,61 @@
+{
+  "requirements": {
+    "build": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.7.27.1 py36h8b7b77e_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pip 9.0.1 py36h6c6f9ce_4",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "wheel 0.30.0 py36hfd4bba0_1",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.7.27.1 py36h8b7b77e_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pip 9.0.1 py36h6c6f9ce_4",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "wheel 0.30.0 py36hfd4bba0_1",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "python >=3.6,<3.7.0a0",
+      "traitlets"
+    ]
+  },
+  "build": {
+    "script": "pip install --no-deps .",
+    "entry_points": [
+      "jupyter = jupyter_core.command:main",
+      "jupyter-migrate = jupyter_core.migrate:main",
+      "jupyter-troubleshoot = jupyter_core.troubleshoot:main"
+    ]
+  },
+  "source": {
+    "fn": "jupyter_core-4.4.0.tar.gz",
+    "url": "https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.4.0.tar.gz",
+    "sha256": "ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

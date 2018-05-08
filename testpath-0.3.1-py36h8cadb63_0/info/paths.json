@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/testpath-0.3.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "06c799bd6dbe18f6cd7a14276de98c4f4f578c52615acde6cd08d70e7d0e5bbc",
+      "size_in_bytes": 292
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath-0.3.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "012b0b029f5a06ea9356cf77637d7959487c6c104e1a61009769dbffea89afb0",
+      "size_in_bytes": 276
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath-0.3.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath-0.3.1-py3.6.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "66472f26cf722d2281b5955121f074aebcbbeb636de042f13122dc6a3f5d73c0",
+      "size_in_bytes": 448
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath-0.3.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a846e1158baa3fa0a3e75abdabc9101f8050862cab304aa8509a9b5816639da7",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c8546c1f8597940874fd59beefb0ada2deceff14edc0d0961840115360cc8058",
+      "size_in_bytes": 220
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9f5507a8a3f899f42db9f82859d218217a30b1cf9cf49c10c492774ac6ed4fdd",
+      "size_in_bytes": 412
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__pycache__/asserts.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "67546919d3c054c1440bf2fd2365be49781ac26007c2e2f9fbb21035fa0eb9b9",
+      "size_in_bytes": 4261
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__pycache__/commands.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b139a47e4331e0ac56daeac4cd07fbb15bb4d32e3629e18ad3cd783e2750b57a",
+      "size_in_bytes": 5270
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__pycache__/env.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5be2c027886bb0eb5cf650244c841334011dfed19aeafee4f65fb76573eb6c75",
+      "size_in_bytes": 2516
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/__pycache__/tempdir.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1e4bb98db30b0ff4bbbd60f743a9f11a3db9a7cde443ec08f799fa3c9133208f",
+      "size_in_bytes": 5280
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/asserts.py",
+      "path_type": "hardlink",
+      "sha256": "21fb89b618adf32c430cadc5d3b5a8573d53b110bafcc32747b5d8caff9e1740",
+      "size_in_bytes": 4483
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/cli-32.exe",
+      "path_type": "hardlink",
+      "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+      "size_in_bytes": 65536
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/cli-64.exe",
+      "path_type": "hardlink",
+      "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+      "size_in_bytes": 74752
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/commands.py",
+      "path_type": "hardlink",
+      "sha256": "37a9ca4bd99d02450862b85e292a306fa7f1180a8669d23dd137c7144e0525e2",
+      "size_in_bytes": 5143
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/env.py",
+      "path_type": "hardlink",
+      "sha256": "c287366d423057dd3c21dd356a8a239b0f4ee9f88b694d2159ec7a7f459c6c08",
+      "size_in_bytes": 2370
+    },
+    {
+      "_path": "lib/python3.6/site-packages/testpath/tempdir.py",
+      "path_type": "hardlink",
+      "sha256": "2b62db076abbb15ac25b78f44da9a50aa86ef163e60bed04d67abd6fcde2b785",
+      "size_in_bytes": 5245
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,72 @@
+{% set version = "5.3.1" %}
+
+package:
+  name: nbconvert
+  version: {{ version }}
+
+source:
+  fn: nbconvert-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/n/nbconvert/nbconvert-{{ version }}.tar.gz
+  sha256: 12b1a4671d4463ab73af6e4cbcc965b62254e05d182cd54995dda0d0ef9e2db9
+
+build:
+  number: 0
+  script: pip install --no-deps .
+  entry_points:
+    - jupyter-nbconvert = nbconvert.nbconvertapp:main
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - bleach
+    - entrypoints >=0.2.2
+    - jinja2
+    - jupyter_core
+    - jupyter_client >=4.2
+    - mistune >0.6
+    - nbformat
+    - pandoc
+    - pandocfilters >=1.4.1
+    - python
+    - pygments
+    - testpath
+    - traitlets
+
+test:
+  imports:
+    - nbconvert
+    - nbconvert.exporters
+    - nbconvert.filters
+    - nbconvert.postprocessors
+    - nbconvert.preprocessors
+    - nbconvert.resources
+    - nbconvert.tests
+    - nbconvert.utils
+    - nbconvert.writers
+  source_files:
+    - nbconvert/tests/files/notebook1.ipynb
+
+  commands:
+    - jupyter nbconvert --help
+    - jupyter nbconvert nbconvert/tests/files/notebook1.ipynb
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-Clause
+  summary: 'Converting Jupyter Notebooks'
+  description: |
+    The nbconvert tool, jupyter nbconvert, converts notebooks to various other
+    formats via Jinja templates. The nbconvert tool allows you to convert an
+    .ipynb notebook file into various static formats.
+  doc_url: http://nbconvert.readthedocs.org/
+  dev_url: https://github.com/jupyter/nbconvert
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - mpacer
+    - minrk
+    - pelson
+    - takluyver

@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py36h17d85b1_0",
+  "build_number": 0,
+  "depends": [
+    "pygments",
+    "python >=3.6,<3.7.0a0",
+    "six >=1.9.0",
+    "wcwidth"
+  ],
+  "license": "BSD 3-clause",
+  "name": "prompt_toolkit",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505690357987,
+  "version": "1.0.15"
+}

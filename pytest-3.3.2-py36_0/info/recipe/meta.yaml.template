@@ -1,0 +1,59 @@
+{% set name = "pytest" %}
+{% set version = "3.3.2" %}
+{% set sha256 = "53548280ede7818f4dc2ad96608b9f08ae2cc2ca3874f2ceb6f97e3583f25bc4" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - py.test = py.test:main
+    - pytest = py.test:main
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - setuptools_scm
+  run:
+    - argparse  # [py26]
+    - attrs
+    - colorama  # [win]
+    - funcsigs  # [py27]
+    - pluggy
+    - py >=1.4.33
+    - python
+    - setuptools
+    - six
+
+test:
+  commands:
+    - pytest -h
+  imports:
+    - pytest
+
+about:
+  home: https://docs.pytest.org/en/latest/
+  license: MIT
+  license_file: LICENSE
+  summary: 'Simple and powerful testing with Python.'
+  description: |
+    The pytest framework makes it easy to write small tests, yet scales to
+    support complex functional testing for applications and libraries.
+  doc_url: https://docs.pytest.org/en/latest/
+  dev_url: https://github.com/pytest-dev/pytest/
+
+extra:
+  recipe-maintainers:
+    - flub
+    - goanpeca
+    - nicoddemus
+    - ocefpaf
+    - mingwandroid

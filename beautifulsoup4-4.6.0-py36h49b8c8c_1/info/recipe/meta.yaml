@@ -1,0 +1,75 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/beautifulsoup4-feedstock/recipe, last modified Sun Sep 17 15:35:58 2017
+# ------------------------------------------------
+
+package:
+    name: beautifulsoup4
+    version: 4.6.0
+source:
+    fn: beautifulsoup4-4.6.0.tar.gz
+    sha256: 808b6ac932dccb0a4126558f7dfdcf41710dd44a4ef497a0bb59a77f9f078e89
+    url: https://pypi.io/packages/source/b/beautifulsoup4/beautifulsoup4-4.6.0.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h49b8c8c_1
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - bs4
+about:
+    description: 'Beautiful Soup is a library for pulling data out of HTML and XML
+        files.
+
+        It provides ways of navigating, searching, and modifying parse trees.
+
+        '
+    dev_url: https://code.launchpad.net/beautifulsoup
+    doc_source_url: https://github.com/newvem/beautifulsoup4/blob/master/doc/source/index.rst
+    doc_url: http://beautiful-soup-4.readthedocs.io/en/latest/
+    home: http://www.crummy.com/software/BeautifulSoup/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING.txt
+    summary: Python library designed for screen-scraping
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller
+        - nehaljwani

@@ -1,0 +1,86 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/gst-plugins-base-1.12.4-on-linux_64, last modified Tue Jan 23 22:19:00 2018
+# ------------------------------------------------
+
+package:
+    name: gst-plugins-base
+    version: 1.12.4
+source:
+    fn: gst-plugins-base-1.12.4.tar.xz
+    sha256: 4c306b03df0212f1b8903784e29bb3493319ba19ebebf13b0c56a17870292282
+    url: https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.12.4.tar.xz
+build:
+    number: '0'
+    run_exports:
+        - gst-plugins-base >=1.12.4,<1.13.0a0
+    string: h33fb286_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - libx11-common-cos6-x86_64 1.6.4 h023ea50_0
+        - libx11-cos6-x86_64 1.6.4 h64a1553_0
+        - libx11-devel-cos6-x86_64 1.6.4 hb9851ce_0
+        - libxau-cos6-x86_64 1.0.6 h4888106_0
+        - libxau-devel-cos6-x86_64 1.0.6 hf5ff492_0
+        - libxext-cos6-x86_64 1.3.3 hc47956f_0
+        - libxext-devel-cos6-x86_64 1.3.3 hf6a4bb0_0
+        - libxrender-cos6-x86_64 0.9.10 h41db5cd_0
+        - libxrender-devel-cos6-x86_64 0.9.10 ha8151bf_0
+        - m4 1.4.18 h4e445db_0
+        - perl 5.26.0 hae598fd_0
+        - xorg-x11-proto-devel-cos6-x86_64 7.7 h8d4a98b_0
+    host:
+        - glib 2.53.6 h5d9569c_2
+        - gstreamer 1.12.4 hb53b477_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - libxcb 1.12 hcd93eb1_4
+        - pcre 8.41 hc27e229_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - gstreamer >=1.12.4,<1.13.0a0
+        - libgcc-ng >=7.2.0
+        - libxcb >=1.12,<2.0a0
+        - xz >=5.2.3,<6.0a0
+test:
+    commands:
+        - test -f $PREFIX/lib/libgstallocators-1.0.so
+        - test -f $PREFIX/lib/libgstapp-1.0.so
+        - test -f $PREFIX/lib/libgstaudio-1.0.so
+        - test -f $PREFIX/lib/libgstfft-1.0.so
+        - test -f $PREFIX/lib/libgstpbutils-1.0.so
+        - test -f $PREFIX/lib/libgstriff-1.0.so
+        - test -f $PREFIX/lib/libgstrtp-1.0.so
+        - test -f $PREFIX/lib/libgstrtsp-1.0.so
+        - test -f $PREFIX/lib/libgstsdp-1.0.so
+        - test -f $PREFIX/lib/libgsttag-1.0.so
+        - test -f $PREFIX/lib/libgstvideo-1.0.so
+about:
+    description: 'GStreamer Base Plug-ins is a well-groomed and well-maintained collection
+        of
+
+        GStreamer plug-ins and elements, spanning the range of possible types of
+
+        elements one would want to write for GStreamer.
+
+        '
+    doc_source_url: https://github.com/GStreamer/gst-plugins-base/tree/master/docs
+    doc_url: https://gstreamer.freedesktop.org/documentation/
+    home: http://gstreamer.freedesktop.org/
+    license: GPL2
+    license_file: COPYING
+    summary: GStreamer Base Plug-ins
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid

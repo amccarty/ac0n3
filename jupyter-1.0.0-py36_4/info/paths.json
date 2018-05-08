@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "06e314650136c1e32dd04b02fc0698e39ca214ae39414cd745b2cae39afb432e",
+      "size_in_bytes": 883
+    },
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "1a62cc4e3d818abc602fce9090f6bdc69ec5655bee6347519a0666c52dbd4b68",
+      "size_in_bytes": 184
+    },
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "545667e2394fef76448940f964a3fd32fe1234a61d455c21e343ab31124e52c0",
+      "size_in_bytes": 121
+    },
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "f66562821b533799efe29f4f78d8aa673d3ce82ac14465224d61e99407a973b4",
+      "size_in_bytes": 66
+    },
+    {
+      "_path": "lib/python3.6/site-packages/jupyter-1.0.0-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ce72f0b7a376799ffbbb57931dceab5c9e1cea2254ce6855d4d37bdc7ba54e44",
+      "size_in_bytes": 8
+    }
+  ],
+  "paths_version": 1
+}

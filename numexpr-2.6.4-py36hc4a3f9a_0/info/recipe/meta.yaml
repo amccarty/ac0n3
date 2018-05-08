@@ -1,0 +1,107 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/numexpr-2.6.4-python3.6-on-linux_64, last modified Thu Nov 30 19:26:56 2017
+# ------------------------------------------------
+
+package:
+    name: numexpr
+    version: 2.6.4
+source:
+    fn: numexpr-2.6.4.tar.gz
+    sha256: 049da1c07bd62d2aba29887130ccc9aff9b90962cb779a7b7ddc15e580368fba
+    url: https://github.com/pydata/numexpr/archive/v2.6.4.tar.gz
+build:
+    number: '0'
+    requires_features:
+        blas: mkl
+    script:
+        - cp $PREFIX/site.cfg site.cfg
+        - python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36hc4a3f9a_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_15
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 haf1f6fa_15
+        - gxx_impl_linux-64 7.2.0 hd3faf3d_2
+        - gxx_linux-64 7.2.0 h2e50c1c_15
+        - intel-openmp 2018.0.0 hc7b2577_8
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mkl 2018.0.1 h19d6760_4
+        - mkl-devel 2018.0.1 hf16a5b4_4
+        - mkl-include 2018.0.1 hc7b2577_4
+        - ncurses 6.0 h9df7e31_2
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - intel-openmp 2018.0.0 hc7b2577_8
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mkl 2018.0.1 h19d6760_4
+        - mkl-devel 2018.0.1 hf16a5b4_4
+        - mkl-include 2018.0.1 hc7b2577_4
+        - ncurses 6.0 h9df7e31_2
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng 7.2.0.*
+        - libstdcxx-ng 7.2.0.*
+        - mkl >=2018.0.1
+        - numpy  >=1.9.3,<2.0a0
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX numexpr
+    imports:
+        - numexpr
+        - numexpr.interpreter
+    requires:
+        - setuptools
+about:
+    description: 'Numexpr is a fast numerical expression evaluator for NumPy. With
+        it,
+
+        expressions that operate on arrays (like "3*a+4*b") are accelerated and use
+
+        less memory than doing the same calculation in Python.
+
+        '
+    dev_url: https://github.com/pydata/numexpr
+    doc_url: https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+    home: https://github.com/pydata/numexpr
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Fast numerical expression evaluator for NumPy.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - scopatz

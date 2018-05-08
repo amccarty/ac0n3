@@ -1,0 +1,43 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/pandoc-feedstock/recipe, last modified Sun Sep 17 15:43:22 2017
+# ------------------------------------------------
+
+package:
+    name: pandoc
+    version: 1.19.2.1
+source:
+    fn: pandoc-1.19.2.1-amd64.deb
+    sha256: db828cbab2a6d0d33f3754c4061a844ae2d1f0a01cbb12c512ef109117595dd2
+    url: https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb
+build:
+    number: '1'
+    string: hea2e7c5_1
+requirements:
+    run:
+        - gmp
+        - zlib
+test:
+    commands:
+        - pandoc --help
+        - pandoc --version
+about:
+    description: 'Pandoc is a Haskell library for converting from one markup format
+        to
+
+        another, and a command-line tool that uses this library.
+
+        '
+    dev_url: https://github.com/jgm/pandoc
+    doc_source_url: https://github.com/jgm/pandoc/tree/master/doc
+    doc_url: http://pandoc.org/MANUAL.html
+    home: http://johnmacfarlane.net/pandoc/
+    license: GPL-2.0
+    summary: Universal markup converter (repackaged binaries).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - janschulz
+        - mingwandroid
+        - ocefpaf

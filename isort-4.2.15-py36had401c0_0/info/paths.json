@@ -1,0 +1,151 @@
+{
+  "paths": [
+    {
+      "_path": "bin/isort",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "685ec3d18406debcef2f3aa22ca8affbe72ddf293cf79d379d4474103889e3a9",
+      "size_in_bytes": 240
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort-4.2.15-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "e0a0e93ce9bceaecd2306727e10e0397f7aa5ede9f040ebba626444fe66e3fbb",
+      "size_in_bytes": 22385
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort-4.2.15-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "5b56b7bf549c54da663b0397c2dd7a822bbfb01bec4ea6153dcd4c35ba7b173e",
+      "size_in_bytes": 400
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort-4.2.15-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort-4.2.15-py3.6.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "d8cf7d7921699ed7839b77a45bc8f26b66b7034faf167b4a753d5f3fddd3ca4b",
+      "size_in_bytes": 148
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort-4.2.15-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "9ab04ba15a499d05816e730e49dce48cdd44f59f9edd977e311968f3c6ecb549",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3e6b73a93a06f2a47eee294925a143b2c2bef0e96ff7c124e7031603f7b7aee5",
+      "size_in_bytes": 1352
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "88ad2daf337d0825e9417f973d90d9f495649b62dcd2ad2888082c6ba16425be",
+      "size_in_bytes": 36
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "239edeb684d7a562f61db1a7b26730d1300007b18c96aa62f83155e4d18cdc4d",
+      "size_in_bytes": 1557
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/__main__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "85e8983522729f36a7ac211a3f4caf03e477ee1f3d27df4cc3286d8cec26640c",
+      "size_in_bytes": 175
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/hooks.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e108f95a8f4d0a545505b0fb687c157f40be95f0a21b8e9269186785e8b3103f",
+      "size_in_bytes": 2945
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/isort.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8a2e6d950690f11e2941ce0c117755fd2874f9a440f32fe6b0f75db88337661d",
+      "size_in_bytes": 28749
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/main.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "062ddb8ae138b06197a3cc360042675da82c582f3b1f1b0049000d21521e3bc3",
+      "size_in_bytes": 12940
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/natural.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "56b471033a1e7f946e6496bbbcb1b62616487aa0d0f2531dd446af8d97e21a16",
+      "size_in_bytes": 2267
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/pie_slice.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f92bdf11c2b2a66f1173cdd71fd35718cf3cae0920afd353ad776e517817fc4b",
+      "size_in_bytes": 19583
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/pylama_isort.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cc393fa7ba6c60d464be1f6df0162c29653612e4f23ddf8df19dbf11b3a4ad5e",
+      "size_in_bytes": 969
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/__pycache__/settings.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8fdc329ecf94a3b4ba1eaf52525a72e4aa2876135208dead0657b79d2d3f5939",
+      "size_in_bytes": 10110
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/hooks.py",
+      "path_type": "hardlink",
+      "sha256": "5b315bf1e499021d9f782e47a470c0e4c8e26f3aed46533ddd9560357ea4e0b6",
+      "size_in_bytes": 2808
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/isort.py",
+      "path_type": "hardlink",
+      "sha256": "9a8eb33b994298e825d0921e9d9ecae4ac70ce892cd6d1379a3fbc12c3a27cc1",
+      "size_in_bytes": 47097
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/main.py",
+      "path_type": "hardlink",
+      "sha256": "eddfbde07ccc1b0c687ee922340f7bcb1724496561f781f31f1e7fcf0ac380b2",
+      "size_in_bytes": 16809
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/natural.py",
+      "path_type": "hardlink",
+      "sha256": "426e144c936b03795de1dbbb4a98f7c9c195b31358f7463026c01d18ab71b2f6",
+      "size_in_bytes": 1793
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/pie_slice.py",
+      "path_type": "hardlink",
+      "sha256": "e7b01caf9b5b0e4890e532cb44b202bffb99d6bc7fc8709b6c65ec8e3728d290",
+      "size_in_bytes": 19561
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/pylama_isort.py",
+      "path_type": "hardlink",
+      "sha256": "c05e8d38456e89b99ed25fb9a47f69096d63e2f19a15a9aec25978f784e7cc32",
+      "size_in_bytes": 785
+    },
+    {
+      "_path": "lib/python3.6/site-packages/isort/settings.py",
+      "path_type": "hardlink",
+      "sha256": "cebc386416d0998f336a74c13505b932a88e9f18627505c03ac648eeb9895e30",
+      "size_in_bytes": 13818
+    }
+  ],
+  "paths_version": 1
+}

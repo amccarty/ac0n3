@@ -1,0 +1,54 @@
+{% set name = "rope" %}
+{% set version = "0.10.7" %}
+{% set compress_type = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "a09edfd2034fd50099a67822f9bd851fbd0f4e98d3b87519f6267b60e50d80d1" %}
+{% set build = 0 %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash }}
+
+build:
+  number: {{ build }}
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - rope
+    - rope.base
+    - rope.base.oi
+    - rope.base.oi.type_hinting
+    - rope.base.oi.type_hinting.providers
+    - rope.base.oi.type_hinting.resolvers
+    - rope.base.utils
+    - rope.contrib
+    - rope.refactor
+    - rope.refactor.importutils
+
+about:
+  home: https://github.com/python-rope/rope
+  license_file: COPYING
+  license: GPL 2.0
+  license_family: GPL2
+  summary: 'A python refactoring library...'
+  dev_url: https://github.com/python-rope/rope
+  doc_url: https://pypi.python.org/pypi/rope
+  doc_source_url: https://github.com/python-rope/rope/tree/master/docs
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr

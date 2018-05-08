@@ -1,0 +1,138 @@
+{% set version = "5.6.2" %}
+
+package:
+  name: qt
+  version: {{ version }}
+
+source:
+  - url: http://download.qt.io/official_releases/qt/5.6/{{ version }}/single/qt-everywhere-opensource-src-{{ version }}.tar.gz
+    sha256: 7551f5af1312082c3c8ab52f5e102e3f83aae2dd96dc4a3a9a197f3e58b3214c
+    patches:
+      - 0005-Remove-unused-include-sys-signalfd.h.patch
+      - 0006-zlib_dependency-Add-EXTRA_INCLUDEPATH-for-system-zli.patch
+      - 0007-CentOS5-Do-not-use-strict_c-when-using-c-11.patch
+      - 0008-disable-Ubuntu-overlay-scrollbars-as-they-don-t-play.patch
+      # qtbase
+      - 0004-VS2008-Add-typedefs-for-more-int-_t-and-define-_STDI.patch  # [win]
+      - 0010-osx-xctest-check.patch  # [osx]
+      - 0011-osx-allow-any-xcrun-in-PATH.patch
+      - 0012-qtbase-Set-QMAKE_MACOSX_DEPLOYMENT_TARGET-in-all-mac.patch
+      # qt3d
+      - 0001-Don-t-re-typedef-int-_t-if-_STDINT-is-defined.patch  # [win]
+      # qtwinextras
+      - 0001-shobjidl-Fix-compile-guard-around-SHARDAPPIDINFOLINK.patch  # [win]
+      # qtwebengine
+      - 0001-qtwebengine-mac_sdk_min-to-10.9.patch
+      - 0002-qtwebengine-find_sdk-respect-CONDA_BUILD_SYSROOT.patch
+      - 0003-qtwebengine-Set-QMAKE_MACOSX_DEPLOYMENT_TARGET-in-de.patch
+      # https://codereview.chromium.org/1479893002
+      - 0004-chromium-issue1479893002_1.patch
+
+  - url: http://download.qt.io/community_releases/5.6/{{ version }}/qtwebkit-opensource-src-{{ version }}.tar.xz  # [not osx]
+    sha256: 528a6b8b1c5095367b26e8ce4f3a46bb739e2e9913ff4dfc6ef58a04fcd73966                                      # [not osx]
+    folder: qtwebkit                                                                                              # [not osx]
+    patches:                                                                                                      # [not osx]
+      - 0001-qtwebkit-old-ld-compat.patch                                                                         # [not osx]
+      - 0002-qtwebkit-ruby-1.8.patch                                                                              # [not osx]
+      # Not needed since updating to CentOS6?
+      # - 0003-qtwebkit-O_CLOEXEC-workaround.patch                                                                  # [not osx]
+      - 0004-qtwebkit-CentOS5-Fix-fucomip-compat-with-gas-2.17.50.patch                                           # [not osx]
+      # From https://bugs.webkit.org/show_bug.cgi?id=70610, http://trac.webkit.org/changeset/172759, https://github.com/WebKit/webkit/commit/4d7f0f
+      - 0005-qtwebkit-fix-TEXTREL-on-x86-changeset_172759.patch                                                   # [not osx]
+
+build:
+  number: 12  # [win]
+  number: 12  # [linux]
+  number: 12  # [osx]
+  detect_binary_files_with_prefix: true
+  features:
+    - vc{{ vc }} # [win]
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
+    - {{ cdt('libx11-devel') }}          # [linux]
+    - {{ cdt('libxext-devel') }}         # [linux]
+    - {{ cdt('libxrender-devel') }}      # [linux]
+    - {{ cdt('mesa-libgl-devel') }}      # [linux]
+    - {{ cdt('mesa-libegl-devel') }}     # [linux]
+    - {{ cdt('mesa-dri-drivers') }}      # [linux]
+    - {{ cdt('libxau-devel') }}          # [linux]
+    - {{ cdt('alsa-lib-devel') }}        # [linux]
+    - {{ cdt('gtk2-devel') }}            # [linux]
+    - {{ cdt('gtkmm24-devel') }}         # [linux]
+    - {{ cdt('libdrm-devel') }}          # [linux]
+    - {{ cdt('libxcomposite-devel') }}   # [linux]
+    - {{ cdt('libxcursor-devel') }}      # [linux]
+    - {{ cdt('libxi-devel') }}           # [linux]
+    - {{ cdt('libxrandr-devel') }}       # [linux]
+    - {{ cdt('pciutils-devel') }}        # [linux]
+    - {{ cdt('libxscrnsaver-devel') }}   # [linux]
+    - {{ cdt('libxtst-devel') }}         # [linux]
+    - {{ cdt('libselinux-devel') }}      # [linux]
+    - {{ cdt('libxdamage') }}            # [linux]
+    - {{ cdt('libxfixes') }}             # [linux]
+    - {{ cdt('libxxf86vm') }}            # [linux]
+    # For fontconfig + freetype
+    - pkg-config  # [linux]
+    - pthread-stubs  # [linux]
+    - python  # [win]
+    - python 2.7*  # [unix]
+    - ruby  # [linux]
+    - 7za  # [win]
+    - bison  # [linux]
+    - flex  # [linux]
+    - gperf  # [linux]
+    - curl  # [win]
+    - msinttypes  # [win and py27]
+    - perl 5.*
+  host:
+    - dbus  # [linux]
+    - fontconfig  # [linux]
+    - freetype  # [linux]
+    - gst-plugins-base {{ gst_plugins_base }} # [linux]
+    - icu
+    - jpeg
+    - libpng
+    - sqlite
+    - zlib
+    - libxcb  # [linux]
+    - openssl 1.0.*  # [not osx]
+  run:
+    - openssl 1.0.*  # [not osx]
+    - libxcb  # [linux]
+
+test:
+  requires:
+    - {{ compiler('cxx') }}
+  files:
+    - test/hello.pro
+    - test/main.cpp
+  commands:
+    - conda inspect linkages -p $PREFIX qt  # [not win]
+    - conda inspect objects -p $PREFIX qt  # [osx]
+    - if not exist %LIBRARY_BIN%\\Qt5WebKit.dll exit 1  # [win]
+    - test -f $PREFIX/lib/libQt5WebKit.so  # [linux]
+    # sql plugin
+    - test -f $PREFIX/plugins/sqldrivers/libqsqlite${SHLIB_EXT}  # [unix]
+    - if not exist %LIBRARY_PREFIX%\plugins\sqldrivers\qsqlite.dll exit 1  # [win]
+
+about:
+  home: http://qt-project.org
+  license: LGPL-3.0
+  summary: 'Qt is a cross-platform application and UI framework.'
+  description: |
+    Qt helps you create connected devices, UIs & applications that run
+    anywhere on any device, on any operating system at any time.
+  doc_url: http://doc.qt.io/
+  dev_url: https://github.com/qtproject
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - gillins
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - stuarteberg

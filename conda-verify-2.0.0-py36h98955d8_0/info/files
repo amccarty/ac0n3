@@ -1,0 +1,16 @@
+bin/conda-verify
+lib/python3.6/site-packages/conda_verify-2.0.0-py3.6.egg-info
+lib/python3.6/site-packages/conda_verify/__init__.py
+lib/python3.6/site-packages/conda_verify/__pycache__/__init__.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/conda_package_check.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/const.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/exceptions.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/main.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/utils.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/__pycache__/verify.cpython-36.pyc
+lib/python3.6/site-packages/conda_verify/conda_package_check.py
+lib/python3.6/site-packages/conda_verify/const.py
+lib/python3.6/site-packages/conda_verify/exceptions.py
+lib/python3.6/site-packages/conda_verify/main.py
+lib/python3.6/site-packages/conda_verify/utils.py
+lib/python3.6/site-packages/conda_verify/verify.py

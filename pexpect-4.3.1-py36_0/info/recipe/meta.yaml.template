@@ -1,0 +1,48 @@
+{% set name = "pexpect" %}
+{% set version = "4.3.1" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "8e287b171dbaf249d0b06b5f2e88cb7e694651d2d0b8c15bccb83170d3c55575" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash_value }}
+
+build:
+  number: 0
+  script: python setup.py install
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+    - ptyprocess >=0.5  # [not win]
+
+test:
+  imports:
+    - pexpect
+
+about:
+  home: http://pexpect.sourceforge.net/
+  license: ISC
+  license_family: Other
+  license_file: LICENSE
+  summary: 'Pexpect makes Python a better tool for controlling other applications.'
+  description: |
+    Pexpect is a pure Python module for spawning child applications;
+    controlling them; and responding to expected patterns in their output.
+  doc_url: http://pexpect.readthedocs.org/
+  doc_source_url: https://github.com/pexpect/pexpect/blob/master/doc/index.rst
+  dev_url: https://github.com/pexpect/pexpect
+
+extra:
+  recipe-maintainers:
+    - jquast
+    - pelson
+    - takluyver
+    - ocefpaf

@@ -1,0 +1,437 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/QtPy-1.3.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "0f96aa8df1ac0257108028f45b0b25f96832d0288e6da91385b17c5d9f0331f0",
+      "size_in_bytes": 2663
+    },
+    {
+      "_path": "lib/python3.6/site-packages/QtPy-1.3.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "c9f2b4c4b4564e56cba0969bbccd03e46ed521423c7cbcd29ad616ff59d7d143",
+      "size_in_bytes": 1020
+    },
+    {
+      "_path": "lib/python3.6/site-packages/QtPy-1.3.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/QtPy-1.3.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "3ff236375d3ae01c3bf09013d3dc233ec6525badcf85390671edd8c33baa6443",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtCore.py",
+      "path_type": "hardlink",
+      "sha256": "4f51349cc4a9ba6c2a8bafb853641f63281984e5d8938f31c094c242b5085873",
+      "size_in_bytes": 4032
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtDesigner.py",
+      "path_type": "hardlink",
+      "sha256": "a8e8a0db534a226356c5ef5097bb62cb72ddfec3628430aec93eb449d656d266",
+      "size_in_bytes": 399
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtGui.py",
+      "path_type": "hardlink",
+      "sha256": "f42f7a07feaf58ab0de191b33a13d574fae08092d31fe56633da18817cd67e3f",
+      "size_in_bytes": 7493
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtMultimedia.py",
+      "path_type": "hardlink",
+      "sha256": "049a0bf5e6565d0d471830bbd922f25e5bf33a4fa4b88e518c29a7c3a3ecf249",
+      "size_in_bytes": 411
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtNetwork.py",
+      "path_type": "hardlink",
+      "sha256": "0504d46dae230f741b2e9d026615c339a25ca7409bee483708a6dd16437842eb",
+      "size_in_bytes": 560
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtOpenGL.py",
+      "path_type": "hardlink",
+      "sha256": "2dc71587c16143e1159f3b4ac394b48a5030c3ac653095a4a7f6930d4e6ed92e",
+      "size_in_bytes": 652
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtPrintSupport.py",
+      "path_type": "hardlink",
+      "sha256": "50e60f81d2770aa2eb4d9856ffb02cb4b824fb735b6b852b54e52bea5b071123",
+      "size_in_bytes": 909
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtSvg.py",
+      "path_type": "hardlink",
+      "sha256": "95d9f9238e4068eaa4e3834eccbc8a1268015370b6acaede5775ff93e6266f6f",
+      "size_in_bytes": 704
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtTest.py",
+      "path_type": "hardlink",
+      "sha256": "380f359b2ba059ed3b056bcbfe5b456ffcaa273b524d7f9afdacbe286367d1ae",
+      "size_in_bytes": 705
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtWebEngineWidgets.py",
+      "path_type": "hardlink",
+      "sha256": "762624d73702ffa7c04637b7fd4928aec0f76d2135912c4d3f92d9389ca3f137",
+      "size_in_bytes": 1939
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/QtWidgets.py",
+      "path_type": "hardlink",
+      "sha256": "28ffe92b6170a78baf5ac6f77433900d4b9826b821cc7e86e708c686da88cb8a",
+      "size_in_bytes": 6339
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "a1c7140737a39ec3c76c06a1c907ec6cdec35a5dcb8beb0fd33b12d40b31aff6",
+      "size_in_bytes": 4403
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtCore.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "eea7e49b7ab8fc4b002f4426de66195287b8a25af5898837e8e94d908dfce552",
+      "size_in_bytes": 1957
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtDesigner.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fd752beb0b17393fb0a7a4345cc9ce7e770e59b9bbc0269bcd51cd63a116a358",
+      "size_in_bytes": 383
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtGui.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "95cd44610b82dfee8735704f1c28391374a557c5ba057b04644b7cb987dedae9",
+      "size_in_bytes": 5217
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtMultimedia.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4bf45d41983ff74a4b635a7d25d52383827287860231e8e430e9de6078dc8228",
+      "size_in_bytes": 451
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtNetwork.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "aa1d9220a751a92083b50dfc1c3546f9f5a2fb3d2267e66082030351e88487cc",
+      "size_in_bytes": 487
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtOpenGL.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cea836cc1bfac7bf96dcb29928bbdd510d311f2ce9c8ba182be3c4e17251e8d0",
+      "size_in_bytes": 433
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtPrintSupport.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cbe9af40946948c6e9c00bbbfd5182c538e9426fca26dcb1078bd541a44db9fc",
+      "size_in_bytes": 739
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtSvg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "aef12f5033c5d2ff28f30811ef73af4ccf0cc00c32898803ed647306b1951fa0",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtTest.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e0bb95960a2226ea0039e95f7d773d34614b9e5caf4760349132f3b9afe55d69",
+      "size_in_bytes": 827
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtWebEngineWidgets.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f1b3b1ebfa5dc0991268dad1f58d1f8a0912cd7c30f658f4a2f7f5a50cdc0eda",
+      "size_in_bytes": 1012
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/QtWidgets.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9497152285b28b3907a6cb4e6bdec6fd3b860eed8fb723cb8cddc72d7abad71a",
+      "size_in_bytes": 3696
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "29495eeba6f86e5c9173aaebe932cca84fea5b09ff3d6c97f478ee67d1f431c0",
+      "size_in_bytes": 3206
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/_version.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "505859af633511c94bcdd8678d04f93617608044e3f06a92b43bf1c8703531ea",
+      "size_in_bytes": 219
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/compat.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fb38ad509ffa69a5b528454a3edd16783d1e2ab3b6ccc099194dee841dee6b72",
+      "size_in_bytes": 4911
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/py3compat.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "bcfe142c38921f2dde02bdc957e69b4fee1460774dd352d624e889447429b5da",
+      "size_in_bytes": 4743
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/__pycache__/uic.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "af80698d39ee48f48610271e528cc1ba062569edb692db72938fed06d8bc1f9c",
+      "size_in_bytes": 4653
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6c6c52d147bc7fb62f22a20fd9b594bcf66100a2457c15c27a3d371a8ae29ed5",
+      "size_in_bytes": 134
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/__pycache__/qcombobox.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "91c58f86e1ad5ec48adf3aba5e48fbebd21ec2633afe275891d47b43468be4b2",
+      "size_in_bytes": 2803
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/__pycache__/qheaderview.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "43caefccc8911a8d4a1616a56acd55561927dc233c5d657b2b864c315b3670d9",
+      "size_in_bytes": 3880
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/qcombobox.py",
+      "path_type": "hardlink",
+      "sha256": "2c30722e2abfcf64b0d6b169b48517e347b34a949b558820d402f8cc4e57d669",
+      "size_in_bytes": 4134
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_patch/qheaderview.py",
+      "path_type": "hardlink",
+      "sha256": "7f1c22ace8a9c63b54671304967cbb003b4a9d7a03bf4e33772611cfa46063fb",
+      "size_in_bytes": 3344
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/_version.py",
+      "path_type": "hardlink",
+      "sha256": "e7457bf67365a0db2e8c6416cdfb3c58fd8c19081b4bc404181e7de7615a353e",
+      "size_in_bytes": 72
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/compat.py",
+      "path_type": "hardlink",
+      "sha256": "9e0607bee206ed05f8829a3db287e731138c633f48a40b9a904167fcfbe5e501",
+      "size_in_bytes": 7928
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/py3compat.py",
+      "path_type": "hardlink",
+      "sha256": "267f462ed1c1a1d18fc9544f6c445d697809eb2a8e047cc5a6849599d37da271",
+      "size_in_bytes": 6610
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ef4f69ef15207e8622b05dbeb6f86c10fbff7b002393c4cae9d671d5f8c5943e",
+      "size_in_bytes": 133
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/conftest.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "daa747c0b519123685366de0480fc9f8864d29a5804cc23afb75d7d6ebf0606b",
+      "size_in_bytes": 1481
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/runtests.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7b359a46e8ed10ea99bf93b4eb67fd46b0cbee21e2dad394e86fde3810f8dc70",
+      "size_in_bytes": 524
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_main.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b6460417a6ec99a26cca4d2f624f8df8696c58d64eb3fc70d832c66d34401617",
+      "size_in_bytes": 2098
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_patch_qcombobox.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5c0f56ae03577bf3bd066008a1b1906d4e528106215391a428a358ac0e2f22aa",
+      "size_in_bytes": 3101
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_patch_qheaderview.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a806de1f2e7e202027480596e3ad05fc51f8b5dfa65952e983423bab82de7843",
+      "size_in_bytes": 2581
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qdesktopservice_split.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a11c31bd0637f980c0737839f854dee374c28b0195d3ca4349a6ce3f17b26cba",
+      "size_in_bytes": 956
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtcore.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a720c730d6401fab8c3e75a7500210e28234ffdbad3af1f9972381bcfd1656d6",
+      "size_in_bytes": 431
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtdesigner.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ddc1ebf76f679aeddc37969f2ad4bd11e3d5886006427380a817f0a93ae80b51",
+      "size_in_bytes": 1386
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtmultimedia.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "358af9de4d267b7c95d32abb55832ee1bfe28bf4c9fe72b0013149f54836c3f9",
+      "size_in_bytes": 641
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtnetwork.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0657017a0d503eaf8db78b27acae97e7f3c416896f05547557c0bd063972c5f9",
+      "size_in_bytes": 1618
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtprintsupport.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4e963410b77688ff6687818d028239ddd5fd8751a0ac6301d4347d2c8052d181",
+      "size_in_bytes": 683
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qtsvg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8ba8d15c5477cd48880dc4d40170d04fc01c30eb752f5ddb9514c09da77dc751",
+      "size_in_bytes": 606
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_qttest.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "af741b6c05f032d5855e69ddebea0b1a524573021b0fa55e0a51365873ff97e3",
+      "size_in_bytes": 412
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/__pycache__/test_uic.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ab1de9e096bb25e6d5865f222658fb00e9ca1cec67b7a3793c037d3bcf4dbeec",
+      "size_in_bytes": 2745
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/conftest.py",
+      "path_type": "hardlink",
+      "sha256": "a48760b2761f2321f5ff4e1a7ca659c6354f6731940bf7ec972a930c977af73a",
+      "size_in_bytes": 1818
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/runtests.py",
+      "path_type": "hardlink",
+      "sha256": "bfed4e0f316b498613627e9ddc8b8345e1bfa0a59d7cfb08d60f80b052236848",
+      "size_in_bytes": 712
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_main.py",
+      "path_type": "hardlink",
+      "sha256": "ee5a7c7352af139c72f4c25793dabc3e341ce192c807ef9e8e656661dba7cf91",
+      "size_in_bytes": 2470
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_patch_qcombobox.py",
+      "path_type": "hardlink",
+      "sha256": "6338475baef4a2eb4a0b5c09fc6fd356d3a8a07584718f074e2362a8b9f3f294",
+      "size_in_bytes": 2949
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_patch_qheaderview.py",
+      "path_type": "hardlink",
+      "sha256": "c9de86c2a07033ec7345ac94661509a54f1fc1cda96bd933d4f8ec8af3492160",
+      "size_in_bytes": 3652
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qdesktopservice_split.py",
+      "path_type": "hardlink",
+      "sha256": "544fb24ecf869094c4340fd39b225e83dccbeb1b1a8cf2d4960778c326e236c4",
+      "size_in_bytes": 915
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtcore.py",
+      "path_type": "hardlink",
+      "sha256": "cb5f4f07af43a1dd9ba13a11e492896331a34664bb71d4356012fc6edd1fc916",
+      "size_in_bytes": 214
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtdesigner.py",
+      "path_type": "hardlink",
+      "sha256": "f851296d8164ad0e987ddef46c36799c733e481ace9a02efbae3613a017c3cc1",
+      "size_in_bytes": 1473
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtmultimedia.py",
+      "path_type": "hardlink",
+      "sha256": "0df18893acb92f5dec2788c494db7a1e7e5b5211ae306945e939045ce79db72b",
+      "size_in_bytes": 470
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtnetwork.py",
+      "path_type": "hardlink",
+      "sha256": "45357287a989e3c4a61d4efb6736a30aec3b0f62ed3901a24a6777f248f20bf6",
+      "size_in_bytes": 1850
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtprintsupport.py",
+      "path_type": "hardlink",
+      "sha256": "9ee50fd499c7eaf79fa556c9274e62ea6bc1b5a9d5e7ee8e1ff5c7e125ee1c6f",
+      "size_in_bytes": 597
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qtsvg.py",
+      "path_type": "hardlink",
+      "sha256": "1e3d11e2e04ab0ee01001def83546d0af070e119b7bf9736e00177ed878db512",
+      "size_in_bytes": 395
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_qttest.py",
+      "path_type": "hardlink",
+      "sha256": "f1a8faabf69e16a69ca5b33f01eb14a14d441081be18071e26c80d2ea121f641",
+      "size_in_bytes": 176
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/tests/test_uic.py",
+      "path_type": "hardlink",
+      "sha256": "927b9cb791817fb4457e8049d95858fff01abd806e8d3ea1575eb663f477f6c8",
+      "size_in_bytes": 2263
+    },
+    {
+      "_path": "lib/python3.6/site-packages/qtpy/uic.py",
+      "path_type": "hardlink",
+      "sha256": "7aaa494594ac9092a8605f722b454a88d10fb8eaa0bfcde19f734a1e3f2ff649",
+      "size_in_bytes": 9454
+    }
+  ],
+  "paths_version": 1
+}

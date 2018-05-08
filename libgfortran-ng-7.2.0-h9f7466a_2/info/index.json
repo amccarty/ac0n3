@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64", 
+  "build": "h9f7466a_2", 
+  "build_number": 2, 
+  "depends": [], 
+  "license": "GPL", 
+  "name": "libgfortran-ng", 
+  "platform": "linux", 
+  "subdir": "linux-64", 
+  "timestamp": 1507262726991, 
+  "version": "7.2.0"
+}

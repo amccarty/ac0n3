@@ -1,0 +1,89 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jupyter_core-4.4.0-python3.6-on-linux_64, last modified Tue Nov 21 18:20:26 2017
+# ------------------------------------------------
+
+package:
+    name: jupyter_core
+    version: 4.4.0
+source:
+    fn: jupyter_core-4.4.0.tar.gz
+    sha256: ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7
+    url: https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.4.0.tar.gz
+build:
+    entry_points:
+        - jupyter = jupyter_core.command:main
+        - jupyter-migrate = jupyter_core.migrate:main
+        - jupyter-troubleshoot = jupyter_core.troubleshoot:main
+    number: '0'
+    script: pip install --no-deps .
+    string: py36h7c827e3_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+        - traitlets
+test:
+    commands:
+        - jupyter -h
+        - jupyter-migrate -h
+        - jupyter-troubleshoot --help
+    imports:
+        - jupyter_core
+        - jupyter_core.tests
+        - jupyter_core.utils
+about:
+    description: 'This package defines the core common functionality of Jupyter projects.
+
+        '
+    dev_url: https://github.com/jupyter/jupyter_core
+    doc_source_url: https://github.com/jupyter/jupyter_core/blob/master/docs/index.rst
+    doc_url: http://jupyter-core.readthedocs.org/
+    home: http://jupyter.org
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: Core common functionality of Jupyter projects.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

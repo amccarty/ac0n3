@@ -1,0 +1,69 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/ptyprocess-feedstock/recipe, last modified Sun Sep 17 15:44:36 2017
+# ------------------------------------------------
+
+package:
+    name: ptyprocess
+    version: 0.5.2
+source:
+    fn: ptyprocess-0.5.2.tar.gz
+    sha256: e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365
+    url: https://pypi.io/packages/source/p/ptyprocess/ptyprocess-0.5.2.tar.gz
+build:
+    number: '0'
+    string: py36h69acd42_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - ptyprocess
+about:
+    description: 'Ptyprocess allows you to launch a subprocess in a pseudo terminal
+        (pty),
+
+        and interact with both the process and its pty.
+
+        '
+    dev_url: https://github.com/pexpect/ptyprocess
+    doc_source_url: https://github.com/pexpect/ptyprocess/blob/master/docs/index.rst
+    doc_url: http://ptyprocess.readthedocs.io/en/latest/
+    home: https://github.com/pexpect/ptyprocess
+    license: ISC
+    summary: Run a subprocess in a pseudo terminal
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - takluyver

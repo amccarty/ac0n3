@@ -1,0 +1,6 @@
+/opt/anaconda1anaconda2anaconda3 text lib/libharfbuzz-gobject.la
+/opt/anaconda1anaconda2anaconda3 text lib/libharfbuzz-icu.la
+/opt/anaconda1anaconda2anaconda3 text lib/libharfbuzz.la
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/harfbuzz-gobject.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/harfbuzz-icu.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/harfbuzz.pc

@@ -1,0 +1,85 @@
+{% set version = "6.2.1" %}
+
+package:
+  name: ipython
+  version: {{ version }}
+
+source:
+  fn: ipython-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/i/ipython/ipython-{{ version }}.tar.gz
+  sha256: 51c158a6c8b899898d1c91c6b51a34110196815cc905f9be0fa5878e19355608
+
+build:
+  number: 1
+  script: python -m pip install --no-deps .
+  skip: True  # [py2k]
+  entry_points:
+    - ipython = IPython:start_ipython
+    - ipython3 = IPython:start_ipython
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - pickleshare
+    - simplegeneric >0.8
+    - prompt_toolkit >=1.0.4,<2.0.0
+    - pygments
+    - decorator
+    - traitlets
+    - jedi >=0.10
+    - pexpect  # [unix]
+    - appnope  # [osx]
+    - colorama  # [win]
+    - win_unicode_console >=0.5  # [win and py<36]
+
+test:
+  commands:
+    - ipython -h
+    - ipython3 -h          # [py3k]
+  imports:
+    - IPython
+    - IPython
+    - IPython.core
+    - IPython.core.magics
+    - IPython.core.tests
+    - IPython.extensions
+    - IPython.extensions.tests
+    - IPython.external
+    - IPython.external.decorators
+    - IPython.lib
+    - IPython.lib.tests
+    - IPython.sphinxext
+    - IPython.terminal
+    - IPython.terminal.pt_inputhooks
+    - IPython.terminal.tests
+    - IPython.testing
+    - IPython.testing.plugin
+    - IPython.testing.tests
+    - IPython.utils
+    - IPython.utils.tests
+
+about:
+  home: https://ipython.org/
+  license: BSD 3-clause
+  license_family: BSD
+  license_file: COPYING.rst
+  summary: "IPython: Productive Interactive Computing"
+  home: http://ipython.org/
+  description: |
+    IPython provides a rich architecture for interactive computing with
+    a powerful interactive shell, a kernel for Jupyter, high performance
+    tools for parallel computing, and more.
+  doc_url: http://ipython.org/documentation.html
+  dev_url: https://github.com/ipython/ipython
+
+extra:
+  recipe-maintainers:
+    - Carreau
+    - jakirkham
+    - minrk
+    - ocefpaf
+    - pelson
+    - takluyver

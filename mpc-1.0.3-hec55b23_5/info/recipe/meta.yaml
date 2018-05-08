@@ -1,0 +1,54 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/mpc-1.0.3-on-linux_64, last modified Tue Nov 21 19:21:10 2017
+# ------------------------------------------------
+
+package:
+    name: mpc
+    version: 1.0.3
+source:
+    fn: mpc-1.0.3.tar.gz
+    sha256: 617decc6ea09889fb08ede330917a00b16809b8db88c29c31bfbb49cbf88ecc3
+    url: http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz
+build:
+    number: '5'
+    string: hec55b23_5
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_14
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 hf1c97a4_14
+        - gmp 6.1.2 h6c8ec71_1
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - libtool 2.4.6 h544aabb_3
+        - m4 1.4.18 h4e445db_0
+        - mpfr 3.1.5 h11a74b3_2
+    host:
+        - gmp 6.1.2 h6c8ec71_1
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mpfr 3.1.5 h11a74b3_2
+    run:
+        - gmp >=5.0.1,<7
+        - gmp >=6.1.2
+        - libgcc-ng 7.2.0.*
+        - mpfr
+test:
+    commands:
+        - test -f ${PREFIX}/include/mpc.h
+        - test -f ${PREFIX}/lib/libmpc.a
+        - test -f ${PREFIX}/lib/libmpc.so
+about:
+    home: http://www.multiprecision.org/
+    license: LGPL 3
+    license_file: /tmp/build/80754af9/mpc_1511294610238/work/COPYING.LESSER
+    summary: A C library for the arithmetic of complex numbers with arbitrarily high
+        precision.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf
+        - jakirkham

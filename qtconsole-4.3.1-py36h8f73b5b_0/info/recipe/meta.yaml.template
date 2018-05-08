@@ -1,0 +1,68 @@
+{% set version = "4.3.1" %}
+
+package:
+  name: qtconsole
+  version: {{ version }}
+
+source:
+  fn: qtconsole-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/q/qtconsole/qtconsole-{{ version }}.tar.gz
+  sha256: eff8c2faeda567a0bef5781f419a64e9977988db101652b312b9d74ec0a5109c
+
+build:
+  number: 0
+  script: python setup.py install
+
+requirements:
+  build:
+    - python
+    - ipykernel >=4.1
+    - jupyter_client >=4.1
+    - jupyter_core
+    - pygments
+    - pyqt
+    - traitlets
+
+  run:
+    - python
+    - ipykernel >=4.1
+    - jupyter_client >=4.1
+    - jupyter_core
+    - pygments
+    - pyqt
+    - traitlets
+
+test:
+  commands:
+    - jupyter qtconsole --help                                              # [not linux]
+    - DISPLAY=localhost:1.0 xvfb-run -a bash -c 'jupyter qtconsole --help'  # [linux]
+
+  imports:
+    - qtconsole
+    - qtconsole.tests
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-Clause
+  license_file: COPYING.md
+  summary: Jupyter Qt console
+  
+  description: |
+    A rich Qt-based console for working with Jupyter kernels, supporting rich
+    media output, session export, and more. The Qt console is a very
+    lightweight application that largely feels like a terminal, but provides
+    a number of enhancements only possible in a GUI, such as inline figures,
+    proper multiline editing with syntax highlighting, graphical calltips, and
+    more.
+  doc_url: https://qtconsole.readthedocs.org/en/stable/
+  dev_url: https://github.com/jupyter/qtconsole
+  doc_source_url: https://github.com/jupyter/qtconsole/tree/master/docs
+
+extra:
+  recipe-maintainers:
+    - Carreau
+    - ccordoba12
+    - jakirkham
+    - minrk
+    - takluyver
+    - ocefpaf

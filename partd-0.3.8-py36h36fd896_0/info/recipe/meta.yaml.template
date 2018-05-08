@@ -1,0 +1,48 @@
+{% set version = "0.3.8" %}
+
+package:
+  name: partd
+  version: {{ version }}
+
+source:
+  fn: partd-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/partd/partd-{{ version }}.tar.gz
+  sha256: 67291f1c4827cde3e0148b3be5d69af64b6d6169feb9ba88f0a6cfe77089400f
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - locket
+    - toolz
+
+  run:
+    - python
+    - locket
+    - toolz
+
+test:
+  imports:
+    - partd
+
+about:
+  home: https://github.com/dask/partd
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: Data structure for on-disk shuffle operations
+  description: |
+    Partd stores key-value pairs. Values are raw bytes. It excels at shuffling
+    operations.
+  doc_url: https://pypi.python.org/pypi/partd/
+  doc_source_url: https://github.com/dask/partd/blob/master/README.rst
+  dev_url: https://github.com/dask/partd
+
+extra:
+  recipe-maintainers:
+    - jcrist
+    - mrocklin
+    - koverholt

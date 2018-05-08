@@ -1,0 +1,15 @@
+==> git log -n1 <==
+commit 9ba4052611925f9f95c1989b4c5ffd4acd36ee56
+Author: Gonzalo Pena-Castellanos <goanpeca@gmail.com>
+Date:   Thu May 25 14:51:45 2017 -0500
+
+    Prepare release
+==> git describe --tags --dirty <==
+v0.1.0
+==> git status <==
+# Not currently on any branch.
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	conda_build.sh
+nothing added to commit but untracked files present (use "git add" to track)

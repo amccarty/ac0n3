@@ -1,0 +1,77 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/rope-0.10.7-python3.6-on-linux_64, last modified Wed Nov 22 03:09:12 2017
+# ------------------------------------------------
+
+package:
+    name: rope
+    version: 0.10.7
+source:
+    fn: rope-0.10.7.tar.gz
+    sha256: a09edfd2034fd50099a67822f9bd851fbd0f4e98d3b87519f6267b60e50d80d1
+    url: https://pypi.io/packages/source/r/rope/rope-0.10.7.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h147e2ec_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - rope
+        - rope.base
+        - rope.base.oi
+        - rope.base.oi.type_hinting
+        - rope.base.oi.type_hinting.providers
+        - rope.base.oi.type_hinting.resolvers
+        - rope.base.utils
+        - rope.contrib
+        - rope.refactor
+        - rope.refactor.importutils
+about:
+    dev_url: https://github.com/python-rope/rope
+    doc_source_url: https://github.com/python-rope/rope/tree/master/docs
+    doc_url: https://pypi.python.org/pypi/rope
+    home: https://github.com/python-rope/rope
+    license: GPL 2.0
+    license_family: GPL2
+    license_file: COPYING
+    summary: A python refactoring library...
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pmlandwehr

@@ -1,0 +1,32 @@
+From 7fefb7d5a84b18221d92f18f972d1252c1a2ce8c Mon Sep 17 00:00:00 2001
+From: Johan Mabille <johan.mabille@gmail.com>
+Date: Fri, 6 Jan 2017 10:52:20 +0100
+Subject: [PATCH 1/8] Windows cmake build fixed
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 6c83e9f..a01a7d3 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -469,6 +469,7 @@ endif ()
+ # source files
+ 
+ set (cxx-sources
++        precompiled.cpp
+         address.cpp
+         client.cpp
+         clock.cpp
+@@ -510,7 +511,6 @@ set (cxx-sources
+         poll.cpp
+         poller_base.cpp
+         pollset.cpp
+-        precompiled.cpp
+         proxy.cpp
+         pub.cpp
+         pull.cpp
+-- 
+2.7.4
+

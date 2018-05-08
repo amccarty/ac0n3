@@ -1,0 +1,67 @@
+{% set name = "zeromq" %}
+{% set version = "4.2.2" %}
+{% set sha256 = "5b23f4ca9ef545d5bd3af55d305765e3ee06b986263b31967435d285a3e6df6b" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/zeromq/libzmq/releases/download/v{{ version }}/zeromq-{{ version }}.tar.gz
+
+  sha256: {{ sha256 }}
+  patches:
+    - 0001-Add-missing-ZeroMQConfig.cmake.in.patch
+    # - 0001-Use-external-msinttypes.patch # [win and vc<14]
+    # - add_library_inc_win.patch  # [win and vc<14]
+  #   - 0006-Problem-name-of-static-library-generated-by-cmake-di.patch
+  #   - 0007-Problem-cmake-artefacts-different-from-make-generate.patch
+  #   - 0008-CMake-static-library-output-does-not-match-ZeroMQ-Co.patch
+
+build:
+  number: 2
+  # zeromq is bundled by pyzmq on win.  If there's something non-python that needs zeromq, we need to revisit this
+  #    recipe and fix it.
+  skip: True  # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+    - msinttypes # [win and vc<14]
+  host:
+    - libsodium  # [not (win and vc<14)]
+
+  run:
+    - libsodium
+
+test:
+  commands:
+    - test -f ${PREFIX}/lib/libzmq.a         # [unix]
+    - test -f ${PREFIX}/lib/libzmq.so        # [linux]
+    - test -f ${PREFIX}/lib/libzmq.so.5      # [linux]
+    - test -f ${PREFIX}/lib/libzmq.dylib     # [osx]
+    - test -f ${PREFIX}/lib/libzmq.dylib.5   # [osx]
+    - test -f ${PREFIX}/share/cmake/ZeroMQ/ZeroMQConfig.cmake         # [unix]
+    - test -f ${PREFIX}/share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake  # [unix]
+    - if exist %LIBRARY_LIB%\libzmq-mt-s-{{ version | replace('.', '_') }}.lib (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_BIN%\libzmq-mt-{{ version | replace('.', '_') }}.dll (exit 0) else (exit 1)    # [win]
+    - if exist %LIBRARY_LIB%\libzmq-mt-{{ version | replace('.', '_') }}.lib (exit 0) else (exit 1)    # [win]
+    - if exist %LIBRARY_BIN%\libzmq.dll (exit 0) else (exit 1)                                         # [win]
+    - if exist %LIBRARY_LIB%\libzmq.lib (exit 0) else (exit 1)                                         # [win]
+    - if exist %LIBRARY_PREFIX%\share\cmake\ZeroMQ\ZeroMQConfig.cmake (exit 0) else (exit 1)           # [win]
+    - if exist %LIBRARY_PREFIX%\share\cmake\ZeroMQ\ZeroMQConfigVersion.cmake (exit 0) else (exit 1)    # [win]
+
+about:
+  home: http://zeromq.org
+  license: LGPL 3
+  summary: A high-performance asynchronous messaging library.
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - mingwandroid
+    - minrk
+    - SylvainCorlay
+    - JohanMabille

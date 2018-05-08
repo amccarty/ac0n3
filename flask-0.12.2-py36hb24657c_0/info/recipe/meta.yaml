@@ -1,0 +1,86 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/flask-feedstock/recipe, last modified Sun Sep 17 15:38:30 2017
+# ------------------------------------------------
+
+package:
+    name: flask
+    version: 0.12.2
+source:
+    fn: Flask-0.12.2.tar.gz
+    sha256: 49f44461237b69ecd901cc7ce66feea0319b9158743dd27a2899962ab214dac1
+    url: https://pypi.io/packages/source/F/Flask/Flask-0.12.2.tar.gz
+build:
+    entry_points:
+        - flask = flask.cli:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36hb24657c_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - click >=2.0
+        - itsdangerous >=0.21
+        - jinja2 >=2.4
+        - python >=3.6,<3.7.0a0
+        - werkzeug >=0.7
+test:
+    commands:
+        - flask --help
+    imports:
+        - flask
+        - flask.ext
+about:
+    description: 'Flask is a microframework for Python based on Werkzeug and Jinja2.
+        It''s
+
+        intended for getting started very quickly and was developed with best
+
+        intentions in mind.
+
+        '
+    dev_url: https://github.com/pallets/flask
+    doc_source_url: https://github.com/pallets/flask/blob/master/docs/index.rst
+    doc_url: http://flask.pocoo.org/docs/0.12
+    home: http://flask.pocoo.org
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A microframework based on Werkzeug, Jinja2 and good intentions.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - nehaljwani

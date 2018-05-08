@@ -1,0 +1,76 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/mpmath-1.0.0-python3.6-on-linux_64, last modified Mon Nov 27 19:15:28 2017
+# ------------------------------------------------
+
+package:
+    name: mpmath
+    version: 1.0.0
+source:
+    fn: mpmath-1.0.0.tar.gz
+    sha256: 04d14803b6875fe6d69e6dccea87d5ae5599802e4b1df7997bddd2024001050c
+    url: https://pypi.io/packages/source/m/mpmath/mpmath-1.0.0.tar.gz
+build:
+    number: '2'
+    script: python setup.py install
+    string: py36hfeacd6b_2
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - mpmath
+        - mpmath.calculus
+        - mpmath.functions
+        - mpmath.libmp
+        - mpmath.matrices
+        - mpmath.tests
+about:
+    description: 'mpmath is a free Python library for real and complex floating-point
+
+        arithmetic with arbitrary precision.
+
+        '
+    dev_url: https://github.com/fredrik-johansson/mpmath
+    doc_source_url: https://github.com/fredrik-johansson/mpmath/blob/master/doc/source/index.txt
+    doc_url: http://mpmath.org/doc/current/
+    home: http://mpmath.org
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Python library for arbitrary-precision floating-point arithmetic
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - msarahan
+        - ocefpaf

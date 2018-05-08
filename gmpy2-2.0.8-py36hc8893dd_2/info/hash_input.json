@@ -1,0 +1,64 @@
+{
+  "requirements": {
+    "build": [
+      "binutils_impl_linux-64 2.28.1 h04c84fa_2",
+      "binutils_linux-64 7.2.0 hc67e822_14",
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "gcc_impl_linux-64 7.2.0 hc5ce805_2",
+      "gcc_linux-64 7.2.0 hf1c97a4_14",
+      "gmp 6.1.2 h6c8ec71_1",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "mpc 1.0.3 hec55b23_5",
+      "mpfr 3.1.5 h11a74b3_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "readline 7.0 ha6073c6_4",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "gmp 6.1.2 h6c8ec71_1",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "mpc 1.0.3 hec55b23_5",
+      "mpfr 3.1.5 h11a74b3_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "gmp",
+      "gmp >=6.1.2",
+      "libgcc-ng 7.2.0.*",
+      "mpc",
+      "mpfr 3.*",
+      "python >=3.6,<3.7.0a0"
+    ]
+  },
+  "build": {
+    "script": [
+      "python setup.py install --shared=$PREFIX"
+    ]
+  },
+  "source": {
+    "fn": "gmpy2-2.0.8.zip",
+    "url": "https://pypi.io/packages/source/g/gmpy2/gmpy2-2.0.8.zip",
+    "sha256": "dd233e3288b90f21b0bb384bcc7a7e73557bb112ccf0032ad52aa614eb373d3f"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

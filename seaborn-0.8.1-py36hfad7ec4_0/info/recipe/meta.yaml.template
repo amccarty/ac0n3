@@ -1,0 +1,56 @@
+{% set version = "0.8.1" %}
+{% set name = "seaborn" %}
+{% set sha256 = "6702978b903d0284446e935916b980dfebae4063c18ad8eb6e8f9e76d0257eae" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  build:
+    - {{ cdt('mesa-libgl') }}  # [linux]
+
+  run:
+    - python
+    - numpy
+    - matplotlib
+    - scipy
+    - pandas
+    - statsmodels
+    - patsy
+
+test:
+  imports:
+    - {{ name }}
+
+about:
+  home: http://stanford.edu/~mwaskom/software/seaborn/
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Statistical data visualization
+  description: |
+    Seaborn is a Python visualization library based on matplotlib. It
+    provides a high-level interface for drawing attractive statistical graphics.
+  dev_url: https://github.com/mwaskom/seaborn
+  doc_url: http://seaborn.pydata.org/index.html
+  doc_source_url: https://github.com/mwaskom/seaborn/blob/master/doc/index.rst
+
+extra:
+  recipe-maintainers:
+    - msarahan
+    - r-jain1
+    - croth1

@@ -1,0 +1,54 @@
+{%set name = "msgpack-python" %}
+{%set version = "0.5.1" %}
+{%set compress_type = "tar.gz" %}
+{%set hash_type = "sha256" %}
+{%set hash_val = "69aa1eb0e13be1d3bd495ca937eae66df4431126f5cfd5491dc40370e5644853" %}
+{%set build_num = "0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash_val }}
+
+build:
+  number: {{ build_num }}
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  build:
+    - {{ compiler('cxx') }}
+
+  run:
+    - python
+
+test:
+  imports:
+    - msgpack
+
+about:
+  home: http://msgpack.org/
+  license: Apache 2.0
+  license_file: COPYING
+  summary: 'MessagePack (de)serializer.'
+  license_family: Apache
+  dev_url: https://github.com/msgpack/msgpack-python
+  description: |
+    MessagePack lets you exchange data among multiple languages like JSON.  But
+    it is faster and smaller. Small integers are encoded into a single byte and
+    typical short strings require only one extra byte in addition to the
+    strings themselves.
+  doc_url: http://msgpack-python.readthedocs.io/
+  doc_source_url: https://github.com/msgpack/msgpack-python/blob/master/docs/index.rst
+  dev_url: https://github.com/msgpack/msgpack
+
+extra:
+  recipe-maintainers:
+    - pmlandwehr

@@ -1,0 +1,1 @@
+{"requirements": {"build": ["binutils_linux-64 2.28.1 he4fe6c7_1", "gcc_linux-64 7.2.0 hc7b1ceb_1"], "run": ["libgcc-ng >=7.2.0"]}, "source": {"git_url": "https://www.cl.cam.ac.uk/~mgk25/git/jbigkit", "git_rev": "2.1"}, "extra": {"copy_test_source_files": true}}

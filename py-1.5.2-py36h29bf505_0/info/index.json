@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36h29bf505_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "name": "py",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511322565174,
+  "version": "1.5.2"
+}

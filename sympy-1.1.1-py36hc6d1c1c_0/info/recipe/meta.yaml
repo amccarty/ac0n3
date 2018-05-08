@@ -1,0 +1,66 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/sympy-feedstock/recipe, last modified Sun Sep 17 15:47:41 2017
+# ------------------------------------------------
+
+package:
+    name: sympy
+    version: 1.1.1
+source:
+    fn: sympy-1.1.1.tar.gz
+    md5: c410a9c2346878716d16ec873d72e72a
+    url: https://pypi.io/packages/source/s/sympy/sympy-1.1.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36hc6d1c1c_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - fastcache 1.0.2 py36h5b0c431_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - mpmath 0.19 py36h8cc018b_2
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - fastcache
+        - gmpy2 >=2.0.8
+        - mpmath >=0.19
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - isympy -help
+    imports:
+        - sympy
+about:
+    description: 'SymPy is a Python library for symbolic mathematics. It aims to become
+        a
+
+        full-featured computer algebra system (CAS) while keeping the code as
+
+        simple as possible in order to be comprehensible and easily extensible.
+
+        '
+    dev_url: https://github.com/sympy/sympy
+    doc_url: http://docs.sympy.org/latest/index.html
+    home: http://sympy.org
+    license: 3-clause BSD
+    license_family: BSD
+    license_file: LICENSE
+    summary: Python library for symbolic mathematics
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - msarahan
+        - scopatz

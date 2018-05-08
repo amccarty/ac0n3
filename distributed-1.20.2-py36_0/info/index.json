@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "click >=6.6",
+    "cloudpickle >=0.2.2",
+    "dask-core >=0.16.0",
+    "msgpack-python",
+    "psutil",
+    "python >=3.6,<3.7.0a0",
+    "pyyaml",
+    "six",
+    "sortedcontainers",
+    "tblib",
+    "toolz >=0.7.4",
+    "tornado >=4.5.1",
+    "zict >=0.1.3"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "distributed",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1512751325256,
+  "version": "1.20.2"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "cloudpickle",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1517509753367,
+  "version": "0.5.2"
+}

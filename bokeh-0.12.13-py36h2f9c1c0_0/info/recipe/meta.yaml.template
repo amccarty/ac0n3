@@ -1,0 +1,87 @@
+{% set name = "bokeh" %}
+{% set version = "0.12.13" %}
+{% set checksum = "6e28cbfd88de0c459435278b75f9982591ec0aaa3d37a195052645e1c62e89e3" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ checksum }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
+  entry_points:
+    - bokeh = bokeh.__main__:main
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - six >=1.5.2
+    - pyyaml >=3.10
+    - python-dateutil >=2.1
+    - jinja2 >=2.7
+    - numpy >=1.7.1
+    - tornado >=4.3
+    - futures >=3.0.3         # [py2k]
+
+test:
+  imports:
+    - bokeh
+    - bokeh.application
+    - bokeh.application.handlers
+    - bokeh.client
+    - bokeh.colors
+    - bokeh.command
+    - bokeh.command.subcommands
+    - bokeh.core
+    - bokeh.core.property
+    - bokeh.core.validation
+    - bokeh.document
+    - bokeh.embed
+    - bokeh.io
+    - bokeh.models
+    - bokeh.models.widgets
+    - bokeh.plotting
+    - bokeh.protocol.messages
+    - bokeh.sampledata
+    - bokeh.server
+    - bokeh.protocol
+    - bokeh.protocol.messages
+    - bokeh.server.views
+    - bokeh.sphinxext
+    - bokeh.themes
+    - bokeh.util
+
+  commands:
+    - bokeh --help
+
+about:
+  home: http://bokeh.pydata.org/
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  license_family: BSD
+  summary: Statistical and novel interactive HTML plots for Python
+  description: |
+    Bokeh is a Python interactive visualization library that targets
+    modern web browsers for presentation. Its goal is to provide elegant,
+    concise  construction of novel graphics in the style of D3.js, and to
+    extend this capability with high-performance interactivity over very
+    large or streaming datasets. Bokeh can help anyone who would like to
+    quickly and easily create interactive plots, dashboards, and data
+    applications.
+  doc_url: http://bokeh.pydata.org/en/latest/docs/user_guide.html
+  dev_url: http://github.com/bokeh/bokeh
+
+extra:
+  recipe-maintainers:
+    - almarklein
+    - jakirkham
+    - ocefpaf

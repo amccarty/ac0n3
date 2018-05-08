@@ -1,0 +1,51 @@
+{
+  "requirements": {
+    "build": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "python >=3.6,<3.7.0a0"
+    ]
+  },
+  "build": {
+    "script": "python setup.py install --single-version-externally-managed --record=record.txt"
+  },
+  "source": {
+    "fn": "pluggy-0.6.0.tar.gz",
+    "url": "https://pypi.io/packages/source/p/pluggy/pluggy-0.6.0.tar.gz",
+    "sha256": "7f8ae7f5bdf75671a718d2daf0a64b7885f74510bcd98b1a0bb420eb9a9d0cff"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

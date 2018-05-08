@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36h63277f8_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "name": "pickleshare",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505690139442,
+  "version": "0.7.4"
+}

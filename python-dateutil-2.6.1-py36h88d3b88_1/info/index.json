@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h88d3b88_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "six"
+  ],
+  "license": "BSD 3-clause",
+  "name": "python-dateutil",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505688465343,
+  "version": "2.6.1"
+}

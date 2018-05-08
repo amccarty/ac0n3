@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/pyodbc-4.0.22-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "25da09cfe5d424629ca7f63fb14c4328cc2a03116fa0b807133a04975016a1fc",
+      "size_in_bytes": 1092
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pyodbc-4.0.22-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "6214c9c322d0808bc45b48f642eab2bbfd7a0aefab43ed5fd3fa817931c9e59e",
+      "size_in_bytes": 1251
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pyodbc-4.0.22-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pyodbc-4.0.22-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pyodbc.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "df752b213b52c0f98cb3f2ffc49091f6b716d6afdb1042c12c4cce916847909f",
+      "size_in_bytes": 172520
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py36hb7f436b_0",
+  "build_number": 0,
+  "depends": [
+    "curl >=7.55.1,<8.0a0",
+    "libgcc-ng >=7.2.0",
+    "openssl >=1.0.2n,<1.0.3a",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "name": "pycurl",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1515725732105,
+  "version": "7.43.0.1"
+}

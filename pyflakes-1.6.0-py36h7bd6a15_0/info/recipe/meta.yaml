@@ -1,0 +1,84 @@
+# This file created by conda-build 3.0.22
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pyflakes-1.6.0-python3.6-on-nwani-64, last modified Thu Sep 28 19:26:39 2017
+# ------------------------------------------------
+
+package:
+    name: pyflakes
+    version: 1.6.0
+source:
+    fn: pyflakes-1.6.0.tar.gz
+    sha256: 8d616a382f243dbf19b54743f280b80198be0bca3a5396f1d2e1fca6223e8805
+    url: https://pypi.io/packages/source/p/pyflakes/pyflakes-1.6.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h7bd6a15_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 h02fb82a_12
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 h02fb82a_12
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+        - setuptools
+test:
+    commands:
+        - pyflakes --help
+    imports:
+        - pyflakes
+        - pyflakes.scripts
+        - pyflakes.test
+about:
+    description: 'Pyflakes analyzes programs and detects various errors. It works
+        by parsing
+
+        the source file, not importing it, so it is safe to use on modules with side
+
+        effects. It is also much faster.
+
+        '
+    dev_url: https://github.com/PyCQA/pyflakes
+    doc_source_url: https://github.com/PyCQA/pyflakes/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/pyflakes
+    home: https://github.com/PyCQA/pyflakes
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Pyflakes analyzes programs and detects various errors.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - jakirkham
+        - ocefpaf
+        - sigmavirus24

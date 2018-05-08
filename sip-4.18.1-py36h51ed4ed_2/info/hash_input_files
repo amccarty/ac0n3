@@ -1,0 +1,7 @@
+0001-Do-not-override-CC-CXX-LINK-in-sipgen-Makefile.patch
+bld.bat
+build.sh
+test/README.md
+test/configure.py
+test/word.h
+test/word.sip

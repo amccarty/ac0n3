@@ -1,0 +1,1 @@
+weak: ['fontconfig >=2.12.4,<3.0a0']

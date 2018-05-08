@@ -1,0 +1,6 @@
+bld.bat
+build.sh
+vs2008/dynamic/libsodium.sln
+vs2008/dynamic/libsodium.vcproj
+vs2008/static/libsodium.sln
+vs2008/static/libsodium.vcproj

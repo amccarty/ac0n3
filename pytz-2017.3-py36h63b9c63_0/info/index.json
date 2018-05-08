@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36h63b9c63_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "name": "pytz",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511286626382,
+  "version": "2017.3"
+}

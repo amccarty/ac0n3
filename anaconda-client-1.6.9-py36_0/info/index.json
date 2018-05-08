@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "clyent >=1.2.0",
+    "nbformat >=4.4.0",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil >=2.6.1",
+    "pytz",
+    "pyyaml >=3.12",
+    "requests >=2.9.1",
+    "setuptools",
+    "six"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "anaconda-client",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1517420992103,
+  "version": "1.6.9"
+}

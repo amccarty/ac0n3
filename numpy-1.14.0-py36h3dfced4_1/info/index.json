@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py36h3dfced4_1",
+  "build_number": 1,
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "libgfortran-ng >=7,<8.0a0",
+    "mkl",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "numpy",
+  "platform": "linux",
+  "requires_features": {
+    "blas": "mkl"
+  },
+  "subdir": "linux-64",
+  "timestamp": 1516832315827,
+  "version": "1.14.0"
+}

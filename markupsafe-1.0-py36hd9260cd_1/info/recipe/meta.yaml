@@ -1,0 +1,82 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/markupsafe-feedstock/recipe, last modified Sun Sep 17 15:41:52 2017
+# ------------------------------------------------
+
+package:
+    name: markupsafe
+    version: '1.0'
+source:
+    fn: MarkupSafe-1.0.tar.gz
+    sha256: a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665
+    url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-1.0.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36hd9260cd_1
+requirements:
+    build:
+        - binutils_linux-64 2.28.1 he4fe6c7_1
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - gcc_linux-64 7.2.0 hc7b1ceb_1
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - libgcc-ng >=7.2.0
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - markupsafe
+about:
+    description: 'MarkupSafe is a library for Python that implements a unicode string
+        that
+
+        is aware of HTML escaping rules and can be used to implement automatic
+
+        string escaping. It is used by Jinja 2, the Mako templating engine, the
+
+        Pylons web framework and many more.
+
+        '
+    dev_url: https://github.com/pallets/markupsafe
+    doc_source_url: https://github.com/pallets/markupsafe/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/MarkupSafe
+    home: https://www.palletsprojects.com/p/markupsafe/
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A Python module that implements the jinja2.Markup string
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - pelson
+        - scopatz

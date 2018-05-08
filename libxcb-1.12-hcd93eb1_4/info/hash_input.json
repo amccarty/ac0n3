@@ -1,0 +1,51 @@
+{
+  "requirements": {
+    "build": [
+      "binutils_impl_linux-64 2.28.1 h04c84fa_2",
+      "binutils_linux-64 7.2.0 hc67e822_14",
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "gcc_impl_linux-64 7.2.0 hc5ce805_2",
+      "gcc_linux-64 7.2.0 hf1c97a4_14",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "libx11-common-cos6-x86_64 1.6.4 h023ea50_0",
+      "libx11-cos6-x86_64 1.6.4 h64a1553_0",
+      "libx11-devel-cos6-x86_64 1.6.4 hb9851ce_0",
+      "libxau-cos6-x86_64 1.0.6 h4888106_0",
+      "libxau-devel-cos6-x86_64 1.0.6 hf5ff492_0",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pkg-config 0.29.2 hf7364cd_5",
+      "pthread-stubs 0.3 h0ce48e5_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xcb-proto 1.12 py36hf39a981_1",
+      "xorg-x11-proto-devel-cos6-x86_64 7.7 h8d4a98b_0",
+      "xorg-x11-util-macros-cos6-x86_64 1.19.0 h94bfbc6_0",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "libgcc-ng 7.2.0.*"
+    ]
+  },
+  "build": {
+    "run_exports": [
+      "libxcb >=1.12,<2.0a0"
+    ]
+  },
+  "source": {
+    "url": "https://www.x.org/releases/individual/xcb/libxcb-1.12.tar.bz2",
+    "sha256": "4adfb1b7c67e99bc9c2ccb110b2f175686576d2f792c8a71b9c8b19014057b5b",
+    "patches": [
+      "python3.patch"
+    ]
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

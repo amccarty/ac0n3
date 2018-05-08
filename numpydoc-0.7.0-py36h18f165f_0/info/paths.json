@@ -1,0 +1,101 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc-0.7.0-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "39963fc4653f15c2f95d0581f58a0261b84e7b6ba01dec3950424afaa9548086",
+      "size_in_bytes": 834
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc-0.7.0-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "ed451811eb8ae8a81bc7488a6724983a2d554534367fa0f5d9de14fae2deff1e",
+      "size_in_bytes": 370
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc-0.7.0-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc-0.7.0-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "249f71646d4a715a96022d7d8492fdf7e575ec8c630fda14ac5c6884281363d0",
+      "size_in_bytes": 26
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc-0.7.0-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "6fd76396c00246cbe67d63642af559a792e4146ec1d6373bf2fda40e8e20a90e",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "7930a57b8b8ab953a835684c6dc7bedd7f2b88d8153e8771533e3a514081fa1c",
+      "size_in_bytes": 117
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1686c2e8d5d13ae9a762dd59af4efd194cc9de79e872d34e2a6c9a1195889969",
+      "size_in_bytes": 294
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/__pycache__/docscrape.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "62c85a995f0fc0f42376612f848c557928d5db0f4b46de257cd6e23acb9b616f",
+      "size_in_bytes": 17593
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/__pycache__/docscrape_sphinx.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "67a2d7d919f0c2eeaad559606cfff818b691aa754030c56ebc9a6b7e5a0bc553",
+      "size_in_bytes": 10043
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/__pycache__/numpydoc.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2a5d50ff6c54bd968693eeb95c1e4d2d0088b8e86feca7720f2555359a3f059f",
+      "size_in_bytes": 8522
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/docscrape.py",
+      "path_type": "hardlink",
+      "sha256": "7e4c259dcb96c9837ad95ed4b1bb4b8519d807656fc641c9a6aa4793e3f6bae3",
+      "size_in_bytes": 18769
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/docscrape_sphinx.py",
+      "path_type": "hardlink",
+      "sha256": "f094c64af8c75b295c2b3baaca008f4ed475d1deda56fb91d3ae65264977a344",
+      "size_in_bytes": 10822
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/numpydoc.py",
+      "path_type": "hardlink",
+      "sha256": "9cd4949ac4ad6a44443993eda62a60e85be3257a6683f6a7a8e367cc664d9456",
+      "size_in_bytes": 9563
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+      "path_type": "hardlink",
+      "sha256": "3977b721aab7b0d504a616d7f8d5329dbc66f8c9475f627ea28a131347400f42",
+      "size_in_bytes": 214
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/tests/__pycache__/test_docscrape.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b3aef808edc6faffde9f8a2ee7cbe917e7f7afe42ebc05a1883862835f92689f",
+      "size_in_bytes": 26325
+    },
+    {
+      "_path": "lib/python3.6/site-packages/numpydoc/tests/test_docscrape.py",
+      "path_type": "hardlink",
+      "sha256": "36e106a3e1424af30d2b14aca55ff65fd22b69142d431000110ba965e10bcc80",
+      "size_in_bytes": 23973
+    }
+  ],
+  "paths_version": 1
+}

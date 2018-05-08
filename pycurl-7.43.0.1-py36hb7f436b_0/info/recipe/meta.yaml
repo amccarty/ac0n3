@@ -1,0 +1,67 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pycurl-7.43.0.1-python3.6-on-linux_64, last modified Fri Jan 12 02:40:50 2018
+# ------------------------------------------------
+
+package:
+    name: pycurl
+    version: 7.43.0.1
+source:
+    sha256: 43231bf2bafde923a6d9bb79e2407342a5f3382c1ef0a3b2e491c6a4e50b91aa
+    url: https://pypi.io/packages/source/p/pycurl/pycurl-7.43.0.1.tar.gz
+build:
+    detect_binary_files_with_prefix: 'False'
+    number: '0'
+    string: py36hb7f436b_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - curl 7.55.1 h78862de_4
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libssh2 1.8.0 h2d05a93_3
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - curl  >=7.55.1,<8.0a0
+        - libgcc-ng >=7.2.0
+        - openssl >=1.0.2n,<1.0.3a
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - curl
+        - pycurl
+about:
+    description: 'PycURL is a Python interface to libcurl, the multiprotocol file
+        transfer library.
+
+        Similarly to the urllib Python module, PycURL can be used to fetch objects
+        identified
+
+        by a URL from a Python program.
+
+        '
+    dev_url: https://github.com/pycurl/pycurl
+    doc_source_url: https://github.com/pycurl/pycurl/blob/master/doc/index.rst
+    doc_url: http://pycurl.io/docs/latest/index.html
+    home: http://pycurl.sourceforge.net/
+    license: LGPL, MIT
+    license_family: LGPL
+    summary: A Python Interface To The cURL library
+extra:
+    copy_test_source_files: true
+    final: true

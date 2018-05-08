@@ -1,0 +1,86 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/isort-feedstock/recipe, last modified Sun Sep 17 15:40:23 2017
+# ------------------------------------------------
+
+package:
+    name: isort
+    version: 4.2.15
+source:
+    fn: isort-4.2.15.tar.gz
+    sha256: 79f46172d3a4e2e53e7016e663cc7a8b538bec525c36675fcfd2767df30b3983
+    url: https://pypi.io/packages/source/i/isort/isort-4.2.15.tar.gz
+build:
+    entry_points:
+        - isort = isort.main:main
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36had401c0_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+        - setuptools
+test:
+    commands:
+        - isort --help
+    imports:
+        - isort
+about:
+    description: 'isort is a Python utility / library to sort imports alphabetically,
+        and
+
+        automatically separated into sections. It provides a command line utility,
+
+        Python library and plugins for various editors to quickly sort all your
+
+        imports. It currently cleanly supports Python 2.6 - 3.5 using pies to
+
+        achieve this without ugly hacks and/or py2to3.
+
+        '
+    dev_url: https://github.com/timothycrosley/isort
+    doc_source_url: https://github.com/timothycrosley/isort/blob/develop/README.rst
+    doc_url: http://isort.readthedocs.io/en/latest/
+    home: https://github.com/timothycrosley/isort
+    license: MIT
+    license_file: LICENSE
+    summary: A Python utility / library to sort Python imports.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - goanpeca
+        - nehaljwani
+        - nicoddemus

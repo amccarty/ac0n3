@@ -1,0 +1,39 @@
+{
+  "app_cli_opts": [
+    {
+      "args": "--port %s",
+      "default": "8080",
+      "name": "port",
+      "summary": "Server port ..."
+    }
+  ],
+  "app_entry": "jupyter-notebook",
+  "app_type": "web",
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "ipykernel",
+    "ipython_genutils",
+    "jinja2",
+    "jupyter_client >=5.2.0",
+    "jupyter_core >=4.4.0",
+    "nbconvert",
+    "nbformat",
+    "python >=3.6,<3.7.0a0",
+    "send2trash",
+    "terminado >=0.8.1",
+    "tornado >=4",
+    "traitlets >=4.2.1"
+  ],
+  "icon": "df7feebede9861a203b480c119e38b49.png",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "name": "notebook",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "summary": "Jupyter Notebook",
+  "timestamp": 1517597712745,
+  "type": "app",
+  "version": "5.4.0"
+}

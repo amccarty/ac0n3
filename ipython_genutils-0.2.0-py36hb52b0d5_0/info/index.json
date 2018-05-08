@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36hb52b0d5_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "ipython_genutils",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505672056487,
+  "version": "0.2.0"
+}

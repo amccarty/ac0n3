@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "hcd93eb1_4",
+  "build_number": 4,
+  "depends": [
+    "libgcc-ng 7.2.0.*"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "libxcb",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511297685381,
+  "version": "1.12"
+}

@@ -1,0 +1,10 @@
+{
+  "icu": "58",
+  "glib": "2.53",
+  "harfbuzz": "1.5",
+  "cxx_compiler": "gxx",
+  "cairo": "1.14",
+  "c_compiler": "gcc",
+  "freetype": "2.8",
+  "VERBOSE_AT": "V=1"
+}

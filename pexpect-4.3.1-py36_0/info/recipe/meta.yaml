@@ -1,0 +1,59 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pexpect-4.3.1-python3.6-on-linux_64, last modified Thu Jan 11 21:32:14 2018
+# ------------------------------------------------
+
+package:
+    name: pexpect
+    version: 4.3.1
+source:
+    fn: pexpect-4.3.1.tar.gz
+    sha256: 8e287b171dbaf249d0b06b5f2e88cb7e694651d2d0b8c15bccb83170d3c55575
+    url: https://pypi.io/packages/source/p/pexpect/pexpect-4.3.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - ptyprocess >=0.5
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - pexpect
+about:
+    description: 'Pexpect is a pure Python module for spawning child applications;
+
+        controlling them; and responding to expected patterns in their output.
+
+        '
+    dev_url: https://github.com/pexpect/pexpect
+    doc_source_url: https://github.com/pexpect/pexpect/blob/master/doc/index.rst
+    doc_url: http://pexpect.readthedocs.org/
+    home: http://pexpect.sourceforge.net/
+    license: ISC
+    license_family: Other
+    license_file: LICENSE
+    summary: Pexpect makes Python a better tool for controlling other applications.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jquast
+        - ocefpaf
+        - pelson
+        - takluyver

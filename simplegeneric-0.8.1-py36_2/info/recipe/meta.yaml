@@ -1,0 +1,65 @@
+# This file created by conda-build 3.4.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/simplegeneric-0.8.1-python_3.6-on-linux_64, last modified Wed Feb  7 19:04:45 2018
+# ------------------------------------------------
+
+package:
+    name: simplegeneric
+    version: 0.8.1
+source:
+    fn: simplegeneric-0.8.1.zip
+    md5: f9c1fab00fd981be588fc32759f474e3
+    url: https://pypi.python.org/packages/source/s/simplegeneric/simplegeneric-0.8.1.zip
+build:
+    number: '2'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36_2
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - simplegeneric
+about:
+    description: 'The simplegeneric module lets you define simple single-dispatch
+        generic
+
+        functions, akin to Python''s built-in generic functions like len(), iter()
+
+        and so on. However, instead of using specially-named methods, these
+
+        generic functions use simple lookup tables, akin to those used by e.g.
+
+        pickle.dump() and other generic functions found in the Python standard
+
+        library.
+
+        '
+    doc_url: https://pypi.python.org/pypi/simplegeneric
+    home: http://cheeseshop.python.org/pypi/simplegeneric
+    license: Zope Public
+    summary: Simple generic functions (similar to Python's own len(), pickle.dump(),
+        etc.)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - minrk
+        - msarahan
+        - pelson

@@ -1,0 +1,80 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/lxml-4.1.1-python3.6-on-linux_64, last modified Fri Jan 26 16:13:28 2018
+# ------------------------------------------------
+
+package:
+    name: lxml
+    version: 4.1.1
+source:
+    sha256: 940caef1ec7c78e0c34b0f6b94fe42d0f2022915ffc78643d28538a5cfd0f40e
+    url: https://pypi.io/packages/source/l/lxml/lxml-4.1.1.tar.gz
+build:
+    number: '1'
+    script:
+        - python setup.py install --single-version-externally-managed --record record.txt
+            --with-xslt-config=$PREFIX/bin/xslt-config
+    string: py36hf71bdeb_1
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - cython 0.27.3 py36h1860423_0
+        - icu 58.2 h9c2bf20_1
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - libxml2 2.9.7 h26e45fe_0
+        - libxslt 1.1.32 h1312cb7_0
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.21.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng >=7.2.0
+        - libxml2 >=2.9.7,<2.10.0a0
+        - libxslt >=1.1.32,<2.0a0
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX lxml
+    imports:
+        - lxml
+        - lxml.etree
+        - lxml.objectify
+about:
+    description: 'The lxml XML toolkit is a Pythonic binding for the C libraries libxml2
+        and
+
+        libxslt. It is unique in that it combines the speed and XML feature
+
+        completeness of these libraries with the simplicity of a native Python API,
+
+        mostly compatible but superior to the well-known ElementTree API.
+
+        '
+    dev_url: https://github.com/lxml/lxml
+    doc_source_url: https://github.com/lxml/lxml/tree/master/doc
+    doc_url: http://lxml.de/index.html#documentation
+    home: http://lxml.de/
+    license: BSD 3-Clause, GPL-2.0, ZPL-2.0, and ElementTree
+    license_file: LICENSES.txt
+    summary: Pythonic binding for the C libraries libxml2 and libxslt.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - ocefpaf

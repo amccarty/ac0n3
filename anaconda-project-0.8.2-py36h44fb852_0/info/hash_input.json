@@ -1,0 +1,61 @@
+{
+  "requirements": {
+    "build": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "anaconda-client",
+      "python >=3.6,<3.7.0a0",
+      "requests",
+      "ruamel_yaml",
+      "tornado >=4.2"
+    ]
+  },
+  "build": {
+    "script": "python setup.py install --single-version-externally-managed --record=record.txt",
+    "entry_points": [
+      "anaconda-project = anaconda_project.cli:main"
+    ]
+  },
+  "source": {
+    "fn": "anaconda-project-0.8.2.tar.gz",
+    "url": "https://pypi.io/packages/source/a/anaconda-project/anaconda-project-0.8.2.tar.gz",
+    "sha256": "2c79d1b38b4c0cbccba6965e2ab2483cdf8dcbc7c69b73ef42d639cfe7b62e89",
+    "patches": [
+      "001-setup.py.patch"
+    ]
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

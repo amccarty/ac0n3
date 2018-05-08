@@ -1,0 +1,60 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/gstreamer-1.12.4-on-linux_64, last modified Tue Jan 23 22:18:09 2018
+# ------------------------------------------------
+
+package:
+    name: gstreamer
+    version: 1.12.4
+source:
+    fn: gstreamer-1.12.4.tar.xz
+    sha256: 5a8704aa4c2eeb04da192c4a9942f94f860ac1a585de90d9f914bac26a970674
+    url: https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.12.4.tar.xz
+build:
+    number: '0'
+    run_exports:
+        - gstreamer >=1.12.4,<1.13.0a0
+    string: hb53b477_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - bison 3.0.4 h2db1b24_1
+        - flex 2.6.4 ha10e3a4_1
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - m4 1.4.18 h4e445db_0
+        - perl 5.26.0 hae598fd_0
+    host:
+        - glib 2.53.6 h5d9569c_2
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - pcre 8.41 hc27e229_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - glib >=2.53.6,<2.54.0a0
+        - libgcc-ng >=7.2.0
+        - xz >=5.2.3,<6.0a0
+test:
+    commands:
+        - gst-inspect-1.0 --version
+        - gst-launch-1.0  --version
+        - gst-stats-1.0 --version
+        - gst-typefind-1.0 --version
+about:
+    dev_url: https://cgit.freedesktop.org/gstreamer/gstreamer/tree/
+    doc_source_url: https://cgit.freedesktop.org/gstreamer/gstreamer/tree/docs
+    doc_url: https://gstreamer.freedesktop.org/documentation/
+    home: http://gstreamer.freedesktop.org/
+    license: LGPL 2
+    summary: Library for constructing graphs of media-handling components
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid

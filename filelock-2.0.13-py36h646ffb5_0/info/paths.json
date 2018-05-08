@@ -1,0 +1,23 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/filelock.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3fe1bc4ab6d26d443893cfc0747985e61149a9ff41f9470ce885024d6e54e434",
+      "size_in_bytes": 9615
+    },
+    {
+      "_path": "lib/python3.6/site-packages/filelock-2.0.13-py3.6.egg-info",
+      "path_type": "hardlink",
+      "sha256": "978c6955493f67d28a9d015d0b70e697a050a8e24e362c7faac4a68036e5523f",
+      "size_in_bytes": 3759
+    },
+    {
+      "_path": "lib/python3.6/site-packages/filelock.py",
+      "path_type": "hardlink",
+      "sha256": "212a1bab6daa023892a6942e626aae08afb3b7680a50017fae027d311832bea5",
+      "size_in_bytes": 12586
+    }
+  ],
+  "paths_version": 1
+}

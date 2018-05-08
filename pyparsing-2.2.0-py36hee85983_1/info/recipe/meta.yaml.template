@@ -1,0 +1,44 @@
+{% set version="2.2.0" %}
+
+package:
+  name: pyparsing
+  version: {{ version }}
+
+source:
+  fn: pyparsing-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/pyparsing/pyparsing-{{ version }}.tar.gz
+  sha256: 0832bcf47acd283788593e7a0f542407bd9550a55a8a8435214a1960e04bcb04
+
+build:
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - pyparsing
+
+about:
+  home: http://pyparsing.wikispaces.com/
+  license: MIT
+  license_file: LICENSE
+  summary: Create and execute simple grammars
+  description: |
+    The pyparsing module is an alternative approach to creating and executing
+    simple grammars, vs. the traditional lex/yacc approach, or the use of
+    regular expressions. The pyparsing module provides a library of classes
+    that client code uses to construct the grammar directly in Python code.
+  doc_url: http://pyparsing.wikispaces.com/Documentation
+  dev_url: https://svn.code.sf.net/p/pyparsing/code/
+
+extra:
+  recipe-maintainers:
+    - msarahan
+    - ocefpaf
+    - mingwandroid

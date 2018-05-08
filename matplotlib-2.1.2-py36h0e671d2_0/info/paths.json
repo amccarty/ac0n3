@@ -1,0 +1,3737 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libtcl.so",
+      "path_type": "softlink",
+      "sha256": "7817ea296b427183878d6d0949a6ae8c09baf1c130526bb35df499947ed94313",
+      "size_in_bytes": 2036224
+    },
+    {
+      "_path": "lib/libtk.so",
+      "path_type": "softlink",
+      "sha256": "8c1cb8159940226fcb5bb57de8104418bd67e55b9475f46606f501fc0be39aba",
+      "size_in_bytes": 1572608
+    },
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/pylab.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9f6416732efcce213d64d94c2350959f373d48e5df19788ac398cfdc73be4e8f",
+      "size_in_bytes": 200
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "1603bfdee834ef511710a4fc9a038f054872aecc0fb4f0988cea540b26aeed45",
+      "size_in_bytes": 569
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "96376084a53aef9a9c12d985b97b6f74943edc336fc41e70a89a4df281c1fe86",
+      "size_in_bytes": 1254
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "bacea869a40e4caa692fe4ee6ad2b5e8d84be0f948b8726f6d6102703f586103",
+      "size_in_bytes": 301039
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "0363c7160f4d298394e29110d61f7b53441dfab07eeb95b7e17a82fb9e9937d8",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "fd087f33535643d73dee6384d74e77a3cb6dde7f3c67039f711be5d43b19b8e6",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib-2.1.2-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "f6d130da78bc0dd817f0271ea181ea487d6ce74beb27d4837e0b4b206f1edd8e",
+      "size_in_bytes": 30
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d67a1665333b9c7e3edb32c6f432cb44e5091a483ffbc1fb5719e32a0f9a208a",
+      "size_in_bytes": 60636
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "84110369445ebdc7fd8c68f7aa06c55c995db55d70e5a5765145aa16461fa284",
+      "size_in_bytes": 45776
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_animation_data.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d4e79d713c8806b7c2873def570044b2aa1a08fc87ce6834c88ea22c16859d00",
+      "size_in_bytes": 6227
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_cm.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4e34cf65c57b84c7334c5e748aadba5787ade047d30683417d5c57a8110368b4",
+      "size_in_bytes": 45013
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_cm_listed.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fd12399c70d5bd97532d0aa95b2f3ad73865a719bd6e7c9fc1fcedf3d0c85aa9",
+      "size_in_bytes": 43917
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_color_data.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f38d1b6c826637fde206ade16b28fb69cc43d3a217a7215ec6e22dde351d84b",
+      "size_in_bytes": 30322
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_mathtext_data.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "921a3aa4510618103b77c2e44e32483b41a7e6a764a8cce94b534bb7cf465bcb",
+      "size_in_bytes": 50649
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_pylab_helpers.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "003cecffe88ae1a75b9ae3309edc309674c6c797064ab99d906aa06a3e90a3e6",
+      "size_in_bytes": 4103
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/_version.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d9a465d18f1e30699ea8f47178349c27e75f80e516c1e75afafdcb7bd493bd4d",
+      "size_in_bytes": 431
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/afm.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b5dd3d9a0ce87333a35f3daffb2d86790122134dc4963182fabca31fe0b2919a",
+      "size_in_bytes": 14981
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/animation.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5076c1ba711f5d141aba8b490b5ae4909987308b31fd49b5a3cdb721524d1dc3",
+      "size_in_bytes": 51771
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/artist.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8cb9006a2f32f0af6a269969daef3927ba69064877177da194fd663398dc0c6b",
+      "size_in_bytes": 43972
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/axis.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "55bad1a23a4217e09fde3e653c3766f46ecd2108b060ba77bb38382265092810",
+      "size_in_bytes": 66043
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/backend_bases.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d427b0261ce4037c963d1283b1dbc3f77585feb2c3e1e85e09fa25a3f22f2997",
+      "size_in_bytes": 101304
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/backend_managers.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "059854dbaf9137b6387a64941f6893831238e316a58fed16b9cf35cde475225f",
+      "size_in_bytes": 12059
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/backend_tools.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b277b4dfd7df6852e96c74627f89db036e0c6fc5453ac1144e446a4d55a790c9",
+      "size_in_bytes": 32026
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/bezier.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "91740bf4e04ab0432f986a1ef3f9fa8cdfff28fb02443ff366afef1cd23c1b96",
+      "size_in_bytes": 11445
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/blocking_input.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e1c9b54bfd06387a155554490d5b6210f4974b80f3e6f6ddb18814720e85be75",
+      "size_in_bytes": 11576
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/category.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ea4dfd102e1be9c607ac5fe39800e62be944d31143e98bc71a6efb185d3db3b0",
+      "size_in_bytes": 4383
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/cm.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "585b6914b2a0b13568fcada489f6072eff8247ac35c40e8d988443e0f4d75571",
+      "size_in_bytes": 11669
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/collections.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fc2db3662a2a8fbdc4a70eab5d8bb158c4d8b31d836008bb9d0917fdf5ec7436",
+      "size_in_bytes": 60393
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/colorbar.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9603a8a72634e8488f1b0b6eb46a0263f6a61902eda6e598da3959fe526179ef",
+      "size_in_bytes": 39370
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/colors.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e3f7efe5c3a79eec4bf8b036f049d49abce5b39bc6caaba8534e322402fa2f1",
+      "size_in_bytes": 63945
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/container.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7c2e229ba1b5d5a6e2aa91d51b5936035612f36d4955f53cd243807e3f0702e5",
+      "size_in_bytes": 5294
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/contour.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "188adda3133e2195ebb75b10c0def3c4cf18db9b6563ec6f6ee057f493aabebe",
+      "size_in_bytes": 50656
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/dates.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "43a50568f4827d103c366e4dffec2cad720d909995fd24325ad06acd1972f9ab",
+      "size_in_bytes": 48673
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/docstring.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5ef1a71b6d7fa03996f33c880727be2526266851a911edcc733fbc523e1aafb0",
+      "size_in_bytes": 4616
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/dviread.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1085c9a28b76077d30a5150009fc3e39aef41382836678df457d0b07458b2df3",
+      "size_in_bytes": 35764
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/figure.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0a53886db09866a434c00efcd59626014b5e35d6490730056d24c662bcd6a3d9",
+      "size_in_bytes": 64644
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/finance.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6ac87244ce9c01141d9779b674fa5c867ce28aee2a3eb5b7b036b7c9cc79029a",
+      "size_in_bytes": 37532
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/font_manager.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0db9cf8240b891e0e03180267c90cb882b9a3934388e2eb2b72ba79b769370aa",
+      "size_in_bytes": 38822
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/fontconfig_pattern.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e7c8a044e01d32faffe55a8d413f86b6a4155255e1aec5b48b7fe30b304fc24",
+      "size_in_bytes": 5851
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/gridspec.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9916036ccfe2595479d7de6ac25013c75aef414ba4a1ab4b1cdeb5e69ccdf481",
+      "size_in_bytes": 14233
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/hatch.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "024b71b62a2ba594ce1bc7bd8f4461a817267633385821beced525ab4f1fe83c",
+      "size_in_bytes": 7610
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/image.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "52dcd4f8bf007046b4d8295681a032d24cdec79d29f37c0ea50991e63f4fc8ca",
+      "size_in_bytes": 40774
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/legend.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4b9fd7352084aea273cbb489642fc0d9b3bfc81e0f24aba13c3152e89a29133b",
+      "size_in_bytes": 41325
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/legend_handler.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "85f9b085c2ec6524dd8840ac4d8d7e048b68becc1a3036fe7b4ee9051e6fa6c6",
+      "size_in_bytes": 21368
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/lines.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "76b7cdb1eb979565362af5f36b339035bbf3af0d95e942b1c9fa76722d5b2d0f",
+      "size_in_bytes": 40394
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/markers.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b952c8f1cf1dce21f0ae47ab94789b95001e5198e4bd1d27f155f3ec0a376533",
+      "size_in_bytes": 26885
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/mathtext.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "32c5e4e9700202a634aebcf2893bc4eed100323c1a4da6962ce8a23aeece95e8",
+      "size_in_bytes": 96381
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/mlab.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4f665e61306e78d68028d1f48afd73e6a198f212fead070fe44eff894bb1b70d",
+      "size_in_bytes": 110721
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/offsetbox.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "17f738cd161b3e1fe652e994ce65731566d3f961b2d48c849cfe139c491e573b",
+      "size_in_bytes": 51641
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/patches.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7ab872d9ca577c6ace1295a08c31bd4c9ea09758908bacc95aa9f545dd08183a",
+      "size_in_bytes": 130886
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/path.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "374602554790611afd0385d46c60004a8272b5d3980b1d46eb42568bf1f41f8e",
+      "size_in_bytes": 31432
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/patheffects.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8cb28194a8e480a3da1fd06e1e4bed441fcb7f3f97652cb6c2d2efa01755822a",
+      "size_in_bytes": 12738
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/pylab.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "787f8621e226b0275658ececebd7cd0b5b820603e308a1d0cedf69f7f8850e02",
+      "size_in_bytes": 11227
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/pyplot.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "99f205d4a5be8898cf71ec685ad8b93a11c403499bceb50e20623ec264589c9b",
+      "size_in_bytes": 105932
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/quiver.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d0e7c90d00bfd245bf6db25f0bc76b881ae939bd7f5828c8b68046e29040e9dd",
+      "size_in_bytes": 34787
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/rcsetup.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6d0bb3f79f48efe88ffe74e6db77d991d640b7871c5b793851d2f3eb243b9c52",
+      "size_in_bytes": 35853
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/sankey.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "73b40ba05c0cdd9972fab49cecf1ae885139dc57012825250eff44c94a206eb4",
+      "size_in_bytes": 24562
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/scale.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "501bfd0c7b322f2f05c16a951e40c263576f71b865067f120f24d9cab5e96f74",
+      "size_in_bytes": 19296
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/spines.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8f5d28ce0b1feea08037c3f347a403bc28c073eccf0dd5426dc80c2169726837",
+      "size_in_bytes": 14063
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/stackplot.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d653577f319764ba6d10772991d6b193f3dd4154ad79bf7b2458f1016884effb",
+      "size_in_bytes": 3496
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/streamplot.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ff4c5b01e6cd93ea2189201ccdac772dfba6c8f10a01be9a6ed45ba3c8558d2e",
+      "size_in_bytes": 18667
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/table.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "39310bc818813e3b9fa8be38bbcb23c6bc80b6658b584cec59ac62992a040ce6",
+      "size_in_bytes": 17198
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/texmanager.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "40c939c3fd515b540133568a5b5523d1ca00e929f72e9f7757f45a4b48a59e2b",
+      "size_in_bytes": 17045
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/text.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f32c7eb85598aa565e38f69628013d5554a8046c560f691e64c52fd7ab1f7c63",
+      "size_in_bytes": 65575
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/textpath.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ed5afb441f416e8ad5bda7f8de03d3f82e4db918331eef532b41607851aeb4f7",
+      "size_in_bytes": 12705
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/ticker.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2bfbe5755c8fc2e205839da773cd4f5035bfe8cefe1a019c35314923ac5d37f7",
+      "size_in_bytes": 74649
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/tight_bbox.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3d90c710fda8fc81789ed447fec5f62e4e14a5f17f0f406bf8ae1d20632b9887",
+      "size_in_bytes": 2528
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/tight_layout.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8f3992d37005c9c58653f8f14bd3ff1bb78daef74475166103316ffab135290",
+      "size_in_bytes": 9031
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/transforms.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ffee24111dc55deb84c281a0c201a132311cc54e03bac3e37f06c197a9574f75",
+      "size_in_bytes": 97295
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/type1font.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ebb835b348d7efbdaab08e46b4d10ba939c910525e223fe6e7b638d4cd8ce813",
+      "size_in_bytes": 10042
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/units.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5fa744570ec4e7d6816be2d55520c364f13821e63df0a16aaa165764c60be6f0",
+      "size_in_bytes": 5628
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/__pycache__/widgets.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "01f9ce2cb864e98d2066bed859c935a5243f7109177f76c0fce931bb96852d6e",
+      "size_in_bytes": 75906
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_animation_data.py",
+      "path_type": "hardlink",
+      "sha256": "08275ff18c0d5ffd3c152dd814f633af6c22de277f59720a2c7aea339d0733c8",
+      "size_in_bytes": 6157
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_cm.py",
+      "path_type": "hardlink",
+      "sha256": "22237e88119321463f75f2473e3b7f0a71cdac8ec0c22710b147cffe2e0d1959",
+      "size_in_bytes": 67835
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_cm_listed.py",
+      "path_type": "hardlink",
+      "sha256": "b220195640bbf9775853d7a86f92fc96ada963f084cc77c01c8620a7f14dd459",
+      "size_in_bytes": 49824
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_cntr.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "7c2f27ae13c24c391dcdcdd18da8b01ad22dd946a57b5dc0c66c46f12630e895",
+      "size_in_bytes": 30952
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_color_data.py",
+      "path_type": "hardlink",
+      "sha256": "4ace70efd5f798daf0db6a2de899550fd772bb5f05ebcbe52d9f6f9014faa6d7",
+      "size_in_bytes": 34896
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_contour.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "4562e64f6ca7b22510da82ed5c4f1df33128a2ebdf8fdbeae648806635946cdd",
+      "size_in_bytes": 73088
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_image.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "8acf11b4a4e4c3f1e4329c99a50fc23ae1c4d3ccc6bdff362f5ded0dfc76b2eb",
+      "size_in_bytes": 267952
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_mathtext_data.py",
+      "path_type": "hardlink",
+      "sha256": "9d3f2c3a40d7e8edbb01a9a544385d6e7b09b86d5deb6ae5854d85d08066cc91",
+      "size_in_bytes": 89517
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_path.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "dfb63f922ac4c147ca4b396267164f928b4883cdba0124be578a325c5476019d",
+      "size_in_bytes": 203976
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_png.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "8cac4717cf484ac618f8f5b3140c1d93a0f3ba11a456b5d46de40753d8f1a9dd",
+      "size_in_bytes": 43592
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_pylab_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "9724a1a34420a77d66e25cd836e29a2caac1e16ac4b82a339f4b1a95ce03d070",
+      "size_in_bytes": 3982
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_qhull.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "f9c311a6ffb06a289d173f02b62f103c04f932755d06370ef69167df5a1177f0",
+      "size_in_bytes": 408688
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_tri.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "6647c005e4a47c8cb3e66c7fba966635f73fc89ac9c181e4d2cd2bba5bfd8265",
+      "size_in_bytes": 124200
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/_version.py",
+      "path_type": "hardlink",
+      "sha256": "b7908877bdaead892804d23cde8a4bfd9edbfc5fa0e728db88378d70044b2187",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/afm.py",
+      "path_type": "hardlink",
+      "sha256": "9bec7625aff45a48ad2dac41d5c3c050d85148318a3c850d7b783b0f6fef98eb",
+      "size_in_bytes": 16202
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/animation.py",
+      "path_type": "hardlink",
+      "sha256": "8d7d93ea484eb5421759660551450533ee1ce2a3695b2944e25a9b80a162dcd5",
+      "size_in_bytes": 69777
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/artist.py",
+      "path_type": "hardlink",
+      "sha256": "f29efb19069edbe3cf41c16762eb4bec16ad5724c10bda5b9010d2d852bcba34",
+      "size_in_bytes": 46866
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ad42bb6f3187fb0f845da8abdc621b210b94221420b1e57d3d1a6dc7c91f8323",
+      "size_in_bytes": 156
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "15f97328861b8406c3d73b2ac58401caa2714dd433860a5849ff3a0e81cb7610",
+      "size_in_bytes": 307
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/__pycache__/_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "92fea63bd24f77f7e985dc91354205ad7565ebfb9f284b52f55119f740374c86",
+      "size_in_bytes": 217112
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/__pycache__/_base.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "353f9e011d7a3ef46b70e9fb74216b0b3a7dfcc9bd033c594467fb61d366879a",
+      "size_in_bytes": 117272
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/__pycache__/_subplots.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e5a4c847dde545e2ff0d00e874a811687c334c7f529fe0ea196d856f436b7eea",
+      "size_in_bytes": 6866
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/_axes.py",
+      "path_type": "hardlink",
+      "sha256": "b3ba918b79bb6adaa8e6c15e0d976662724c1a9d5f58198c954ec4b58bce5e85",
+      "size_in_bytes": 284887
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/_base.py",
+      "path_type": "hardlink",
+      "sha256": "185a4f005da54137fb9bf70260efec540b5432f3b90c272972d0af7f06136823",
+      "size_in_bytes": 141945
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axes/_subplots.py",
+      "path_type": "hardlink",
+      "sha256": "f9deded77b98626bfea40cfb5bbe76b25e8d242a4214bd67fba4363ae8ae9391",
+      "size_in_bytes": 8526
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/axis.py",
+      "path_type": "hardlink",
+      "sha256": "a847c05dfa67795d2ed7af100796858203453e44fa2a68cf9d1b78d56fceb1b8",
+      "size_in_bytes": 87053
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backend_bases.py",
+      "path_type": "hardlink",
+      "sha256": "54d55cc66f469aebb519a9db98a08c8db8c183fc2be1cc2090073de7504dcc86",
+      "size_in_bytes": 113868
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backend_managers.py",
+      "path_type": "hardlink",
+      "sha256": "3f00853e0088a90e64985b44c4000317067a16544f0a6b95e89da7a56ed27a75",
+      "size_in_bytes": 13142
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backend_tools.py",
+      "path_type": "hardlink",
+      "sha256": "0658ba1c1b5921e7974887c50b552bae374bea8727572270fb711cabf30565c1",
+      "size_in_bytes": 33668
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f9419b4b1be6114b81ca0fd12c13bb8686815cf0d0dc9e4f9b7175572cdb984a",
+      "size_in_bytes": 3293
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "73828d95dfb43385a8a1f9213886810592a8f1ed8328b4b61f3b7001b2686251",
+      "size_in_bytes": 2641
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_agg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b5553b4ec6792673ba8ad1cc0ff62aa69ab140051d8c8242a3ec7d18be8c185c",
+      "size_in_bytes": 18202
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_cairo.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "574c2d613955e9df170b1d00ab4821957d682a5b94aa13ac7a1f113583b6e11a",
+      "size_in_bytes": 14822
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gdk.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f9df597b3b0904fdd00f120e78d35ec886c5171a70d2fa82dfd6e86fb5e37f7d",
+      "size_in_bytes": 13390
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtk.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "be74a2e5a8c69ca7757f6a56821b379f6f9d75ceaa65e0353c5bd31d222c4f89",
+      "size_in_bytes": 31426
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtk3.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6759813ad258f878b1c1a43590d1892eae80a40c12cf68117e94de975090ce65",
+      "size_in_bytes": 28664
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtk3agg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4560a0d56f50dddf2a9c13da3fb5031304d81dc9dd7c8e41040a7cf7f90da98a",
+      "size_in_bytes": 3362
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtk3cairo.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6e9bec8041e44a735e69c414dd7d9b63e1518338c5fcee1377e5db531d48e2bd",
+      "size_in_bytes": 2382
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtkagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f8750f0eeef67286e016bb4f09525121cdd064e103392d61bafd532bae4c2925",
+      "size_in_bytes": 3737
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_gtkcairo.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "195a8f803c652e44707ec4ae6472e6f9c128dcab4c9e63fb7044f5f5c03d3a85",
+      "size_in_bytes": 2739
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_macosx.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7bde7688a91fd6fc8892a71a9e78a3b695a00bc688463254ec71f48b97537f1c",
+      "size_in_bytes": 7691
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_mixed.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2c8f41fdfbf9ac6e81c05cc15ef6f12368115d127130bbf6a6191d1a28b03a78",
+      "size_in_bytes": 4664
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_nbagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "adb7a9a58b448ee6c17729d0ecc1dc6295091135b1ce3834dac74e1e698904d0",
+      "size_in_bytes": 9091
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_pdf.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5f169b2f65f3b49aa3e7bf6967932ac5027a815c546441c2265379ff1fdc735a",
+      "size_in_bytes": 67988
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_pgf.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f30cf5f275850f4b29c28623ecf716d1037ed6e951ec6d3743b3dc50fdc48d87",
+      "size_in_bytes": 28322
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_ps.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d01ed143fb9225becffd9891456385772bc33d68f81cc0352d2564a320639c64",
+      "size_in_bytes": 44454
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_qt4.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "311aa57be2a6b432211855fcb9eb0405b281bbb8875ec8b1091ee6367923aae5",
+      "size_in_bytes": 1973
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_qt4agg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b9ffdad6b1c9e24ef8601cec36dc0418712674ddbc757352b3058f6e6c0e0b05",
+      "size_in_bytes": 1165
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_qt5.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6fbf4d3f093edd6aeb57aa9dba44fa4779ff02699466e1bd38ebb1448176e48a",
+      "size_in_bytes": 26756
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_qt5agg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a847b02ed74c434735a6d45c5d36a644d0157b269a031c952b79750067acd08f",
+      "size_in_bytes": 5620
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_svg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8290b262af2eb0de74cb99c7d4e933d2242dd5cd20aef285ec14c19ed4a66355",
+      "size_in_bytes": 30442
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_template.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f283b72e8710bc9db28126f621ccd3bb3344ef9a20b57964faa3b9e6c734a31c",
+      "size_in_bytes": 8642
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_tkagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a8456a08505da4b9c2d6902a31b101ad1f27749ada1a7f3bbd6fcda69fa94a37",
+      "size_in_bytes": 32472
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_webagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "19eaec0ac5b3cb5abc3845003f7fafafb8e4d97024896b979b630518feb15db1",
+      "size_in_bytes": 10762
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_webagg_core.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ee512ad5261c717be588aee8a70791fcbcd2a929027c06ee4282d18d66206fdf",
+      "size_in_bytes": 15117
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_wx.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9b0071f80821952f37bd21963cf3de8177386aa7413d92ae89360fbfc838cad9",
+      "size_in_bytes": 53384
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/backend_wxagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "da4e6136813335fe7b86d2f2af5f595d633957845f6527b7ab17528c8dcd68db",
+      "size_in_bytes": 5017
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/qt_compat.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e5339cb54358b467456db1d6a2c073d95bad20f8e4b5ca570480eec27526ba23",
+      "size_in_bytes": 3538
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/tkagg.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "df9fdbe0e65d3cbd8d74bc6d01d7d00dcdb267fdf2a8dc4bf95e52524dbb31a1",
+      "size_in_bytes": 1297
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/windowing.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "51d07e0b5c3e326b89e5199da85906ba525d06417a689cda74dea0e910158e14",
+      "size_in_bytes": 1333
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/__pycache__/wx_compat.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "247cddd93e6286048161de093f7d2bfa46a9ba74989205806dbab2e5b244adef",
+      "size_in_bytes": 2892
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/_backend_agg.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "381e091a15da0910ec7f51a47a9292fb159d4a2c00e09dfbb9d1171e990bf914",
+      "size_in_bytes": 308272
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/_tkagg.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "68455d8bdf9159f93e9f96be8438af454a2a7b3a86f3bf17d02ad07ba2143feb",
+      "size_in_bytes": 42560
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_agg.py",
+      "path_type": "hardlink",
+      "sha256": "e194d70667c0b1b5d9bc3b83f9ad29cb85ee268b155d0b543e81fe1d8e793375",
+      "size_in_bytes": 20958
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_cairo.py",
+      "path_type": "hardlink",
+      "sha256": "7ada3291838dca6d20c957ee6546b0c615b8cb2646f80ab342d610af30f7370b",
+      "size_in_bytes": 18787
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gdk.py",
+      "path_type": "hardlink",
+      "sha256": "db69b87cba70b1128691b783d4db3241fa6d23d8f2a83c174388ec55062608e1",
+      "size_in_bytes": 15863
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtk.py",
+      "path_type": "hardlink",
+      "sha256": "e497e4e856e65afdb3a8d463e231b996f476c87b8a00342bf1fb4ce1d5869d40",
+      "size_in_bytes": 36172
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtk3.py",
+      "path_type": "hardlink",
+      "sha256": "27ef4af031edf9f22dc8b7fbfe0727f7f7de6565e75c0d074a2a2fff85402110",
+      "size_in_bytes": 32330
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtk3agg.py",
+      "path_type": "hardlink",
+      "sha256": "8bbc83f6033b8763c7efa6009991edf2a565f8254e9ddfa0d02d751ab359a187",
+      "size_in_bytes": 3294
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtk3cairo.py",
+      "path_type": "hardlink",
+      "sha256": "e341090dcf46db63961c83f230550c65929cf8527edb47f6b5cc60025293e6e8",
+      "size_in_bytes": 1830
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtkagg.py",
+      "path_type": "hardlink",
+      "sha256": "158bae8a06aac4f78c78dea5b503628e93ee6e06b8ccb86723dde167965cdea2",
+      "size_in_bytes": 3347
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_gtkcairo.py",
+      "path_type": "hardlink",
+      "sha256": "bc4d0c54f6df7bea0a3d26bb1d7c869e1f8f9d7cb322218cecca25f694bc065c",
+      "size_in_bytes": 2010
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_macosx.py",
+      "path_type": "hardlink",
+      "sha256": "6059ed9f2f65df4c18894526cd198fc1e9d76283c82bd68dbabbb5217a3082da",
+      "size_in_bytes": 6841
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_mixed.py",
+      "path_type": "hardlink",
+      "sha256": "a165ad5ec7896f7c47a4241bad9b18afdce3b4e63c31542bf1e71f6699dd4437",
+      "size_in_bytes": 5874
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_nbagg.py",
+      "path_type": "hardlink",
+      "sha256": "b5e2273147d09f5f052c642cd758ed34dae2c3948ae00c29955b8a925403b9eb",
+      "size_in_bytes": 9466
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_pdf.py",
+      "path_type": "hardlink",
+      "sha256": "df17cb575f0ffb5fc18610be64a4dc822c1bfb20f394e22fc7729f71e5ef6fd2",
+      "size_in_bytes": 98467
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_pgf.py",
+      "path_type": "hardlink",
+      "sha256": "cfc389c239dcf2590d6ee12ba076e029643e272c8585e2793df44b088beaab5d",
+      "size_in_bytes": 36479
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_ps.py",
+      "path_type": "hardlink",
+      "sha256": "24a974b034e05a44447c0f5fa401498cb2b762880a713d83ccc104c82f3d2d61",
+      "size_in_bytes": 63263
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_qt4.py",
+      "path_type": "hardlink",
+      "sha256": "5c4bf51cee1393c300527d98e287ea3dd40df3da487523a8e8222576cff0c5b7",
+      "size_in_bytes": 1438
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_qt4agg.py",
+      "path_type": "hardlink",
+      "sha256": "7073d12cb7028b2011bf08228ef49e1f533087bce602ed2a03003acf155208c5",
+      "size_in_bytes": 748
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_qt5.py",
+      "path_type": "hardlink",
+      "sha256": "e570ecf069b446f83f72702ab54455d957c4e1bfcb7040a19c11890f0d362aa4",
+      "size_in_bytes": 31226
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_qt5agg.py",
+      "path_type": "hardlink",
+      "sha256": "191ca11c25dd1703a65eb63e3bceed046ec87b5d680aac661ca32cfd1fc0d6ef",
+      "size_in_bytes": 7353
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_svg.py",
+      "path_type": "hardlink",
+      "sha256": "1780946f309ddd0aecd1266cc5bb21666fd7a8fc7888e8f7bf8294205f594fee",
+      "size_in_bytes": 45974
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_template.py",
+      "path_type": "hardlink",
+      "sha256": "6f7bc8f0301912767ee09bb894788ae58d70db240fd771825e9f5b26d7cbe05a",
+      "size_in_bytes": 9623
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_tkagg.py",
+      "path_type": "hardlink",
+      "sha256": "885765097d1816ae39eb56b4d3de13c08d08c2817f6cc3f45eacd9349a357b77",
+      "size_in_bytes": 39111
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_webagg.py",
+      "path_type": "hardlink",
+      "sha256": "1dbf5363436166c378261c300b9ae8d3a44cb5adf0f854010a2406293b4ed248",
+      "size_in_bytes": 11528
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_webagg_core.py",
+      "path_type": "hardlink",
+      "sha256": "b9ec7144ede15242033f46b1d10e063097e1544cfcd3aacbe2350857170e7ab5",
+      "size_in_bytes": 18007
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_wx.py",
+      "path_type": "hardlink",
+      "sha256": "9859075e80ffb3d010fa65b2d57333742ae8c2819767a46654e190c34e2e347c",
+      "size_in_bytes": 64415
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/backend_wxagg.py",
+      "path_type": "hardlink",
+      "sha256": "3713be41a363e870818ce9e3ede7df2dba23c65cb749aacad78ece9cfc169bbb",
+      "size_in_bytes": 5113
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_compat.py",
+      "path_type": "hardlink",
+      "sha256": "fb448df7d514a073751c4ef83f9840a0f36be7398cf00b616294cc9196fdc5d4",
+      "size_in_bytes": 7983
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "be7c6a0a4c7bb5339f14c86013b1ae4a1096c5d3227612d938bd777a5efc47af",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b23c63df56ef9e0ec64d038706a7d61ed5bada2a5530d2af87eb459f01372a5e",
+      "size_in_bytes": 273
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/__pycache__/figureoptions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "127110a8696670bd82fd5a1014adcf55038607b8a38a25e3146e018c2f8871a0",
+      "size_in_bytes": 7100
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/__pycache__/formlayout.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "866bf0aa35bb7f309a6ae8067cc7ec934001f9e1f6276f114d595e086731d495",
+      "size_in_bytes": 17646
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/__pycache__/formsubplottool.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8c583040f68679e61706f344e2318c6ef383b4179be23795fe357bb3a720a68f",
+      "size_in_bytes": 1659
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/figureoptions.py",
+      "path_type": "hardlink",
+      "sha256": "faa8c70c5915510737ffbd2805322ce51af7076d0955e459ddeb75d0ac631974",
+      "size_in_bytes": 9210
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/formlayout.py",
+      "path_type": "hardlink",
+      "sha256": "e22c4967f7f5451e42065c99e81e23094294744e5a7b9056a5911147b39ec64f",
+      "size_in_bytes": 19676
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/qt_editor/formsubplottool.py",
+      "path_type": "hardlink",
+      "sha256": "bf0b8850d5c6f89d228d19a1f8e75e978bccf617895c137dc33ef4788cff1f39",
+      "size_in_bytes": 1968
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/tkagg.py",
+      "path_type": "hardlink",
+      "sha256": "c51bf3f8ad51a752e55dc2a8a16b304d79a0e77b315e9b13428b18e535704673",
+      "size_in_bytes": 1253
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/all_figures.html",
+      "path_type": "hardlink",
+      "sha256": "1a220791d8cb3bde1cfc6007557e1993947cf2e127214c16d822609b7a820afd",
+      "size_in_bytes": 1512
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/css/boilerplate.css",
+      "path_type": "hardlink",
+      "sha256": "aae8b5e905d19d014d2436dc31ab1f1fa2ad37d84b8eff3cf3753d7099ac5421",
+      "size_in_bytes": 2310
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/css/fbm.css",
+      "path_type": "hardlink",
+      "sha256": "52cd28b2efeb2bc11401da7f197ae1f3db4dfe150d08dfabecdd53d4dbe69b02",
+      "size_in_bytes": 1473
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/css/page.css",
+      "path_type": "hardlink",
+      "sha256": "0e37fa64d30568cebf8556a2cd2903168aa4fa39fcd6a81dbb095eb3802ba069",
+      "size_in_bytes": 1599
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/ipython_inline_figure.html",
+      "path_type": "hardlink",
+      "sha256": "9b38bec968387dc3ba3ddb530427e236ebdcbf4e13e7795c4508bef21a61c2e1",
+      "size_in_bytes": 1305
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "path_type": "hardlink",
+      "sha256": "c5133cc68cfeeda854b5db0898bfd90bab3c9094f6427134e3e7238b46507ec1",
+      "size_in_bytes": 418
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_diagonals-thick_20_666666_40x40.png",
+      "path_type": "hardlink",
+      "sha256": "4fd3d07a4090783147c00c5d64c42cfd0cc0a9aaad8a6a34b8b0a8b49d314aa8",
+      "size_in_bytes": 312
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_flat_10_000000_40x100.png",
+      "path_type": "hardlink",
+      "sha256": "af5092aa72972c0c3ea8b44c9b92db2009ea41607738bcc0a9da597ac6a873ea",
+      "size_in_bytes": 205
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_100_f6f6f6_1x400.png",
+      "path_type": "hardlink",
+      "sha256": "ff0b3f37a7d869e42ca66d951d2e569be415e025e1954a12a8643e9665b7c66d",
+      "size_in_bytes": 262
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_100_fdf5ce_1x400.png",
+      "path_type": "hardlink",
+      "sha256": "f957d54f236f7c1ca2eedd33ab7dc105bd662cee62b8806fb2ca3861edb2b17c",
+      "size_in_bytes": 348
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_glass_65_ffffff_1x400.png",
+      "path_type": "hardlink",
+      "sha256": "24525fd5e6e7266cdeeee5d436da0b7209fe75387e6c9c55c5754b22e4031ab5",
+      "size_in_bytes": 207
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "path_type": "hardlink",
+      "sha256": "02fe113f25a59cc9b56adfbd56a96eb5302f4ca5bbeb7eec0e541a9a0da8ccd0",
+      "size_in_bytes": 5815
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "path_type": "hardlink",
+      "sha256": "f34ac7dad709c9ba69ac7d7390720dd54fda56151c64e73d9aff4e1186af8510",
+      "size_in_bytes": 278
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "path_type": "hardlink",
+      "sha256": "25163ed3af38ad894a3902914265d82796223e11d2de434f6665156b7c62de18",
+      "size_in_bytes": 328
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_222222_256x240.png",
+      "path_type": "hardlink",
+      "sha256": "fe1b726012dd5775d4f64a7d42730a210f29057e8e814f33904d3912c4d9abdb",
+      "size_in_bytes": 6922
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_228ef1_256x240.png",
+      "path_type": "hardlink",
+      "sha256": "67c7aadb2788338e635dedee31b88aa8ea908c0d8c291db4b567014d573a6c2f",
+      "size_in_bytes": 4549
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ef8c08_256x240.png",
+      "path_type": "hardlink",
+      "sha256": "968122f881f9a322fc3d24a30063d3e78f6d72919f47321b1446aa3c5851f1c9",
+      "size_in_bytes": 4549
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ffd27a_256x240.png",
+      "path_type": "hardlink",
+      "sha256": "3be7441b1ad0721b99c537694094382c48ab40b4f5380e6504d60ef4ef26268f",
+      "size_in_bytes": 4549
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/images/ui-icons_ffffff_256x240.png",
+      "path_type": "hardlink",
+      "sha256": "b1589c0c09fb248216fa8b0d1e1812a9af9b49158eb52e06f78062b4ffcc01db",
+      "size_in_bytes": 6299
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/css/themes/base/jquery-ui.min.css",
+      "path_type": "hardlink",
+      "sha256": "550ceb9559bb4237527909ff21e719804f6b9df337f741f756821c0c9963392b",
+      "size_in_bytes": 30163
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/js/jquery-1.11.3.min.js",
+      "path_type": "hardlink",
+      "sha256": "ecb916133a9376911f10bc5c659952eb0031e457f5df367cde560edbfba38fb8",
+      "size_in_bytes": 95957
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/jquery/js/jquery-ui.min.js",
+      "path_type": "hardlink",
+      "sha256": "c4d8dbe77feb63e5a61bee0bead4e5f66e8fa6a927599bd1b74aced52467273c",
+      "size_in_bytes": 240427
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/js/mpl.js",
+      "path_type": "hardlink",
+      "sha256": "4aa601651b07628418f5dfb978266c5692019e54784fbb752626184993ace94c",
+      "size_in_bytes": 16964
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/js/mpl_tornado.js",
+      "path_type": "hardlink",
+      "sha256": "952c42efecaa17519863ee9285e6876a7c7a4ae8cc75c1bb571dbfdea6e2fbd4",
+      "size_in_bytes": 272
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/js/nbagg_mpl.js",
+      "path_type": "hardlink",
+      "sha256": "b2eaa128988365661ac3e4d9ce2ef414c871a882379ac83f195789b4222938d9",
+      "size_in_bytes": 7466
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/nbagg_uat.ipynb",
+      "path_type": "hardlink",
+      "sha256": "da1711fd42a7af2514b94ee3cb248ef0570fdfa66a703a91b254bb19031a6947",
+      "size_in_bytes": 16254
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/web_backend/single_figure.html",
+      "path_type": "hardlink",
+      "sha256": "e7a500383eaa819f93eb01361231a94c11b88b00267c6dd0b275f994b429d9d2",
+      "size_in_bytes": 1203
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/windowing.py",
+      "path_type": "hardlink",
+      "sha256": "d366fd53fed45e3677731626aa3a33cf19320e4aeaf90147eb25cc2080270977",
+      "size_in_bytes": 798
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/backends/wx_compat.py",
+      "path_type": "hardlink",
+      "sha256": "b0a6bbf2d7e4697ab803b6ae592a2c1c754043fa32bbe4c0dcf77a51a528c3c8",
+      "size_in_bytes": 5736
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/bezier.py",
+      "path_type": "hardlink",
+      "sha256": "007e3d70545d0ca7e9637b8fb7d66b14c25088c4500d2ec1fb5bc84e66b6046a",
+      "size_in_bytes": 15770
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/blocking_input.py",
+      "path_type": "hardlink",
+      "sha256": "567fd81484bf422f725334f6688601c7d2a4c76703ac76023ebe08aa69d0f0ab",
+      "size_in_bytes": 11669
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/category.py",
+      "path_type": "hardlink",
+      "sha256": "905f98341968d05926c2661b49102776645b75213fb752b57d962c17f49aaec8",
+      "size_in_bytes": 3801
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b1ea5621c2e7172f42cceb1a216e606b39ada129f82424f835ace219941970d3",
+      "size_in_bytes": 85018
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4c4e747f047e5bfc844bf16cdf280ef0c2eac7473491d9acead4575b409302f0",
+      "size_in_bytes": 82143
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/__pycache__/_backports.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d062e060f4522f72c6f3a4c7ac9078a35c72f3b57150bde385e856a88a1d43aa",
+      "size_in_bytes": 3925
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/__pycache__/deprecation.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0f215b357a185006b1ef0ff95c372e5b99b1a58951503f41815cd159971e4279",
+      "size_in_bytes": 6114
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/_backports.py",
+      "path_type": "hardlink",
+      "sha256": "f44d5b84e7c2fd1ef4f6bc54fab482844433aac39b57029b63ccfc3662473009",
+      "size_in_bytes": 5218
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cbook/deprecation.py",
+      "path_type": "hardlink",
+      "sha256": "afa1474c08c6761163a93c637ae6291aac254e482e60dab68d10ee3f21d022c9",
+      "size_in_bytes": 7076
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/cm.py",
+      "path_type": "hardlink",
+      "sha256": "67fe883df4271f0eceb6c2c3debe9306091923064281ddf9b934321346f19799",
+      "size_in_bytes": 12668
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/collections.py",
+      "path_type": "hardlink",
+      "sha256": "a92ad832fafb222f8c7e4a96cfc458bc7dd2757fed038da03e32fb148c93a1f6",
+      "size_in_bytes": 66371
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/colorbar.py",
+      "path_type": "hardlink",
+      "sha256": "a7893a81e13b8ab13b460b9d1d4a36b91154413a21e5ba05fac1588e0cf7df26",
+      "size_in_bytes": 51431
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/colors.py",
+      "path_type": "hardlink",
+      "sha256": "1b0d758310fcde6561fbd72235479901de754724151ec0dc86f7af4d38af3ced",
+      "size_in_bytes": 72816
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/compat/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/compat/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6c6c1e391f7a0affbd0647459f1f265fe1f07527a176e7b291c7ee22e18aab4c",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/compat/__pycache__/subprocess.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7aa07faabccfff37afadd6680b28eee166b29a935fdf496afca6c20c46e670ae",
+      "size_in_bytes": 1438
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/compat/subprocess.py",
+      "path_type": "hardlink",
+      "sha256": "7728bfb0360a8b69c89ec06e273063c8cc0b0fb88325825d2a40881332803dbe",
+      "size_in_bytes": 1817
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/container.py",
+      "path_type": "hardlink",
+      "sha256": "fed83dac04f77a506743a3ccaf1f7cd2fd7bc6ccf6baf2c536ccfe6204afcfc6",
+      "size_in_bytes": 4141
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/contour.py",
+      "path_type": "hardlink",
+      "sha256": "461e32b1f73ddb3547e40a324023bafa52b387f4ae38f8aacd412125d687ac20",
+      "size_in_bytes": 69993
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/dates.py",
+      "path_type": "hardlink",
+      "sha256": "8df58f583142dee2c69cfe10923c3a72c184ffc308500660c656476e7415a0d4",
+      "size_in_bytes": 54381
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/docstring.py",
+      "path_type": "hardlink",
+      "sha256": "732a54f4cfec1f0f027d96a52eb6ffbacf64b8b0de1a92449b4e312c73a85419",
+      "size_in_bytes": 3995
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/dviread.py",
+      "path_type": "hardlink",
+      "sha256": "f0a32877f04c8150d97c43ef1c17b826c043bfb3e8b1c070b6a52448876e935f",
+      "size_in_bytes": 39064
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/figure.py",
+      "path_type": "hardlink",
+      "sha256": "d72de23db39794bac84b6cb8be7b5c2f2d32d4e2d6ec35dd643dc3d9bfda6d0c",
+      "size_in_bytes": 74899
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/finance.py",
+      "path_type": "hardlink",
+      "sha256": "b9fae09f626e6986ed471e438176f4292037b248dc064f1fa660cf36222927b4",
+      "size_in_bytes": 42857
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/font_manager.py",
+      "path_type": "hardlink",
+      "sha256": "b43a3a07cc880bf16c5e2522fb4a558d743658d146642d73587f8b4434673c36",
+      "size_in_bytes": 48124
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/fontconfig_pattern.py",
+      "path_type": "hardlink",
+      "sha256": "215e46c9d44e22e9ad7ef776c6052573411a9548fde98a2a6282588feabf4692",
+      "size_in_bytes": 6989
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/ft2font.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "a611899106a369316200e4e6e78168b49dd8ec95846361328998419f77d1a9f6",
+      "size_in_bytes": 104816
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/gridspec.py",
+      "path_type": "hardlink",
+      "sha256": "845485139d52899f97d48030d260f4839f695c798b5acff384874caa7f1b6148",
+      "size_in_bytes": 15583
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/hatch.py",
+      "path_type": "hardlink",
+      "sha256": "e358fbef1abe20b6644659e69907e39a441ccb325e02f02d56d117cdf8ecbc46",
+      "size_in_bytes": 7140
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/image.py",
+      "path_type": "hardlink",
+      "sha256": "c8cd67251d2fea28aa779f21854b9ada6dd9dc31fa8c4f68068d98540e1a44ca",
+      "size_in_bytes": 52515
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/legend.py",
+      "path_type": "hardlink",
+      "sha256": "4f85cce3988e92d2ff49bcb204bfcd15cc207b02d5a264104dd34c855c549f8d",
+      "size_in_bytes": 53855
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/legend_handler.py",
+      "path_type": "hardlink",
+      "sha256": "54a770908c22d8afb579309106c10cb4c7d45535ab4d33d6c2d03d4447598d2e",
+      "size_in_bytes": 25885
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/lines.py",
+      "path_type": "hardlink",
+      "sha256": "46bdb0e77485968e4806c98fa681b07ff277ab12d9da169eb5557085f3cc8b24",
+      "size_in_bytes": 50975
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/markers.py",
+      "path_type": "hardlink",
+      "sha256": "9f1f102aa559c197e52ebc43cca3f5c600cf46030559808b94ffca42c19f27d0",
+      "size_in_bytes": 31311
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mathtext.py",
+      "path_type": "hardlink",
+      "sha256": "860fadd43f8d99f64f218c2be5d633c1e14f51fa081860ea227e69d6f426bc01",
+      "size_in_bytes": 122853
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mlab.py",
+      "path_type": "hardlink",
+      "sha256": "86badeffcc8f667009e66d51d5db57e71d466faf6edaa12d25ffeb905ef821bb",
+      "size_in_bytes": 122923
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/cmex10.afm",
+      "path_type": "hardlink",
+      "sha256": "6e54771119ab5415795ca9009c30a3e0d31e6158331fb717b49deee7dbbd1ae1",
+      "size_in_bytes": 12070
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/cmmi10.afm",
+      "path_type": "hardlink",
+      "sha256": "e6ac043a979d128efa6c351a872bae175ab4703f38b51ad7f95438a773257c1a",
+      "size_in_bytes": 10416
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/cmr10.afm",
+      "path_type": "hardlink",
+      "sha256": "583be00bf0f752418983dbbe27453a45a4f4da5178a33de54311ed835af7958c",
+      "size_in_bytes": 10101
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/cmsy10.afm",
+      "path_type": "hardlink",
+      "sha256": "01b9b3bc255605c78745f9917de27d13ac733904c52e4d14d730dfa5fdff31a3",
+      "size_in_bytes": 8295
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/cmtt10.afm",
+      "path_type": "hardlink",
+      "sha256": "e238bbfe64e979631af77a3f5070563ca0a7aac05f84924d9656add65240acfe",
+      "size_in_bytes": 6501
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pagd8a.afm",
+      "path_type": "hardlink",
+      "sha256": "8e316b8a0c244e960ba9adba729cd9bca40d068f8fb85e1b98356a68ce29316c",
+      "size_in_bytes": 17183
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pagdo8a.afm",
+      "path_type": "hardlink",
+      "sha256": "b2035075e632c7c27e8ad1b0f61df5cbde5a301893091be63523d35f0c12ef18",
+      "size_in_bytes": 17255
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pagk8a.afm",
+      "path_type": "hardlink",
+      "sha256": "654b5f1cf96836a72f18c1ccc5a2834a5b2184e723c21794c75e37470a467485",
+      "size_in_bytes": 17241
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pagko8a.afm",
+      "path_type": "hardlink",
+      "sha256": "623d70060e89b2aab3d4a05f851a09dc0091f82310a25f058ff64ce4d6758039",
+      "size_in_bytes": 17346
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pbkd8a.afm",
+      "path_type": "hardlink",
+      "sha256": "665e68e89fdd8bd6398f61291ed8dec3efec7e0efe5a879598ef4fcce6124d47",
+      "size_in_bytes": 15157
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pbkdi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "2403a7a3ddf4893c9f6482cc7f5d6f5ad89a4e0ac970fa4fe8545346110c303e",
+      "size_in_bytes": 15278
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pbkl8a.afm",
+      "path_type": "hardlink",
+      "sha256": "509a898ce27ac500e00c12d7d79ee62a9a2120915598733e37ac76f83886bf5e",
+      "size_in_bytes": 15000
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pbkli8a.afm",
+      "path_type": "hardlink",
+      "sha256": "0168ac959da10dbb34a31fea396444ba0b1b4bcffc9692f8f0b3cc478d2aa62d",
+      "size_in_bytes": 15181
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pcrb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "ea3d534b651cec359273ef25e364c60dcd6ed0583c26ca5e59fc456b28d4c22f",
+      "size_in_bytes": 15352
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pcrbo8a.afm",
+      "path_type": "hardlink",
+      "sha256": "b268379a397d41a043b5022dd3a928e46bdac4bb0ef50b53bd800db84e617c6d",
+      "size_in_bytes": 15422
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pcrr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "ee7c45af4121cf8139286ff3484e5264e871447f0cc9f9c26f0fbbc79c2eeedc",
+      "size_in_bytes": 15339
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pcrro8a.afm",
+      "path_type": "hardlink",
+      "sha256": "34a133ed7b5d16487d700f0cbd8f92dd4399955d98fc9ded3045851718fb4128",
+      "size_in_bytes": 15443
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "340c783381e32fbbc034225b73eb64d38564a25f93d28697790dd3da1f9752f3",
+      "size_in_bytes": 17155
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvb8an.afm",
+      "path_type": "hardlink",
+      "sha256": "f1efe6c83f80424345eeaf5734b6f69bbebf957d9352bddae70a20fcb204d6c9",
+      "size_in_bytes": 17086
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvbo8a.afm",
+      "path_type": "hardlink",
+      "sha256": "f1f90146627e49663662b060f1f1728c9cab269f1d690e893cee8bbe133cc4f2",
+      "size_in_bytes": 17230
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvbo8an.afm",
+      "path_type": "hardlink",
+      "sha256": "69e551bd5e2bd79041bf1b91274306f191ee1f61d58ae22209892fb9aa669263",
+      "size_in_bytes": 17195
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvl8a.afm",
+      "path_type": "hardlink",
+      "sha256": "23231833e6e097e808eab1b412e659d8e2f397125f19e4a1f31aac874b7e7894",
+      "size_in_bytes": 15627
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvlo8a.afm",
+      "path_type": "hardlink",
+      "sha256": "b35d82f9e3672031c9fd455bba2a6b8f10630a21c86d2dd8f0e4530bea93a6e2",
+      "size_in_bytes": 15729
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "2adf0a69189db6cf3d10120adbd5f62689835040f1beba1e689cff44d4e2eabe",
+      "size_in_bytes": 17839
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvr8an.afm",
+      "path_type": "hardlink",
+      "sha256": "94be5f0074d1c0e0e5fac079987ec87ec0f5b679de6b8c9150afbf09ad9b4073",
+      "size_in_bytes": 17781
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvro8a.afm",
+      "path_type": "hardlink",
+      "sha256": "dcaa8adde7a3891e21205054ca7b925ffe2531d1365764f9f31385f255fe7f07",
+      "size_in_bytes": 17919
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/phvro8an.afm",
+      "path_type": "hardlink",
+      "sha256": "571f6b45fdd87dab0c63bb73fa78d2c73ebbc472a4f9f36437bc818b45f620fd",
+      "size_in_bytes": 17877
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pncb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "6a85dea5370342d41afe6b297e530990414a79fcd71e8ca3cfa8a825523460d7",
+      "size_in_bytes": 16028
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pncbi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "a42596d4c620cb4126bf0698b1a60968023f2dfaec2a60c0347bbb3e4d116a25",
+      "size_in_bytes": 17496
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pncr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "d02201d812def6bfbafd697939b4534dff7c50eadece6190f193ae057e642e4b",
+      "size_in_bytes": 16665
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pncri8a.afm",
+      "path_type": "hardlink",
+      "sha256": "e51fa92d93a7687346f298d5e8c3f7022f9dd8e4d0611fdc6026f9cd08737d25",
+      "size_in_bytes": 16920
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pplb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "dc4cd46cd9d7af916de5e14b634d16f685aee7dac73918035d4b8968ea0a379f",
+      "size_in_bytes": 15662
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pplbi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "5fff6d56ca6fadc31eaf7392f2abddc23145aa90176199dec822f634703dd368",
+      "size_in_bytes": 15810
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pplr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "8a331be3dec50c9f6755d54c6f6d45ed6dfe72ef6c6fff67174a2b885a529fc9",
+      "size_in_bytes": 15752
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pplri8a.afm",
+      "path_type": "hardlink",
+      "sha256": "f0a2136daadc514322fe176844b2e6347b65aacd13b4e48aaad3c57eded7e676",
+      "size_in_bytes": 15733
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/psyr.afm",
+      "path_type": "hardlink",
+      "sha256": "232b7c6a31380764e6df8a018f6a4ab5cb487fd90f7ead39b2e41e7eaf29dd1a",
+      "size_in_bytes": 9644
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/ptmb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "6cbd5f035342e3f9d6d7866b9f1cf89c795725be1dcc42c93efa1da8a9d878c8",
+      "size_in_bytes": 17983
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/ptmbi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "fbf522e9794a6854c71279284bffb51ad22be55b466b78054367b32ce607b34f",
+      "size_in_bytes": 18070
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/ptmr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "20472c59c9b32728c2c2482cc38a3a848326ce5c975209496adf6cd4f64d9c45",
+      "size_in_bytes": 17942
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/ptmri8a.afm",
+      "path_type": "hardlink",
+      "sha256": "e3d7d0320e5f20682e67bae073fdacb7230ae793efe5b3d3b3bc02ceaa5c1a99",
+      "size_in_bytes": 18068
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/putb8a.afm",
+      "path_type": "hardlink",
+      "sha256": "a8c6874dda64acd2fe9b80d6863a712424a6818902bf5a88ccb9457ccd2b978d",
+      "size_in_bytes": 21532
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/putbi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "83b015272893c5e329364ff57127e6620334f6e3547cf959c961afdc3d6f7009",
+      "size_in_bytes": 21931
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/putr8a.afm",
+      "path_type": "hardlink",
+      "sha256": "5d898d0b919081254064a4c861d61e364b04eb39cd9bd185ff44a6425ae2ab1d",
+      "size_in_bytes": 22148
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/putri8a.afm",
+      "path_type": "hardlink",
+      "sha256": "8bb7d57be88bc8bb50c427c06b82317711feb9f70798c93b85b0861b94f1018e",
+      "size_in_bytes": 21891
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pzcmi8a.afm",
+      "path_type": "hardlink",
+      "sha256": "c32ba821611939ca17ad2975b4fccb9046a18a4ee41a2f752498feb641511b80",
+      "size_in_bytes": 16250
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/afm/pzdr.afm",
+      "path_type": "hardlink",
+      "sha256": "3328cb027cca61175005fa1fd56de4fe17f7d0cbea3a4a8bfff1b6da6439c70c",
+      "size_in_bytes": 9467
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Bold.afm",
+      "path_type": "hardlink",
+      "sha256": "b080c323e07cd956770b4988fe61c5213099ecf567dfb00860cbf50ab1d7e2c1",
+      "size_in_bytes": 15333
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-BoldOblique.afm",
+      "path_type": "hardlink",
+      "sha256": "ce0eb54286c3dd853d5017c25e6be684135a14a9e8fb18fcb18d1bd91a607cbc",
+      "size_in_bytes": 15399
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Courier-Oblique.afm",
+      "path_type": "hardlink",
+      "sha256": "bd1426e63d6c4d4378862713d4f71567d3fd0d34d41e11337cf5ea514cd56611",
+      "size_in_bytes": 15441
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Courier.afm",
+      "path_type": "hardlink",
+      "sha256": "31d72adad79910126b22a5579ec9e179eee86674ecebe3fcff6f76916193af0e",
+      "size_in_bytes": 15335
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Bold.afm",
+      "path_type": "hardlink",
+      "sha256": "8b697881c8ee617a177f6f2e2bbc88570b9fd2b9f0e89ecfc0f5507878f988fc",
+      "size_in_bytes": 69269
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-BoldOblique.afm",
+      "path_type": "hardlink",
+      "sha256": "526e4eeaa2b5d435cbb7cba3ff42285a473ce132aa1caddb39b48a52cc10aaf6",
+      "size_in_bytes": 69365
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica-Oblique.afm",
+      "path_type": "hardlink",
+      "sha256": "8556038366f9da4aad6d5782ce68afdb96d6d7261da64652f8b5e519110dd91b",
+      "size_in_bytes": 74392
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Helvetica.afm",
+      "path_type": "hardlink",
+      "sha256": "db772f2830fb6d000907791d8d26a12524d96943a9a739e520ee855c6b25c96f",
+      "size_in_bytes": 74292
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Symbol.afm",
+      "path_type": "hardlink",
+      "sha256": "3f951aa17af8cb4aa1e1288c6b9baa8a30d3e990ebdbe8cf9a3d5acabcb9f771",
+      "size_in_bytes": 9740
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Bold.afm",
+      "path_type": "hardlink",
+      "sha256": "7104e6af62c53f029013fb0641a81e31c98589c8f27b5ea6289b25b092c74321",
+      "size_in_bytes": 64251
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Times-BoldItalic.afm",
+      "path_type": "hardlink",
+      "sha256": "a7358e772726e91aa87015a001563926ad33dc5a7b2eea9680b34cc78aba385c",
+      "size_in_bytes": 59642
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Italic.afm",
+      "path_type": "hardlink",
+      "sha256": "6cae69b92329193fd85082f0c89ad7a318df8fb5c939d7efe5343f88ab09473c",
+      "size_in_bytes": 66328
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/Times-Roman.afm",
+      "path_type": "hardlink",
+      "sha256": "86136b527a5acee0c3283d56a6b68fc6a3d60982eb3bb0fb6cc54e83ecc8d77a",
+      "size_in_bytes": 60460
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/ZapfDingbats.afm",
+      "path_type": "hardlink",
+      "sha256": "66e3a6b7d19c2a87e374eabc92a84f86d00884ec242f6ad3253999c408c56a40",
+      "size_in_bytes": 9527
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts/readme.txt",
+      "path_type": "hardlink",
+      "sha256": "311bfca694884d86006fb96de443b0f4359635921b95fc6c161bb94d013b7292",
+      "size_in_bytes": 828
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+      "path_type": "hardlink",
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "size_in_bytes": 704128
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf",
+      "path_type": "hardlink",
+      "sha256": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+      "size_in_bytes": 641720
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf",
+      "path_type": "hardlink",
+      "sha256": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+      "size_in_bytes": 633840
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+      "path_type": "hardlink",
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "size_in_bytes": 756072
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf",
+      "path_type": "hardlink",
+      "sha256": "82099dcfba5aa868cdfc27451989525fe3292f737fb3c9e0328ce9cef59652f6",
+      "size_in_bytes": 25712
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf",
+      "path_type": "hardlink",
+      "sha256": "baada9a5172fe20886251aff0433fc38461912d5daf07287e7bee56620a8da96",
+      "size_in_bytes": 331536
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf",
+      "path_type": "hardlink",
+      "sha256": "a69081c15c76c827e0a27a5a7f5c74b6135c843499955495ffa8c20d3a98288b",
+      "size_in_bytes": 253116
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf",
+      "path_type": "hardlink",
+      "sha256": "28052813f7a709fc89f52d192dc995ef4f0fdc5c3d7b73a49d6849b1916d0cd0",
+      "size_in_bytes": 251472
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf",
+      "path_type": "hardlink",
+      "sha256": "602ec86b8948cfcd956482fe64f94c36c867770149ef2f791d4613f443bcecb3",
+      "size_in_bytes": 340240
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf",
+      "path_type": "hardlink",
+      "sha256": "c3753f2ed6bc673f15846dc45addbeb3b9c872f32fb18fd53a21f1bef1ed7676",
+      "size_in_bytes": 355692
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf",
+      "path_type": "hardlink",
+      "sha256": "d93efec7a9d2e826768d1a2ee95b95870e15e29599a84f3484af1de1cec2e181",
+      "size_in_bytes": 347064
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf",
+      "path_type": "hardlink",
+      "sha256": "3e7994fbc54fa10ce3352a42d548fadd7d9cadb69cb1109bc9d960f6dac57f04",
+      "size_in_bytes": 345612
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf",
+      "path_type": "hardlink",
+      "sha256": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa",
+      "size_in_bytes": 379740
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf",
+      "path_type": "hardlink",
+      "sha256": "2914f32e47c777c27be5677afae7db4de79f9e45de6fc9097d9949c23c14f7d5",
+      "size_in_bytes": 14300
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+      "path_type": "hardlink",
+      "sha256": "73114e65da750313615d1e97c42cdfe6226935cbbe00f9be81e387843facd21f",
+      "size_in_bytes": 5475
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf",
+      "path_type": "hardlink",
+      "sha256": "167378031e2dddc6216d67819c9260e9a06ffc4c478e4e23cb98a6fd44b183c2",
+      "size_in_bytes": 448228
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "e8533dc7083fa346bda1933d60ea4a83b67d0945bceaf1b3541f82b4a0e2c6a0",
+      "size_in_bytes": 237360
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf",
+      "path_type": "hardlink",
+      "sha256": "98788fd4ba48dfbb2bd026c0e20a247a8b06c7372879628b7a6bb0d5bb09736c",
+      "size_in_bytes": 181152
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf",
+      "path_type": "hardlink",
+      "sha256": "6cfcb333d22b7c3c623bdfd40174f14c85c3d6731ca6166c1edc80140eae8527",
+      "size_in_bytes": 175040
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf",
+      "path_type": "hardlink",
+      "sha256": "5256f7e021335ac4854d180f0e8bf198964ec2fc820176276e16aabc6537bb57",
+      "size_in_bytes": 59108
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "5d106a5b78d1ffc30174553439b86257bfa45f088120cb3b4150a51dc4f9b60b",
+      "size_in_bytes": 30512
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf",
+      "path_type": "hardlink",
+      "sha256": "a5bdb60e76c37f6c90aa2ce8b5cdf0043a85182fe0dbb61c086262bc7f7e2def",
+      "size_in_bytes": 41272
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf",
+      "path_type": "hardlink",
+      "sha256": "04cafda56881bf660865dab4e17e1cdc280be8d3cb50fae5eb8695d4de30f548",
+      "size_in_bytes": 46752
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf",
+      "path_type": "hardlink",
+      "sha256": "c18b87d60614a42baeb2a22d447e647fda7fb3a9940fef57dcbe51bd1b4a4b1b",
+      "size_in_bytes": 13656
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "c8d76f8d4a129ac64250b983ed256af4769b9dd1bd3f874f85ba0bd49a407f4b",
+      "size_in_bytes": 12228
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf",
+      "path_type": "hardlink",
+      "sha256": "fbdc553182f8ff5adc3bc16208aac27d1e0f69298ab40e3675d2c6ab0b5e8b5c",
+      "size_in_bytes": 15972
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "7187b1ca8f2b65c76a325a5af5f345e5ad88a172d44d9b88be1d090f5429d22e",
+      "size_in_bytes": 12556
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf",
+      "path_type": "hardlink",
+      "sha256": "d256c7ce99ddcc998ef12e369a5921b33e4d6ef24b402687e4c71ced06510f37",
+      "size_in_bytes": 19760
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "dde05cf95b586e1414dc19f18b2a5f3ba780cc4bbc05d0efb4825215b912da86",
+      "size_in_bytes": 12192
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf",
+      "path_type": "hardlink",
+      "sha256": "5c548a0a9b5b11233cbb11ed5054805767326f0c614a377c756541caae9fdf0d",
+      "size_in_bytes": 15836
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf",
+      "path_type": "hardlink",
+      "sha256": "3140981eb03466a162484fcf8c81a525980cbafefd694810a84ec3b6ede4ba8d",
+      "size_in_bytes": 12116
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf",
+      "path_type": "hardlink",
+      "sha256": "fec7710ee130043b400e9bbd0b221743157bb08a80d93655042522523ab95029",
+      "size_in_bytes": 15704
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf",
+      "path_type": "hardlink",
+      "sha256": "074497b50c43ea57597181591f9893d38fc12a87e95104f5657fc2481f61a23a",
+      "size_in_bytes": 25680
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf",
+      "path_type": "hardlink",
+      "sha256": "af28f0c170723ac776a71bfa595aca09e98d15ae5c3d54ce19afd5619c96a905",
+      "size_in_bytes": 21092
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf",
+      "path_type": "hardlink",
+      "sha256": "3092965b8811fd6a6765799664845181fc1dd1330b937f915808c485d316234d",
+      "size_in_bytes": 32560
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf",
+      "path_type": "hardlink",
+      "sha256": "4dd9761b058c009db9b2145f55ee6617d093c273dd3d6c5b3e43ff6110fa9bf6",
+      "size_in_bytes": 26348
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf",
+      "path_type": "hardlink",
+      "sha256": "7df91a83d05b2e471ec638cb0b435a360a3c792b09fc42a7da67e91f2e79115a",
+      "size_in_bytes": 20376
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf",
+      "path_type": "hardlink",
+      "sha256": "bb226ed932f3f100cd0e52f5e4912ee553b41b69e7bfdb8d3854db0eb6605232",
+      "size_in_bytes": 29396
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf",
+      "path_type": "hardlink",
+      "sha256": "6211f09ae93599991afda970c24669dad1a77e253d915624fbf212f702f071d7",
+      "size_in_bytes": 28136
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back.gif",
+      "path_type": "hardlink",
+      "sha256": "b1d931151021f8c82ce380d3bebb8ee4ec5c23702ff424b583932a300fc30e44",
+      "size_in_bytes": 608
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back.pdf",
+      "path_type": "hardlink",
+      "sha256": "651ec2268fdd01e08cf8a95a1afb2482d1d0c91b6b3c8a2573c4443a6728a899",
+      "size_in_bytes": 1623
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back.png",
+      "path_type": "hardlink",
+      "sha256": "1387467f81a7cf5c49d6fdad33280757460d4204a1ade0de540a5a31bfbbe265",
+      "size_in_bytes": 380
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back.svg",
+      "path_type": "hardlink",
+      "sha256": "c9174c88ab1af9ac149b6c7f244feb115db4acd4daec52276c5044a0ca3eea29",
+      "size_in_bytes": 1512
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back_large.gif",
+      "path_type": "hardlink",
+      "sha256": "b6a0ad79caf136b3ee0c2523ec51acf145d67ed96329cc20a79712041857c224",
+      "size_in_bytes": 799
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/back_large.png",
+      "path_type": "hardlink",
+      "sha256": "f40ea151241eb3385838d13866e1f792f388b4cd097c356eead91fae89826ec4",
+      "size_in_bytes": 620
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave.gif",
+      "path_type": "hardlink",
+      "sha256": "c00c8dc0e3ddf5cf8420fc1c50096a1d27cb9b1ab5ebb9e10d5a693963f2f540",
+      "size_in_bytes": 723
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave.pdf",
+      "path_type": "hardlink",
+      "sha256": "3f510f3d5da0e74593b7c51a5feea41684d9335c55aa8e92d87e8527a65dd5e7",
+      "size_in_bytes": 1734
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave.png",
+      "path_type": "hardlink",
+      "sha256": "6fb72db9caccfc5da61be0f271379d1bf6bfcb8a47931dc5fb333b975f062e19",
+      "size_in_bytes": 458
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave.svg",
+      "path_type": "hardlink",
+      "sha256": "a313d56cb4bd3f37a5cfbd42d46089581df80d9d2cc7fa5454f44706b099ac6b",
+      "size_in_bytes": 2029
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave_large.gif",
+      "path_type": "hardlink",
+      "sha256": "217ade9e5c2edf0c0ef164d1bf11edfeaeb6345e995b2aa4de36619ba184f86f",
+      "size_in_bytes": 1498
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/filesave_large.png",
+      "path_type": "hardlink",
+      "sha256": "2cd6d10f9299dca7fb9dba7eb2dc7f6b5ffa5df18149651f0dda609a7ce846f9",
+      "size_in_bytes": 720
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward.gif",
+      "path_type": "hardlink",
+      "sha256": "54d2fd47e74408e5fbc140183ed53f0d69f98708b74b02d1d7b0e1981bd42311",
+      "size_in_bytes": 590
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward.pdf",
+      "path_type": "hardlink",
+      "sha256": "288a882f8608778dcb91c3b157f4d3e6ebf3d523fc939894354789980125315f",
+      "size_in_bytes": 1630
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward.png",
+      "path_type": "hardlink",
+      "sha256": "a4a6cb7a98068867b26364c2065f2cbe3be6ed9e024b78b2b05c5cab8191fb09",
+      "size_in_bytes": 357
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward.svg",
+      "path_type": "hardlink",
+      "sha256": "36740339e9df8ec9fea346893147c4aeb3f7db465cc7d5c76642e1d1c8cc1ec9",
+      "size_in_bytes": 1531
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward_large.gif",
+      "path_type": "hardlink",
+      "sha256": "1fa25b71ceea2701c9004dbde18a88e419bee62ae87d7e3470a46f61dac6fc88",
+      "size_in_bytes": 786
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/forward_large.png",
+      "path_type": "hardlink",
+      "sha256": "dfa87b9bb0d90c7aa5ea491da4d3dc9328b62ca09eff1861c9abd6011cffda44",
+      "size_in_bytes": 593
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/hand.gif",
+      "path_type": "hardlink",
+      "sha256": "de545f980a9053b036b756175ec07d21bc332bb15a461f8864ef380f9fb10abc",
+      "size_in_bytes": 1267
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/hand.pdf",
+      "path_type": "hardlink",
+      "sha256": "86ca7090d63dd7928f0fb00c5a7550b3b2c53ceb65723d155222eeefa74c69b4",
+      "size_in_bytes": 4172
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/hand.png",
+      "path_type": "hardlink",
+      "sha256": "d9c7214444c629ad2160d294c672400709326171013ea272fd5a923e54f45b64",
+      "size_in_bytes": 979
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/hand.svg",
+      "path_type": "hardlink",
+      "sha256": "b6c548112fe720dac06c7e05a9db0218ec74495137eef7287d26018679da38fd",
+      "size_in_bytes": 4888
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/hand_large.gif",
+      "path_type": "hardlink",
+      "sha256": "1f92079954ef3aa1d06fd159ffb83b0253edf60bfecd1ab42f9fd0f41ecebaf5",
+      "size_in_bytes": 973
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home.gif",
+      "path_type": "hardlink",
+      "sha256": "34ab8533bb53b459e075fb0ea49e00c584cbf0f612e4658a0288898c13302e55",
+      "size_in_bytes": 666
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home.pdf",
+      "path_type": "hardlink",
+      "sha256": "7b47b4a48f9746d3e6bd4096d954ca2f50de62ed69bcf99451e4528046d69a29",
+      "size_in_bytes": 1737
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home.png",
+      "path_type": "hardlink",
+      "sha256": "21c15d00051aebf034aadf083b723ca78ae95e942002527c9dd04408287b0b5c",
+      "size_in_bytes": 468
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home.svg",
+      "path_type": "hardlink",
+      "sha256": "9ff028b232555c44f731cca616e1e05db52be6f30b7572b63c3820857f02721e",
+      "size_in_bytes": 1891
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home_large.gif",
+      "path_type": "hardlink",
+      "sha256": "93ce8f2428040f8eac08590e954607034b3953b3a346c739d7b6e902d536252c",
+      "size_in_bytes": 1422
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/home_large.png",
+      "path_type": "hardlink",
+      "sha256": "bb14b63b7b5638787589abbb09a555e1eae6209699d34ee26e6e59de2f245d88",
+      "size_in_bytes": 790
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/matplotlib.pdf",
+      "path_type": "hardlink",
+      "sha256": "0644947fedb1a228fe7977e9576b7bcb5245286d730f582d57a6808375e2ff01",
+      "size_in_bytes": 22852
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/matplotlib.png",
+      "path_type": "hardlink",
+      "sha256": "c3c28b45855afafa146576b8d618096ae42ea288acdb77f73457dd73bda95186",
+      "size_in_bytes": 1283
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/matplotlib.ppm",
+      "path_type": "hardlink",
+      "sha256": "be84f27ea506be2acd6e4aec246330253d33d20fca1560273bc1e7f09e175e1f",
+      "size_in_bytes": 1741
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/matplotlib.svg",
+      "path_type": "hardlink",
+      "sha256": "4224c872a950c066953ed1ec124fafb66264d70c70652be28e1a817bf6fd5422",
+      "size_in_bytes": 62087
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/matplotlib_large.png",
+      "path_type": "hardlink",
+      "sha256": "125468b9ef60ad4aa4657267824fa7be1e0629fa6f278804ebd5abca309b5f95",
+      "size_in_bytes": 3088
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move.gif",
+      "path_type": "hardlink",
+      "sha256": "14de76329b47e05662c26576ad081808ed85bcede6e4bb6a62ff2393a5db7b29",
+      "size_in_bytes": 679
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move.pdf",
+      "path_type": "hardlink",
+      "sha256": "0979373c62bd58be6dfb927e1b65f94e5fa76fa95c12b4c14b9a148f64ade9a5",
+      "size_in_bytes": 1867
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move.png",
+      "path_type": "hardlink",
+      "sha256": "4e68d1e352334b3c466e1894715eb85f4cf1d818ebc5b587ddc48abe71b6bf37",
+      "size_in_bytes": 481
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move.svg",
+      "path_type": "hardlink",
+      "sha256": "fd92a9730183e8331391995bca3d2741b4fc620b79bec9446743aa5da5c67781",
+      "size_in_bytes": 2509
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move_large.gif",
+      "path_type": "hardlink",
+      "sha256": "44c200afe1bd38e63bbd60b4e2837aaafe530072718501a12ecc3f6cdb2f59b8",
+      "size_in_bytes": 951
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/move_large.png",
+      "path_type": "hardlink",
+      "sha256": "4a48f3da75bf453039b3fd20f3c81dab686b55b9ba0ce71f616e05bb8d859fd5",
+      "size_in_bytes": 767
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/qt4_editor_options.pdf",
+      "path_type": "hardlink",
+      "sha256": "daabba195c81ac9bd51f1c9c850a095225cf63107295b1f68fdd109f2b57b3fc",
+      "size_in_bytes": 1568
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/qt4_editor_options.png",
+      "path_type": "hardlink",
+      "sha256": "12bc908d0e61876770988c6dcc216230dd54e939ddd75a750837e01f96478cd3",
+      "size_in_bytes": 380
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/qt4_editor_options.svg",
+      "path_type": "hardlink",
+      "sha256": "134d18a17eeee0daf13079bf2f54ccf0f0c9f3c6d7e6a45d0ab3be523e7d0840",
+      "size_in_bytes": 1244
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/qt4_editor_options_large.png",
+      "path_type": "hardlink",
+      "sha256": "f8f77ef55879688af73d96bc3ba19efc12e8e35922127a6691d0e3f1ad752646",
+      "size_in_bytes": 619
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots.gif",
+      "path_type": "hardlink",
+      "sha256": "41f86651d72b928d3cf96b6bcc22548eb5450d3bd46422445e901136dcc4c248",
+      "size_in_bytes": 691
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots.pdf",
+      "path_type": "hardlink",
+      "sha256": "434b323cc23912fb6033e084f985ca3a42fd7855006678ff5f6221a23e91e29e",
+      "size_in_bytes": 1714
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots.png",
+      "path_type": "hardlink",
+      "sha256": "3147c222dab7ff2cdbf724627863a09699f463be21f0803b9b98bbd01eb78917",
+      "size_in_bytes": 445
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots.svg",
+      "path_type": "hardlink",
+      "sha256": "f1a701a205c8afd3961a7d620fa9949206a17456600f26f0c37f39ccb08ba08b",
+      "size_in_bytes": 2130
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots_large.gif",
+      "path_type": "hardlink",
+      "sha256": "15fdc4466b5501a18ff62d5019436720829a73a2c6b925b641fe03ae87246522",
+      "size_in_bytes": 1350
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/subplots_large.png",
+      "path_type": "hardlink",
+      "sha256": "11dbbd4b054c4045c9679a205397325bb54b7305c976175ff84b71c66c5d908b",
+      "size_in_bytes": 662
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect.gif",
+      "path_type": "hardlink",
+      "sha256": "9935fa87d7e1d96f739af518a9e89b2b44d9eea20c28e0759c05cca43fe30f2b",
+      "size_in_bytes": 696
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect.pdf",
+      "path_type": "hardlink",
+      "sha256": "484bcf736e207d946997e747bfb9f1f0a9313f253ae8aab8ce0413bc6166f4a0",
+      "size_in_bytes": 1609
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect.png",
+      "path_type": "hardlink",
+      "sha256": "68dcf741906b220c6ef44f9f15f690c1e095362b46b83505a02dbb7b9354d8be",
+      "size_in_bytes": 530
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect.svg",
+      "path_type": "hardlink",
+      "sha256": "d6f471af7725f104f04ee4654330f58f1bb47d76687d32763cc806f7b13b05ca",
+      "size_in_bytes": 1479
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.gif",
+      "path_type": "hardlink",
+      "sha256": "9f1e4b5294c01fa6729ccdd97d90d2fb047cee36cc52c527c90dbb346915d3f7",
+      "size_in_bytes": 1456
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/images/zoom_to_rect_large.png",
+      "path_type": "hardlink",
+      "sha256": "57aa64c669ba570144c5d83f3c425674adfb1c1ee4ddc13f728acb6bb45b50c9",
+      "size_in_bytes": 1016
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc",
+      "path_type": "hardlink",
+      "sha256": "038fafaecd1bcf75bb74a06abd7d6ffb877c2dde359dfba64d0f12d3ae0c314d",
+      "size_in_bytes": 31975
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/Solarize_Light2.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "3c409e3bad30c097b6b120efc5aa41251b8a19e934a8b72868df2a397ead80d4",
+      "size_in_bytes": 1255
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "5a1099a319395d261552e50767ae9d5aa0ec099684d054104561b5c7ee87e90d",
+      "size_in_bytes": 25895
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/bmh.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "f8a6e1688f39f412131c8a3251921fa500e37dc9202c0943012ff274ab26ea67",
+      "size_in_bytes": 712
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "8fe3d3996fdf3ac13056382538670952ce0029154fdf7c9b17f7b85b8b3722ed",
+      "size_in_bytes": 25950
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/dark_background.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "f841a6a059bfdf9664ee8469dbd51a953e7a1ec392b896d831e4067400139f3e",
+      "size_in_bytes": 477
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/fast.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "c936b66042083fdc62e55fc6d29daf4a5c6086e84dc23462f603c408cc724623",
+      "size_in_bytes": 288
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/fivethirtyeight.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "58d526005b813dca903d582de804b595dcbc05ed973b4d4dfb56102fffd0e996",
+      "size_in_bytes": 832
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/ggplot.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "c618cbc2bf218a29045cacbc00f332d019afb73d60d169c6f38817edef6502bb",
+      "size_in_bytes": 957
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/grayscale.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "2822e0fa95e99ecf5c9ca0d728dd961fa995e35387fba71b4fee73290a2d49dc",
+      "size_in_bytes": 526
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-bright.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "a43aa7dfe354c952ef95f918b3c9fc1f3359be6b2554c0a191e1fe1ed66e2487",
+      "size_in_bytes": 144
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-colorblind.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "7824b3163e7fdaf47a9f9aaed6b1c4e3ac2f49519971d56acfce68bf8d19b07f",
+      "size_in_bytes": 148
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-dark-palette.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "a7900128d407446edb9381d7a8c42b4418c3971180a374425c775098fee0f8d8",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-dark.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "238c50ef9bc4e7ff57e24d1c3438aa8619c5dce72b676c653d7f0b97b3829281",
+      "size_in_bytes": 667
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-darkgrid.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "d9b5ce4b34b98263f3441ad19b3556ca183fed9681450eadffe3be711bb26680",
+      "size_in_bytes": 670
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-deep.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "e3874b7178e346047eeb26a8a60191227695833de393c5495504db048731441d",
+      "size_in_bytes": 142
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-muted.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "4f8a378efa8a0ff2265c3929eba5c5395ff1ac1545528949537e090c59355e49",
+      "size_in_bytes": 143
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-notebook.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "3dcbd941b62b0dd76e72b3656af04f990d60da68a78a8ffd1a4514151760b683",
+      "size_in_bytes": 382
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-paper.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "9f499ba14a760b852cab68fab4d59cbb84d9fd84f8fa42a0ad83b4b7eaf3d72c",
+      "size_in_bytes": 393
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-pastel.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "f2757ca91a5b52b9c565ec84e95710d6846e64f2e29765bbe0cd94dfb0cd30e1",
+      "size_in_bytes": 144
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-poster.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "75468aa931383117d4ab6ad65576dba2eee4cc3ed9f4f13d2a8f1a5cbcdaf090",
+      "size_in_bytes": 403
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-talk.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "ec59c168111d5816e77139bafc447e11055afdb66053b7677207b3f9ecfc47be",
+      "size_in_bytes": 403
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-ticks.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "0884d9999154169e3430ad8ecfcb48f1aed64680a2cd053d678275ef66167d6c",
+      "size_in_bytes": 665
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-white.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "5a327a2c453aae50b052e813a1ac1c8806ca3fda044451ebf6b7c5954add4f1d",
+      "size_in_bytes": 665
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn-whitegrid.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "79ce018ec37398ebc7a6d709de674fc542c5dd2d7f535114a1cbaa7c8a70f8d9",
+      "size_in_bytes": 664
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/seaborn.mplstyle",
+      "path_type": "hardlink",
+      "sha256": "fd7bbaa972b38b86f71b2982381d5bd7eca429343cc610e5899f1ecc7193880b",
+      "size_in_bytes": 1130
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/offsetbox.py",
+      "path_type": "hardlink",
+      "sha256": "7c3756afcc713e14d7c45104264fcfb289b6ff8236725da6ea9fdd4f3ca27cb6",
+      "size_in_bytes": 55433
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/patches.py",
+      "path_type": "hardlink",
+      "sha256": "77435d82776cf3d1afbf866adba909cdbee6045077dcdbaf9f1c5fef9b486c8b",
+      "size_in_bytes": 152091
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/path.py",
+      "path_type": "hardlink",
+      "sha256": "a4a6fbd174eee77e99bf964031778c677ce586029928b74bc06733b388574d99",
+      "size_in_bytes": 37755
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/patheffects.py",
+      "path_type": "hardlink",
+      "sha256": "85f0d45aef2e03789784e980739b177b862030303ac2f0981a04cec0dac98027",
+      "size_in_bytes": 14346
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f8ceff2b71ecd41ece6ed5862fe497f5b10623debdbb1477c632f6a818f28930",
+      "size_in_bytes": 3152
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "249b0be34af85c27b4dacdc2f1773949870a3112653b8d437dacda459c8f616c",
+      "size_in_bytes": 3242
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/__pycache__/geo.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "526c977dcc7eab03d486d519509f819b6e79d878026877f7c83c195b0d2d8385",
+      "size_in_bytes": 21930
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/__pycache__/polar.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "57d317ab3b933ffdf9d7a1ac74441e10e77dfe1eff7bcc7e99d67a1edd47ee3d",
+      "size_in_bytes": 40749
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/geo.py",
+      "path_type": "hardlink",
+      "sha256": "5bf8532900f75140bc87848384a5bf0b806995ccf3a96aeaf178eaf252fa3970",
+      "size_in_bytes": 21785
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/projections/polar.py",
+      "path_type": "hardlink",
+      "sha256": "1655c5c4f8d0e255fc5466da6926f5cdc683d82381484e36a56eb0f3ed8f29ec",
+      "size_in_bytes": 53467
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/pylab.py",
+      "path_type": "hardlink",
+      "sha256": "0afc9439707aebd60b6bf0e8dd56899e8532eff0a0b583689aef2693c4a62e7d",
+      "size_in_bytes": 10766
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/pyplot.py",
+      "path_type": "hardlink",
+      "sha256": "d2ec75d199f7300f1bfb4df3d48c9202a8ef8148410d6488f97b2098825c4012",
+      "size_in_bytes": 132612
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/quiver.py",
+      "path_type": "hardlink",
+      "sha256": "5720a81c4fb387b68f3e92ba596176a65a09b04dd5bb7676d24ee26537cc388c",
+      "size_in_bytes": 46115
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/rcsetup.py",
+      "path_type": "hardlink",
+      "sha256": "18f1fcea1d63e1ce3a03080541184e2c5c1416b50c63b1b315c7073ed4c6a306",
+      "size_in_bytes": 57372
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sankey.py",
+      "path_type": "hardlink",
+      "sha256": "f2ee1202debec30e4387692864ef5cd3fa00bf84dc8c98c5cf06f29a95f39725",
+      "size_in_bytes": 39182
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/scale.py",
+      "path_type": "hardlink",
+      "sha256": "172f93b88e3add27eaad02db8368b544c2ea6d6ecf735c1ad44bb75718cac680",
+      "size_in_bytes": 18507
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "be7c6a0a4c7bb5339f14c86013b1ae4a1096c5d3227612d938bd777a5efc47af",
+      "size_in_bytes": 109
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4b15b937d5c8596e806d63dcc356ffc5de77f6982cad81e10829d15be200d897",
+      "size_in_bytes": 264
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/__pycache__/mathmpl.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b0d4027ef72a8aceddb9bbb52a057655f54a7073137ab2bcc95619a2e666e0ea",
+      "size_in_bytes": 3939
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/__pycache__/only_directives.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d5609708eca1cc1345abfce42ee082afb245602731e1904b5c09eba13d3367fd",
+      "size_in_bytes": 2682
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/__pycache__/plot_directive.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "87f1c472ca0165f1cf812c592e552d68e6b5337527e5bc10b630ceb157763d0b",
+      "size_in_bytes": 21118
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/mathmpl.py",
+      "path_type": "hardlink",
+      "sha256": "6be646b30be5b46be910deef496e256f6844dda81fdf9b1fbe8fc423dd46f238",
+      "size_in_bytes": 3822
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/only_directives.py",
+      "path_type": "hardlink",
+      "sha256": "e826d56191b207488df582c8692fb10a7366bd9a164f74176bf55ca82d8faf05",
+      "size_in_bytes": 2283
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/sphinxext/plot_directive.py",
+      "path_type": "hardlink",
+      "sha256": "6c8ad81db70fd329712d5902f3cc683a2c912b289dbff0cab699d5ba1149f384",
+      "size_in_bytes": 28603
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/spines.py",
+      "path_type": "hardlink",
+      "sha256": "df30960f24666be5a21d3b0e48b998b83fdcc45a1b707d7bde70c360931c25e2",
+      "size_in_bytes": 21267
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/stackplot.py",
+      "path_type": "hardlink",
+      "sha256": "ceb8adeb1486981d30a016ed8f20c47faf0622ba30eedc2a451caaa0dd4d30cc",
+      "size_in_bytes": 4190
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/streamplot.py",
+      "path_type": "hardlink",
+      "sha256": "ee2a795078c182a3e7e44efc8947d974bf746c51806f06e8a5ae766f0c695eab",
+      "size_in_bytes": 22128
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/style/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "b2da8aaaba31029cbd044e19c6fd830dfe003cdb746f4f528c1d2921c03e7c33",
+      "size_in_bytes": 107
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/style/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a5e220d6acb6666993f1e5a190445db353da02689508d105d3a5cc16342e6f05",
+      "size_in_bytes": 307
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/style/__pycache__/core.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "09e161433f2b3d72467d9fbdc549ed79f45fd39e78519df2fb0db38591c2f256",
+      "size_in_bytes": 7104
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/style/core.py",
+      "path_type": "hardlink",
+      "sha256": "51b5ca53c9ca25438cdd4da5e6e455535f49d1163cd2203cec6517214efb9eec",
+      "size_in_bytes": 8107
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/table.py",
+      "path_type": "hardlink",
+      "sha256": "481b2083af700cf557d6d4025c77a749a4d89fe8890fc5cf60bae8c1aafc419d",
+      "size_in_bytes": 21226
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "1177256e44515a7b24bb2b31b959f9ba28170ff01863e5366bf905e973addcfd",
+      "size_in_bytes": 5182
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "324a9aa530d93c98fad314a50dc7c36f8d29791b9747c4fda6f963136423d106",
+      "size_in_bytes": 4353
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/compare.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6b660e0b91a353138626f2f067cd928592778b3f327600645d35da2912ac9c34",
+      "size_in_bytes": 12757
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/conftest.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6768013249d5c2af1ee53973209a2da87f8122650c6ede57f50c4a263ed88b41",
+      "size_in_bytes": 1837
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/decorators.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4529b7f0c3e513c5dc63d1bfbda351ea73a88cb88e0d4e4784e915d61624175a",
+      "size_in_bytes": 17797
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/determinism.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c9823a5b8dcf982fd95988a6cd57d48d7cada0258677e3a4fa1744d8ee193fc0",
+      "size_in_bytes": 4114
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/disable_internet.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4b989262bcbf1d4af053abf0c9d8bb0a71068a9aa7b720e99270780687d8faee",
+      "size_in_bytes": 3403
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/exceptions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6e0bc230954f05fc810a6a9ea0e80af3dda78ea0d272e89d4d4b934f7023f367",
+      "size_in_bytes": 417
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/__pycache__/noseclasses.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4fbd53ce40129918d1c003f07cf4d44cd150189e88c11ef1350c2aa619c3e4fe",
+      "size_in_bytes": 1019
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4cfb1cb7cf4766baa7a3820c398f5388efd7749e940efbf07547a27872f9dde8",
+      "size_in_bytes": 2319
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "11d62c450f3338165a12556573dac00e791e07d62952d5f996a28a18ab201596",
+      "size_in_bytes": 2189
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/__pycache__/decorators.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c743e8ebaa7fa8151f213de43bd96a68c8acb257bf157d4434a4f427a097599f",
+      "size_in_bytes": 1216
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/__pycache__/exceptions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4ff424ecb21cd3cc9cbb2f3eb4458494b3b0a41d3677205184d0195b0f6c4205",
+      "size_in_bytes": 639
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/decorators.py",
+      "path_type": "hardlink",
+      "sha256": "b3e40783ad08f2c6b051d5b7e707b407aec0180f52bf6773601b37f39b9f51ae",
+      "size_in_bytes": 1223
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "25cb7d8cb29f123fc7872b1dd85e946c9c830cf40cb1f48bff0a85ce26872223",
+      "size_in_bytes": 251
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "800bc45c04e4f5e56ce6df5512c42809f55482a9930d8a5893da9e09df167caa",
+      "size_in_bytes": 155
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/__pycache__/knownfailure.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6b60a71336e025db8eefbc20f8cabe60ec9ab039b8db806864acccbd284f7c75",
+      "size_in_bytes": 1818
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/__pycache__/performgc.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "360fbc8edac8ced1bb515b52cfb107874435f83fe378a4219523bfd18eb4e7d3",
+      "size_in_bytes": 1252
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/knownfailure.py",
+      "path_type": "hardlink",
+      "sha256": "08b1489a7220ccae96b0c4f38ec062f38e891167603277f6e694ea902f251c35",
+      "size_in_bytes": 1991
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/_nose/plugins/performgc.py",
+      "path_type": "hardlink",
+      "sha256": "5a20282e23797f8af650c27d417f1b9ab8ee3f409fb1fd6663161b81bd27534d",
+      "size_in_bytes": 778
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/compare.py",
+      "path_type": "hardlink",
+      "sha256": "c57936beaecf94cdee5bdaebed3b39b68b51f2d2aebe6bf47c6dfbf2d91fe6b3",
+      "size_in_bytes": 18106
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/conftest.py",
+      "path_type": "hardlink",
+      "sha256": "72cc0c8e1a5086643dd4cfeb64823cec5a64290d11919eb9d1a8bcbfd2accce5",
+      "size_in_bytes": 2667
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/decorators.py",
+      "path_type": "hardlink",
+      "sha256": "bb9f3d86db169d697dd57816244b67c0401ed16c1f194e3cae78b66194fa25c2",
+      "size_in_bytes": 21278
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/determinism.py",
+      "path_type": "hardlink",
+      "sha256": "536d6b1ab00d6473497506397b63243527dc58f5912436785ae884aa329cb976",
+      "size_in_bytes": 4923
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/disable_internet.py",
+      "path_type": "hardlink",
+      "sha256": "0ac4b74fcce90bd2c0d5f9f81e0f4aca3e3386c257a929b3ef5a87438bd4c759",
+      "size_in_bytes": 4867
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "ef64268e21c6ec3c314af9497fc99e8be8518ade401f734a874fa8b01a3861b6",
+      "size_in_bytes": 138
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/Duration.py",
+      "path_type": "hardlink",
+      "sha256": "dae751e8d69f37685519d6f5c7d663ee815361e7824e98b762d225e2603bfc70",
+      "size_in_bytes": 6736
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/Epoch.py",
+      "path_type": "hardlink",
+      "sha256": "681d828663876f6e539a466aaa4cb56b3f34f2ad3a7dfcd71ad02dd8370619fb",
+      "size_in_bytes": 7251
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/EpochConverter.py",
+      "path_type": "hardlink",
+      "sha256": "574625cb31a4cdaa53f714c25e1282393b20bc35f235e5e631b09fd672c51795",
+      "size_in_bytes": 5479
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/StrConverter.py",
+      "path_type": "hardlink",
+      "sha256": "342a1225972d74a0f3b63936478fa03e87c77131bdb360897895db73e3cf9889",
+      "size_in_bytes": 5293
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/UnitDbl.py",
+      "path_type": "hardlink",
+      "sha256": "664b2319a0180298aa1caf1664be273759d19e65505acd1ff35f16a67b80cb76",
+      "size_in_bytes": 9408
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/UnitDblConverter.py",
+      "path_type": "hardlink",
+      "sha256": "0e73cf2b9cfc691c9e42af09637907da14bd9753f411819149028bbb5f7e7432",
+      "size_in_bytes": 5574
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/UnitDblFormatter.py",
+      "path_type": "hardlink",
+      "sha256": "fba11208b4d69a01761d677163bd04209ef081785862f0409d4fe627434e1d1e",
+      "size_in_bytes": 1521
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "22052b73305c7ddf4fc4284c33d07984f315fe7fa15c39edfe124b9f4efeddf2",
+      "size_in_bytes": 3154
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/Duration.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "76c90ebff0a2004a8cfb734514076dfae5bc37c939219e275991d4fc812152e8",
+      "size_in_bytes": 5808
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/Epoch.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "26c0287125209b9a627bc1a56f32b7f5f85c8c395fb4e5c77041c097d025c5ef",
+      "size_in_bytes": 5413
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/EpochConverter.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "964f414e6e70e9e26f9a2397e7c3e4cc8f940d91944853b712fade3fddb58e0c",
+      "size_in_bytes": 4551
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/StrConverter.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b417a30fb2c101559b057a2ede2e999a1bfa8bff870f32e17d88b070a9df1554",
+      "size_in_bytes": 3772
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/UnitDbl.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1dba99bc93df47ab4022426e8a6f681abed1f376a0408c9c4e8509ee1de2d284",
+      "size_in_bytes": 7743
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/UnitDblConverter.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7b1e42335d310b71773c0d12663384b91697f4cdd258d8b4b189d4c8cb8d69f5",
+      "size_in_bytes": 3651
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/UnitDblFormatter.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "80c0155e17496434004ad01d860b7cfe13f7a1b22cd92ab01b1ca532612a2400",
+      "size_in_bytes": 1602
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/jpl_units/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e3e4ac03812a79f7b8b7fe43112b8e80830d5b8c814d86a0d11e8424b16c8bd7",
+      "size_in_bytes": 2758
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/testing/noseclasses.py",
+      "path_type": "hardlink",
+      "sha256": "cfe71ea3199ee0c1a7a87ff8bade19b5b8618ecbcaffded005470e06fb0e3014",
+      "size_in_bytes": 691
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/texmanager.py",
+      "path_type": "hardlink",
+      "sha256": "c0f1533aa9e4fc983095a919277b3b6f6e502df06012d1b3ca8701ee6f96f7f1",
+      "size_in_bytes": 22890
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/text.py",
+      "path_type": "hardlink",
+      "sha256": "2b8063c7fbf55f4c1626e25a68398f72da81bac66896e7e3ae8e1b8644879159",
+      "size_in_bytes": 80605
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/textpath.py",
+      "path_type": "hardlink",
+      "sha256": "47d1633d7d417aa1ebdef4636159722a499732827e744b7246f2d8009d840be2",
+      "size_in_bytes": 16889
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/ticker.py",
+      "path_type": "hardlink",
+      "sha256": "120d947f03e0cc4f1b64632edce8401c8418b8da8836bb1dd1b61bd48d1445ef",
+      "size_in_bytes": 85796
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tight_bbox.py",
+      "path_type": "hardlink",
+      "sha256": "ec3f59d918e9003d356e15b86d1ba707ff7e82bb7169dcdf5703bc2fed4e99f1",
+      "size_in_bytes": 2601
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tight_layout.py",
+      "path_type": "hardlink",
+      "sha256": "a74aed266fbc8ae82c7054b0378ab1a14ff5033f14f0f6b5f6059c151d319f0a",
+      "size_in_bytes": 13211
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/transforms.py",
+      "path_type": "hardlink",
+      "sha256": "329b8167bf605ba1f0cd1f43a0c6d5aba0d66620dc09296a65656aae913d688e",
+      "size_in_bytes": 100883
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "764dee2a5bb182d421d8954616b2c4fe4f9f14c0a4b8356a7f4c182f12082af6",
+      "size_in_bytes": 377
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "dfa9b83c1d3a99a32ece6a3cea6af00f00815bbd6766171d06362ed360fa11b8",
+      "size_in_bytes": 516
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/triangulation.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "498573768c4be1033637c1c53399333829dd861bf64020f943215eceb769f59b",
+      "size_in_bytes": 6659
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/tricontour.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "20e92e23487e65cfdbf4637095eeadfe869a4b99600d55e0a8a670562da51807",
+      "size_in_bytes": 10044
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/trifinder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f1c6a7fd2bbd949732568ff57596e60ccfed4b0df8ee7baaf074d7a5f450795b",
+      "size_in_bytes": 4229
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/triinterpolate.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e84c0e6ac9e71bd8fdbd006b7e7e9286e1c4261ead58fc68017ed47bbe56d5ae",
+      "size_in_bytes": 50787
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/tripcolor.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e4b0df3194d3dbef5236e9fda6f32f726e5712a0c379172fff456228c1885f55",
+      "size_in_bytes": 4113
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/triplot.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cf5dfc09d11dc51c91569562fdbdbc2ededef69577140e4593c94e0b19009d5f",
+      "size_in_bytes": 2221
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/trirefine.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b433a52c960ca2f08f09dea119630abcc6fbf18f85463a4c07f02dfdf621a2d9",
+      "size_in_bytes": 9364
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/__pycache__/tritools.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "655f66c26d95480a15453c6e5b150d087dc0bcc8bfd8befed2b3cbcb6d8c75d5",
+      "size_in_bytes": 10538
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/triangulation.py",
+      "path_type": "hardlink",
+      "sha256": "8228aa6a09fc40a56715beec1b241626009a20129d96e1bc7590e24abab9efd1",
+      "size_in_bytes": 8217
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/tricontour.py",
+      "path_type": "hardlink",
+      "sha256": "ce8bc983d135e4210bb1c1be7f40744b1cc2122c1af798a8655a1cd0ce48157e",
+      "size_in_bytes": 10129
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/trifinder.py",
+      "path_type": "hardlink",
+      "sha256": "540eed49f78523f84941d3d6f533a196419a8ccdce016a51ff7e1db503b7d4ea",
+      "size_in_bytes": 3626
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/triinterpolate.py",
+      "path_type": "hardlink",
+      "sha256": "d6f6676c28f1f734790ffa255fb737f812b3d5322593a9215f081e6650471993",
+      "size_in_bytes": 65840
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/tripcolor.py",
+      "path_type": "hardlink",
+      "sha256": "994737e4e3f61402c2839ea8d2f0d71df5561df88911c7324f3c3aeb7afeb304",
+      "size_in_bytes": 5763
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/triplot.py",
+      "path_type": "hardlink",
+      "sha256": "dfe8dff8db8085762206faf7045c13effa0ab249297ae2dc1b2fc68df68acdef",
+      "size_in_bytes": 3043
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/trirefine.py",
+      "path_type": "hardlink",
+      "sha256": "5a29d65c887a0b4ab803a9af63155af4a5ac59224bd2821ee9abf32d1b025814",
+      "size_in_bytes": 14271
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/tri/tritools.py",
+      "path_type": "hardlink",
+      "sha256": "988a99d1c34a81d85119b0ce1afcb2541ca6c6cb54f99910c7fe468f05b25679",
+      "size_in_bytes": 12628
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/ttconv.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "3180b8ddeeca699760d30a5dde9a04bffd25f1e56b7c373709d045a0bd8f40e9",
+      "size_in_bytes": 78704
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/type1font.py",
+      "path_type": "hardlink",
+      "sha256": "f9fd0014f0aac6e2f3be18cf9f199af55ccb659341dfe720a6aa2a84078288d4",
+      "size_in_bytes": 12444
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/units.py",
+      "path_type": "hardlink",
+      "sha256": "09213ddcac7da500b29d65f09de086669c079469d55414dda64f46f12e6df5d9",
+      "size_in_bytes": 6084
+    },
+    {
+      "_path": "lib/python3.6/site-packages/matplotlib/widgets.py",
+      "path_type": "hardlink",
+      "sha256": "ca4819e97e5ff7cfcede802ebb6825af6ba96bb6df0ee4b239d882d07aa2dc49",
+      "size_in_bytes": 93390
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/__pycache__/exceltools.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7f97ca2b193ab4f85776785242e6128202075563b888d303a4619d04ebbad4de",
+      "size_in_bytes": 3194
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/__pycache__/gtktools.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cf7d20b9963dc54d44c4dcff1c3eaef618da2248f5131cc3ee1ec20d8c333d7b",
+      "size_in_bytes": 16753
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "46b661e1d46f86b64fb765191c5ea2428aa4f4dee96aebded5803bb762ea95ed",
+      "size_in_bytes": 662
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8342e927e9bf48aa36b9ff935614d24bb34510b03bc86a93f1401a484b9140b0",
+      "size_in_bytes": 750
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/anchored_artists.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "820162329e7d4d8a92a339930c879e13e6f859b18f0101e955c680fb4c9951ac",
+      "size_in_bytes": 639
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/angle_helper.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5e424b7c565a5bd9dbf254ee0002d2ad91eb972e355943c719b0fadd2f54de56",
+      "size_in_bytes": 323
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axes_divider.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "41a504d79d94f9be9e1114d43bf0c73d6378af512b16e0668c5d47f59b52497f",
+      "size_in_bytes": 556
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axes_grid.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8e5896aa0d34f0b8cfa17c8a3b50747f938d844ca56ce05b15d71f9d1d84fe26",
+      "size_in_bytes": 1456
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axes_rgb.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f61f8015ed65144e56d577662f6e4abdb5c58b314f61dc0094565e9d5f9165f9",
+      "size_in_bytes": 602
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axes_size.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6aa33fd05ee2170e4d339f3cfba515ffcf05d5263393bf76a492e8a7155d62b0",
+      "size_in_bytes": 317
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axis_artist.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e11f77537e3a787040679c4acda7dde4b24f8095e1f3556e008ab2aa06be5621",
+      "size_in_bytes": 321
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axisline_style.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9a25269b29382cf3a5a849e6847292c5a7a329af65f3a7ef62f4f2e9b5510916",
+      "size_in_bytes": 327
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/axislines.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "73bc88e92e9a106383753e3823cf8a1cd5dd5cdf47df56f01da183c7e986f667",
+      "size_in_bytes": 317
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/clip_path.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "641337396da41fab2d4f2725cdb885c407a5d18d2efafbd0af7f55b6bf6d8863",
+      "size_in_bytes": 317
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/colorbar.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1a8c535dfa0d57fb6820c840d06efe2b68ea1e913f2bf54bf6b7d0b0e0f39748",
+      "size_in_bytes": 374
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/floating_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "437a2f80916329179b53144334c52ff465e2c60ec258481cd2028bc40a7a4391",
+      "size_in_bytes": 325
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/grid_finder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8136f64cde79ed87990b30ffba191a119233cc3a66a50c73683a47b9a47adfdd",
+      "size_in_bytes": 321
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/grid_helper_curvelinear.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7ef7defb8a8d5a781f82ff21e3e9d973d6be4fc8da31f811f2a9b47a21e5228d",
+      "size_in_bytes": 345
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/inset_locator.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "fcb0f48e2368f92d66dfb1f68c5c852d5fecaaff1653ce3aa8c6aab3c60eade3",
+      "size_in_bytes": 549
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/__pycache__/parasite_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "804d4dae04d7dd72ad0aee891e033a386f7829c2ecf13ef2c934bd7d53290753",
+      "size_in_bytes": 633
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/anchored_artists.py",
+      "path_type": "hardlink",
+      "sha256": "05429c99a7306b0d373d34988e6f9b8a55562fd27e64983b30e0c14255b84a9d",
+      "size_in_bytes": 401
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/angle_helper.py",
+      "path_type": "hardlink",
+      "sha256": "65489876fe5f401076c42b330be6a657a6f4ce4481569900bf36e77883e03f5e",
+      "size_in_bytes": 161
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axes_divider.py",
+      "path_type": "hardlink",
+      "sha256": "127a8209a0522f6b2c257011dec05f9427de93a3105ffdc24cc3f68c28f41211",
+      "size_in_bytes": 357
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axes_grid.py",
+      "path_type": "hardlink",
+      "sha256": "4f7af306dd54fa711792abf796a31644453e40c6cbaf89a1cba55e351ce9c5cd",
+      "size_in_bytes": 942
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axes_rgb.py",
+      "path_type": "hardlink",
+      "sha256": "346fc2ad0b1afac66fbbe22c1a01a0b6b52f0ee7c774931130e56d20a8fb665f",
+      "size_in_bytes": 387
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axes_size.py",
+      "path_type": "hardlink",
+      "sha256": "382abf1c4d950ae5047356c5e706d91304732451d4d52d77b65a93f5a9956f10",
+      "size_in_bytes": 158
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axis_artist.py",
+      "path_type": "hardlink",
+      "sha256": "67c1b116e50330d242aeda357372b9b38f18abd041a8948b70e065c48fa6a5a9",
+      "size_in_bytes": 160
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axisline_style.py",
+      "path_type": "hardlink",
+      "sha256": "b749a4c9ae5d195eef7b77c9a7879e2d443b2b3329c7b969e2e9e95a08212ff5",
+      "size_in_bytes": 163
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/axislines.py",
+      "path_type": "hardlink",
+      "sha256": "da5165de1ec1788a0a3cb9e59765921091353e513c417c236f99552b2077771f",
+      "size_in_bytes": 158
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/clip_path.py",
+      "path_type": "hardlink",
+      "sha256": "e8aed58bac9f02320b19d5a47a7222c154b9d36e498812f19b5c17ed46e5e5f6",
+      "size_in_bytes": 158
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/colorbar.py",
+      "path_type": "hardlink",
+      "sha256": "0dc9117fab5a74b793363c7e664d6edda8274866608b30e37740f1c35f8645dc",
+      "size_in_bytes": 171
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/floating_axes.py",
+      "path_type": "hardlink",
+      "sha256": "788ac410a468d97e4cfc7574e474dcd8b193a48f60d20d5621308eadb3747b5e",
+      "size_in_bytes": 162
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/grid_finder.py",
+      "path_type": "hardlink",
+      "sha256": "3c3308759e6883a8c24e245152c3fb0395ec14a0a00fce9843dec7e388b304f7",
+      "size_in_bytes": 160
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/grid_helper_curvelinear.py",
+      "path_type": "hardlink",
+      "sha256": "5d55fece0338b4cf7f59d97b3238d120ac7e294b93d7a9a54e7358d5a1fcbf9d",
+      "size_in_bytes": 172
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/inset_locator.py",
+      "path_type": "hardlink",
+      "sha256": "57ea75c36ff5eea85403635d445b2b472f940e418010d3b2a383934408487bf4",
+      "size_in_bytes": 326
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid/parasite_axes.py",
+      "path_type": "hardlink",
+      "sha256": "98a88a0a346d1bc86f681e11f1444dacec4135d91dcfb385113a2e84e934e066",
+      "size_in_bytes": 561
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "8ad70561a87f30ed6976dfdd52fe9c5c4e04f3f65bba3394d7a3af6ce0b39f88",
+      "size_in_bytes": 394
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3f66d8f1d07da75d97d0a7c242b23682c51b255b60cc7c6f93cbc3e05203a0f5",
+      "size_in_bytes": 597
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/anchored_artists.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4bf77bb20ced4934acf1578e91d51566e0238e4caea6b494679f8121948cbfe8",
+      "size_in_bytes": 12600
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/axes_divider.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c356faffba9033fed2adcac06736d4a911f66d0e485b14539c9cbb241a69d324",
+      "size_in_bytes": 28197
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/axes_grid.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "352074f8efb505334434fc95d30c332c69c41f2b0030686cc399d64f6e0dbda7",
+      "size_in_bytes": 18353
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/axes_rgb.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "52c70346dbde4ee1ae2eb88e52b6e70cb3a3f6524929c04ba45a654abbf2c0f0",
+      "size_in_bytes": 6619
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/axes_size.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "48003dd6718959416df3d8b909f2fe276c1e9735d980e77a901e9af597534383",
+      "size_in_bytes": 11730
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/colorbar.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3db58ee9f5092844a6d17edfdb954645e23a09efd84aa035fadebd92c57d70c9",
+      "size_in_bytes": 24343
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/inset_locator.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c3e76b5552342d16046fd7a0b4bd03cd17eba71992dfe76ac6b8f12e25e0e5ed",
+      "size_in_bytes": 17542
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/mpl_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "893e7879d6ea014bf43ed811ba9d3d46671cc1963283f9e2db35276d4ab73005",
+      "size_in_bytes": 6015
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/__pycache__/parasite_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f6f0a4af43ee1f0ba12997d3a61e60685a515e378d3bcc5abd371ad22b13d5b8",
+      "size_in_bytes": 14646
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/anchored_artists.py",
+      "path_type": "hardlink",
+      "sha256": "11d5635ad91a4a009ba3a44c69c3dd4004dc7152bbddfea7b7fc757bb4639b61",
+      "size_in_bytes": 13214
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/axes_divider.py",
+      "path_type": "hardlink",
+      "sha256": "703328160d0c9366cc336f77a2297f3361bba982baebf418a7306f27380ed3af",
+      "size_in_bytes": 31195
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/axes_grid.py",
+      "path_type": "hardlink",
+      "sha256": "3d2e1e0d57a8f0d7ce946d3e067cf0af9d775a0f0d02eee749c1561473e45302",
+      "size_in_bytes": 27964
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/axes_rgb.py",
+      "path_type": "hardlink",
+      "sha256": "ebc915da423e979b5a06c1844b1b08b8716bcb0a848b90ba776aa068999c754f",
+      "size_in_bytes": 6973
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/axes_size.py",
+      "path_type": "hardlink",
+      "sha256": "af6d681d0989ef1808dec86420926dcd488b401a1d4e86908bf60d5ccd9089fb",
+      "size_in_bytes": 9032
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/colorbar.py",
+      "path_type": "hardlink",
+      "sha256": "8d9105a8445d376ed396ec9fb10885dd77882353cc84f5321e572ac91a5ecf5b",
+      "size_in_bytes": 27882
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/inset_locator.py",
+      "path_type": "hardlink",
+      "sha256": "65bd76541df7dc820512f164c62e0c220ec6d69b54e56e451a1302a80bb8ca03",
+      "size_in_bytes": 18678
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/mpl_axes.py",
+      "path_type": "hardlink",
+      "sha256": "cd44fdea76cdac8b29d69e7169685988020a6302ae52b38d4619ef9cdca39461",
+      "size_in_bytes": 4924
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axes_grid1/parasite_axes.py",
+      "path_type": "hardlink",
+      "sha256": "573eabbcdc97e3e39247210bbc3fbfd8699cb460bfc01748f0e720487865fab9",
+      "size_in_bytes": 15617
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ef2b774c39e16c3595c5661a3d41a0bb8eb8cea8882ca565d6a1b9c8e17f870b",
+      "size_in_bytes": 870
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "504dd74418cc579fb57d368cd099fbe10fc0447386c1e97a94ae6d38cc221f7d",
+      "size_in_bytes": 1044
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/angle_helper.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "84f4afa3f04c8a54cc01f279618649872018123408ae5fca2d229f716a0f9048",
+      "size_in_bytes": 12082
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axes_divider.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0c03969696ee7e85b4e80fc0ecc6253fc1cc5b623a5076609c357512f099763d",
+      "size_in_bytes": 557
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axes_grid.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5122bc10d1d255545378a1fc373e192b4a136853597f0be9da7ee4c94eac21a4",
+      "size_in_bytes": 1457
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axes_rgb.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "feee70d9f91ceea1ccf5f092d0490ae3c5b3e9efa965b81137a956124645c6a7",
+      "size_in_bytes": 603
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axis_artist.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "cd623ca52b4334831ad3aa926abe2a891032d9025ef805125f879745ce0d1eed",
+      "size_in_bytes": 42487
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axisline_style.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "30c659f3347f7504bbcefb3a28cd4a5c1524dae6a429d2b36785958162876d33",
+      "size_in_bytes": 5647
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/axislines.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "05c39bf41314aeb029f7b4652f6513df88b3afac754cb8cb0d76457123e049bd",
+      "size_in_bytes": 24334
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/clip_path.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "a578d156784a5583c612ff534e3a2d0338ec3c4239865f74c01bf164c9f1d633",
+      "size_in_bytes": 3809
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/floating_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5aaf86c7bca5562492c7dcae2fdc14228618d559d5ae3a699bfe152df4fbbcd1",
+      "size_in_bytes": 15354
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/grid_finder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8de9ad708a3e4bc5b4646a7363757765183713aae51bf599fed1e601e3670ec3",
+      "size_in_bytes": 10653
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/grid_helper_curvelinear.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e6611038af2597816f83a8d8d40a299bb132a6b5c8b6748569356084521ea9cd",
+      "size_in_bytes": 17925
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/__pycache__/parasite_axes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "60b27d5b87be17f973f4ed3d5819340389c1b66d4d308008774022a42e4b33e7",
+      "size_in_bytes": 634
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/angle_helper.py",
+      "path_type": "hardlink",
+      "sha256": "c794ffe65a08dea466dfdf09023243078e8bfcf9f7e09478ebd18f880853f116",
+      "size_in_bytes": 14734
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axes_divider.py",
+      "path_type": "hardlink",
+      "sha256": "127a8209a0522f6b2c257011dec05f9427de93a3105ffdc24cc3f68c28f41211",
+      "size_in_bytes": 357
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axes_grid.py",
+      "path_type": "hardlink",
+      "sha256": "4f7af306dd54fa711792abf796a31644453e40c6cbaf89a1cba55e351ce9c5cd",
+      "size_in_bytes": 942
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axes_rgb.py",
+      "path_type": "hardlink",
+      "sha256": "346fc2ad0b1afac66fbbe22c1a01a0b6b52f0ee7c774931130e56d20a8fb665f",
+      "size_in_bytes": 387
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axis_artist.py",
+      "path_type": "hardlink",
+      "sha256": "84753484644b8467124f3dc6a6a8aafe0a6b99a308791af7a2a9b0e2cf39099b",
+      "size_in_bytes": 52644
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axisline_style.py",
+      "path_type": "hardlink",
+      "sha256": "afc07f7b1872fad4f2047e1b848c452038274dbedff29029b936f6a8481962cf",
+      "size_in_bytes": 5285
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/axislines.py",
+      "path_type": "hardlink",
+      "sha256": "0e0fb11d24e7d6cb2597d10327d8c32c8a23a60adcd269ac6055131700992fb5",
+      "size_in_bytes": 26099
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/clip_path.py",
+      "path_type": "hardlink",
+      "sha256": "cdbcb147f7b84ec333d79596c7a3f984b04a283a10724621235d7dab2f562d15",
+      "size_in_bytes": 4750
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/floating_axes.py",
+      "path_type": "hardlink",
+      "sha256": "a43543e2db398a77cea3a94fa44174814e245abe4d6a9465888c0368a835bdbb",
+      "size_in_bytes": 22795
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/grid_finder.py",
+      "path_type": "hardlink",
+      "sha256": "6b1d9d0f4bba821e13b4a8fef0001ea654f0ea09214fb7b91f413f461e3cd519",
+      "size_in_bytes": 12029
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/grid_helper_curvelinear.py",
+      "path_type": "hardlink",
+      "sha256": "482eb5945043e91017b0c2fff7eac9ecc7d6da6caa4959edffaf5befeaee1592",
+      "size_in_bytes": 26108
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/axisartist/parasite_axes.py",
+      "path_type": "hardlink",
+      "sha256": "98a88a0a346d1bc86f681e11f1444dacec4135d91dcfb385113a2e84e934e066",
+      "size_in_bytes": 561
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/exceltools.py",
+      "path_type": "hardlink",
+      "sha256": "2b67d8acae768944714c1d9940ebdd2a1d25a1b2329d70ba7ebd5aaf7226e72c",
+      "size_in_bytes": 3966
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/gtktools.py",
+      "path_type": "hardlink",
+      "sha256": "f9b528501c51b839727087a8a1266156e48a4b636d46ffb4a5e8fa4f6d62d2f1",
+      "size_in_bytes": 19211
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "2579cb2c92f01e0c54b02845b97429b45d54fe45c0da9c1fc9902f7a7cef5c7a",
+      "size_in_bytes": 149
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d52b0680d48460a91e0bb653b67a2ed68bf1e61f9211a1a12fdd3303c380cf55",
+      "size_in_bytes": 321
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__pycache__/art3d.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "136b9930cf13b3eeb66fb97bfe5bae5093d4bfe8ee44615c75c05b5c0d4a32da",
+      "size_in_bytes": 25794
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__pycache__/axes3d.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "025d6639f7c62dd7f315185a77cd8acfe68ade0a864972c78352665c0ce6f583",
+      "size_in_bytes": 84063
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__pycache__/axis3d.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "699791040346c87922b40ef36b0fc3da6c195d60fa46163aec9f26c73ea0ceea",
+      "size_in_bytes": 12378
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/__pycache__/proj3d.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0590b9ac3d88c5502bbdb86c1e97d98d65595e37347f4243f1e20cd6982c4bda",
+      "size_in_bytes": 5262
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/art3d.py",
+      "path_type": "hardlink",
+      "sha256": "4b5e1bceec96f3a053920e0e86a1603617127c85d6395b933cac24d1ef0d995b",
+      "size_in_bytes": 24900
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/axes3d.py",
+      "path_type": "hardlink",
+      "sha256": "100710e8d5ce53bb37395a3b8cbc49d95d7accde80e8b91c11cdf57952faacdf",
+      "size_in_bytes": 105689
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/axis3d.py",
+      "path_type": "hardlink",
+      "sha256": "8d51aab11509ce728fa343e4037edd85554658f9054d2f795f6b1d2f536540ff",
+      "size_in_bytes": 18762
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mpl_toolkits/mplot3d/proj3d.py",
+      "path_type": "hardlink",
+      "sha256": "a5866fb5fb013cbe8b377f9080c7da7f8860ac692615bd5e3950cf2755b3bb64",
+      "size_in_bytes": 4775
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pylab.py",
+      "path_type": "hardlink",
+      "sha256": "bbf072dc21e56beac1320e7b7a01572316773ff27acc4912bbf74da41707e69c",
+      "size_in_bytes": 90
+    }
+  ],
+  "paths_version": 1
+}

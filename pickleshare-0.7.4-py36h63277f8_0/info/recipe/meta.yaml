@@ -1,0 +1,80 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/pickleshare-feedstock/recipe, last modified Sun Sep 17 15:44:05 2017
+# ------------------------------------------------
+
+package:
+    name: pickleshare
+    version: 0.7.4
+source:
+    fn: pickleshare-0.7.4.tar.gz
+    sha256: 84a9257227dfdd6fe1b4be1319096c20eb85ff1e82c7932f36efccfe1b09737b
+    url: https://pypi.io/packages/source/p/pickleshare/pickleshare-0.7.4.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h63277f8_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - pickleshare
+about:
+    description: 'PickleShare is a small "shelve" like datastore with concurrency
+        support.
+
+        Like shelve, a PickleShareDB object acts like a normal dictionary. Unlike
+
+        shelve, many processes can access the database simultaneously. Changing a
+
+        value in database is immediately visible to other processes accessing the
+
+        same database.
+
+        '
+    dev_url: https://github.com/pickleshare/pickleshare
+    doc_source_url: https://github.com/pickleshare/pickleshare/blob/master/README.md
+    doc_url: https://pypi.python.org/pypi/pickleshare
+    home: https://github.com/vivainio/pickleshare
+    license: MIT
+    summary: Tiny 'shelve'-like database with concurrency support
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - takluyver

@@ -1,0 +1,75 @@
+From 01ca5f38708e24676b3c07b8a6753cd16b6548ce Mon Sep 17 00:00:00 2001
+From: Tom Augspurger <tom.w.augspurger@gmail.com>
+Date: Sat, 30 Dec 2017 14:07:07 -0600
+Subject: [PATCH 1/2] RLS: v0.22.0
+
+---
+ recipe/meta.yaml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/recipe/meta.yaml b/recipe/meta.yaml
+index e40df9f..a81661d 100755
+--- a/recipe/meta.yaml
++++ b/recipe/meta.yaml
+@@ -1,5 +1,5 @@
+ {% set name = "pandas" %}
+-{% set version="0.21.1" %}
++{% set version="0.22.0" %}
+ 
+ package:
+   name: {{ name|lower }}
+@@ -8,7 +8,7 @@ package:
+ source:
+   fn: {{ name }}-{{ version }}.tar.gz
+   url: https://github.com/pandas-dev/pandas/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
+-  sha256: c5f5cba88bf0659554c41c909e1f78139f6fce8fa9315a29a23692b38ff9788a
++  sha256: 44a94091dd71f05922eec661638ec1a35f26d573c119aa2fad964f10a2880e6c
+ 
+ build:
+   number: 0
+
+From be8881ca307c13730320f7fa962bdc63d2fd3681 Mon Sep 17 00:00:00 2001
+From: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date: Sat, 30 Dec 2017 20:11:20 +0000
+Subject: [PATCH 2/2] MNT: Re-rendered with conda-smithy 2.4.5
+
+---
+ appveyor.yml | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/appveyor.yml b/appveyor.yml
+index 341c2c2..b050452 100644
+--- a/appveyor.yml
++++ b/appveyor.yml
+@@ -51,24 +51,24 @@ install:
+ 
+     # Add path, activate `conda` and update conda.
+     - cmd: call %CONDA_INSTALL_LOCN%\Scripts\activate.bat
+-    - cmd: conda update --yes --quiet conda
++    - cmd: conda.exe update --yes --quiet conda
+ 
+     - cmd: set PYTHONUNBUFFERED=1
+ 
+     # Add our channels.
+-    - cmd: conda config --set show_channel_urls true
+-    - cmd: conda config --remove channels defaults
+-    - cmd: conda config --add channels defaults
+-    - cmd: conda config --add channels conda-forge
++    - cmd: conda.exe config --set show_channel_urls true
++    - cmd: conda.exe config --remove channels defaults
++    - cmd: conda.exe config --add channels defaults
++    - cmd: conda.exe config --add channels conda-forge
+ 
+     # Configure the VM.
+-    - cmd: conda install -n root --quiet --yes conda-forge-build-setup
++    - cmd: conda.exe install -n root --quiet --yes conda-forge-build-setup
+     - cmd: run_conda_forge_build_setup
+ 
+ # Skip .NET project specific build phase.
+ build: off
+ 
+ test_script:
+-    - conda build recipe --quiet
++    - conda.exe build recipe --quiet
+ deploy_script:
+     - cmd: upload_or_check_non_existence .\recipe conda-forge --channel=main

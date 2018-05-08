@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/simplegeneric.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "495e52d10a7a36aed32878b3d7bc3686d8efc9c4f1241c70356de76ddac8a1f9",
+      "size_in_bytes": 2890
+    },
+    {
+      "_path": "lib/python3.6/site-packages/simplegeneric-0.8.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "d6d6450f6b011a2bf4b1117bf08acbd037d109683f797373d95fba9e4e8e6f95",
+      "size_in_bytes": 10836
+    },
+    {
+      "_path": "lib/python3.6/site-packages/simplegeneric-0.8.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "fdce8930aa7ba023c1f9821bc7df3b84abb8ddb2664c970f36ce781bea79f276",
+      "size_in_bytes": 210
+    },
+    {
+      "_path": "lib/python3.6/site-packages/simplegeneric-0.8.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/simplegeneric-0.8.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cb2dca30718daffdb9d7eb991745904b609384ff7bbdb9c800a7200747e4d165",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "lib/python3.6/site-packages/simplegeneric.py",
+      "path_type": "hardlink",
+      "sha256": "a2ff8624f00f10111c3c54b2537dc7f38837bd77f947f66f860bb54b441d9780",
+      "size_in_bytes": 2740
+    }
+  ],
+  "paths_version": 1
+}

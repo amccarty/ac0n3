@@ -1,0 +1,25 @@
+{
+  "paths": [
+    {
+      "_path": "bin/patchelf",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/patchelf_1505742051137/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "fc63ad5ad60195e882581d12464e518586f8c1d14ce15a7ab0ee66eba8fd1e25",
+      "size_in_bytes": 139176
+    },
+    {
+      "_path": "share/doc/patchelf/README",
+      "path_type": "hardlink",
+      "sha256": "3efaf011d4f306236b51dc175cb27777866b1f76048b0e411e4453eee9668dbe",
+      "size_in_bytes": 4310
+    },
+    {
+      "_path": "share/man/man1/patchelf.1",
+      "path_type": "hardlink",
+      "sha256": "f2a09563c82733f734401b043200abf6e13a43e01eb6eb1cd41664590a650cbe",
+      "size_in_bytes": 2425
+    }
+  ],
+  "paths_version": 1
+}

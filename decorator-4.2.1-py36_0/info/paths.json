@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/decorator.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "867940874407d72604bda6ba78984e252e80f65a51454361009505126a04e4c6",
+      "size_in_bytes": 12436
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "2985b8de47c74b5368345cf94ec6fb1afb214f9274af61d722dd4015fcb4fc96",
+      "size_in_bytes": 3223
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "de7fb6a60dbf285f76198cd71a7500cce4aa95028dfee96d1620f15076159c5f",
+      "size_in_bytes": 384
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "ff6eba464741e7fae648ac864b95774b67bdb57530a927fe9b7af7709c9d52aa",
+      "size_in_bytes": 134
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/pbr.json",
+      "path_type": "hardlink",
+      "sha256": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+      "size_in_bytes": 47
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator-4.2.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "lib/python3.6/site-packages/decorator.py",
+      "path_type": "hardlink",
+      "sha256": "10064aa32bc804683d3dc0e7ce033debcf0e6b13cf8a7ed01b1f51a14f9364f8",
+      "size_in_bytes": 16568
+    }
+  ],
+  "paths_version": 1
+}

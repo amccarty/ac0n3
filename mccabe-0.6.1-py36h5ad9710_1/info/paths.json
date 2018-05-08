@@ -1,0 +1,53 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/mccabe.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c648a05326e1227a7da96a0d9d6a3eacca5aa40cadc7fb3483fc6bcac46b13fc",
+      "size_in_bytes": 11134
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "0b26e9ec4c0ac4d626c67082df1663a2f86488aa2dd5d1d5dfc5e7e0757707a3",
+      "size_in_bytes": 5535
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "70d96e663316f14036e3494adb221c4e7ba0ef7bad4a2c93b241fe02f64471f0",
+      "size_in_bytes": 256
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "376347d7cd865d35324e6f2bf1732069d6fd0be0916b9754af593c382f75b861",
+      "size_in_bytes": 47
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe-0.6.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "db5717baa644fa5a5c7c0aaa00dbd7f448c8d440f5a7ccdc562bf4eb8bb744a0",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.6/site-packages/mccabe.py",
+      "path_type": "hardlink",
+      "sha256": "5cf332c1d42c846ff99d28dc91bf8eccdaa7090b9742fcb71530a5b292b01900",
+      "size_in_bytes": 10693
+    }
+  ],
+  "paths_version": 1
+}

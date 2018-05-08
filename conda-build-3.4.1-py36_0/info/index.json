@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "beautifulsoup4",
+    "chardet",
+    "conda >=4.3",
+    "conda-verify",
+    "filelock",
+    "glob2",
+    "jinja2",
+    "patchelf",
+    "pkginfo",
+    "python >=3.6,<3.7.0a0",
+    "pyyaml",
+    "six"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "conda-build",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1518118508683,
+  "version": "3.4.1"
+}

@@ -1,0 +1,79 @@
+# This file created by conda-build 3.0.15+56.gd43c51d
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/xlrd-feedstock/recipe, last modified Thu Sep 21 01:14:26 2017
+# ------------------------------------------------
+
+package:
+    name: xlrd
+    version: 1.1.0
+source:
+    fn: xlrd-1.1.0.tar.gz
+    patches:
+        - patch
+    sha256: 8a21885513e6d915fe33a8ee5fdfa675433b61405ba13e2a69e62ee36828d7e2
+    url: https://pypi.io/packages/source/x/xlrd/xlrd-1.1.0.tar.gz
+build:
+    number: '1'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36h1db9f0c_1
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l h9d1a558_3
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    files:
+        - test.xlsx
+    imports:
+        - xlrd
+about:
+    description: 'xlrd is a library for reading data and formatting information from
+        Excel files,
+
+        whether they are .xls or .xlsx files.
+
+        '
+    dev_url: https://github.com/python-excel/xlrd/
+    doc_source_url: https://github.com/python-excel/xlrd/blob/master/docs/index.rst
+    doc_url: http://xlrd.readthedocs.io/en/latest/
+    home: http://www.python-excel.org/
+    license: BSD 3-Clause and BSD with advertising
+    license_family: BSD
+    license_file: LICENSE
+    summary: Library for developers to extract data from Microsoft Excel (tm) spreadsheet
+        files
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - cokelaer

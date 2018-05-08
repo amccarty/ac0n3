@@ -1,0 +1,75 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/sip-feedstock/recipe, last modified Mon Sep 18 11:22:51 2017
+# ------------------------------------------------
+
+package:
+    name: sip
+    version: 4.18.1
+source:
+    fn: sip-4.18.1.tar.gz
+    patches:
+        - 0001-Do-not-override-CC-CXX-LINK-in-sipgen-Makefile.patch
+    sha256: 9bce7a2dbf7f105bf68ad1bab58eebc0ce33087ec40396da756463f086ffa290
+    url: http://sourceforge.net/projects/pyqt/files/sip/sip-4.18.1/sip-4.18.1.tar.gz
+build:
+    number: '2'
+    string: py36h51ed4ed_2
+requirements:
+    build:
+        - binutils_linux-64 2.28.1 he4fe6c7_1
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - gcc_linux-64 7.2.0 hc7b1ceb_1
+        - gxx_linux-64 7.2.0 h8cc0f3c_1
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - libgcc-ng >=7.2.0
+        - libstdcxx-ng >=7.2.0
+        - python >=3.6,<3.7.0a0
+test:
+    files:
+        - test
+    imports:
+        - sip
+    requires:
+        - gxx_linux-64
+about:
+    description: 'SIP is a tool that makes it very easy to create Python bindings
+        for C and
+
+        C++ libraries. SIP comprises a code generator and a Python module. The
+
+        code generator processes a set of specification files and generates C or
+
+        C++ code which is then compiled to create the bindings extension module.
+
+        The SIP Python module provides support functions to the automatically
+
+        generated code.
+
+        '
+    dev_url: https://github.com/ifwe/sip
+    doc_url: http://pyqt.sourceforge.net/Docs/sip4/
+    home: http://www.riverbankcomputing.com/software/sip/intro
+    license: GPL-3.0
+    license_file: LICENSE
+    summary: Create Python bindings for C and C++ libraries
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - msarahan
+        - ocefpaf

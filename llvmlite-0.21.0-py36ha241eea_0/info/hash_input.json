@@ -1,0 +1,65 @@
+{
+  "requirements": {
+    "build": [
+      "binutils_impl_linux-64 2.28.1 h04c84fa_2",
+      "binutils_linux-64 7.2.0 hc67e822_15",
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "gcc_impl_linux-64 7.2.0 hc5ce805_2",
+      "gcc_linux-64 7.2.0 haf1f6fa_15",
+      "gxx_impl_linux-64 7.2.0 hd3faf3d_2",
+      "gxx_linux-64 7.2.0 h2e50c1c_15",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "llvmdev 5.0.0 h4ca60d5_1",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pip 9.0.1 py36h6c6f9ce_4",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "wheel 0.30.0 py36hfd4bba0_1",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "llvmdev 5.0.0 h4ca60d5_1",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pip 9.0.1 py36h6c6f9ce_4",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "wheel 0.30.0 py36hfd4bba0_1",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "libgcc-ng 7.2.0.*",
+      "libstdcxx-ng 7.2.0.*",
+      "python >=3.6,<3.7.0a0"
+    ]
+  },
+  "build": {
+    "script_env": [
+      "PY_VCRUNTIME_REDIST"
+    ]
+  },
+  "source": {
+    "path": "/home/dev/var/llvmlite-py3_6-x86_64/build"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

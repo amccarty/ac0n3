@@ -1,0 +1,41 @@
+{% set version = "0.5.2" %}
+
+package:
+  name: ptyprocess
+  version: {{ version }}
+
+source:
+  fn: ptyprocess-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/ptyprocess/ptyprocess-{{ version }}.tar.gz
+  sha256: e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365
+
+build:
+  number: 0
+  skip: True  # [win]
+
+requirements:
+  host:
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - ptyprocess
+
+about:
+  home: https://github.com/pexpect/ptyprocess
+  license: ISC
+  summary: 'Run a subprocess in a pseudo terminal'
+  description: |
+    Ptyprocess allows you to launch a subprocess in a pseudo terminal (pty),
+    and interact with both the process and its pty.
+  doc_url: http://ptyprocess.readthedocs.io/en/latest/
+  doc_source_url: https://github.com/pexpect/ptyprocess/blob/master/docs/index.rst
+  dev_url: https://github.com/pexpect/ptyprocess
+
+extra:
+  recipe-maintainers:
+    - pelson
+    - takluyver
+    - ocefpaf

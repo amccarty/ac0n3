@@ -1,0 +1,57 @@
+{% set version="0.27.3" %}
+
+package:
+  name: cython
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/C/Cython/Cython-{{ version }}.tar.gz
+  sha256: 6a00512de1f2e3ce66ba35c5420babaef1fe2d9c43a8faab4080b0dbcc26bc64
+
+build:
+  number: 0
+  script: "%PYTHON% setup.py install --single-version-externally-managed --record=record.txt"  # [win]
+  entry_points:
+    - cython = Cython.Compiler.Main:setuptools_main
+    - cythonize = Cython.Build.Cythonize:main
+    - cygdb = Cython.Debugger.Cygdb:main
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - setuptools
+
+test:
+  commands:
+    - cython --version
+  files:
+    - fib.pyx
+
+about:
+  home: http://www.cython.org/
+  license: Apache-2.0
+  license_file: LICENSE.txt
+  summary: The Cython compiler for writing C extensions for the Python language
+  description: |
+    Cython is an optimising static compiler for both the Python programming
+    language and the extended Cython programming language. It makes writing C
+    extensions for Python as easy as Python itself.
+  doc_url: http://cython.org/#documentation
+  dev_url: https://github.com/cython/cython
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - msarahan
+    - ocefpaf
+    - synapticarbors
+    - isuruf
+    - scopatz
+    - mingwandroid

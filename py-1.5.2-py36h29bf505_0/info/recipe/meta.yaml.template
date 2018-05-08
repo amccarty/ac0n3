@@ -1,0 +1,56 @@
+{% set name = "py" %}
+{% set version = "1.5.2" %}
+{% set hash_type = "sha256" %}
+{% set hash = "ca18943e28235417756316bfada6cd96b23ce60dd532642690dcfdaba988a76d" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/py/py-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    - py
+    - py.code
+    - py.io
+    - py.log
+    - py.path
+    - py.process
+
+about:
+  home: https://github.com/pytest-dev/py
+  license: MIT
+  license_file: LICENSE
+  summary: "library with cross-python path, ini-parsing, io, code, log facilities"
+  
+  description: |
+    The py lib is a Python development support library featuring the following
+    tools and modules:
+    py.path: uniform local and svn path objects
+    py.apipkg: explicit API control and lazy-importing
+    py.iniconfig: easy parsing of .ini files
+    py.code: dynamic code generation and introspection
+  doc_url: http://pylib.readthedocs.org/en/latest/
+  dev_url: https://bitbucket.org/pytest-dev/py
+  dev_source_url: 
+
+extra:
+  recipe-maintainers:
+    - nicoddemus
+    - jakirkham
+    - mingwandroid

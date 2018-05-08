@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h35f843b_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT License",
+  "license_family": "MIT",
+  "name": "parso",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1512061097157,
+  "version": "0.1.1"
+}

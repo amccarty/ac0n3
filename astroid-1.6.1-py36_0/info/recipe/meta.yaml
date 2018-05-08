@@ -1,0 +1,65 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/astroid-1.6.1-python3.6-on-linux_64, last modified Tue Jan 30 15:48:28 2018
+# ------------------------------------------------
+
+package:
+    name: astroid
+    version: 1.6.1
+source:
+    fn: astroid-1.6.1.tar.gz
+    sha256: f0a0e386dbca9f93ea9f3ea6f32b37a24720502b7baa9cb17c3976a680d43a06
+    url: https://pypi.io/packages/source/a/astroid/astroid-1.6.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - lazy-object-proxy
+        - python >=3.6,<3.7.0a0
+        - setuptools
+        - six
+        - wrapt
+test:
+    imports:
+        - astroid
+        - astroid.modutils
+        - astroid.tests
+about:
+    description: 'Astroid provide a common base representation of python source code
+        for
+
+        projects such as pychecker, pyreverse, pylint.
+
+        '
+    dev_url: https://github.com/PyCQA/astroid
+    doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
+    doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
+    home: https://www.astroid.org/
+    license: LGPL 2.1
+    license_family: LGPL
+    license_file: COPYING
+    summary: A abstract syntax tree for Python with inference support.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ericdill
+        - jakirkham

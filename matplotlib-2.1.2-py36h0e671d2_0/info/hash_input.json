@@ -1,0 +1,8 @@
+{
+  "c_compiler": "gcc",
+  "cxx_compiler": "gxx",
+  "freetype": "2.8",
+  "zlib": "1.2",
+  "icu": "58",
+  "libpng": "1.6"
+}

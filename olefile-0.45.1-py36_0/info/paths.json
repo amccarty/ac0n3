@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/olefile-0.45.1-py3.6.egg-info",
+      "path_type": "hardlink",
+      "sha256": "b9bfd18902dfd65403c1a644152e5b4214708c0784f1f56ff25294acec78ce79",
+      "size_in_bytes": 10605
+    },
+    {
+      "_path": "lib/python3.6/site-packages/olefile/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "5e81aec95ac09c993ad53fcfd93b3a6f67f1d1ff0bfee49214cabcfe51f0c17a",
+      "size_in_bytes": 995
+    },
+    {
+      "_path": "lib/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "71dc9be2586de12784762de6daf261c9c92a6667d01534f33aed028288c30aaa",
+      "size_in_bytes": 1100
+    },
+    {
+      "_path": "lib/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "032f1331149b4ed5b7063607a2216381b6bef0fbe3f9b1224c1fcaeaa491f479",
+      "size_in_bytes": 55162
+    },
+    {
+      "_path": "lib/python3.6/site-packages/olefile/olefile.py",
+      "path_type": "hardlink",
+      "sha256": "feeeda9c8d82b2653c33c82c312ebd87c074208b39a2b98f710f5103108fddca",
+      "size_in_bytes": 104859
+    }
+  ],
+  "paths_version": 1
+}

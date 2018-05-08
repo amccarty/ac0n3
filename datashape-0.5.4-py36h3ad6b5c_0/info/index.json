@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py36h3ad6b5c_0",
+  "build_number": 0,
+  "depends": [
+    "multipledispatch >=0.4.7",
+    "numpy >=1.7",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil"
+  ],
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "name": "datashape",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505739982334,
+  "version": "0.5.4"
+}

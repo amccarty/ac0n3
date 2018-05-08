@@ -1,0 +1,45 @@
+{% set version = "0.16.1" %}
+
+package:
+  name: dask-core
+  version: "{{ version }}"
+
+source:
+  fn: dask-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
+  sha256: 07a0609ce053c8c2675037e6d5242899f90ecfb5262e1d0b2d7264fe8814099c
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - dask
+
+about:
+  home: http://github.com/dask/dask/
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: 'Parallel Python with task scheduling'
+  doc_url: https://dask.pydata.org/
+  dev_url: https://github.com/dask/dask
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jcrist
+    - martindurant
+    - mrocklin
+    - pitrou
+    - shoyer
+    - sinhrks
+    - tomaugspurger

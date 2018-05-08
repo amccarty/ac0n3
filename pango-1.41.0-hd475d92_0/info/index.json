@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "hd475d92_0",
+  "build_number": 0,
+  "depends": [
+    "fontconfig >=2.12.4,<3.0a0",
+    "freetype >=2.8,<2.9.0a0",
+    "harfbuzz >=1.7.4,<2.0a0",
+    "libgcc-ng >=7.2.0",
+    "libpng >=1.6.34,<1.7.0a0"
+  ],
+  "license": "LGPL-2.1",
+  "name": "pango",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1516745276300,
+  "version": "1.41.0"
+}

@@ -1,0 +1,88 @@
+# This file created by conda-build 3.2.2
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/networkx-2.1-python3.6-on-linux_64, last modified Tue Jan 23 22:21:15 2018
+# ------------------------------------------------
+
+package:
+    name: networkx
+    version: '2.1'
+source:
+    sha256: 64272ca418972b70a196cb15d9c85a5a6041f09a2f32e0d30c0255f25d458bb1
+    url: https://pypi.io/packages/source/n/networkx/networkx-2.1.zip
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.21.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - decorator >=4.1.0
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - networkx
+        - networkx.algorithms
+        - networkx.algorithms.approximation
+        - networkx.algorithms.assortativity
+        - networkx.algorithms.bipartite
+        - networkx.algorithms.centrality
+        - networkx.algorithms.chordal
+        - networkx.algorithms.coloring
+        - networkx.algorithms.community
+        - networkx.algorithms.components
+        - networkx.algorithms.connectivity
+        - networkx.algorithms.flow
+        - networkx.algorithms.isomorphism
+        - networkx.algorithms.link_analysis
+        - networkx.algorithms.operators
+        - networkx.algorithms.shortest_paths
+        - networkx.algorithms.traversal
+        - networkx.algorithms.tree
+        - networkx.classes
+        - networkx.drawing
+        - networkx.generators
+        - networkx.linalg
+        - networkx.readwrite
+        - networkx.readwrite.json_graph
+        - networkx.testing
+        - networkx.tests
+        - networkx.utils
+    requires:
+        - nose >=0.10.1
+about:
+    description: 'NetworkX is a Python language software package for the creation,
+
+        manipulation, and study of the structure, dynamics, and functions of complex
+
+        networks.
+
+        '
+    dev_url: https://github.com/networkx
+    doc_source_url: https://github.com/networkx/networkx/blob/v1.11/doc/source/index.rst
+    doc_url: https://networkx.readthedocs.io/en/stable/
+    home: https://networkx.github.io/
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: Python package for creating and manipulating complex networks
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - synapticarbors

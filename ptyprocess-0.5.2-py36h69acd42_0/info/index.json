@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36h69acd42_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "ISC",
+  "name": "ptyprocess",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505690237910,
+  "version": "0.5.2"
+}

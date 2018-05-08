@@ -1,0 +1,61 @@
+{% set major = "1.41" %}
+{% set patch = "0" %}
+{% set version = major + "." + patch %}
+
+package:
+  name: pango
+  version: {{ version }}
+
+source:
+  url: http://ftp.gnome.org/pub/GNOME/sources/pango/{{ major }}/pango-{{ version }}.tar.xz
+  sha256: 1f76ef95953dc58ee5d6a53e5f1cb6db913f3e0eb489713ee9266695cae580ba
+
+build:
+  number: 0
+  skip: true  # [win]
+  run_exports:
+    # excellent: https://abi-laboratory.pro/tracker/timeline/pango/
+    - {{ pin_subpackage('pango') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ cdt('libxau-devel') }}          # [linux]
+    - {{ cdt('libxext-devel') }}         # [linux]
+    - {{ cdt('libx11-devel') }}          # [linux]
+    - {{ cdt('libxrender-devel') }}      # [linux]
+  host:
+    - fontconfig
+    - freetype
+    - libpng
+    - perl 5.*
+    - pkg-config
+    - harfbuzz
+    - gobject-introspection  # [not win]
+
+test:
+  commands:
+    - pango-view --help
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+about:
+  home: http://www.pango.org/
+  license: LGPL-2.1
+  license_file: COPYING
+  summary: 'Text layout and rendering engine.'
+  description: |
+    Pango is a library for laying out and rendering of text, with an emphasis
+    on internationalization. Pango can be used anywhere that text layout is
+    needed, though most of the work on Pango so far has been done in the
+    context of the GTK+ widget toolkit. Pango forms the core of text and font
+    handling for GTK+-2.x.
+  doc_url: http://www.pango.org/
+  dev_url: https://github.com/phuang/pango
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - ccordoba12
+    - jakirkham
+    - pkgw

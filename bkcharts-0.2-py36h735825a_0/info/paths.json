@@ -1,0 +1,533 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "07f7628886c3e284ce0cef9b83d06b70e36be14e5a1780d779596255c7f0507c",
+      "size_in_bytes": 1292
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "f8675937642e062d12d00de5f2f90513c9f592f5894109261cf4d3670ca41a6a",
+      "size_in_bytes": 2772
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "97fe91c5752828fb3c4adb6bf0088fe2cd27d9a1b217e82210477d6477cd87b8",
+      "size_in_bytes": 24
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts-0.2-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "07d341841bb9cec87464ef7ebff03b9ab1e51622b8f3cfbc7b378a557190403d",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "01bea63b4da7edf0a9f26040bb92aec273446fc1a35a5e425ec14082efaeb648",
+      "size_in_bytes": 1223
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d8d3c072698af950194e2044462651a156a706bfeb9f9b0ae5c3f979753f5281",
+      "size_in_bytes": 1403
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/attributes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "73b2b9c2f8ce51eb9c4aec23917b382cd964c4e8dcdd1227a31464b51d5ae324",
+      "size_in_bytes": 14758
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f76cb79261f1bd3764378caf96b6e43a19110e8fa2ef8f94c529b3cbb34b82cd",
+      "size_in_bytes": 19094
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/chart.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2ca6f9ce986074c0e6462a5ad5fded4fbc4d52d3db6c6d3dbb820bcab5ed0520",
+      "size_in_bytes": 11083
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/conftest.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9b5570bec4295f73180b3c2446b92b36b06cdb76c11902b41787b8f3fbea078d",
+      "size_in_bytes": 1989
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/data_source.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "76654a680e1b8c8a861acb36b2dad74fbdede5988b869cbb79f72e8b31fb58d9",
+      "size_in_bytes": 29629
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/glyphs.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "52a82bdd59a0cecb224d94f39e5479fbca207a7100035f022b48f37179514253",
+      "size_in_bytes": 34908
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/models.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8917b0adad5b96a18236d8f10018646d1e5a2c56ef286d625c6059daf983b27",
+      "size_in_bytes": 8814
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/operations.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2bee689dd3fa780dbff62302a3c10c75f46e95031e46031cb44d27d8db04df4c",
+      "size_in_bytes": 6044
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/properties.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7f7073d6c5685d2e498805a5279b27429300b4c0a251355bc04b2b3d9e3d2c9f",
+      "size_in_bytes": 7673
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/stats.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4d4db836ae71ff25b916ca38638bd122a2ad53485b8c364cf5b7277ce51530e0",
+      "size_in_bytes": 15895
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/__pycache__/utils.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d43477706d94076c9ca874cef77530c3f9b09d45ee26f699da310c0a538147e6",
+      "size_in_bytes": 19567
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/attributes.py",
+      "path_type": "hardlink",
+      "sha256": "79a6af4cdadc20a928c56fe09fa92634270ae78260ae9673635f33bce3cf5349",
+      "size_in_bytes": 14573
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builder.py",
+      "path_type": "hardlink",
+      "sha256": "b3c9b8e7e06f3003de490f15249b274b0851826b3a1cb2ab59e3e54aab16fd7b",
+      "size_in_bytes": 25402
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9c4078c909112295b2bde5d5bdf37e277eeea3ae11660ad24aa2c6456d3c0eae",
+      "size_in_bytes": 140
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/area_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f29435e564b0a177099f2ee5e41bd42c6ce79966f47b730cbe8f0e07e1287b9e",
+      "size_in_bytes": 2602
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/bar_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5a9dabcc85b7a70ea6e9fe402338ef6300eb0e6f1638f3dcd73ba09808167815",
+      "size_in_bytes": 9477
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/boxplot_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "af12ddd9750eeafb72afe08b4dd38fdc54a71797f56e40f9e609df19cf0e62cd",
+      "size_in_bytes": 4825
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/chord_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "acc6385a69f48a32cb3532e7c07747fa775c1a7df9a951e172c5738a693166fe",
+      "size_in_bytes": 9549
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/donut_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "712a254926906ae91d2247feb7cef0b7a1c5436dd6b984050a0ac27f1271e813",
+      "size_in_bytes": 7349
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/dot_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "195810c94dc796c744e4bfc08f328b63ec49cd7dc5f63bd45b80d0be7f39613f",
+      "size_in_bytes": 4599
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/heatmap_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "125a5491a051906601b6c6035773c93991a3f762d6521f794ed5939fcbece534",
+      "size_in_bytes": 6434
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/histogram_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8180ad700f973257611b7199189e90abb4113b872c4bcbb045fab1d6c1e3ee41",
+      "size_in_bytes": 6340
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/horizon_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8feff85e587d0d9d77180c3c8b8fe3f635c0f546fcaa6ba521caf9bf5bf77581",
+      "size_in_bytes": 5965
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/line_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "411bc1f39d216285a9081339c264aaaa50f46e7a76dcf753917a8e125d95a4b9",
+      "size_in_bytes": 8547
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/scatter_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d97bea960a79fb550c58c72c3deeb52fe8c4aadf27ca751093095635c5fe8a4a",
+      "size_in_bytes": 3198
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/step_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "305710071d70ab5b78d630dc5699909511e69374825e71ef7933d6fc5f140682",
+      "size_in_bytes": 3993
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/__pycache__/timeseries_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6ae6398be46da5372401129496a26a36dc91f7463ac4985473584d8ab9682294",
+      "size_in_bytes": 3370
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/area_builder.py",
+      "path_type": "hardlink",
+      "sha256": "672ff18166fbfc6b4282a93cf3a1ae17e131f047e723dead00d3d6e25ea198f9",
+      "size_in_bytes": 2969
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/bar_builder.py",
+      "path_type": "hardlink",
+      "sha256": "a316df7312abd7ef8583b780555c66b2c17dc7ac0fe385906d9d4da8ccd4fc53",
+      "size_in_bytes": 12450
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/boxplot_builder.py",
+      "path_type": "hardlink",
+      "sha256": "1b8aabf19b8f1f57bddd70b688e906f00aca9fb33ac18ff18c29dc7dfa2e6b30",
+      "size_in_bytes": 5769
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/chord_builder.py",
+      "path_type": "hardlink",
+      "sha256": "9454b60bae30019323f863615d1339afb419b7ff672683e654b60b9aacb345f3",
+      "size_in_bytes": 12276
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/donut_builder.py",
+      "path_type": "hardlink",
+      "sha256": "1537800a3bffb33040cac59cc703d22c13030ee3ab6e82107829143237129e23",
+      "size_in_bytes": 9687
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/dot_builder.py",
+      "path_type": "hardlink",
+      "sha256": "671a9707864b4e94c1fc48fee330f56c1a02eb8e7bb55fb2792fd04cab0e078d",
+      "size_in_bytes": 5524
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/heatmap_builder.py",
+      "path_type": "hardlink",
+      "sha256": "d2873a26080a32a3a772efc8c62ad8ebb6fedb91c8039d553ad5d4244935ac24",
+      "size_in_bytes": 8213
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/histogram_builder.py",
+      "path_type": "hardlink",
+      "sha256": "1ae3cde86f625f396b9dba890981767358918183e8185c8f1f8daa52e7ad6f53",
+      "size_in_bytes": 6565
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/horizon_builder.py",
+      "path_type": "hardlink",
+      "sha256": "bb2b49b4b713c9cc22f99af8e4e937bf03ba40974bd1ec664ca2d4d1fed3e33e",
+      "size_in_bytes": 6666
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/line_builder.py",
+      "path_type": "hardlink",
+      "sha256": "c9495a8317bd568c992c79fd2419cb18efdb313a12058be863fc474fa7e52162",
+      "size_in_bytes": 9607
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/scatter_builder.py",
+      "path_type": "hardlink",
+      "sha256": "92482805a8962d5d2b89e94b8555abb1d97c7ee74e45c29f465311a4c3a45248",
+      "size_in_bytes": 3794
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/step_builder.py",
+      "path_type": "hardlink",
+      "sha256": "fb65f7e5d226a951b52c6ea504da60f13d00a7319d01efe53f50a919d872f7fd",
+      "size_in_bytes": 4523
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "083233bc8bfbeaed5498667851a37c632fb6d7a2aeabd1a0ce3c7b12eefce1fb",
+      "size_in_bytes": 146
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_bar_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "632c652bd46a89784c55b44f82b7fbe43eddb5a0966e5be30185cead49593de3",
+      "size_in_bytes": 2089
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_boxplot_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c739ad6112e54268dc2bc471dd5d3de0498c264066858a543f2f937968687dfb",
+      "size_in_bytes": 575
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_chord_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "99f4540786dfd576de565f517b0756ebe3e45920be759bc191d972fdc0057daa",
+      "size_in_bytes": 655
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_histogram_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6d52bb43f9cb1018247699ca14edf14ba19b6035fb26127c5cdfc53f9542f72a",
+      "size_in_bytes": 586
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_line_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4802b6d9ae567cb7dfa7384c5be43e348da93c79c2b6951b5ca890f837f2981a",
+      "size_in_bytes": 1264
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/__pycache__/test_scatter_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1002d288b8bc52a7bf212710c8ee8abaafe2523acee6c8129b2e51cf397f5e10",
+      "size_in_bytes": 578
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_bar_builder.py",
+      "path_type": "hardlink",
+      "sha256": "35550b9966733c58371da8eeadc65c4b4453f74e0096e7e5fe0e1571278e9c5d",
+      "size_in_bytes": 2438
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_boxplot_builder.py",
+      "path_type": "hardlink",
+      "sha256": "fb4744d7510065f7d7336539c13a4d98483d245a8b9044ec82d68ad1469ea346",
+      "size_in_bytes": 1019
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_chord_builder.py",
+      "path_type": "hardlink",
+      "sha256": "3ba9f7a9c78f6f85368b86bee433249bb368fb591f12cf210fb771f580bc21bb",
+      "size_in_bytes": 740
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_histogram_builder.py",
+      "path_type": "hardlink",
+      "sha256": "962e5bad2d5222cd835e2d7b1f1e2fd33eb6bc9be8723bf48895cdbb10ab16bb",
+      "size_in_bytes": 1036
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_line_builder.py",
+      "path_type": "hardlink",
+      "sha256": "6d7b4f394116f95564eddfff366bc23026246419f2b3b2827275c0cd0b498302",
+      "size_in_bytes": 1274
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/tests/test_scatter_builder.py",
+      "path_type": "hardlink",
+      "sha256": "d0886e66402054666738bb40cb88be8793efdc77797142b4ffd80da0c4d438ae",
+      "size_in_bytes": 1017
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/builders/timeseries_builder.py",
+      "path_type": "hardlink",
+      "sha256": "01cc5d060a9d786bb9c8988b9510ab00777f265c7fcedc93c328c79d7aec5d70",
+      "size_in_bytes": 3949
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/chart.py",
+      "path_type": "hardlink",
+      "sha256": "2a90945d72d5661dd37865fb8a3e6646f3b234edaa397ebb52389dba677f4d29",
+      "size_in_bytes": 12338
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/conftest.py",
+      "path_type": "hardlink",
+      "sha256": "9bcf8905c901f9317530d7882da25e2d8ba34412eade086bcb6fe8300406706d",
+      "size_in_bytes": 1484
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/data_source.py",
+      "path_type": "hardlink",
+      "sha256": "cde329cc98337d594677cc9268c324c3179f62c77b41235b2bbbc169759aa5b0",
+      "size_in_bytes": 33911
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/glyphs.py",
+      "path_type": "hardlink",
+      "sha256": "1c222bec46a5b24e3f80be91f3369c26ff1cf3b152cab734b1f36f4dc094e8ad",
+      "size_in_bytes": 36839
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/models.py",
+      "path_type": "hardlink",
+      "sha256": "869f447b147d0a496870515911f7513ebebac57f4b0d35528a46b270303ea7a9",
+      "size_in_bytes": 8439
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/operations.py",
+      "path_type": "hardlink",
+      "sha256": "00e7a15108e317b1f4c814a1463298d529300efec8d9f302f1ec7601db84110d",
+      "size_in_bytes": 5666
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/properties.py",
+      "path_type": "hardlink",
+      "sha256": "2ce786b6109b46b0e55fef18dfdb3ce64d8b57287225dc44ae1a576c049fa7be",
+      "size_in_bytes": 7436
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/stats.py",
+      "path_type": "hardlink",
+      "sha256": "c2a66bbad227a902d349e9ac9ed02d98fd01e4ecf098ec0435bb796b041d90fe",
+      "size_in_bytes": 14654
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "d5d6469d94420003859be7d52052af8ceb6f28a87cacbf1b61d071903a5dd26b",
+      "size_in_bytes": 137
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_attributes.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c40f60ebad9daba73b6ca3e1b8b064441aeb69dd9645403ae42e85a00ad75509",
+      "size_in_bytes": 1950
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_builder.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "13ce30afab5ae91b32f0c864022fd3337914947814c83e25b7a3941de2c4f1cd",
+      "size_in_bytes": 3382
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_chart.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3075e88f264f490bb71f5611d0c8456cbd882daf0ff9715445a3081982c565d8",
+      "size_in_bytes": 6004
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_chart_utils.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f573bfd9b746aea70bad5dbc5f227bf335502f27afd349501fd0f13a0410b43d",
+      "size_in_bytes": 2671
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_comp_glyphs.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "656f12dcc2e0081edf48a37c5148a0279c4bf3272d6e8c0a4b8b98c6c99867b8",
+      "size_in_bytes": 4460
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_data_source.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7aac36061c69d9554837510f016ffd974a79059c757a69cf1760a88ea02694fa",
+      "size_in_bytes": 4110
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/__pycache__/test_stats.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "f364d7bc8737e4713c5865123679bede1c48cf86ebaa921b3455a417108273e0",
+      "size_in_bytes": 2892
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_attributes.py",
+      "path_type": "hardlink",
+      "sha256": "7d2bd8ad1111eb2e1ca314343f83708b3de4e59a5a799628a3e49faae7a9f13c",
+      "size_in_bytes": 1756
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_builder.py",
+      "path_type": "hardlink",
+      "sha256": "dc33444f5870c431c506ca2382380ba62bf142542e12a5fa0e665dafbf3c2656",
+      "size_in_bytes": 4202
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_chart.py",
+      "path_type": "hardlink",
+      "sha256": "229170b146e552f748396c0cc4b69a06872975a68f04c42b3393d373292c5c63",
+      "size_in_bytes": 6650
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_chart_utils.py",
+      "path_type": "hardlink",
+      "sha256": "be46900faecee13138ff282d00d4a7c4d90f3959b9499e67265017c888722521",
+      "size_in_bytes": 2991
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_comp_glyphs.py",
+      "path_type": "hardlink",
+      "sha256": "b21976a8b9efcf96e5731230c85c647ccf1c37c333671f0f4197beebcdf19ef2",
+      "size_in_bytes": 4041
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_data_source.py",
+      "path_type": "hardlink",
+      "sha256": "207567a859ecbeff6d9891ba14d7774bc563fc8a59f3642b726ba0d0f12ef853",
+      "size_in_bytes": 4533
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/tests/test_stats.py",
+      "path_type": "hardlink",
+      "sha256": "3bdc0ee89949157d3f05cf6cf823b04df505598859a6ebf2dd1be42f7047cd96",
+      "size_in_bytes": 1735
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bkcharts/utils.py",
+      "path_type": "hardlink",
+      "sha256": "3dd4f2848f17ee98fc70cbcdcda4236df392a97520e18a2aaee06fd9058361a2",
+      "size_in_bytes": 20601
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,91 @@
+{
+  "paths": [
+    {
+      "_path": "include/zmq.h",
+      "path_type": "hardlink",
+      "sha256": "e00ab4b318526fc2b340ca69cafcd5e5071810f63471a0fe89064ee18e1afafb",
+      "size_in_bytes": 24177
+    },
+    {
+      "_path": "include/zmq_utils.h",
+      "path_type": "hardlink",
+      "sha256": "926abbe8a8ab28df17746ca5bf60440b799b391be172c406e0628cdef3788909",
+      "size_in_bytes": 2316
+    },
+    {
+      "_path": "lib/libzmq.a",
+      "path_type": "hardlink",
+      "sha256": "b021b1a873d1195beb05601e14844d2f48772373adc35b8cba1102852efe6257",
+      "size_in_bytes": 1829830
+    },
+    {
+      "_path": "lib/libzmq.so",
+      "path_type": "softlink",
+      "sha256": "c9e5b67cf02e51643c5776b26ea1df065198466bbe3695d09d1f8ebffccb5b19",
+      "size_in_bytes": 953080
+    },
+    {
+      "_path": "lib/libzmq.so.4.2.2",
+      "path_type": "hardlink",
+      "sha256": "c9e5b67cf02e51643c5776b26ea1df065198466bbe3695d09d1f8ebffccb5b19",
+      "size_in_bytes": 953080
+    },
+    {
+      "_path": "lib/libzmq.so.5",
+      "path_type": "softlink",
+      "sha256": "c9e5b67cf02e51643c5776b26ea1df065198466bbe3695d09d1f8ebffccb5b19",
+      "size_in_bytes": 953080
+    },
+    {
+      "_path": "lib/libzmq.so.5.1.2",
+      "path_type": "softlink",
+      "sha256": "c9e5b67cf02e51643c5776b26ea1df065198466bbe3695d09d1f8ebffccb5b19",
+      "size_in_bytes": 953080
+    },
+    {
+      "_path": "lib/pkgconfig/libzmq.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "68e85112215331f46948cf3331613d401acca3c2c5e316cf654c4df6f51986e0",
+      "size_in_bytes": 243
+    },
+    {
+      "_path": "share/cmake/ZeroMQ/ZeroMQConfig.cmake",
+      "path_type": "hardlink",
+      "sha256": "27f430d808df055322c89cc43ebf79f7dabdcc9c65f2c6d2a149262b4f4e1d13",
+      "size_in_bytes": 1539
+    },
+    {
+      "_path": "share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake",
+      "path_type": "hardlink",
+      "sha256": "a2aac7bcb0d6bea1d3a505d05b6e53c1b22d29bb96ee3687501abd4dd5b481f8",
+      "size_in_bytes": 1269
+    },
+    {
+      "_path": "share/zmq/AUTHORS.txt",
+      "path_type": "hardlink",
+      "sha256": "efb0e725ec42dba62132f29e9f1fb32f83460cff6eb2c21ca9a26527d0d8f51f",
+      "size_in_bytes": 2279
+    },
+    {
+      "_path": "share/zmq/COPYING.LESSER.txt",
+      "path_type": "hardlink",
+      "sha256": "83f32abe61ee58ffb1b007412c08415168c052501dbf56d7a47aaaac52b03ef6",
+      "size_in_bytes": 8504
+    },
+    {
+      "_path": "share/zmq/COPYING.txt",
+      "path_type": "hardlink",
+      "sha256": "4fd86507c9b486764343065a9e035222869a27b5789efeb4fd93edc85412d7a3",
+      "size_in_bytes": 35149
+    },
+    {
+      "_path": "share/zmq/NEWS.txt",
+      "path_type": "hardlink",
+      "sha256": "1096e591c883f88ac09f3f27faac87c9af2fa34f906a9d03a8c35e1c9f538114",
+      "size_in_bytes": 42843
+    }
+  ],
+  "paths_version": 1
+}

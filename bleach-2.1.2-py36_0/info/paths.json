@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "373f074399c2d3783f904b0232d6cad2da04938d50b3b63e638da3c845f11e18",
+      "size_in_bytes": 19360
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "6170991bfa159e20f8bf9f7f16b0b778fce901278cdb05dea35a1f570517a13f",
+      "size_in_bytes": 1591
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "9b96ebde4c6be510cc15a52fab0633288b32c4c0cb4f648b135aa76a40672f11",
+      "size_in_bytes": 422
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "09d562d57022f5296f0756a31784cf476e1fcf6901067899c169ff2ca7d958f5",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach-2.1.2-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "75cbf4c0a232481d333230045cbc18e15d3edc837d519406013d700e67d02026",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "efd9ed8aae5ee74b773cf7b0cc33c55763fbb4d90574b804e0d14c5b73e871eb",
+      "size_in_bytes": 4238
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "da530784a71ce0da73f2b79a3a4890d2bf644aa3c0a1058accddcd4b41646a0c",
+      "size_in_bytes": 4014
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__pycache__/callbacks.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "78e11c1665397b8423a09ad25c49bcf14e9e8a935a87bf26dd012691f67968b5",
+      "size_in_bytes": 1060
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__pycache__/linkifier.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "14629274db324d7c6d06044ba76b3ee89b4502b05bd0823e2146c1540d4dfe52",
+      "size_in_bytes": 11354
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__pycache__/sanitizer.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "25085e4c91b0b6c34f27a105f9101ad31a64e61a63d25f87e9808922535ca553",
+      "size_in_bytes": 14801
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/__pycache__/utils.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2a61e12b6d0fb8d71bed0fcc9ac1ae038f8318517c434a281db2c3a8ac174a04",
+      "size_in_bytes": 1434
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/callbacks.py",
+      "path_type": "hardlink",
+      "sha256": "4913d12948a806f4a15ea1d48b5cc4d9076f9bad3072269be62e659eeddc9e78",
+      "size_in_bytes": 804
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/linkifier.py",
+      "path_type": "hardlink",
+      "sha256": "bc2a12f5fc8a80ad353bd7cf737d1edeab34231f6feeca627b8c5914e2a988a7",
+      "size_in_bytes": 19297
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/sanitizer.py",
+      "path_type": "hardlink",
+      "sha256": "ae72e6cbc9e192851f0ec6135694c6d518ad1ba5d675d728153c9e229078b85b",
+      "size_in_bytes": 21671
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bleach/utils.py",
+      "path_type": "hardlink",
+      "sha256": "c5e86404ad1ba20297676e8b1454facde009a34b19e1364a40666aed20401542",
+      "size_in_bytes": 1115
+    }
+  ],
+  "paths_version": 1
+}

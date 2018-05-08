@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "hec55b23_5",
+  "build_number": 5,
+  "depends": [
+    "gmp >=5.0.1,<7",
+    "gmp >=6.1.2",
+    "libgcc-ng 7.2.0.*",
+    "mpfr"
+  ],
+  "license": "LGPL 3",
+  "name": "mpc",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1511294796834,
+  "version": "1.0.3"
+}

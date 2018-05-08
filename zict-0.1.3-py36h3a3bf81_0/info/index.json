@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h3a3bf81_0",
+  "build_number": 0,
+  "depends": [
+    "heapdict",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "zict",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1506623934600,
+  "version": "0.1.3"
+}

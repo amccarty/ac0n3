@@ -1,0 +1,74 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/singledispatch-feedstock/recipe, last modified Sun Sep 17 15:46:58 2017
+# ------------------------------------------------
+
+package:
+    name: singledispatch
+    version: 3.4.0.3
+source:
+    fn: singledispatch-3.4.0.3.tar.gz
+    md5: af2fc6a3d6cc5a02d0bf54d909785fcb
+    url: https://pypi.io/packages/source/s/singledispatch/singledispatch-3.4.0.3.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h7a266c3_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - six 1.10.0 py36hcac75e4_1
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - six 1.10.0 py36hcac75e4_1
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - python >=3.6,<3.7.0a0
+        - six
+test:
+    imports:
+        - singledispatch
+about:
+    description: 'This library brings functools.singledispatch from Python 3.4 to
+        Python
+
+        2.6-3.3.
+
+        '
+    doc_source_url: https://github.com/ambv/singledispatch/blob/master/README.rst
+    doc_url: http://docs.python.org/3/library/functools.html#functools.singledispatch
+    home: http://docs.python.org/3/library/functools.html#functools.singledispatch
+    license: MIT
+    summary: Transforms a function into a single-dispatch generic function
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham

@@ -1,0 +1,66 @@
+{% set version = "1.6.6" %}
+{% set sha256 = "c39a6fa41bd3ec6fc10064329a664ed3a3ca2e27640a823dc520c682e4433cdb" %}
+{% set pkg_name = 'Sphinx' %}
+
+package:
+  name: {{ pkg_name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ pkg_name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ pkg_name[0] }}/{{ pkg_name }}/{{ pkg_name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+    - six
+    - jinja2
+    - pygments
+    - docutils
+    - snowballstemmer
+    - babel
+    - alabaster
+    - imagesize
+    - requests
+    - colorama  # [win]
+    - typing
+    - sphinxcontrib-websupport
+
+test:
+  commands:
+    - sphinx-build -h
+    - sphinx-quickstart --version
+    - sphinx-quickstart -h
+    - sphinx-apidoc -h
+    - sphinx-autogen -h
+  imports:
+    - sphinx
+    - sphinx.pycode
+
+about:
+  home: http://www.sphinx-doc.org
+  license: BSD 2-clause
+  license_file: LICENSE
+  summary: 'Sphinx is a tool that makes it easy to create intelligent and beautiful documentation'
+  description: |
+    Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,
+    written by Georg Brandl and licensed under the BSD license.
+    It was originally created for the new Python documentation, and it has excellent
+    facilities for the documentation of Python projects, but C/C++ is already supported
+    as well, and it is planned to add special support for other languages as well.
+  doc_url: http://www.sphinx-doc.org/en/stable/contents.html
+  doc_source_url: https://github.com/sphinx-doc/sphinx/blob/master/doc/contents.rst
+  dev_url: https://github.com/sphinx-doc/sphinx
+
+extra:
+  recipe-maintainers:
+    - chohner
+    - jakirkham

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h215d178_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pkginfo",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505742299170,
+  "version": "1.4.1"
+}

@@ -1,0 +1,71 @@
+# This file created by conda-build 3.2.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pandas-0.22.0-python3.6-on-nwani-linux-64, last modified Sat Dec 30 20:41:29 2017
+# ------------------------------------------------
+
+package:
+    name: pandas
+    version: 0.22.0
+source:
+    fn: pandas-0.22.0.tar.gz
+    sha256: 44a94091dd71f05922eec661638ec1a35f26d573c119aa2fad964f10a2880e6c
+    url: https://github.com/pandas-dev/pandas/releases/download/v0.22.0/pandas-0.22.0.tar.gz
+build:
+    number: '0'
+    string: py36hf484d3e_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 25
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 25
+        - gxx_impl_linux-64 7.2.0 hd3faf3d_2
+        - gxx_linux-64 7.2.0 25
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - cython 0.27.3 py36h1860423_0
+        - intel-openmp 2018.0.0 hc7b2577_8
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libgfortran-ng 7.2.0 h9f7466a_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - mkl 2018.0.1 h19d6760_4
+        - ncurses 6.0 h9df7e31_2
+        - numpy 1.9.3 py36h35fcb08_3
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng >=7.2.0
+        - libstdcxx-ng >=7.2.0
+        - numpy  >=1.9.3,<2.0a0
+        - python >=3.6,<3.7.0a0
+        - python-dateutil
+        - pytz
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX pandas
+    imports:
+        - pandas
+about:
+    home: http://pandas.pydata.org
+    license: BSD 3-clause
+    license_file: LICENSE
+    summary: High-performance, easy-to-use data structures and data analysis tools.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - TomAugspurger
+        - jorisvandenbossche
+        - jreback
+        - msarahan
+        - ocefpaf

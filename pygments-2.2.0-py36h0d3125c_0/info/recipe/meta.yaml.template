@@ -1,0 +1,56 @@
+{% set version = "2.2.0" %}
+
+package:
+  name: pygments
+  version: {{ version }}
+
+source:
+  fn: Pygments-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/P/Pygments/Pygments-{{ version }}.tar.gz
+  sha256: dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc
+
+build:
+  number: 0
+  entry_points:
+    - pygmentize = pygments.cmdline:main
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - setuptools
+
+test:
+  imports:
+    - pygments.styles
+    - pygments
+    - pygments.lexers
+    - pygments.filters
+    - pygments.formatters
+    - pygments.plugin
+
+  commands:
+    - pygmentize -h
+
+about:
+  home: http://pygments.org/
+  license: BSD 2-clause
+  license_file: LICENSE
+  summary: Generic syntax highlighting package
+  description: |
+    Pygments is suitable for use in code hosting, forums, wikis or other a
+    pplications that need to prettify source code.
+  doc_url: http://pygments.org/docs/
+  doc_source_url: https://bitbucket.org/birkenfeld/pygments-main/src/defaults/doc/docs/
+  dev_url: https://bitbucket.org/birkenfeld/pygments-main
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - pelson
+    - ocefpaf
+    - scopatz

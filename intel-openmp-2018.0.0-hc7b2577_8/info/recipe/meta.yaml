@@ -1,0 +1,39 @@
+# This file created by conda-build 3.0.30
+# ------------------------------------------------
+
+package:
+    name: intel-openmp
+    version: 2018.0.0
+source:
+    -   folder: mkl
+        url: https://anaconda.org/intel/mkl/2018.0.1/download/linux-64/mkl-2018.0.1-intel_4.tar.bz2
+    -   folder: mkl-include
+        url: https://anaconda.org/intel/mkl-include/2018.0.1/download/linux-64/mkl-include-2018.0.1-intel_4.tar.bz2
+    -   folder: intel-openmp
+        url: https://anaconda.org/intel/openmp/2018.0.0/download/linux-64/openmp-2018.0.0-intel_8.tar.bz2
+build:
+    binary_relocation: 'false'
+    detect_binary_files_with_prefix: 'false'
+    noarch: false
+    number: '8'
+    string: hc7b2577_8
+about:
+    description: 'Intel openmp runtime implementation
+
+        This package is a repackaged set of binaries obtained directly from Intel\''s
+        anaconda.org channel.
+
+        '
+    doc_url: https://software.intel.com/en-us/node/522690
+    home: https://software.intel.com/en-us/node/522690
+    license: proprietary - Intel
+    license_family: Proprietary
+    license_file: LICENSE.txt
+    summary: Math library for Intel and compatible processors
+extra:
+    copy_test_source_files: true
+    final: true
+    parent_recipe:
+        name: intel_repacks
+        path: /tmp/build/80754af9/rsync-recipes/intel_repacks-2018.0.1-on-linux_64
+        version: 2018.0.1

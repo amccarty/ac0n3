@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py36h14c3975_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "fastcache",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1518031518610,
+  "version": "1.0.2"
+}

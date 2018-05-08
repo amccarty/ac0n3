@@ -1,0 +1,89 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/cython-0.27.3-python3.6-on-nwani-linux-64, last modified Thu Nov 30 08:17:50 2017
+# ------------------------------------------------
+
+package:
+    name: cython
+    version: 0.27.3
+source:
+    sha256: 6a00512de1f2e3ce66ba35c5420babaef1fe2d9c43a8faab4080b0dbcc26bc64
+    url: https://pypi.io/packages/source/C/Cython/Cython-0.27.3.tar.gz
+build:
+    entry_points:
+        - cygdb = Cython.Debugger.Cygdb:main
+        - cython = Cython.Compiler.Main:setuptools_main
+        - cythonize = Cython.Build.Cythonize:main
+    number: '0'
+    string: py36h1860423_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_15
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 haf1f6fa_15
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - libgcc-ng 7.2.0.*
+        - python >=3.6,<3.7.0a0
+        - setuptools
+test:
+    commands:
+        - cython --version
+    files:
+        - fib.pyx
+about:
+    description: 'Cython is an optimising static compiler for both the Python programming
+
+        language and the extended Cython programming language. It makes writing C
+
+        extensions for Python as easy as Python itself.
+
+        '
+    dev_url: https://github.com/cython/cython
+    doc_url: http://cython.org/#documentation
+    home: http://www.cython.org/
+    license: Apache-2.0
+    license_file: LICENSE.txt
+    summary: The Cython compiler for writing C extensions for the Python language
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - scopatz
+        - synapticarbors

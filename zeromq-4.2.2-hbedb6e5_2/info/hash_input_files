@@ -1,0 +1,13 @@
+0001-Add-missing-ZeroMQConfig.cmake.in.patch
+0001-Use-external-msinttypes.patch
+0001-Windows-cmake-build-fixed.patch
+0002-CPack-option-and-.txt-files-installation-dir.patch
+0003-cmake-install-config-file.patch
+0004-INSTALLATION-instructions.patch
+0005-cmake-install-on-linux-fixed.patch
+0006-Problem-name-of-static-library-generated-by-cmake-di.patch
+0007-Problem-cmake-artefacts-different-from-make-generate.patch
+0008-CMake-static-library-output-does-not-match-ZeroMQ-Co.patch
+add_library_inc_win.patch
+bld.bat
+build.sh

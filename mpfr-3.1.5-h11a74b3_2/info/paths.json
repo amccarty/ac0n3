@@ -1,0 +1,127 @@
+{
+  "paths": [
+    {
+      "_path": "include/mpf2mpfr.h",
+      "path_type": "hardlink",
+      "sha256": "f2b977bf6f41b039539c35d8b4c52f55d769d75566c0e41ea6847d9554e1f89a",
+      "size_in_bytes": 6236
+    },
+    {
+      "_path": "include/mpfr.h",
+      "path_type": "hardlink",
+      "sha256": "02c120370a558701aea9d4f1005142824c9824cc0882d17eb8acbc7328e825c2",
+      "size_in_bytes": 51307
+    },
+    {
+      "_path": "lib/libmpfr.a",
+      "path_type": "hardlink",
+      "sha256": "c3c09fbc723adaf43721c0293be1f7a717e45aeefbb74c4bc0a4c9bacf975ea5",
+      "size_in_bytes": 1032342
+    },
+    {
+      "_path": "lib/libmpfr.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "df5e9f0ec2cde4dd3ecbfc9d63b58df03010232873276a5267927498d6a071e8",
+      "size_in_bytes": 1046
+    },
+    {
+      "_path": "lib/libmpfr.so",
+      "path_type": "softlink",
+      "sha256": "13001d0e12448af27065ba420907d1934197bdaa47018e6c451bf379f3e9a292",
+      "size_in_bytes": 441592
+    },
+    {
+      "_path": "lib/libmpfr.so.4",
+      "path_type": "softlink",
+      "sha256": "13001d0e12448af27065ba420907d1934197bdaa47018e6c451bf379f3e9a292",
+      "size_in_bytes": 441592
+    },
+    {
+      "_path": "lib/libmpfr.so.4.1.5",
+      "path_type": "hardlink",
+      "sha256": "13001d0e12448af27065ba420907d1934197bdaa47018e6c451bf379f3e9a292",
+      "size_in_bytes": 441592
+    },
+    {
+      "_path": "share/doc/mpfr/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "a39c65806ae205d29d6b0efdc3c8c0cf6b2ca2ff3f9f62d91d7127e1550da62e",
+      "size_in_bytes": 1149
+    },
+    {
+      "_path": "share/doc/mpfr/BUGS",
+      "path_type": "hardlink",
+      "sha256": "f571d5b3de3b55077fcea67a6319bc745794533c2f64d86f20f0f601c322b52a",
+      "size_in_bytes": 3284
+    },
+    {
+      "_path": "share/doc/mpfr/COPYING",
+      "path_type": "hardlink",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size_in_bytes": 35147
+    },
+    {
+      "_path": "share/doc/mpfr/COPYING.LESSER",
+      "path_type": "hardlink",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "size_in_bytes": 7639
+    },
+    {
+      "_path": "share/doc/mpfr/FAQ.html",
+      "path_type": "hardlink",
+      "sha256": "36f2fee73a956bb166aad9fd5f8b7ae460ae3b134e3f3ba8b0c3d02ee952c0f6",
+      "size_in_bytes": 18166
+    },
+    {
+      "_path": "share/doc/mpfr/NEWS",
+      "path_type": "hardlink",
+      "sha256": "eee92d9fba71d8a9f6776ec762ed7542360d7deb9932df30046c17558ad88d66",
+      "size_in_bytes": 17091
+    },
+    {
+      "_path": "share/doc/mpfr/TODO",
+      "path_type": "hardlink",
+      "sha256": "792b1eb6cd1dbfbcdf45ae9649e1501128285b8cd7e655fdbc036494c893a263",
+      "size_in_bytes": 21092
+    },
+    {
+      "_path": "share/doc/mpfr/examples/ReadMe",
+      "path_type": "hardlink",
+      "sha256": "4b503f2cd881013af415ae498ab1ac88a2c4cb5ed766fa6f5e227113145c53d0",
+      "size_in_bytes": 41
+    },
+    {
+      "_path": "share/doc/mpfr/examples/divworst.c",
+      "path_type": "hardlink",
+      "sha256": "fe50ae966995a5455bf1d3face6b670481256c9a48da372594e6038270983b29",
+      "size_in_bytes": 3021
+    },
+    {
+      "_path": "share/doc/mpfr/examples/rndo-add.c",
+      "path_type": "hardlink",
+      "sha256": "68e5473884ef4d648455e83eae783f0b38d080ef070fd695d6c86bdde1c48cce",
+      "size_in_bytes": 2642
+    },
+    {
+      "_path": "share/doc/mpfr/examples/sample.c",
+      "path_type": "hardlink",
+      "sha256": "ec8336de7526ca0b1f87102f936b46f6fdb3403659ac725f7090fbdfe12ec983",
+      "size_in_bytes": 1657
+    },
+    {
+      "_path": "share/doc/mpfr/examples/version.c",
+      "path_type": "hardlink",
+      "sha256": "4ffbebf9d6c064a2c30c582363ec075ab94951d19569415721888f737c8888d3",
+      "size_in_bytes": 7001
+    },
+    {
+      "_path": "share/info/mpfr.info",
+      "path_type": "hardlink",
+      "sha256": "9d125638fe0cb17b98434af9ed52630fd443653d87a88d1e5be42c92abca355f",
+      "size_in_bytes": 221283
+    }
+  ],
+  "paths_version": 1
+}

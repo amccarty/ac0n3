@@ -1,0 +1,54 @@
+# This file created by conda-build 3.0.28
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/xz-5.2.3-on-linux_64, last modified Tue Nov  7 21:40:10 2017
+# ------------------------------------------------
+
+package:
+    name: xz
+    version: 5.2.3
+source:
+    sha256: fd9ca16de1052aac899ad3495ad20dfa906c27b4a5070102a2ec35ca3a4740c1
+    url: http://downloads.sourceforge.net/project/lzmautils/xz-5.2.3.tar.bz2
+build:
+    number: '2'
+    run_exports:
+        - xz >=5.2.3,<6.0a0
+    string: h55aa19d_2
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_9
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 h60973fd_9
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    run:
+        - libgcc-ng 7.2.0.*
+test:
+    commands:
+        - xz --help
+        - unxz --help
+        - lzma --help
+about:
+    description: 'XZ Utils is free general-purpose data compression software with
+        a high
+
+        compression ratio. XZ Utils were written for POSIX-like systems, but also
+
+        work on some not-so-POSIX systems.
+
+        '
+    dev_url: http://git.tukaani.org/
+    doc_source_url: https://github.com/xz-mirror/xz/blob/master/README
+    doc_url: http://tukaani.org/xz/
+    home: http://tukaani.org/xz/
+    license: LGPL-2.1 and GPL-2.0
+    license_file: COPYING
+    summary: Data compression software with high compression ratio
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - msarahan
+        - nehaljwani
+        - ocefpaf

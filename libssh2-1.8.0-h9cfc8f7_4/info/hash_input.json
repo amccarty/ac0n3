@@ -1,0 +1,5 @@
+{
+  "openssl": "1.0.2",
+  "VERBOSE_CM": "VERBOSE=1",
+  "c_compiler": "gcc"
+}

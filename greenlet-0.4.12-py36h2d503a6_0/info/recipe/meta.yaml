@@ -1,0 +1,105 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/greenlet-feedstock/recipe, last modified Sun Sep 17 15:39:16 2017
+# ------------------------------------------------
+
+package:
+    name: greenlet
+    version: 0.4.12
+source:
+    fn: greenlet-0.4.12.tar.gz
+    sha256: e4c99c6010a5d153d481fdaf63b8a0782825c0721506d880403a3b9b82ae347e
+    url: https://pypi.io/packages/source/g/greenlet/greenlet-0.4.12.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36h2d503a6_0
+requirements:
+    build:
+        - binutils_linux-64 2.28.1 he4fe6c7_1
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - gcc_linux-64 7.2.0 hc7b1ceb_1
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - ncurses 6.0 h06874d7_1
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - libgcc-ng >=7.2.0
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - greenlet
+about:
+    description: 'The greenlet package is a spin-off of Stackless, a version of CPython
+        that
+
+        supports micro-threads called "tasklets". Tasklets run pseudo-concurrently
+
+        (typically in a single or a few OS-level threads) and are synchronized with
+
+        data exchanges on "channels".
+
+
+        A "greenlet", on the other hand, is a still more primitive notion of
+
+        micro-thread with no implicit scheduling; coroutines, in other words. This
+
+        is useful when you want to control exactly when your code runs. You can
+
+        build custom scheduled micro-threads on top of greenlet; however, it seems
+
+        that greenlets are useful on their own as a way to make advanced control
+
+        flow structures. For example, we can recreate generators; the difference
+
+        with Python''s own generators is that our generators can call nested
+
+        functions and the nested functions can yield values too. Additionally,
+
+        you don''t need a "yield" keyword. See the example in
+
+        tests/test_generator.py.
+
+
+        Greenlets are provided as a C extension module for the regular unmodified
+
+        interpreter.
+
+
+        Greenlets are lightweight coroutines for in-process concurrent programming.
+
+        '
+    dev_url: https://github.com/python-greenlet/greenlet
+    doc_url: https://greenlet.readthedocs.io
+    home: https://github.com/python-greenlet/greenlet
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Lightweight in-process concurrent programming
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - curtisalexander

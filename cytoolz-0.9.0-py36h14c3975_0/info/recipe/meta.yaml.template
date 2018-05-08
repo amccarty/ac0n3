@@ -1,0 +1,56 @@
+{% set version = "0.9.0" %}
+
+package:
+  name: cytoolz
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/c/cytoolz/cytoolz-{{ version }}.tar.gz
+  sha256: 5ebb55855a8bb7800afa58e52408763935527e0305f35600c71b43c86013dec2
+  patches:
+    - 0001-disable-curried-doctest-tests-not-working-with-py27.patch   # [py27]
+
+build:
+  number: 0
+  script: python setup.py install --no-cython --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - setuptools
+    - python
+    - toolz >=0.8.0
+  build:
+    - {{ compiler('c') }}
+  run:
+    - python
+    - toolz >=0.8.0
+
+test:
+  requires:
+    - nose
+    - toolz 0.8.2
+  imports:
+    - cytoolz
+    - cytoolz.curried
+  commands:
+    - nosetests --with-doctest cytoolz
+
+about:
+  home: https://github.com/pytoolz/cytoolz
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: Cython implementation of Toolz. High performance functional utilities.
+  description: |
+    CyToolz is the Cython implementation of the toolz package, which provides
+    high performance utility functions for iterables, functions, and
+    dictionaries.
+  doc_url: https://pypi.python.org/pypi/cytoolz
+  doc_source_url: https://github.com/pytoolz/cytoolz/blob/master/README.rst
+  dev_url: https://github.com/pytoolz/cytoolz
+
+extra:
+  recipe-maintainers:
+    - eriknw
+    - mrocklin
+    - jcrist
+    - jakirkham

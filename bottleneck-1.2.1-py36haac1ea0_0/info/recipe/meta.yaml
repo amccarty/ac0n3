@@ -1,0 +1,97 @@
+# This file created by conda-build 3.0.15+50.g6024f3f
+# meta.yaml template originally from:
+# /home/rdonnelly/conda/aggregate/bottleneck-feedstock/recipe, last modified Sun Sep 17 15:36:29 2017
+# ------------------------------------------------
+
+package:
+    name: bottleneck
+    version: 1.2.1
+source:
+    fn: Bottleneck-1.2.1.tar.gz
+    sha256: 6efcde5f830aed64feafca0359b51db0e184c72af8ba6675b4a99f263922eb36
+    url: https://pypi.io/packages/source/B/Bottleneck/Bottleneck-1.2.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36haac1ea0_0
+requirements:
+    build:
+        - binutils_linux-64 2.28.1 he4fe6c7_1
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - gcc_linux-64 7.2.0 hc7b1ceb_1
+        - intel-openmp 2018.0.0 h15fc484_7
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libgfortran-ng 7.2.0 h6fcbd8e_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - mkl 2018.0.0 hb491cac_4
+        - ncurses 6.0 h06874d7_1
+        - numpy 1.9.3 py36h9530901_2
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - intel-openmp 2018.0.0 h15fc484_7
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 h4deb6c0_3
+        - libgcc-ng 7.2.0 hcbc56d2_1
+        - libgfortran-ng 7.2.0 h6fcbd8e_1
+        - libstdcxx-ng 7.2.0 h24385c6_1
+        - mkl 2018.0.0 hb491cac_4
+        - ncurses 6.0 h06874d7_1
+        - numpy 1.9.3 py36h9530901_2
+        - openssl 1.0.2l hd940f6d_1
+        - python 3.6.2 ha783207_11
+        - readline 7.0 hac23ff0_3
+        - setuptools 36.2.2 py36hd224944_0
+        - sqlite 3.20.1 h6d8b0f3_1
+        - tk 8.6.7 h5979e9b_1
+        - xz 5.2.3 h2bcbf08_1
+        - zlib 1.2.11 hfbfcf68_1
+    run:
+        - libgcc-ng >=7.2.0
+        - numpy  >=1.9.3,<2.0a0
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - python -c "import bottleneck; bottleneck.test()"
+    imports:
+        - bottleneck
+        - bottleneck.move
+        - bottleneck.nonreduce
+        - bottleneck.nonreduce_axis
+        - bottleneck.reduce
+        - bottleneck.slow
+        - bottleneck.tests
+    requires:
+        - nose
+about:
+    description: 'Bottleneck is a collection of fast NumPy array functions written
+        in
+
+        Cython.
+
+        '
+    dev_url: https://github.com/kwgoodman/bottleneck
+    doc_url: http://berkeleyanalytics.com/bottleneck
+    home: http://berkeleyanalytics.com/bottleneck
+    license: BSD 2-Clause
+    license_family: BSD
+    license_file: bottleneck/LICENSE
+    summary: Fast NumPy array functions written in Cython.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - msarahan
+        - wesm

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36h0d3125c_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "setuptools"
+  ],
+  "license": "BSD 2-clause",
+  "name": "pygments",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505688854125,
+  "version": "2.2.0"
+}

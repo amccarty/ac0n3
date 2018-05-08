@@ -1,0 +1,64 @@
+{% set name = "anaconda-client" %}
+{% set version = "1.6.9" %}
+{% set checksum = "57b6b3435a7b6ab3c0feece7e9a948755f55481b2c072d1bf9b9ec56e0e7c5ba" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/Anaconda-Platform/anaconda-client/archive/{{ version }}.tar.gz
+  sha256: {{ checksum }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - anaconda = binstar_client.scripts.cli:main
+    - binstar = binstar_client.scripts.cli:main
+    - conda-server = binstar_client.scripts.cli:main
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - setuptools
+    - pytz
+    - six
+    - nbformat >=4.4.0
+    - clyent >=1.2.0
+    - requests >=2.9.1
+    - pyyaml >=3.12
+    - python-dateutil >=2.6.1
+
+test:
+  imports:
+    - binstar_client
+    - binstar_client.commands
+    - binstar_client.inspect_package
+    - binstar_client.inspect_package.tests
+    - binstar_client.mixins
+    - binstar_client.scripts
+    - binstar_client.tests
+    - binstar_client.utils
+    - binstar_client.utils.notebook
+    - binstar_client.utils.notebook.tests
+
+  commands:
+    - anaconda --help
+    - binstar --help
+    - conda-server --help
+
+about:
+  home: https://github.com/Anaconda-Platform/anaconda-client
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE.md
+  summary: Anaconda Cloud command line client library
+
+extra:
+  recipe-maintainers:
+    - jakirkham

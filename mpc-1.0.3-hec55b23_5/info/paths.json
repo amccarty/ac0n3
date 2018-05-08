@@ -1,0 +1,49 @@
+{
+  "paths": [
+    {
+      "_path": "include/mpc.h",
+      "path_type": "hardlink",
+      "sha256": "9b2b5543b51e73c7d8462cae1751908e67b724d6e053d5161f0441f5cc23ecd6",
+      "size_in_bytes": 12733
+    },
+    {
+      "_path": "lib/libmpc.a",
+      "path_type": "hardlink",
+      "sha256": "24949c38f4efd9b1aa790bdb118f2154205923e8767010fd7454acea027936d6",
+      "size_in_bytes": 251916
+    },
+    {
+      "_path": "lib/libmpc.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "0b3997326f46bfbac3475e6b13bf2b8ccc5455593a8fa8b81afdd09479249972",
+      "size_in_bytes": 1069
+    },
+    {
+      "_path": "lib/libmpc.so",
+      "path_type": "softlink",
+      "sha256": "31b3c94c71b921955879265578a98305a778544f020cf52901a3569f0d259c8c",
+      "size_in_bytes": 114000
+    },
+    {
+      "_path": "lib/libmpc.so.3",
+      "path_type": "softlink",
+      "sha256": "31b3c94c71b921955879265578a98305a778544f020cf52901a3569f0d259c8c",
+      "size_in_bytes": 114000
+    },
+    {
+      "_path": "lib/libmpc.so.3.0.0",
+      "path_type": "hardlink",
+      "sha256": "31b3c94c71b921955879265578a98305a778544f020cf52901a3569f0d259c8c",
+      "size_in_bytes": 114000
+    },
+    {
+      "_path": "share/info/mpc.info",
+      "path_type": "hardlink",
+      "sha256": "231a4ff2f3dc0f01091f3ca0720dbcf1374441a5c9fc82a4903d8b07e85dd8fa",
+      "size_in_bytes": 87560
+    }
+  ],
+  "paths_version": 1
+}

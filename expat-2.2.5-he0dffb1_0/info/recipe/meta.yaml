@@ -1,0 +1,47 @@
+# This file created by conda-build 3.0.29
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/expat-2.2.5-on-linux_64, last modified Mon Nov 13 21:20:55 2017
+# ------------------------------------------------
+
+package:
+    name: expat
+    version: 2.2.5
+source:
+    sha256: d9dc32efba7e74f788fcc4f212a43216fc37cf5f23f4c2339664d473353aedf6
+    url: https://github.com/libexpat/libexpat/releases/download/R_2_2_5/expat-2.2.5.tar.bz2
+build:
+    number: '0'
+    run_exports:
+        - expat >=2.2.5,<3.0a0
+    string: he0dffb1_0
+requirements:
+    build:
+        - binutils_impl_linux-64 2.28.1 h04c84fa_2
+        - binutils_linux-64 7.2.0 hc67e822_11
+        - gcc_impl_linux-64 7.2.0 hc5ce805_2
+        - gcc_linux-64 7.2.0 h4118e58_11
+        - gxx_impl_linux-64 7.2.0 hd3faf3d_2
+        - gxx_linux-64 7.2.0 h5e79354_11
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+    run:
+        - libgcc-ng 7.2.0.*
+        - libstdcxx-ng 7.2.0.*
+test:
+    commands:
+        - xmlwf -h
+        - conda inspect linkages -p $PREFIX expat
+about:
+    home: http://expat.sourceforge.net/
+    license: MIT
+    license_file: COPYING
+    summary: Expat XML parser library in C.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kwilcox
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson

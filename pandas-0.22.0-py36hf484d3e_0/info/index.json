@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py36hf484d3e_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "libstdcxx-ng >=7.2.0",
+    "numpy >=1.9.3,<2.0a0",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil",
+    "pytz"
+  ],
+  "license": "BSD 3-clause",
+  "name": "pandas",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1514667404610,
+  "version": "0.22.0"
+}

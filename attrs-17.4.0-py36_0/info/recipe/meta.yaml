@@ -1,0 +1,68 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/attrs-17.4.0-python3.6-on-linux_64, last modified Fri Jan 26 14:29:16 2018
+# ------------------------------------------------
+
+package:
+    name: attrs
+    version: 17.4.0
+source:
+    fn: attrs-17.4.0.tar.gz
+    sha256: 1c7960ccfd6a005cd9f7ba884e6316b5e430a3f1a6c37c5f87d8b43f83b54ec9
+    url: https://pypi.io/packages/source/a/attrs/attrs-17.4.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.21.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - attr
+about:
+    description: 'attrs is the Python package that will bring back the joy of writing
+
+        classes by relieving you from the drudgery of implementing object
+
+        protocols (aka dunder methods). Its main goal is to help you to write
+
+        concise and correct software without slowing down your code. For that, it
+
+        gives you a class decorator and a way to declaratively define the
+
+        attributes on that class:
+
+        '
+    dev_url: https://github.com/python-attrs/attrs
+    doc_url: https://attrs.readthedocs.io/en/stable/
+    home: https://attrs.readthedocs.io/en/stable/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: attrs is the Python package that will bring back the joy of writing classes
+        by relieving you from the drudgery of implementing object protocols (aka dunder
+        methods).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - CJ-Wright
+        - licode
+        - nicoddemus

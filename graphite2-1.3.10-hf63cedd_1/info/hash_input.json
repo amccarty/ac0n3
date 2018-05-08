@@ -1,0 +1,6 @@
+{
+  "MACOSX_DEPLOYMENT_TARGET": "10.9",
+  "cxx_compiler": "gxx",
+  "c_compiler": "gcc",
+  "VERBOSE_CM": "VERBOSE=1"
+}

@@ -1,0 +1,70 @@
+{
+  "requirements": {
+    "build": [
+      "binutils_impl_linux-64 2.28.1 h04c84fa_2",
+      "binutils_linux-64 7.2.0 hc67e822_15",
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "cffi 1.11.2 py36h2825082_0",
+      "gcc_impl_linux-64 7.2.0 hc5ce805_2",
+      "gcc_linux-64 7.2.0 haf1f6fa_15",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pycparser 2.18 py36hf9f622e_1",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "host": [
+      "ca-certificates 2017.08.26 h1d4fec5_0",
+      "certifi 2017.11.5 py36hf29ccca_0",
+      "cffi 1.11.2 py36h2825082_0",
+      "libedit 3.1 heed3624_0",
+      "libffi 3.2.1 hd88cf55_4",
+      "libgcc-ng 7.2.0 h7cc24e2_2",
+      "libstdcxx-ng 7.2.0 h7a57d05_2",
+      "ncurses 6.0 h9df7e31_2",
+      "openssl 1.0.2m h26d622b_1",
+      "pycparser 2.18 py36hf9f622e_1",
+      "python 3.6.3 h6c0c0dc_5",
+      "readline 7.0 ha6073c6_4",
+      "setuptools 36.5.0 py36he42e2e1_0",
+      "sqlite 3.20.1 hb898158_2",
+      "tk 8.6.7 hc745277_3",
+      "xz 5.2.3 h55aa19d_2",
+      "zlib 1.2.11 ha838bed_2"
+    ],
+    "run": [
+      "asn1crypto >=0.21.0",
+      "cffi >=1.7",
+      "idna >=2.1",
+      "libgcc-ng 7.2.0.*",
+      "openssl 1.0.*",
+      "openssl >=1.0.2m,<1.0.3a",
+      "python >=3.6,<3.7.0a0",
+      "six >=1.4.1"
+    ]
+  },
+  "build": {
+    "script": [
+      "export CFLAGS=\"-I${PREFIX}/include ${CFLAGS}\"",
+      "export LDFLAGS=\"-L${PREFIX}/lib ${LDFLAGS}\"",
+      "python setup.py install --single-version-externally-managed --record=record.txt"
+    ]
+  },
+  "source": {
+    "fn": "cryptography-2.1.4.tar.gz",
+    "url": "https://pypi.io/packages/source/c/cryptography/cryptography-2.1.4.tar.gz",
+    "sha256": "e4d967371c5b6b2e67855066471d844c5d52d210c36c28d49a8507b96e2c5291"
+  },
+  "extra": {
+    "copy_test_source_files": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64", 
+  "build": "h7a57d05_2", 
+  "build_number": 2, 
+  "depends": [], 
+  "license": "GPL3 with runtime exception", 
+  "name": "libstdcxx-ng", 
+  "platform": "linux", 
+  "subdir": "linux-64", 
+  "timestamp": 1507262729393, 
+  "version": "7.2.0"
+}

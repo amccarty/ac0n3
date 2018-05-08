@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "etc/jupyter/jupyter_notebook_config.json",
+      "path_type": "hardlink",
+      "sha256": "7a18452d474808c482b2277ae65e5fb5a9c26a2d303f7909ce3a05c48931f6cb",
+      "size_in_bytes": 86
+    },
+    {
+      "_path": "etc/jupyter/nbconfig/notebook.json",
+      "path_type": "hardlink",
+      "sha256": "6851ccfa8013074f7cac49f541f1c50605b7fa9e9c4588aa6291a1348db54d82",
+      "size_in_bytes": 71
+    }
+  ],
+  "paths_version": 1
+}

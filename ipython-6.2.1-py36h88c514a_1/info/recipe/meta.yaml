@@ -1,0 +1,116 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/ipython-6.2.1-python3.6-on-linux_64, last modified Tue Nov 21 18:12:53 2017
+# ------------------------------------------------
+
+package:
+    name: ipython
+    version: 6.2.1
+source:
+    fn: ipython-6.2.1.tar.gz
+    sha256: 51c158a6c8b899898d1c91c6b51a34110196815cc905f9be0fa5878e19355608
+    url: https://pypi.io/packages/source/i/ipython/ipython-6.2.1.tar.gz
+build:
+    entry_points:
+        - ipython = IPython:start_ipython
+        - ipython3 = IPython:start_ipython
+    number: '1'
+    script: python -m pip install --no-deps .
+    string: py36h88c514a_1
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - pip 9.0.1 py36h6c6f9ce_4
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - decorator
+        - jedi >=0.10
+        - pexpect
+        - pickleshare
+        - prompt_toolkit >=1.0.4,<2.0.0
+        - pygments
+        - python >=3.6,<3.7.0a0
+        - simplegeneric >0.8
+        - traitlets
+test:
+    commands:
+        - ipython -h
+        - ipython3 -h
+    imports:
+        - IPython
+        - IPython
+        - IPython.core
+        - IPython.core.magics
+        - IPython.core.tests
+        - IPython.extensions
+        - IPython.extensions.tests
+        - IPython.external
+        - IPython.external.decorators
+        - IPython.lib
+        - IPython.lib.tests
+        - IPython.sphinxext
+        - IPython.terminal
+        - IPython.terminal.pt_inputhooks
+        - IPython.terminal.tests
+        - IPython.testing
+        - IPython.testing.plugin
+        - IPython.testing.tests
+        - IPython.utils
+        - IPython.utils.tests
+about:
+    description: 'IPython provides a rich architecture for interactive computing with
+
+        a powerful interactive shell, a kernel for Jupyter, high performance
+
+        tools for parallel computing, and more.
+
+        '
+    dev_url: https://github.com/ipython/ipython
+    doc_url: http://ipython.org/documentation.html
+    home: http://ipython.org/
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.rst
+    summary: 'IPython: Productive Interactive Computing'
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson
+        - takluyver

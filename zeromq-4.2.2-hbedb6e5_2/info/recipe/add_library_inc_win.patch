@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a14e59e..25d258d 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -5,6 +5,8 @@ project (ZeroMQ)
+ 
+ list (INSERT CMAKE_MODULE_PATH 0 "${CMAKE_SOURCE_DIR}")
+ 
++include_directories("Library/include")
++
+ include(CheckCXXCompilerFlag)
+ CHECK_CXX_COMPILER_FLAG("-std=gnu++11" COMPILER_SUPPORTS_CXX11)
+ if(COMPILER_SUPPORTS_CXX11)

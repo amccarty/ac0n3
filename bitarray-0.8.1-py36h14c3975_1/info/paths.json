@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/bitarray-0.8.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "ff882abc3142b6a69ea7cfe6a9c4005ad2ea0624eafd2ac60012b712a0431aeb",
+      "size_in_bytes": 23591
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray-0.8.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "00114fef59cab43b7510dc4aee8364f7488d8399730924d498b58e8af81064a5",
+      "size_in_bytes": 215
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray-0.8.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray-0.8.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "922f03f3672b50d48ee414947622919a1ecc74d8e3df600daaf3f898d3a67ee8",
+      "size_in_bytes": 4440
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "5df6a708a5f9f784214480f584394fdfb4635249f9c8d35468f39d54e421e6b9",
+      "size_in_bytes": 5196
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray/__pycache__/test_bitarray.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "95cfc105e5cc6d7fb4e5f14ae0cb001b7319b8f5e4ef95bcc693679ee887e4b3",
+      "size_in_bytes": 63116
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray/_bitarray.cpython-36m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "6c65763382f5d92a284b01d1ad4c5adf8ac3651325947d49071e8027b694b58e",
+      "size_in_bytes": 62616
+    },
+    {
+      "_path": "lib/python3.6/site-packages/bitarray/test_bitarray.py",
+      "path_type": "hardlink",
+      "sha256": "a927ae73e038748a5dfc83a4f188df6e9aada3fa00b2c692310ef31c80f2017a",
+      "size_in_bytes": 68516
+    }
+  ],
+  "paths_version": 1
+}

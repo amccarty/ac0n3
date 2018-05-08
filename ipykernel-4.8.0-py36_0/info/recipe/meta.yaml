@@ -1,0 +1,90 @@
+# This file created by conda-build 3.2.2
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/ipykernel-4.8.0-python3.6-on-linux_64, last modified Mon Jan 22 19:50:08 2018
+# ------------------------------------------------
+
+package:
+    name: ipykernel
+    version: 4.8.0
+source:
+    fn: ipykernel-4.8.0.tar.gz
+    sha256: dedc199df6a38725c732986dfa606c245fb8fe0fe999b33a0c305b73d80c6774
+    url: https://pypi.io/packages/source/i/ipykernel/ipykernel-4.8.0.tar.gz
+build:
+    number: '0'
+    script:
+        - pip install --no-deps .
+        - python -m ipykernel install --prefix $PREFIX
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - decorator 4.2.1 py36_0
+        - ipython 6.2.1 py36h88c514a_1
+        - ipython_genutils 0.2.0 py36hb52b0d5_0
+        - jedi 0.11.1 py36_0
+        - jupyter_client 5.2.1 py36_0
+        - jupyter_core 4.4.0 py36h7c827e3_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libsodium 1.0.15 hf101ebd_0
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - parso 0.1.1 py36h35f843b_0
+        - pexpect 4.3.1 py36_0
+        - pickleshare 0.7.4 py36h63277f8_0
+        - pip 9.0.1 py36h6c6f9ce_4
+        - prompt_toolkit 1.0.15 py36h17d85b1_0
+        - ptyprocess 0.5.2 py36h69acd42_0
+        - pygments 2.2.0 py36h0d3125c_0
+        - python 3.6.4 hc3d631a_1
+        - python-dateutil 2.6.1 py36h88d3b88_1
+        - pyzmq 16.0.3 py36he2533c7_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - simplegeneric 0.8.1 py36h2cb9092_0
+        - six 1.11.0 py36h372c433_1
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - tornado 4.5.3 py36_0
+        - traitlets 4.3.2 py36h674d592_0
+        - wcwidth 0.1.7 py36hdf4376a_0
+        - wheel 0.30.0 py36hfd4bba0_1
+        - xz 5.2.3 h55aa19d_2
+        - zeromq 4.2.2 hbedb6e5_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - ipython >=4.0.0
+        - jupyter_client
+        - python >=3.6,<3.7.0a0
+        - tornado >=4.0
+        - traitlets >=4.1
+test:
+    imports:
+        - ipykernel
+about:
+    description: 'A powerful interactive Python shell and a Jupyter kernel to work
+        with
+
+        Python code in Jupyter notebooks and other interactive frontends.
+
+        '
+    dev_url: https://github.com/ipython/ipython
+    doc_source_url: https://github.com/ipython/ipykernel/blob/master/docs/index.rst
+    doc_url: http://ipykernel.readthedocs.io/en/latest/
+    home: http://ipython.org
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: IPython Kernel for Jupyter
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

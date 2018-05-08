@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libstdc++.so",
+      "path_type": "softlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    },
+    {
+      "_path": "lib/libstdc++.so.6",
+      "path_type": "softlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    },
+    {
+      "_path": "lib/libstdc++.so.6.0.24",
+      "path_type": "hardlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    },
+    {
+      "_path": "share/licenses/libstdc++/RUNTIME.LIBRARY.EXCEPTION",
+      "path_type": "hardlink",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+      "size_in_bytes": 3324
+    },
+    {
+      "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so",
+      "path_type": "softlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    },
+    {
+      "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6",
+      "path_type": "softlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    },
+    {
+      "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libstdc++.so.6.0.24",
+      "path_type": "softlink",
+      "sha256": "732f788210e97a5453b4f996eb7f79025a6029799f70a09185345258123fd532",
+      "size_in_bytes": 8188008
+    }
+  ],
+  "paths_version": 1
+}

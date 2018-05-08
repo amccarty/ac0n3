@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py36h14c3975_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng 7.2.0.*",
+    "numpy >=1.9.3,<2.0a0",
+    "pytest",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "BSD",
+  "name": "astropy",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1513803293928,
+  "version": "2.0.3"
+}

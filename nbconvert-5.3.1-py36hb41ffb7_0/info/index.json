@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py36hb41ffb7_0",
+  "build_number": 0,
+  "depends": [
+    "bleach",
+    "entrypoints >=0.2.2",
+    "jinja2",
+    "jupyter_client >=4.2",
+    "jupyter_core",
+    "mistune >0.6",
+    "nbformat",
+    "pandoc",
+    "pandocfilters >=1.4.1",
+    "pygments",
+    "python >=3.6,<3.7.0a0",
+    "testpath",
+    "traitlets"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "nbconvert",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1506349856326,
+  "version": "5.3.1"
+}

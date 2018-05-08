@@ -1,0 +1,78 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/glob2-0.6-python3.6-on-linux_64, last modified Tue Nov 21 20:05:21 2017
+# ------------------------------------------------
+
+package:
+    name: glob2
+    version: '0.6'
+source:
+    fn: glob2-0.6.tar.gz
+    sha256: 4f554074f242f01b48a9537409cdbc5e31355a06b51950c95f93fc061c324149
+    url: https://github.com/miracle2k/python-glob2/archive/0.6.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36he249c77_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.7.27.1 py36h8b7b77e_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - glob2
+about:
+    description: 'The glob module finds all the pathnames matching a specified pattern
+        according to the rules
+
+        used by the Unix shell, although results are returned in arbitrary order.
+        No tilde expansion
+
+        is done, but *, ?, and character ranges expressed with [] will be correctly
+        matched.
+
+        '
+    dev_url: https://github.com/miracle2k/python-glob2
+    doc_url: https://docs.python.org/3/library/glob.html
+    home: https://github.com/miracle2k/python-glob2
+    license: BSD-2-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Version of the glob module that supports recursion via **, and can capture
+        patterns.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dfroger

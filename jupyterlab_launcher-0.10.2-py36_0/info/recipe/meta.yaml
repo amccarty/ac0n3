@@ -1,0 +1,51 @@
+# This file created by conda-build 3.2.2
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jupyterlab_launcher-0.10.2-python3.6-on-linux_64, last modified Sun Jan 14 17:24:53 2018
+# ------------------------------------------------
+
+package:
+    name: jupyterlab_launcher
+    version: 0.10.2
+source:
+    fn: jupyterlab_launcher-0.10.2.tar.gz
+    sha256: a3756484eb5b74e1159479ba863abc4b16d258ccb9e36c1f19eedd137ba31d01
+    url: https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-0.10.2.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - python 3.6.4 hc3d631a_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - notebook
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - jupyterlab_launcher
+about:
+    home: http://github.com/jupyterlab/jupyterlab_launcher
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A Launcher for JupyterLab based applications.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - jasongrout

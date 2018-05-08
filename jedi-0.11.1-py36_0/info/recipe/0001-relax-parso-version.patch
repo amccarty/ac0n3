@@ -1,0 +1,30 @@
+From 4ea5e4dad2a00b11fdc2e4b9471d9a05e166ad39 Mon Sep 17 00:00:00 2001
+From: Michael Sarahan <msarahan@gmail.com>
+Date: Fri, 12 Jan 2018 12:00:24 -0600
+Subject: [PATCH] relax parso version
+
+---
+ jedi.egg-info/requires.txt | 2 +-
+ requirements.txt           | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/jedi.egg-info/requires.txt b/jedi.egg-info/requires.txt
+index cba7acb..63b945c 100644
+--- a/jedi.egg-info/requires.txt
++++ b/jedi.egg-info/requires.txt
+@@ -1,4 +1,4 @@
+-parso==0.1.1
++parso==0.1.*
+ 
+ [dev]
+ docopt
+diff --git a/requirements.txt b/requirements.txt
+index 2af26c8..00227ab 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1 +1 @@
+-parso==0.1.1
++parso==0.1.*
+-- 
+2.11.1
+

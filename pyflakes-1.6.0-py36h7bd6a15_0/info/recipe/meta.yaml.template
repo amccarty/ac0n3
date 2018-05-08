@@ -1,0 +1,55 @@
+{%set name = "pyflakes" %}
+{% set version = "1.6.0" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "8d616a382f243dbf19b54743f280b80198be0bca3a5396f1d2e1fca6223e8805" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash_value }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - setuptools
+
+test:
+  imports:
+    - pyflakes
+    - pyflakes.scripts
+    - pyflakes.test
+  commands:
+    - pyflakes --help
+
+about:
+  home: https://github.com/PyCQA/pyflakes
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 'Pyflakes analyzes programs and detects various errors.'
+  description: |
+    Pyflakes analyzes programs and detects various errors. It works by parsing
+    the source file, not importing it, so it is safe to use on modules with side
+    effects. It is also much faster.
+  dev_url: https://github.com/PyCQA/pyflakes
+  doc_url: https://pypi.python.org/pypi/pyflakes
+  doc_source_url: https://github.com/PyCQA/pyflakes/blob/master/README.rst
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - sigmavirus24
+    - dopplershift
+    - ocefpaf

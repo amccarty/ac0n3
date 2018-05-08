@@ -1,0 +1,1 @@
+{"source": {"path": "."}, "build": {"binary_relocation": "False", "detect_binary_files_with_prefix": "False"}, "extra": {"copy_test_source_files": true}}

@@ -1,0 +1,51 @@
+{% set name = "pandas" %}
+{% set version="0.22.0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/pandas-dev/pandas/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 44a94091dd71f05922eec661638ec1a35f26d573c119aa2fad964f10a2880e6c
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt  # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - setuptools
+    - cython
+    - numpy
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - python-dateutil
+    - pytz
+
+test:
+  imports:
+    - pandas
+  commands:
+    - conda inspect linkages -p $PREFIX pandas  # [not win]
+    - conda inspect objects -p $PREFIX pandas  # [osx]
+
+about:
+  home: http://pandas.pydata.org
+  license: BSD 3-clause
+  license_file: LICENSE
+  summary: 'High-performance, easy-to-use data structures and data analysis tools.'
+
+extra:
+  recipe-maintainers:
+    - jreback
+    - jorisvandenbossche
+    - msarahan
+    - ocefpaf
+    - TomAugspurger

@@ -1,0 +1,68 @@
+{% set version = "2.6.4" %}
+
+package:
+  name: numexpr
+  version: {{ version }}
+
+source:
+  fn: numexpr-{{ version }}.tar.gz
+  url: https://github.com/pydata/numexpr/archive/v{{ version }}.tar.gz
+  sha256: 049da1c07bd62d2aba29887130ccc9aff9b90962cb779a7b7ddc15e580368fba
+
+build:
+  number: 0
+  # conda 4.4+ can use this
+  skip: True  # [blas_impl == 'openblas' and win]
+  requires_features:
+    blas: {{ blas_impl }}
+  # this is for conda 4.3 and below
+  features:
+    - nomkl    # [x86 and blas_impl != 'mkl']
+  script:
+    - cp $PREFIX/site.cfg site.cfg  # [unix]
+    - cp %PREFIX%\\site.cfg site.cfg  # [win]
+    - python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - mkl-devel  {{ mkl }}  # [blas_impl == 'mkl']
+    - openblas-devel {{ openblas }}  # [blas_impl == 'openblas']
+    - nomkl  # [blas_impl == 'openblas']
+    - numpy
+    - python
+    - setuptools
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+
+test:
+  requires:
+    - setuptools
+    - nomkl  # [blas_impl == 'openblas']
+  imports:
+    - numexpr
+    - numexpr.interpreter
+  commands:
+    - conda inspect linkages -p $PREFIX numexpr  # [not win]
+    - conda inspect objects -p $PREFIX numexpr  # [osx]
+
+about:
+  home: https://github.com/pydata/numexpr
+  license: MIT
+  license_file: LICENSE.txt
+  summary: 'Fast numerical expression evaluator for NumPy.'
+  description: |
+    Numexpr is a fast numerical expression evaluator for NumPy. With it,
+    expressions that operate on arrays (like "3*a+4*b") are accelerated and use
+    less memory than doing the same calculation in Python.
+  doc_url: https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+  dev_url: https://github.com/pydata/numexpr
+
+extra:
+  recipe-maintainers:
+    - msarahan
+    - ocefpaf
+    - scopatz

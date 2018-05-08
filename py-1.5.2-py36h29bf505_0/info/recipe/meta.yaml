@@ -1,0 +1,87 @@
+# This file created by conda-build 3.0.30
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/py-1.5.2-python3.6-on-linux_64, last modified Wed Nov 22 03:45:26 2017
+# ------------------------------------------------
+
+package:
+    name: py
+    version: 1.5.2
+source:
+    fn: py-1.5.2.tar.gz
+    sha256: ca18943e28235417756316bfada6cd96b23ce60dd532642690dcfdaba988a76d
+    url: https://pypi.io/packages/source/p/py/py-1.5.2.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36h29bf505_0
+requirements:
+    build:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    host:
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2m h26d622b_1
+        - python 3.6.3 h6c0c0dc_5
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - sqlite 3.20.1 hb898158_2
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - py
+        - py.code
+        - py.io
+        - py.log
+        - py.path
+        - py.process
+about:
+    description: 'The py lib is a Python development support library featuring the
+        following
+
+        tools and modules:
+
+        py.path: uniform local and svn path objects
+
+        py.apipkg: explicit API control and lazy-importing
+
+        py.iniconfig: easy parsing of .ini files
+
+        py.code: dynamic code generation and introspection
+
+        '
+    dev_url: https://bitbucket.org/pytest-dev/py
+    doc_url: http://pylib.readthedocs.org/en/latest/
+    home: https://github.com/pytest-dev/py
+    license: MIT
+    license_file: LICENSE
+    summary: library with cross-python path, ini-parsing, io, code, log facilities
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - nicoddemus

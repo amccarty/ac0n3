@@ -1,0 +1,85 @@
+# This file created by conda-build 3.3.0
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/pylint-1.8.2-python3.6-on-linux_64, last modified Tue Jan 30 15:51:30 2018
+# ------------------------------------------------
+
+package:
+    name: pylint
+    version: 1.8.2
+source:
+    fn: pylint-1.8.2.tar.gz
+    sha256: 4fe3b99da7e789545327b75548cee6b511e4faa98afe268130fea1af4b5ec022
+    url: https://pypi.io/packages/source/p/pylint/pylint-1.8.2.tar.gz
+build:
+    entry_points:
+        - epylint = pylint:run_epylint
+        - pylint = pylint:run_pylint
+        - pylint-gui = pylint:run_pylint_gui
+        - pyreverse = pylint:run_pyreverse
+        - symilar = pylint:run_symilar
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py36_0
+requirements:
+    host:
+        - attrs 17.4.0 py36_0
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2018.1.18 py36_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - ncurses 6.0 h9df7e31_2
+        - openssl 1.0.2n hb7f436b_0
+        - pluggy 0.6.0 py36hb689045_0
+        - py 1.5.2 py36h29bf505_0
+        - pytest 3.3.2 py36_0
+        - pytest-runner 3.0 py36hd5415d6_0
+        - python 3.6.4 hc3d631a_1
+        - readline 7.0 ha6073c6_4
+        - setuptools 38.4.0 py36_0
+        - six 1.11.0 py36h372c433_1
+        - sqlite 3.22.0 h1bed415_0
+        - tk 8.6.7 hc745277_3
+        - xz 5.2.3 h55aa19d_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - astroid >=1.6,<2.0
+        - isort >=4.2.5
+        - mccabe
+        - python >=3.6,<3.7.0a0
+        - six
+test:
+    commands:
+        - pylint --help
+        - which pylint-gui
+        - which epylint
+        - pyreverse --help
+        - symilar --help
+    imports:
+        - pylint
+        - pylint.checkers
+        - pylint.extensions
+        - pylint.pyreverse
+        - pylint.reporters
+        - pylint.reporters.ureports
+about:
+    description: 'Pylint is a tool that checks for errors in Python code, tries to
+        enforce a
+
+        coding standard and looks for code smells.
+
+        '
+    dev_url: https://github.com/PyCQA/pylint/
+    doc_source_url: https://github.com/PyCQA/pylint/blob/master/doc/index.rst
+    doc_url: https://pylint.readthedocs.io/en/latest/
+    home: http://www.pylint.org/
+    license: GPL
+    license_file: COPYING
+    summary: python code static checker
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - nehaljwani

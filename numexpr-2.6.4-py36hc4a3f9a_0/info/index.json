@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py36hc4a3f9a_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng 7.2.0.*",
+    "libstdcxx-ng 7.2.0.*",
+    "mkl >=2018.0.1",
+    "numpy >=1.9.3,<2.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "MIT",
+  "name": "numexpr",
+  "platform": "linux",
+  "requires_features": {
+    "blas": "mkl"
+  },
+  "subdir": "linux-64",
+  "timestamp": 1512070443051,
+  "version": "2.6.4"
+}

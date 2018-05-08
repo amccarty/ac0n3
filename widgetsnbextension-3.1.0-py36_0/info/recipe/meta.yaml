@@ -1,0 +1,97 @@
+# This file created by conda-build 3.2.1
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/widgetsnbextension-3.1.0-python3.6-on-linux_64, last modified Thu Jan 11 22:14:12 2018
+# ------------------------------------------------
+
+package:
+    name: widgetsnbextension
+    version: 3.1.0
+source:
+    fn: widgetsnbextension-3.1.0.tar.gz
+    sha256: 67fc28c3b9fede955d69bccbd92784e3f0c6d0dee3a71532cd3367c257feb178
+    url: https://pypi.io/packages/source/w/widgetsnbextension/widgetsnbextension-3.1.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    host:
+        - bleach 2.1.2 py36_0
+        - ca-certificates 2017.08.26 h1d4fec5_0
+        - certifi 2017.11.5 py36hf29ccca_0
+        - decorator 4.1.2 py36hd076ac8_0
+        - entrypoints 0.2.3 py36h1aec115_2
+        - gmp 6.1.2 h6c8ec71_1
+        - html5lib 1.0.1 py36h2f9c1c0_0
+        - ipykernel 4.7.0 py36h2f9c1c0_0
+        - ipython 6.2.1 py36h88c514a_1
+        - ipython_genutils 0.2.0 py36hb52b0d5_0
+        - jedi 0.11.0 py36_2
+        - jinja2 2.10 py36ha16c418_0
+        - jsonschema 2.6.0 py36h006f8b5_0
+        - jupyter_client 5.2.1 py36_0
+        - jupyter_core 4.4.0 py36h7c827e3_0
+        - libedit 3.1 heed3624_0
+        - libffi 3.2.1 hd88cf55_4
+        - libgcc-ng 7.2.0 h7cc24e2_2
+        - libsodium 1.0.15 hf101ebd_0
+        - libstdcxx-ng 7.2.0 h7a57d05_2
+        - markupsafe 1.0 py36hd9260cd_1
+        - mistune 0.8.1 py36h3d5977c_0
+        - nbconvert 5.3.1 py36hb41ffb7_0
+        - nbformat 4.4.0 py36h31c9010_0
+        - ncurses 6.0 h9df7e31_2
+        - notebook 5.2.2 py36h40a37e6_0
+        - openssl 1.0.2n hb7f436b_0
+        - pandoc 1.19.2.1 hea2e7c5_1
+        - pandocfilters 1.4.2 py36ha6701b7_1
+        - parso 0.1.1 py36h35f843b_0
+        - pexpect 4.3.1 py36_0
+        - pickleshare 0.7.4 py36h63277f8_0
+        - prompt_toolkit 1.0.15 py36h17d85b1_0
+        - ptyprocess 0.5.2 py36h69acd42_0
+        - pygments 2.2.0 py36h0d3125c_0
+        - python 3.6.4 hc3d631a_0
+        - python-dateutil 2.6.1 py36h88d3b88_1
+        - pyzmq 16.0.3 py36he2533c7_0
+        - readline 7.0 ha6073c6_4
+        - setuptools 36.5.0 py36he42e2e1_0
+        - simplegeneric 0.8.1 py36h2cb9092_0
+        - six 1.11.0 py36h372c433_1
+        - sqlite 3.20.1 hb898158_2
+        - terminado 0.6 py36ha25a19f_0
+        - testpath 0.3.1 py36h8cadb63_0
+        - tk 8.6.7 hc745277_3
+        - tornado 4.5.2 py36h1283b2a_0
+        - traitlets 4.3.2 py36h674d592_0
+        - wcwidth 0.1.7 py36hdf4376a_0
+        - webencodings 0.5.1 py36h800622e_1
+        - xz 5.2.3 h55aa19d_2
+        - zeromq 4.2.2 hbedb6e5_2
+        - zlib 1.2.11 ha838bed_2
+    run:
+        - notebook >=4.4.1
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - widgetsnbextension
+about:
+    description: 'Interactive HTML widgets for Jupyter notebooks.
+
+        '
+    dev_url: https://github.com/jupyter-widgets/ipywidgets/tree/master/widgetsnbextension
+    doc_url: https://pypi.python.org/pypi/widgetsnbextension
+    home: http://ipython.org
+    license: BSD 3-clause
+    license_family: BSD
+    summary: IPython HTML widgets for Jupyter
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jakirkham
+        - jasongrout
+        - minrk
+        - pelson
+        - willingc

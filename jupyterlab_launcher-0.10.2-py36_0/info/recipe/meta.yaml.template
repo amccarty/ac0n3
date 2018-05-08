@@ -1,0 +1,39 @@
+{% set version = "0.10.2" %}
+
+package:
+  name: jupyterlab_launcher
+  version: {{ version }}
+
+source:
+  fn: jupyterlab_launcher-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-{{ version }}.tar.gz
+  sha256: a3756484eb5b74e1159479ba863abc4b16d258ccb9e36c1f19eedd137ba31d01
+
+build:
+    number: 0
+    script: python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - notebook
+
+test:
+  imports:
+    - jupyterlab_launcher
+
+about:
+  home: http://github.com/jupyterlab/jupyterlab_launcher
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A Launcher for JupyterLab based applications.
+
+extra:
+  recipe-maintainers:
+    - jasongrout
+    - blink1073

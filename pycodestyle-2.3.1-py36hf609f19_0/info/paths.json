@@ -1,0 +1,67 @@
+{
+  "paths": [
+    {
+      "_path": "bin/pycodestyle",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "63b22348bae3d8a2e69404e48cc4697d01c2efd3f351d16b070273b15374f1fc",
+      "size_in_bytes": 243
+    },
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/pycodestyle.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "947207211af8181346e2361477566b1290f140229031ba4005d6c40ffaeb70cd",
+      "size_in_bytes": 65651
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "081612f8fe7b6b678dbcf197962eaf14c55fcba6e28e251093d5757244a5238d",
+      "size_in_bytes": 32596
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "7637e7c756829e8b3cfb6fc4d8d7ec5276d0144e719fc5356dcd844aed9ebcaf",
+      "size_in_bytes": 1200
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "e8953fed2029a42f773014908b5fd0c43c04414ca0e9c80aef569bf6afc7c5ca",
+      "size_in_bytes": 51
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ac76c81225e6bec274d7a98570b55c17f77e74a80fdd575f381e8259b8af66e8",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pycodestyle.py",
+      "path_type": "hardlink",
+      "sha256": "c550233c6f5492b76d6f85465037cba74f5eeabb0811129efbc3ea4a377500e4",
+      "size_in_bytes": 88700
+    }
+  ],
+  "paths_version": 1
+}

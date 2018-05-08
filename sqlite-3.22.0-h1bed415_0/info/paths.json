@@ -1,0 +1,63 @@
+{
+  "paths": [
+    {
+      "_path": "bin/sqlite3",
+      "path_type": "hardlink",
+      "sha256": "59753932823dae89b49b2853397f2820f763482faa6cf3c26ab5fc95e5f08c84",
+      "size_in_bytes": 1123152
+    },
+    {
+      "_path": "include/sqlite3.h",
+      "path_type": "hardlink",
+      "sha256": "a9eac62fa30ba19c080674b086e14d2dc9eefe736b49aa32c65d4b50d31d5e18",
+      "size_in_bytes": 515857
+    },
+    {
+      "_path": "include/sqlite3ext.h",
+      "path_type": "hardlink",
+      "sha256": "f446a85a9b71a20eef1f6bc5eb2201c020462a17839a3fe4a606231bdef1c229",
+      "size_in_bytes": 31394
+    },
+    {
+      "_path": "lib/libsqlite3.a",
+      "path_type": "hardlink",
+      "sha256": "6e47cabf0de9cfbca89cefb9f4b6a94972d8806ff89d44bb7ece57516174bc78",
+      "size_in_bytes": 1164344
+    },
+    {
+      "_path": "lib/libsqlite3.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "9ea04bfabd37741dcb307334e16945f7d39530be67af05714f5df2f3f7f17fd2",
+      "size_in_bytes": 1013
+    },
+    {
+      "_path": "lib/libsqlite3.so",
+      "path_type": "softlink",
+      "sha256": "8cadaea08d8936cd35041ca95f00cd351af4d1753c77f69c1880d3d1e7e365b0",
+      "size_in_bytes": 971904
+    },
+    {
+      "_path": "lib/libsqlite3.so.0",
+      "path_type": "softlink",
+      "sha256": "8cadaea08d8936cd35041ca95f00cd351af4d1753c77f69c1880d3d1e7e365b0",
+      "size_in_bytes": 971904
+    },
+    {
+      "_path": "lib/libsqlite3.so.0.8.6",
+      "path_type": "hardlink",
+      "sha256": "8cadaea08d8936cd35041ca95f00cd351af4d1753c77f69c1880d3d1e7e365b0",
+      "size_in_bytes": 971904
+    },
+    {
+      "_path": "lib/pkgconfig/sqlite3.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "388459ab327bfeb1c21c0d0eaaf40b0d94ee52fc3d9cb0de6c31e86c557b2393",
+      "size_in_bytes": 300
+    }
+  ],
+  "paths_version": 1
+}

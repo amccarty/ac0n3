@@ -1,0 +1,62 @@
+{% set version = "0.31.5" %}
+{% set sha256 = "93dc1ae69a846be06397ecefaec0c9eaf03c98efca37819698499c9f05210feb" %}
+
+package:
+  name: jupyterlab
+  version: {{ version }}
+
+source:
+    fn: jupyterlab-{{ version }}.tar.gz
+    url: https://pypi.io/packages/source/j/jupyterlab/jupyterlab-{{ version }}.tar.gz
+    sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
+  entry_points:
+    - jupyter-lab = jupyterlab.labapp:main
+    - jupyter-labextension = jupyterlab.labextensions:main
+    - jupyter-labhub = jupyterlab.labhubapp:main
+  osx_is_app: True
+
+app:
+  entry: jupyter lab
+  icon: icon.png
+  summary: JupyterLab PRE-ALPHA
+  type: desk
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+    - jupyterlab_launcher >=0.10.0,<0.11.0
+    - notebook >=4.3
+    - futures  # [py27]
+    - subprocess32  # [py2k and unix]
+
+test:
+  imports:
+    - jupyterlab
+
+about:
+  home: https://github.com/jupyterlab/jupyterlab
+  license: BSD 3-Clause
+  license_family: BSD
+  summary: A pre-alpha version of a computational environment for Jupyter.
+  description: |
+    JupyterLab is the next generation user interface for Project Jupyter. 
+    It offers all the familiar building blocks of the classic Jupyter Notebook 
+    (notebook, terminal, text editor, file browser, rich outputs, etc.) in a 
+    flexible and powerful user inteface that can be extended through third party 
+    extensions that access our public APIs. Eventually, JupyterLab will replace the 
+    classic Jupyter Notebook.
+  doc_url: http://jupyterlab-tutorial.readthedocs.io/en/latest/
+  dev_url: https://github.com/jupyterlab/jupyterlab
+  doc_source_url: https://github.com/jupyterlab/jupyterlab/tree/master/docs
+
+extra:
+  recipe-maintainers:
+    - jasongrout
+    - blink1073

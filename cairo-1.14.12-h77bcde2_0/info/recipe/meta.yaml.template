@@ -1,0 +1,81 @@
+# The 1.15 series is currently marked "snapshot" - let's stick with 1.14 until 1.15+ is "released"
+{% set version = "1.14.12" %}
+
+package:
+  name: cairo
+  version: {{ version }}
+
+source:
+  url: http://cairographics.org/releases/cairo-{{ version }}.tar.xz
+  sha1: 490025a0ba0622a853010f49fb6343f29fb70b9b
+
+build:
+  number: 0
+  run_exports:
+    # Excellent behavior.  Only add new symbols.
+    #    https://abi-laboratory.pro/tracker/timeline/cairo/
+    - {{ pin_subpackage('cairo') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - {{ cdt('libx11-devel') }}          # [linux]
+    - {{ cdt('libxau-devel') }}          # [linux]
+    # - {{ cdt('libxcb') }}                # [linux]
+    - {{ cdt('libxext-devel') }}         # [linux]
+    - {{ cdt('libxrender-devel') }}      # [linux]
+    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
+    - posix                              # [win]
+    - m2w64-xz                           # [win]
+    - pkg-config                         # [not win]
+    - libtool                            # [not win]
+  host:
+    - fontconfig                         # [not win]
+    - freetype                           # [not win]
+    - glib                               # [not win]
+    - icu
+    - libpng
+    - xz                                 # [not win]
+    - zlib
+    - libxcb                             # [linux]
+    - pixman
+
+test:
+  commands:
+    # Check commands.
+    - cairo-trace --help  # [not win]
+
+    # Verify libraries.
+    {% set cairo_libs = [
+            "libcairo",
+            "libcairo-gobject",
+            "libcairo-script-interpreter",
+    ] %}
+    {% for each_cairo_lib in cairo_libs %}
+    - test -f $PREFIX/lib/{{ each_cairo_lib }}.a      # [not win]
+    - test -f $PREFIX/lib/{{ each_cairo_lib }}.dylib  # [osx]
+    - test -f $PREFIX/lib/{{ each_cairo_lib }}.so     # [linux]
+    {% endfor %}
+    - conda inspect linkages -p $PREFIX cairo  # [not win]
+    - conda inspect objects -p $PREFIX cairo  # [osx]
+
+about:
+  home: http://cairographics.org/
+  license: LGPL 2.1 or MPL 1.1
+  summary: 'Cairo is a 2D graphics library with support for multiple output devices.'
+  
+  description: |
+    Cairo is a 2D graphics library with support for multiple output devices.
+    It is designed to produce consistent output on all output media while
+    taking advantage of display hardware acceleration when available.
+  doc_url: http://cairographics.org/documentation/
+  dev_url: https://cgit.freedesktop.org/cairo/
+  doc_source_url: https://cgit.freedesktop.org/cairo/tree/doc
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - jakirkham
+    - ocefpaf
+    - pkgw

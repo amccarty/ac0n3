@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "hf79760b_2",
+  "build_number": 2,
+  "depends": [
+    "libgcc-ng >=7.2.0",
+    "libstdcxx-ng >=7.2.0"
+  ],
+  "license": "GPL 3",
+  "name": "patchelf",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505742063357,
+  "version": "0.9"
+}
